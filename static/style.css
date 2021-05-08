@@ -28,11 +28,12 @@ html {
   background: #222;
   padding: 20px;
 }
-.search {
+.pages {
   flex: 1;
+  text-align: center;
 } 
-.search input {
-  width: 100%;
+.nav {
+  padding: 2%;
 }
 .title {
   order: 1;
