@@ -1,0 +1,20 @@
+#title {
+    text-align: center;
+    order: 1;
+    flex: 3 1 auto;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.header{
+    order: 2;
+    flex: 3 1 auto;
+    justify-content: center;
+}
+.flex-content{
+    order: 3;
+    flex: 3 1 auto;
+    justify-content: center;
+}
