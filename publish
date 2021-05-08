@@ -1,2 +1,9 @@
 #!/bin/bash
-aws s3 sync . s3://muzzammil.us --exclude=.git/*
+ENV=$1
+if [ "${ENV}" = 'prod' ]; then
+    echo "Syncing to muzzammil.us"
+    aws s3 sync . s3://muzzammil.us --exclude=.git/*
+else
+    echo "Syncing to staging.muzzammil.us"
+    aws s3 sync . s3://staging.muzzammil.us --exclude=.git/*
+fi
