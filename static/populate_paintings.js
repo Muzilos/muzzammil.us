@@ -17,7 +17,7 @@ const paintingsInOrder = {
   "IMG_20201006_114314_136.jpg":"I don't like this one that much",
   "IMG_20201026_122134_504.jpg":"a strange invention",
   "IMG_20201122_162742_417.jpg":"monkey minding its business",
-  "IMG_20201123_112859_743.jpg":"study of a gofundme campaign",
+  "CamScanner 11-22-2020 22.38_1.jpg":"study of a gofundme campaign",
   "IMG_20201201_143123_797.jpg":"I like this one",
   "IMG_20201214_115726_587.jpg":"man tortured by Santa's elves",
   "IMG_20201231_144606_532.jpg":"burn umber (I burned this one)",

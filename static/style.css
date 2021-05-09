@@ -25,10 +25,13 @@ html {
 }
 .bar {
   display: flex;
-  align-items: center;
   width: 100%;
   background: #222;
-  padding: 20px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .pages {
   flex: 1 0 auto;
