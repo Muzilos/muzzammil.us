@@ -1,5 +1,7 @@
 /**
   All hyperlinks change color from red->cyan
+  a: rgb(255,10,19); rgb(0,200,200);
+  p: rgb(220,200,250);
 */
 a { text-decoration: none; color:rgb(255,10,19); }
 a:visited { text-decoration: none; color:rgb(255,10,19); }
@@ -7,9 +9,9 @@ a:focus { text-decoration: none; color:rgb(255,10,19); }
 a:hover { text-decoration: none; color:#000; }
 a:hover, .navBtn:active { text-decoration: none; color:rgb(0,200,200); }
 body { color: rgb(220,200,250) }
-*, *:before, *:after {
+/* *, *:before, *:after {
   box-sizing: inherit;
-}
+} */
 html {
   height: 100%;
   margin: 0;
@@ -29,7 +31,7 @@ html {
   padding: 20px;
 }
 .pages {
-  flex: 1;
+  flex: 1 0 auto;
   text-align: center;
 } 
 .nav {
@@ -47,4 +49,13 @@ html {
   order: 3;
   flex: 3 1 auto;
   text-align: center;
+}
+#paintings{
+  display: block;
+  margin-right: auto;
+  width: 50%;
+}
+.art{
+  height: 50vh;
+  align-items: center;
 }
