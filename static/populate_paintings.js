@@ -34,7 +34,7 @@ const paintingsInOrder = {
 
 var paintings = document.getElementById("paintings");
 for (let element in paintingsInOrder) {
-  path = "../static/paintings/"+element;
+  path = "../paintings/-/"+element;
   var imgLink = document.createElement("a");
   imgLink.href=path;
   var img = document.createElement('img');
