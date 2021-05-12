@@ -58,9 +58,17 @@ html {
   margin-right: auto;
   width: 50%;
 }
+#blogposts{
+  display: block;
+  margin-right: auto;
+  width: 100%;
+}
 .art{
   height: 50vh;
   align-items: center;
+}
+.blogpost{
+  width: 70%;
 }
 .announcements{
   text-align: center;
