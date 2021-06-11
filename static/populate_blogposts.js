@@ -1,5 +1,5 @@
 const paintingsInOrder = {
-  "CamScanner 05-12-2021 08.55_1.jpg": "",
+  // "CamScanner 05-12-2021 08.55_1.jpg": "",
   "CamScanner 05-12-2021 08.55_10.jpg": "",
   "CamScanner 05-12-2021 08.55_11.jpg": "",
   "CamScanner 05-12-2021 08.55_12.jpg": "",
