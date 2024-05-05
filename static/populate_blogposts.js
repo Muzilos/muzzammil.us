@@ -26,7 +26,7 @@ const paintingsInOrder = {
   "CamScanner 03-08-2023 00.44_7.jpg": "",
   "CamScanner 03-08-2023 00.44_8.jpg": "",
   "CamScanner 03-08-2023 00.44_9.jpg": "",
-  "CamScanner 03-08-2023 00.44_15.jpg": "",
+  // "CamScanner 03-08-2023 00.44_15.jpg": "",
   "CamScanner 05-12-2021 08.55_10.jpg": "",
   "CamScanner 05-12-2021 08.55_11.jpg": "",
   "CamScanner 05-12-2021 08.55_12.jpg": "",

@@ -3,9 +3,9 @@
   a: rgb(255,10,19); rgb(0,200,200);
   p: rgb(220,200,250);
 */
-a { text-decoration: none; color:rgb(255,10,19); }
-a:visited { text-decoration: none; color:rgb(255,10,19); }
-a:focus { text-decoration: none; color:rgb(255,10,19); }
+a { text-decoration: none; color:rgb(2,194,121); }
+a:visited { text-decoration: none; color:rgb(2,194,121); }
+a:focus { text-decoration: none; color:rgb(2,194,121); }
 a:hover { text-decoration: none; color:#000; }
 a:hover, .navBtn:active { text-decoration: none; color:rgb(0,200,200); }
 body { color: rgb(220,200,250) }
