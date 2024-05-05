@@ -1,4 +1,19 @@
 const paintingsInOrder = {
+  "IMG_20240422_175529_875.png": "Figure sitting, looking at a fern",
+  "IMG_20240408_165850_607.png": "Figure sitting, looking out",
+  "IMG_20240408_165850_641.png": "Figure standing, facing out",
+  "IMG_20240408_164102_836.png": "Figure sitting with knees up, looking in",
+  "IMG_20240325_072057_320-EDIT.jpg": "A subway scene",
+  "file-kKPq8MyTW33xp5wGje2qzIEl.jpg": " ",
+  "20230930_232441.jpg": " ",
+  "IMG_20231008_154039_624.jpg": " ",
+  "20231114_204153.jpg": " ",
+  "file-SP3jmI3tojDSOwGdcLoyboJN.jpg": " ",
+  "20231203_230336-EDIT(1).jpg": " ",
+  "071477A9-92EA-4B0D-94C6-13516E581B19.jpg": " ",
+  "IMG_0094.png": " ",
+  "IMG_20240226_223909_466.png": " ",
+  "IMG_0096.png": " ",
   "received_10215469036747585.jpg": "self-portrait in acrylic",
   // "20161031_081930.jpg",
   "20161211_164358.jpg":"self-portrait in oil",
@@ -14,7 +29,7 @@ const paintingsInOrder = {
   "IMG_20200409_163824_231.jpg":"early worm gets the bird",
   "IMG_20200424_083904_030.jpg":"we each see nature through different eyes",
   "IMG_20200906_164258_023.jpg":"don't cry blue sky",
-  "IMG_20201006_114314_136.jpg":"I don't like this one that much",
+  // "IMG_20201006_114314_136.jpg":"I don't like this one that much",
   "IMG_20201026_122134_504.jpg":"a strange invention",
   "IMG_20201122_162742_417.jpg":"monkey minding its business",
   "CamScanner 11-22-2020 22.38_1.jpg":"study of a gofundme campaign",
@@ -29,7 +44,7 @@ const paintingsInOrder = {
   "IMG_20210429_105801_166.jpg":"AT.BONG.BLAST.A₿AP",
   "modded3.bmp":"programatically modded some colors on this",
   "received_10215469036707584.jpg":"self-portrait in acrylic",
-  "sketch-1567116779342.png":"digital parfum"
+  // "sketch-1567116779342.png":"digital parfum"
 };
 
 var paintings = document.getElementById("paintings");
@@ -41,9 +56,10 @@ for (let element in paintingsInOrder) {
   img.classList.add("art");
   img.src=path;
   img.alt=element;
-  var description = document.createElement('h3');
-  description.innerText=paintingsInOrder[element];
+  // var description = document.createElement('h3');
+  // description.innerText=paintingsInOrder[element];
   imgLink.appendChild(img);  
-  paintings.appendChild(description);
+  // also add description as hover over text for the imgLink object
+  imgLink.title=paintingsInOrder[element];
   paintings.appendChild(imgLink);
 }
