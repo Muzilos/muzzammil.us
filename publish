@@ -6,6 +6,6 @@ if [ "${ENV}" = 'prod' ]; then
         --exclude 'xxx/*'
 else
     echo "Syncing to staging.muzzammil.us"
-    aws s3 sync . s3://staging.muzzammil.us --exclude=.git/* \
+    aws s3 sync s3://staging.muzzammil.us . --exclude=.git/* \
         --exclude 'xxx/*'
 fi

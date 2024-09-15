@@ -53,19 +53,10 @@ html {
   flex: 3 1 auto;
   text-align: center;
 }
-#paintings{
-  display: block;
-  margin-right: auto;
-  width: 100%;
-}
 #blogposts{
   display: block;
   margin-right: auto;
   width: 100%;
-}
-.art{
-  height: 15vh;
-  align-items: center;
 }
 .blogpost{
   width: 90%;

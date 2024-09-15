@@ -5,6 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>muzzammil.us</title>
   <link rel="stylesheet" type="text/css" href="../static/style.css">
+  <style>
+    .paintings-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .painting-container {
+      flex: 1 1 calc(33.333% - 20px);
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    .painting-container img {
+      width: 100%;
+      height: auto;
+    }
+
+    .painting-description {
+      background-color: green;
+      color: black;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 768px) {
+      .painting-container {
+        flex: 1 1 calc(50% - 20px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .painting-container {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
 </head>
 <body class="flex-container">
   <div class="main">
@@ -14,14 +53,14 @@
         <a class="nav" href="../">Home</a>
         <a class="nav" href="../paintings/">Paintings</a>
         <a class="nav" href="../animations/">Animations</a>
-        <a class="nav" href="../blog/">Blog</a>
+        <!-- <a class="nav" href="../blog/">Blog</a> -->
       </div>
     </div>
     <h3 class="header">Paintings</h3>
     <p class="flex-content">
       PAINTINGS
     </p>
-    <div id="paintings">
+    <div id="paintings" class="paintings-grid">
       <script src="../static/populate_paintings.js"></script>
     </div>
   </div>
