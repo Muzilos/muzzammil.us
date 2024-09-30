@@ -30,7 +30,40 @@
       text-align: center;
       padding: 10px;
       box-sizing: border-box;
-    }
+    }  
+    .painting-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .painting-image-link {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .painting-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(2, 194, 121, 0.1);
+    border: 1px solid rgb(2, 194, 121);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: rgb(220,200,250);
+  }
+  .painting-description:hover {
+    background-color: rgba(0, 200, 200, 0.2);
+    color: #fff;
+  }
+  .description-text {
+    flex-grow: 1;
+  }
+  .price-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(2, 194, 121);
+  }
 
     @media (max-width: 768px) {
       .painting-container {
@@ -52,8 +85,6 @@
       <div class="pages">
         <a class="nav" href="../">Home</a>
         <a class="nav" href="../paintings/">Paintings</a>
-        <a class="nav" href="../animations/">Animations</a>
-        <!-- <a class="nav" href="../blog/">Blog</a> -->
       </div>
     </div>
     <h3 class="header">Paintings</h3>

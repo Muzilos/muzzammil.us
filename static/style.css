@@ -9,9 +9,6 @@ a:focus { text-decoration: none; color:rgb(2,194,121); }
 a:hover { text-decoration: none; color:#000; }
 a:hover, .navBtn:active { text-decoration: none; color:rgb(0,200,200); }
 body { color: rgb(220,200,250) }
-/* *, *:before, *:after {
-  box-sizing: inherit;
-} */
 html {
   height: 100%;
   margin: 0;

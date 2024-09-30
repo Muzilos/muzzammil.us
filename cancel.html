@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Cancelled - muzzammil.us</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <style>
+        .cancel-message {
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(200, 0, 0, 0.1);
+            border: 1px solid rgb(200, 0, 0);
+            border-radius: 10px;
+            margin: 50px auto;
+            max-width: 600px;
+        }
+
+        .cancel-message h2 {
+            color: rgb(200, 0, 0);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgb(2, 194, 121);
+            color: #000 !important;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button:hover,
+        .button:visited:hover {
+            background-color: rgb(0, 200, 200);
+            color: #000 !important;
+            text-decoration: none;
+        }
+
+        .button:visited {
+            color: #000 !important;
+        }
+    </style>
+</head>
+
+<body class="flex-container">
+    <div class="main">
+        <h1 class="title"><a href="/">muzzammil.us</a></h1>
+        <div class="bar">
+            <div class="pages">
+                <a class="nav" href="../">Home</a>
+                <a class="nav" href="../paintings/">Paintings</a>
+                <a class="nav" href="../animations/">Animations</a>
+            </div>
+        </div>
+        <div class="cancel-message">
+            <h2>Payment Cancelled</h2>
+            <p>Your transaction has been cancelled. No payment has been processed.</p>
+            <p>If you encountered any issues, please try again or contact us for assistance.</p>
+            <a href="../paintings/" class="button">Return to Gallery</a>
+        </div>
+    </div>
+</body>
+
+</html>

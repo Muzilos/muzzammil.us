@@ -24,7 +24,7 @@ def process_directory(input_dir, output_dir, max_size):
         os.makedirs(output_dir)
     
     for filename in os.listdir(input_dir):
-        if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
+        if filename in ("PSX_20220116_201947.jpg", "PSX_20221105_143540.jpg"):
             input_path = os.path.join(input_dir, filename)
             output_path = os.path.join(output_dir, f"thumb_{filename}")
             create_thumbnail(input_path, output_path, max_size)
