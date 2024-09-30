@@ -29,19 +29,19 @@ const paintingsInOrder = {
   },
   "IMG_20240408_164102_836.png": {
     description: "Figure",
-    price: 10000
+    price: 30000
   },
   "IMG_20240325_072057_320-EDIT.jpg": {
     description: "A subway scene",
-    price: 10000
+    price: 50000
   },
   "BadAtChess.jpg": {
     description: "Bad at chess",
-    price: 10000
+    price: 25000
   },
   "file-kKPq8MyTW33xp5wGje2qzIEl.jpg": {
     description: "An interesting figure",
-    price: 10000
+    price: 30000
   },
   // "20230930_232601.jpg": {
   //   description: "Charon on the river styx",
