@@ -1,4 +1,20 @@
 const paintingsInOrder = {
+  "09-30-2024 13.34.jpg": {
+    description: "Raincoat",
+    price: 50000
+  },
+  "09-30-2024 13.34_2.jpg": {
+    description: "The Mountain",
+    price: 100000
+  },
+  "IMG_20240722_122937_264.png": {
+    description: "Tree Stump (acrylic)",
+    price: 15000
+  }, 
+  "IMG_20240722_122937_238.png": {
+    description: "Skyline (acrylic)",
+    price: 15000
+  },
   "IMG_20240422_175529_875.png": {
     description: "Figure",
     price: 25000
