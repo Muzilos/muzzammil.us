@@ -3,7 +3,7 @@
 
   const catalogUrl = "https://raw.githubusercontent.com/Muzilos/muzzammil.us/main/static/artworks.json";
 
-  document.addEventListener("DOMContentLoaded", loadArtwork);
+  loadArtwork();
 
   async function loadArtwork() {
     const gallery = document.getElementById("paintings");
@@ -44,7 +44,7 @@
     const prefix = fromHome ? "paintings/" : "../paintings/";
     return {
       full: `${prefix}-/${file}`,
-      thumbnail: `${prefix}-compressed/thumb_${file}`
+      thumbnail: `${prefix}-compressed/optimized/thumb_${file}.webp`
     };
   }
 
@@ -64,24 +64,29 @@
       const card = document.createElement("article");
       card.className = "painting-container";
 
-      const imageLink = document.createElement("a");
-      imageLink.href = paths.full;
-      imageLink.className = "painting-image-link";
+      const imageControl = document.createElement(artwork.price > 0 ? "button" : "a");
+      imageControl.className = "painting-image-link";
+      if (artwork.price > 0) {
+        imageControl.type = "button";
+        imageControl.classList.add("painting-image-button");
+        imageControl.setAttribute("aria-label", `Buy ${artwork.title}`);
+        imageControl.addEventListener("click", () => initiateCheckout(card, artwork));
+      } else {
+        imageControl.href = paths.full;
+        imageControl.setAttribute("aria-label", `View ${artwork.title} full size`);
+      }
 
       const image = document.createElement("img");
       image.className = "art";
       image.src = paths.thumbnail;
       image.alt = artwork.title;
       image.loading = "lazy";
-      imageLink.appendChild(image);
+      image.decoding = "async";
+      imageControl.appendChild(image);
 
-      const details = artwork.price > 0 ? document.createElement("button") : document.createElement("div");
+      const details = document.createElement("div");
       details.className = "painting-description";
-      if (artwork.price > 0) {
-        details.type = "button";
-        details.setAttribute("aria-label", `Buy ${artwork.title} for ${formatPrice(artwork.price, catalog.currency)}`);
-        details.addEventListener("click", () => initiateCheckout(details, artwork));
-      } else {
+      if (artwork.price === 0) {
         details.classList.add("not-for-sale");
       }
 
@@ -94,7 +99,17 @@
       price.textContent = formatPrice(artwork.price, catalog.currency);
 
       details.append(title, price);
-      card.append(imageLink, details);
+      if (artwork.price > 0) {
+        const buyButton = document.createElement("button");
+        buyButton.type = "button";
+        buyButton.className = "buy-button";
+        buyButton.textContent = "Buy";
+        buyButton.setAttribute("aria-label", `Buy ${artwork.title} for ${formatPrice(artwork.price, catalog.currency)}`);
+        buyButton.addEventListener("click", () => initiateCheckout(card, artwork));
+        details.appendChild(buyButton);
+      }
+
+      card.append(imageControl, details);
       fragment.appendChild(card);
     });
 
@@ -112,8 +127,8 @@
     const viewport = document.createElement("div");
     viewport.className = "carousel-viewport";
     viewport.setAttribute("aria-live", "polite");
-    const previous = carouselButton("Previous artwork", "‹");
-    const next = carouselButton("Next artwork", "›");
+    const previous = carouselButton("Previous artwork", "‹", "previous");
+    const next = carouselButton("Next artwork", "›", "next");
     const dots = document.createElement("div");
     dots.className = "carousel-dots";
 
@@ -121,16 +136,24 @@
       current = (index + featured.length) % featured.length;
       const artwork = featured[current];
       const paths = artworkPaths(artwork.file, true);
-      const slide = document.createElement("a");
+      const slide = document.createElement(artwork.price > 0 ? "button" : "a");
       slide.className = "featured-slide";
-      slide.href = "paintings/";
+      if (artwork.price > 0) {
+        slide.type = "button";
+        slide.setAttribute("aria-label", `Buy featured artwork ${artwork.title}`);
+        slide.addEventListener("click", () => initiateCheckout(slide, artwork));
+      } else {
+        slide.href = "paintings/";
+      }
 
       const image = document.createElement("img");
       image.src = paths.thumbnail;
       image.alt = artwork.title;
+      image.decoding = "async";
+      if (current === 0) image.fetchPriority = "high";
       const caption = document.createElement("span");
       caption.className = "featured-caption";
-      caption.textContent = `${artwork.title} — ${formatPrice(artwork.price, catalog.currency)}`;
+      caption.textContent = `${artwork.title} · ${formatPrice(artwork.price, catalog.currency)}${artwork.price > 0 ? " · Buy now" : ""}`;
       slide.append(image, caption);
       viewport.replaceChildren(slide);
 
@@ -151,22 +174,29 @@
     next.addEventListener("click", () => show(current + 1));
     carousel.replaceChildren(previous, viewport, next, dots);
     show(0);
+
+    featured.slice(1).forEach((artwork) => {
+      const preload = new Image();
+      preload.src = artworkPaths(artwork.file, true).thumbnail;
+    });
   }
 
-  function carouselButton(label, text) {
+  function carouselButton(label, text, position) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "carousel-control";
+    if (position) button.classList.add(`carousel-${position}`);
     button.setAttribute("aria-label", label);
     button.textContent = text;
     return button;
   }
 
-  async function initiateCheckout(button, artwork) {
-    const priceLabel = button.querySelector(".price-text");
-    const originalPrice = priceLabel.textContent;
-    button.disabled = true;
-    priceLabel.textContent = "Opening…";
+  async function initiateCheckout(container, artwork) {
+    const controls = container.matches("button") ? [container] : Array.from(container.querySelectorAll("button"));
+    const buyButton = container.querySelector?.(".buy-button");
+    const originalLabel = buyButton?.textContent;
+    controls.forEach((control) => { control.disabled = true; });
+    if (buyButton) buyButton.textContent = "Opening…";
 
     try {
       const response = await fetch("/api/checkout", {
@@ -181,8 +211,8 @@
       window.location.assign(result.url);
     } catch (error) {
       console.error("Error creating checkout session:", error);
-      button.disabled = false;
-      priceLabel.textContent = originalPrice;
+      controls.forEach((control) => { control.disabled = false; });
+      if (buyButton) buyButton.textContent = originalLabel;
       alert("There was an error opening checkout. Please try again.");
     }
   }

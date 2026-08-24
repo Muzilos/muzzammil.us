@@ -50,6 +50,7 @@ cp \
   "$repository_dir/cancel.html" \
   "$repository_dir/error.html" \
   "$repository_dir/success.html" \
+  "$repository_dir/_headers" \
   "$build_dir/"
 
 # Keep archival BMP sources in the repository without uploading the obsolete,

@@ -9,6 +9,7 @@ a:focus { text-decoration: none; color:rgb(2,194,121); }
 a:hover { text-decoration: none; color:#000; }
 a:hover, .navBtn:active { text-decoration: none; color:rgb(0,200,200); }
 body { color: rgb(220,200,250) }
+.main { width: 100%; }
 html {
   height: 100%;
   margin: 0;
@@ -97,32 +98,41 @@ html {
   margin: 0;
   padding: 5px;
 }
-.featured-section { width: min(92%, 760px); margin: 28px auto 44px; text-align: center; }
-.featured-carousel { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; }
-.carousel-viewport { min-height: 360px; }
-.featured-slide { display: grid; position: relative; height: 360px; overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 10px; background: #111; }
+.featured-section { width: min(92%, 900px); margin: 32px auto 52px; text-align: center; }
+.featured-section h2 { margin-bottom: 18px; }
+.featured-carousel { display: grid; grid-template-columns: 1fr; width: 100%; min-height: clamp(320px, 55vw, 540px); align-items: center; }
+.carousel-loading { display: grid; width: 100%; min-height: clamp(320px, 55vw, 540px); place-items: center; border: 1px solid rgba(2, 194, 121, 0.45); border-radius: 14px; background: #0b0b0b; }
+.carousel-viewport { grid-area: 1 / 1; width: 100%; min-width: 0; }
+.featured-slide { display: grid; position: relative; width: 100%; height: clamp(320px, 55vw, 540px); padding: 0; overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 14px; color: inherit; background: #0b0b0b; cursor: pointer; box-shadow: 0 14px 32px rgba(0, 0, 0, 0.45); }
 .featured-slide img { width: 100%; height: 100%; object-fit: contain; }
-.featured-caption { position: absolute; right: 0; bottom: 0; left: 0; padding: 14px; color: #fff; background: rgba(0, 0, 0, 0.78); }
-.carousel-control { padding: 10px; border: 1px solid rgb(2, 194, 121); border-radius: 6px; color: rgb(2, 194, 121); background: #111; cursor: pointer; font-size: 28px; }
+.featured-caption { position: absolute; right: 0; bottom: 0; left: 0; padding: 18px 62px; color: #fff; background: linear-gradient(transparent, rgba(0, 0, 0, 0.92)); font-family: inherit; font-size: 17px; font-weight: 600; line-height: 1.4; text-align: center; }
+.carousel-control { z-index: 2; grid-area: 1 / 1; width: 44px; height: 58px; padding: 0; border: 1px solid rgb(2, 194, 121); border-radius: 8px; color: #fff; background: rgba(0, 0, 0, 0.76); cursor: pointer; font-size: 34px; line-height: 1; }
+.carousel-previous { justify-self: start; margin-left: 12px; }
+.carousel-next { justify-self: end; margin-right: 12px; }
 .carousel-control:hover, .carousel-control:focus-visible { color: #000; background: rgb(0, 200, 200); }
-.carousel-dots { grid-column: 1 / -1; display: flex; justify-content: center; gap: 8px; }
-.carousel-dot { width: 10px; height: 10px; padding: 0; border-radius: 50%; font-size: 0; }
+.carousel-dots { display: flex; justify-content: center; gap: 9px; margin-top: 14px; }
+.carousel-dot { width: 11px; height: 11px; padding: 0; border-radius: 50%; font-size: 0; }
 .carousel-dot.active { background: rgb(2, 194, 121); }
 .gallery-link { display: inline-block; margin-top: 18px; }
-.paintings-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
-.painting-container { display: flex; min-width: 0; flex-direction: column; }
-.painting-image-link { display: block; margin-bottom: 10px; }
-.painting-container img { display: block; width: 100%; height: auto; }
-.painting-description { display: flex; width: 100%; justify-content: space-between; align-items: center; padding: 10px; border: 1px solid rgb(2, 194, 121); border-radius: 5px; box-sizing: border-box; color: rgb(220, 200, 250); background: rgba(2, 194, 121, 0.1); font: inherit; text-align: left; cursor: pointer; transition: background-color 0.3s; }
-.painting-description:not(.not-for-sale):hover, .painting-description:not(.not-for-sale):focus-visible { color: #fff; background: rgba(0, 200, 200, 0.2); }
-.painting-description:disabled { cursor: wait; opacity: 0.7; }
-.painting-description.not-for-sale { cursor: default; }
-.description-text { flex-grow: 1; }
-.price-text { margin-left: 10px; color: rgb(2, 194, 121); font-weight: bold; white-space: nowrap; }
+.paintings-grid { display: grid; width: min(96%, 1200px); grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 0 auto 48px; }
+.painting-container { display: flex; min-width: 0; flex-direction: column; overflow: hidden; border-radius: 9px; background: #090909; }
+.painting-image-link { display: block; width: 100%; padding: 0; margin: 0; border: 0; background: #111; cursor: pointer; }
+.painting-image-button:hover img, .painting-image-button:focus-visible img { opacity: 0.82; transform: scale(1.015); }
+.painting-container img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; transition: opacity 0.2s, transform 0.2s; }
+.painting-description { display: grid; width: 100%; grid-template-columns: minmax(0, 1fr) auto auto; gap: 12px; align-items: center; min-height: 62px; padding: 10px 12px; border: 1px solid rgb(2, 194, 121); border-radius: 0 0 8px 8px; box-sizing: border-box; color: rgb(220, 200, 250); background: rgba(2, 194, 121, 0.12); text-align: left; }
+.painting-description.not-for-sale { grid-template-columns: minmax(0, 1fr) auto; }
+.description-text { min-width: 0; line-height: 1.3; }
+.price-text { color: rgb(2, 194, 121); font-weight: bold; white-space: nowrap; }
+.buy-button { min-width: 66px; padding: 9px 14px; border: 0; border-radius: 5px; color: #00150d; background: rgb(2, 194, 121); font-family: inherit; font-size: 15px; font-weight: 700; cursor: pointer; }
+.buy-button:hover, .buy-button:focus-visible { background: rgb(0, 220, 190); box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25); }
+.buy-button:disabled, .painting-image-button:disabled, .featured-slide:disabled { cursor: wait; opacity: 0.68; }
 .artwork-error { grid-column: 1 / -1; padding: 24px; text-align: center; }
 @media (max-width: 768px) { .paintings-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 480px) {
   .paintings-grid { grid-template-columns: 1fr; }
-  .featured-carousel { gap: 6px; }
-  .carousel-viewport, .featured-slide { min-height: 270px; height: 270px; }
+  .featured-section { width: 96%; }
+  .featured-caption { padding: 16px 52px; font-size: 15px; }
+  .carousel-control { width: 38px; height: 50px; }
+  .carousel-previous { margin-left: 8px; }
+  .carousel-next { margin-right: 8px; }
 }
