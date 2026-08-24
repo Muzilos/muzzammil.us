@@ -1,11 +1,77 @@
-#!/bin/bash
-ENV=$1
-if [ "${ENV}" = 'prod' ]; then
-    echo "Syncing to muzzammil.us"
-    aws s3 sync . s3://muzzammil.us --exclude=.git/* \
-        --exclude 'xxx/*'
-else
-    echo "Syncing to staging.muzzammil.us"
-    aws s3 sync . s3://staging.muzzammil.us --exclude=.git/* \
-        --exclude 'xxx/*'
+#!/usr/bin/env bash
+set -euo pipefail
+
+environment="${1:-}"
+dry_run="${2:-}"
+project_name="muzzammil-us"
+
+case "$environment" in
+  prod)
+    branch="main"
+    destination="https://muzzammil.us"
+    ;;
+  staging)
+    branch="staging"
+    destination="https://staging.muzzammil.us"
+    ;;
+  *)
+    echo "Usage: ./publish <prod|staging> [--dry-run]" >&2
+    exit 2
+    ;;
+esac
+
+if [[ -n "$dry_run" && "$dry_run" != "--dry-run" ]]; then
+  echo "Unknown option: $dry_run" >&2
+  echo "Usage: ./publish <prod|staging> [--dry-run]" >&2
+  exit 2
 fi
+
+repository_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+build_dir="$repository_dir/.cloudflare-dist"
+
+if [[ "$build_dir" != "$repository_dir/.cloudflare-dist" ]]; then
+  echo "Refusing to build outside the expected output directory." >&2
+  exit 1
+fi
+
+rm -rf -- "$build_dir"
+mkdir -p "$build_dir"
+
+cp -R \
+  "$repository_dir/animations" \
+  "$repository_dir/blog" \
+  "$repository_dir/paintings" \
+  "$repository_dir/sounds" \
+  "$repository_dir/static" \
+  "$build_dir/"
+
+cp \
+  "$repository_dir/index.html" \
+  "$repository_dir/cancel.html" \
+  "$repository_dir/error.html" \
+  "$repository_dir/success.html" \
+  "$build_dir/"
+
+# Keep archival BMP sources in the repository without uploading the obsolete,
+# oversized copy to Pages. The catalog serves the optimized JPEG replacement.
+rm -f -- \
+  "$build_dir/paintings/-/modded3.bmp" \
+  "$build_dir/paintings/-compressed/thumb_modded3.bmp"
+
+oversized_file="$(find "$build_dir" -type f -size +25M -print -quit)"
+if [[ -n "$oversized_file" ]]; then
+  echo "Cloudflare Pages rejects files over 25 MiB: $oversized_file" >&2
+  exit 1
+fi
+
+echo "Prepared Cloudflare Pages assets for $destination ($branch)."
+
+if [[ "$dry_run" == "--dry-run" ]]; then
+  echo "Dry run complete; skipped deployment."
+  exit 0
+fi
+
+cd "$repository_dir"
+npx wrangler pages deploy "$build_dir" \
+  --project-name="$project_name" \
+  --branch="$branch"

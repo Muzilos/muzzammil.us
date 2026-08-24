@@ -16,22 +16,25 @@
       </div>
     </div>
     <h3 class="header">Home</h3>
-    <p class="flex-content">
-      <a href="#" class="hire-me-button"><img src="/static/hire-me-button.png" alt="Hire me, please!" width="100" height="100"></a>
-    </p>
-    <br/>
+    <section class="featured-section" aria-labelledby="featured-heading">
+      <h2 id="featured-heading">Featured artworks</h2>
+      <div id="featured-artworks" class="featured-carousel">
+        <p>Loading featured artworks…</p>
+      </div>
+      <a class="gallery-link" href="paintings/">View the full collection</a>
+    </section>
     <div class="announcements">
       <h3>Projects</h3>
       
       <div class="project-box">
-        <a href="http://18.204.206.94/">
-          <h3>Digital Campus</h3>
+        <a href="https://slopp.it/">
+          <h3>Slopp.it</h3>
         </a>
       </div>
       
       <div class="project-box">
-        <a href="http://photo-organizer-service.s3-website-us-east-1.amazonaws.com/">
-          <h3>Media Organizer Tool</h3>
+        <a href="https://muzenet.net/">
+          <h3>MuzeNet.net</h3>
         </a>
       </div>
       
@@ -49,5 +52,6 @@
     </div>
     
   </div>
+  <script src="./static/populate_paintings.js" defer></script>
 </body>
 </html>

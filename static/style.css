@@ -97,33 +97,32 @@ html {
   margin: 0;
   padding: 5px;
 }
-.hire-me-button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #ffc107;
-  color: #000;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  transform: translateZ(0);
-  transition: all 0.3s ease-out;
-}
-
-.hire-me-button a {
-  text-decoration: none;
-  color: #000;
-}
-
-.hire-me-button a:visited {
-  text-decoration: none;
-  color: #000;
-}
-
-.hire-me-button:hover {
-  background-color: #ffeb3b;
-  transform: translateZ(2px);
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+.featured-section { width: min(92%, 760px); margin: 28px auto 44px; text-align: center; }
+.featured-carousel { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; }
+.carousel-viewport { min-height: 360px; }
+.featured-slide { display: grid; position: relative; height: 360px; overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 10px; background: #111; }
+.featured-slide img { width: 100%; height: 100%; object-fit: contain; }
+.featured-caption { position: absolute; right: 0; bottom: 0; left: 0; padding: 14px; color: #fff; background: rgba(0, 0, 0, 0.78); }
+.carousel-control { padding: 10px; border: 1px solid rgb(2, 194, 121); border-radius: 6px; color: rgb(2, 194, 121); background: #111; cursor: pointer; font-size: 28px; }
+.carousel-control:hover, .carousel-control:focus-visible { color: #000; background: rgb(0, 200, 200); }
+.carousel-dots { grid-column: 1 / -1; display: flex; justify-content: center; gap: 8px; }
+.carousel-dot { width: 10px; height: 10px; padding: 0; border-radius: 50%; font-size: 0; }
+.carousel-dot.active { background: rgb(2, 194, 121); }
+.gallery-link { display: inline-block; margin-top: 18px; }
+.paintings-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.painting-container { display: flex; min-width: 0; flex-direction: column; }
+.painting-image-link { display: block; margin-bottom: 10px; }
+.painting-container img { display: block; width: 100%; height: auto; }
+.painting-description { display: flex; width: 100%; justify-content: space-between; align-items: center; padding: 10px; border: 1px solid rgb(2, 194, 121); border-radius: 5px; box-sizing: border-box; color: rgb(220, 200, 250); background: rgba(2, 194, 121, 0.1); font: inherit; text-align: left; cursor: pointer; transition: background-color 0.3s; }
+.painting-description:not(.not-for-sale):hover, .painting-description:not(.not-for-sale):focus-visible { color: #fff; background: rgba(0, 200, 200, 0.2); }
+.painting-description:disabled { cursor: wait; opacity: 0.7; }
+.painting-description.not-for-sale { cursor: default; }
+.description-text { flex-grow: 1; }
+.price-text { margin-left: 10px; color: rgb(2, 194, 121); font-weight: bold; white-space: nowrap; }
+.artwork-error { grid-column: 1 / -1; padding: 24px; text-align: center; }
+@media (max-width: 768px) { .paintings-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) {
+  .paintings-grid { grid-template-columns: 1fr; }
+  .featured-carousel { gap: 6px; }
+  .carousel-viewport, .featured-slide { min-height: 270px; height: 270px; }
 }

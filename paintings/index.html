@@ -5,78 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>muzzammil.us</title>
   <link rel="stylesheet" type="text/css" href="../static/style.css">
-  <style>
-    .paintings-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .painting-container {
-      flex: 1 1 calc(33.333% - 20px);
-      box-sizing: border-box;
-      margin-bottom: 20px;
-    }
-
-    .painting-container img {
-      width: 100%;
-      height: auto;
-    }
-
-    .painting-description {
-      background-color: green;
-      color: black;
-      text-align: center;
-      padding: 10px;
-      box-sizing: border-box;
-    }  
-    .painting-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  .painting-image-link {
-    display: block;
-    margin-bottom: 10px;
-  }
-  .painting-description {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: rgba(2, 194, 121, 0.1);
-    border: 1px solid rgb(2, 194, 121);
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    text-decoration: none;
-    color: rgb(220,200,250);
-  }
-  .painting-description:hover {
-    background-color: rgba(0, 200, 200, 0.2);
-    color: #fff;
-  }
-  .description-text {
-    flex-grow: 1;
-  }
-  .price-text {
-    margin-left: 10px;
-    font-weight: bold;
-    color: rgb(2, 194, 121);
-  }
-
-    @media (max-width: 768px) {
-      .painting-container {
-        flex: 1 1 calc(50% - 20px);
-      }
-    }
-
-    @media (max-width: 480px) {
-      .painting-container {
-        flex: 1 1 100%;
-      }
-    }
-  </style>
 </head>
 <body class="flex-container">
   <div class="main">
@@ -91,9 +19,8 @@
     <p class="flex-content">
       PAINTINGS
     </p>
-    <div id="paintings" class="paintings-grid">
-      <script src="../static/populate_paintings.js"></script>
-    </div>
+    <div id="paintings" class="paintings-grid"><p>Loading artworks…</p></div>
   </div>
+  <script src="../static/populate_paintings.js" defer></script>
 </body>
 </html>

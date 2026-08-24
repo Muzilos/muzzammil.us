@@ -1,0 +1,12 @@
+{
+  "name": "muzzammil-us",
+  "private": true,
+  "scripts": {
+    "deploy:production": "./publish prod",
+    "deploy:staging": "./publish staging",
+    "preview": "wrangler pages dev"
+  },
+  "devDependencies": {
+    "wrangler": "4.125.0"
+  }
+}

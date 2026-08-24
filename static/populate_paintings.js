@@ -1,107 +1,189 @@
-var paintings = document.getElementById("paintings");
-var paintingsInOrder = JSON.parse(getPaintingsInOrder())["paintings"];
-console.log(paintingsInOrder);
-for (let element in paintingsInOrder) {
-  const path = "../paintings/-/" + element;
-  const thumbnail_path = "../paintings/-compressed/thumb_" + element;
+(function () {
+  "use strict";
 
-  // Create the painting container
-  var paintingContainer = document.createElement("div");
-  paintingContainer.classList.add("painting-container");
+  const catalogUrl = "https://raw.githubusercontent.com/Muzilos/muzzammil.us/main/static/artworks.json";
 
-  // Create the image link
-  var imgLink = document.createElement("a");
-  imgLink.href = path;
-  imgLink.classList.add("painting-image-link");
+  document.addEventListener("DOMContentLoaded", loadArtwork);
 
-  // Create the image element
-  var img = document.createElement("img");
-  img.classList.add("art");
-  img.src = thumbnail_path;
-  img.alt = paintingsInOrder[element]["description"];
+  async function loadArtwork() {
+    const gallery = document.getElementById("paintings");
+    const carousel = document.getElementById("featured-artworks");
+    if (!gallery && !carousel) return;
 
-  // Append the image to the link
-  imgLink.appendChild(img);
+    try {
+      const response = await fetch(catalogUrl, { cache: "no-cache" });
+      if (!response.ok) throw new Error(`GitHub returned ${response.status}`);
 
-  // Create the description box (now also acts as a button)
-  var descriptionBox = document.createElement("a");
-  descriptionBox.classList.add("painting-description");
-  descriptionBox.href = "#"; // We'll override this with JavaScript
-  
-  // Create a span for the description text
-  var descriptionText = document.createElement("span");
-  descriptionText.classList.add("description-text");
-  descriptionText.innerText = paintingsInOrder[element]["description"];
-  
-  // Create a span for the price
-  var priceText = document.createElement("span");
-  priceText.classList.add("price-text");
-  priceText.innerText = paintingsInOrder[element].price > 0 ? `$${(paintingsInOrder[element].price / 100).toFixed(2)}` : "NFS";  
+      const catalog = await response.json();
+      validateCatalog(catalog);
+      catalog.artworks = catalog.artworks.filter((artwork) => artwork.listed !== false);
+      if (gallery) renderGallery(gallery, catalog);
+      if (carousel) renderCarousel(carousel, catalog);
+    } catch (error) {
+      console.error("Unable to load the artwork catalog:", error);
+      const message = document.createElement("p");
+      message.className = "artwork-error";
+      message.textContent = "The artwork collection could not be loaded. Please try again shortly.";
+      (gallery || carousel).replaceChildren(message);
+    }
+  }
 
-  // Append description and price to the description box
-  descriptionBox.appendChild(descriptionText);
-  descriptionBox.appendChild(priceText);
+  function validateCatalog(catalog) {
+    if (!catalog || !Array.isArray(catalog.artworks)) {
+      throw new Error("The artwork catalog has an invalid format");
+    }
 
-  // Add click event listener to the description box
-  if (paintingsInOrder[element].price > 0){
-    descriptionBox.addEventListener("click", (e) => {
-      e.preventDefault(); // Prevent default link behavior
-      initiateCheckout(element, paintingsInOrder[element].price, thumbnail_path);
+    catalog.artworks.forEach((artwork) => {
+      if (!artwork.file || !artwork.title || !Number.isInteger(artwork.price) || artwork.price < 0) {
+        throw new Error(`Invalid artwork entry: ${artwork.file || "unknown"}`);
+      }
     });
   }
 
-  // Append the image link and description box to the container
-  paintingContainer.appendChild(imgLink);
-  paintingContainer.appendChild(descriptionBox);
-
-  // Append the container to the paintings grid
-  paintings.appendChild(paintingContainer);
-}
-
-function getPaintingsInOrder() {
-  const request = new XMLHttpRequest();
-  request.open("GET", 'https://eux6cem6swf7jmidokec64pwn40covfu.lambda-url.us-east-1.on.aws/', false); 
-  request.send(null);
-  if (request.status === 200) {
-    console.log(request.responseText);
-    return request.responseText;
+  function artworkPaths(file, fromHome) {
+    const prefix = fromHome ? "paintings/" : "../paintings/";
+    return {
+      full: `${prefix}-/${file}`,
+      thumbnail: `${prefix}-compressed/thumb_${file}`
+    };
   }
-  return null;
-}
 
-async function initiateCheckout(paintingId, price, imagePath) {
-  try {
-    // Get the full URL of the image
-    const fullImageUrl = new URL(imagePath, window.location.origin).href;
+  function formatPrice(price, currency) {
+    if (price === 0) return "NFS";
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: currency || "USD"
+    }).format(price / 100);
+  }
 
-    const response = await fetch('https://q6lp56ph6dhosmyn7xh32jyipy0epgjw.lambda-url.us-east-1.on.aws/', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        line_items: [
-          {
-            price_data: {
-              currency: "usd",
-              product_data: {
-                name: paintingsInOrder[paintingId]["description"],
-                images: [fullImageUrl]
-              },
-              unit_amount: price
-            },
-            quantity: 1
-          }
-        ]
-      }),
+  function renderGallery(gallery, catalog) {
+    const fragment = document.createDocumentFragment();
+
+    catalog.artworks.forEach((artwork) => {
+      const paths = artworkPaths(artwork.file, false);
+      const card = document.createElement("article");
+      card.className = "painting-container";
+
+      const imageLink = document.createElement("a");
+      imageLink.href = paths.full;
+      imageLink.className = "painting-image-link";
+
+      const image = document.createElement("img");
+      image.className = "art";
+      image.src = paths.thumbnail;
+      image.alt = artwork.title;
+      image.loading = "lazy";
+      imageLink.appendChild(image);
+
+      const details = artwork.price > 0 ? document.createElement("button") : document.createElement("div");
+      details.className = "painting-description";
+      if (artwork.price > 0) {
+        details.type = "button";
+        details.setAttribute("aria-label", `Buy ${artwork.title} for ${formatPrice(artwork.price, catalog.currency)}`);
+        details.addEventListener("click", () => initiateCheckout(details, artwork));
+      } else {
+        details.classList.add("not-for-sale");
+      }
+
+      const title = document.createElement("span");
+      title.className = "description-text";
+      title.textContent = artwork.title;
+
+      const price = document.createElement("span");
+      price.className = "price-text";
+      price.textContent = formatPrice(artwork.price, catalog.currency);
+
+      details.append(title, price);
+      card.append(imageLink, details);
+      fragment.appendChild(card);
     });
 
-    const { url } = await response.json();
-    
-    // Redirect to Stripe Checkout
-    window.location.href = url;
-  } catch (error) {
-    console.error('Error creating checkout session:', error);
-    alert('There was an error processing your request. Please try again.');
+    gallery.replaceChildren(fragment);
   }
-}
+
+  function renderCarousel(carousel, catalog) {
+    const featured = catalog.artworks.filter((artwork) => artwork.featured);
+    if (!featured.length) {
+      carousel.replaceChildren();
+      return;
+    }
+
+    let current = 0;
+    const viewport = document.createElement("div");
+    viewport.className = "carousel-viewport";
+    viewport.setAttribute("aria-live", "polite");
+    const previous = carouselButton("Previous artwork", "‹");
+    const next = carouselButton("Next artwork", "›");
+    const dots = document.createElement("div");
+    dots.className = "carousel-dots";
+
+    function show(index) {
+      current = (index + featured.length) % featured.length;
+      const artwork = featured[current];
+      const paths = artworkPaths(artwork.file, true);
+      const slide = document.createElement("a");
+      slide.className = "featured-slide";
+      slide.href = "paintings/";
+
+      const image = document.createElement("img");
+      image.src = paths.thumbnail;
+      image.alt = artwork.title;
+      const caption = document.createElement("span");
+      caption.className = "featured-caption";
+      caption.textContent = `${artwork.title} — ${formatPrice(artwork.price, catalog.currency)}`;
+      slide.append(image, caption);
+      viewport.replaceChildren(slide);
+
+      Array.from(dots.children).forEach((dot, dotIndex) => {
+        dot.classList.toggle("active", dotIndex === current);
+        dot.setAttribute("aria-current", dotIndex === current ? "true" : "false");
+      });
+    }
+
+    featured.forEach((artwork, index) => {
+      const dot = carouselButton(`Show ${artwork.title}`, "");
+      dot.className = "carousel-dot";
+      dot.addEventListener("click", () => show(index));
+      dots.appendChild(dot);
+    });
+
+    previous.addEventListener("click", () => show(current - 1));
+    next.addEventListener("click", () => show(current + 1));
+    carousel.replaceChildren(previous, viewport, next, dots);
+    show(0);
+  }
+
+  function carouselButton(label, text) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "carousel-control";
+    button.setAttribute("aria-label", label);
+    button.textContent = text;
+    return button;
+  }
+
+  async function initiateCheckout(button, artwork) {
+    const priceLabel = button.querySelector(".price-text");
+    const originalPrice = priceLabel.textContent;
+    button.disabled = true;
+    priceLabel.textContent = "Opening…";
+
+    try {
+      const response = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ artwork: artwork.file })
+      });
+
+      if (!response.ok) throw new Error(`Checkout returned ${response.status}`);
+      const result = await response.json();
+      if (!result.url) throw new Error("Checkout did not return a URL");
+      window.location.assign(result.url);
+    } catch (error) {
+      console.error("Error creating checkout session:", error);
+      button.disabled = false;
+      priceLabel.textContent = originalPrice;
+      alert("There was an error opening checkout. Please try again.");
+    }
+  }
+})();
