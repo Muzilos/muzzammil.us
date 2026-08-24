@@ -114,7 +114,7 @@ html {
 .carousel-dot { width: 11px; height: 11px; padding: 0; border-radius: 50%; font-size: 0; }
 .carousel-dot.active { background: rgb(2, 194, 121); }
 .gallery-link { display: inline-block; margin-top: 18px; }
-.paintings-grid { display: grid; width: min(96%, 1200px); grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 0 auto 48px; }
+.paintings-grid { display: grid; width: min(94%, 1200px); grid-template-columns: minmax(0, 1fr); gap: 24px; margin: 0 auto 48px; }
 .painting-container { display: flex; min-width: 0; flex-direction: column; overflow: hidden; border-radius: 9px; background: #090909; }
 .painting-image-link { display: block; width: 100%; padding: 0; margin: 0; border: 0; background: #111; cursor: pointer; }
 .painting-image-button:hover img, .painting-image-button:focus-visible img { opacity: 0.82; transform: scale(1.015); }
@@ -127,9 +127,9 @@ html {
 .buy-button:hover, .buy-button:focus-visible { background: rgb(0, 220, 190); box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25); }
 .buy-button:disabled, .painting-image-button:disabled, .featured-slide:disabled { cursor: wait; opacity: 0.68; }
 .artwork-error { grid-column: 1 / -1; padding: 24px; text-align: center; }
-@media (max-width: 768px) { .paintings-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 640px) { .paintings-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1000px) { .paintings-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 480px) {
-  .paintings-grid { grid-template-columns: 1fr; }
   .featured-section { width: 96%; }
   .featured-caption { padding: 16px 52px; font-size: 15px; }
   .carousel-control { width: 38px; height: 50px; }
