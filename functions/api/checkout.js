@@ -28,7 +28,12 @@ export async function onRequestPost({ request, env }) {
 
   const catalog = await catalogResponse.json();
   const artwork = catalog.artworks?.find((entry) => (
-    entry.file === payload.artwork && entry.listed !== false && Number.isInteger(entry.price) && entry.price > 0
+    entry.file === payload.artwork
+      && entry.listed !== false
+      && entry.status !== "sold"
+      && entry.status !== "reserved"
+      && Number.isInteger(entry.price)
+      && entry.price > 0
   ));
 
   if (!artwork) {
@@ -36,7 +41,7 @@ export async function onRequestPost({ request, env }) {
   }
 
   const origin = requestUrl.origin;
-  const imageUrl = new URL(`/paintings/-compressed/thumb_${artwork.file}`, origin).href;
+  const imageUrl = new URL(artwork.thumbnail || `/paintings/-compressed/thumb_${artwork.file}`, origin).href;
   const stripePayload = new URLSearchParams({
     mode: "payment",
     success_url: new URL("/success.html?session_id={CHECKOUT_SESSION_ID}", origin).href,

@@ -103,9 +103,9 @@ html {
 .featured-carousel { display: grid; grid-template-columns: 1fr; width: 100%; min-height: clamp(400px, 68vh, 720px); align-items: center; }
 .carousel-loading { display: grid; width: 100%; min-height: clamp(400px, 68vh, 720px); place-items: center; border: 1px solid rgba(2, 194, 121, 0.45); border-radius: 14px; background: #0b0b0b; }
 .carousel-viewport { grid-area: 1 / 1; width: 100%; min-width: 0; }
-.featured-slide { display: grid; position: relative; width: 100%; height: clamp(400px, 68vh, 720px); padding: 20px 54px 58px; place-items: center; overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 14px; box-sizing: border-box; color: inherit; background: radial-gradient(circle at center, #171717 0, #080808 72%); cursor: pointer; box-shadow: 0 14px 32px rgba(0, 0, 0, 0.45); }
-.featured-slide img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center center; }
-.featured-caption { position: absolute; right: 0; bottom: 0; left: 0; padding: 18px 62px; color: #fff; background: linear-gradient(transparent, rgba(0, 0, 0, 0.92)); font-family: inherit; font-size: 17px; font-weight: 600; line-height: 1.4; text-align: center; }
+.featured-slide { display: grid; position: relative; width: 100%; height: clamp(400px, 68vh, 720px); grid-template-rows: minmax(0, 1fr) auto; gap: 12px; padding: 20px 54px 16px; place-items: center; overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 14px; box-sizing: border-box; color: inherit; background: radial-gradient(circle at center, #171717 0, #080808 72%); cursor: pointer; box-shadow: 0 14px 32px rgba(0, 0, 0, 0.45); }
+.featured-slide img { display: block; width: auto; height: auto; max-width: 100%; max-height: 100%; min-height: 0; object-fit: contain; object-position: center center; }
+.featured-caption { position: static; width: 100%; box-sizing: border-box; padding: 10px 8px 2px; color: #fff; font-family: inherit; font-size: 17px; font-weight: 600; line-height: 1.4; text-align: center; }
 .carousel-control { z-index: 2; grid-area: 1 / 1; width: 44px; height: 58px; padding: 0; border: 1px solid rgb(2, 194, 121); border-radius: 8px; color: #fff; background: rgba(0, 0, 0, 0.76); cursor: pointer; font-size: 34px; line-height: 1; }
 .carousel-previous { justify-self: start; margin-left: 12px; }
 .carousel-next { justify-self: end; margin-right: 12px; }
@@ -128,12 +128,17 @@ html {
 .buy-button:disabled, .painting-image-button:disabled, .featured-slide:disabled { cursor: wait; opacity: 0.68; }
 .modal-open { overflow: hidden; }
 .artwork-modal { position: fixed; z-index: 1000; inset: 0; display: grid; padding: 28px; place-items: center; background: rgba(0, 0, 0, 0.82); }
-.artwork-modal-panel { display: grid; position: relative; width: min(94vw, 1040px); max-height: 88vh; grid-template-columns: minmax(0, 1fr) 280px; overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 12px; background: #0c0c0c; box-shadow: 0 22px 70px rgba(0, 0, 0, 0.7); }
+.artwork-modal-panel { display: grid; position: relative; width: min(94vw, 1120px); max-height: 88vh; grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 12px; background: #0c0c0c; box-shadow: 0 22px 70px rgba(0, 0, 0, 0.7); }
 .artwork-modal-stage { display: grid; min-width: 0; min-height: 420px; padding: 24px; place-items: center; background: radial-gradient(circle at center, #202020 0, #080808 76%); }
 .artwork-modal-image { display: block; width: 100%; height: 100%; max-height: calc(88vh - 48px); object-fit: contain; object-position: center; }
 .artwork-modal-info { display: flex; min-width: 0; flex-direction: column; justify-content: center; gap: 14px; padding: 34px 24px; border-left: 1px solid rgba(2, 194, 121, 0.45); text-align: left; }
 .artwork-modal-info h2, .artwork-modal-info p { margin: 0; }
 .artwork-modal-price { color: rgb(2, 194, 121); font-size: 20px; font-weight: 700; }
+.artwork-modal-metadata { color: rgb(220, 200, 250); line-height: 1.45; }
+.artwork-modal-status { width: fit-content; padding: 4px 9px; border: 1px solid currentColor; border-radius: 999px; color: rgb(2, 194, 121); font-size: 13px; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+.artwork-status-sold, .artwork-status-reserved { color: rgb(190, 190, 205); }
+.artwork-modal-description, .artwork-modal-prints { color: rgb(210, 210, 220); font-size: 14px; line-height: 1.55; }
+.artwork-modal-prints { padding-top: 12px; border-top: 1px solid rgba(2, 194, 121, 0.3); }
 .artwork-modal-buy { width: 100%; margin-top: 8px; }
 .artwork-modal-availability { color: rgb(190, 190, 205); line-height: 1.45; }
 .artwork-modal-close { position: absolute; z-index: 2; top: 10px; right: 10px; width: 38px; height: 38px; padding: 0; border: 1px solid rgb(2, 194, 121); border-radius: 50%; color: #fff; background: rgba(0, 0, 0, 0.8); font-size: 28px; line-height: 1; cursor: pointer; }
@@ -144,8 +149,8 @@ html {
 @media (max-width: 480px) {
   .featured-section { width: 96%; }
   .featured-carousel, .carousel-loading { min-height: clamp(360px, 66vh, 520px); }
-  .featured-slide { height: clamp(360px, 66vh, 520px); padding: 14px 42px 56px; }
-  .featured-caption { padding: 16px 52px; font-size: 15px; }
+  .featured-slide { height: clamp(360px, 66vh, 520px); gap: 8px; padding: 14px 42px 12px; }
+  .featured-caption { padding: 8px 4px 0; font-size: 15px; }
   .carousel-control { width: 38px; height: 50px; }
   .carousel-previous { margin-left: 8px; }
   .carousel-next { margin-right: 8px; }

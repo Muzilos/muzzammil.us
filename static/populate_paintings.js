@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const catalogUrl = "https://raw.githubusercontent.com/Muzilos/muzzammil.us/main/static/artworks.json";
+  const catalogUrl = "/static/artworks.json";
 
   window.addEventListener("pageshow", resetCheckoutState);
   window.addEventListener("focus", resetCheckoutState);
@@ -36,7 +36,9 @@
     }
 
     catalog.artworks.forEach((artwork) => {
-      if (!artwork.file || !artwork.title || !Number.isInteger(artwork.price) || artwork.price < 0) {
+      const validPrice = (Number.isInteger(artwork.price) && artwork.price >= 0)
+        || (typeof artwork.price === "string" && artwork.price.trim());
+      if (!artwork.file || !artwork.title || !validPrice) {
         throw new Error(`Invalid artwork entry: ${artwork.file || "unknown"}`);
       }
     });
@@ -50,7 +52,30 @@
     };
   }
 
+  function pathsForArtwork(artwork, fromHome) {
+    const fallback = artworkPaths(artwork.file, fromHome);
+    return {
+      full: artwork.image || fallback.full,
+      thumbnail: artwork.thumbnail || fallback.thumbnail
+    };
+  }
+
+  function artworkStatus(artwork) {
+    if (artwork.status === "sold") return "Sold";
+    if (artwork.status === "reserved") return "Reserved";
+    if (artwork.status === "available") return "Available";
+    return artwork.price === 0 ? "Not for sale" : "Available";
+  }
+
+  function canCheckout(artwork) {
+    return artwork.status !== "sold"
+      && artwork.status !== "reserved"
+      && Number.isInteger(artwork.price)
+      && artwork.price > 0;
+  }
+
   function formatPrice(price, currency) {
+    if (typeof price === "string") return price;
     if (price === 0) return "NFS";
     return new Intl.NumberFormat("en-US", {
       style: "currency",
@@ -58,11 +83,17 @@
     }).format(price / 100);
   }
 
+  function displayPrice(artwork, currency) {
+    if (artwork.status === "sold") return "Sold";
+    if (artwork.status === "reserved") return "Reserved";
+    return formatPrice(artwork.price, currency);
+  }
+
   function renderGallery(gallery, catalog) {
     const fragment = document.createDocumentFragment();
 
     catalog.artworks.forEach((artwork) => {
-      const paths = artworkPaths(artwork.file, false);
+      const paths = pathsForArtwork(artwork, false);
       const card = document.createElement("article");
       card.className = "painting-container";
 
@@ -82,7 +113,7 @@
 
       const details = document.createElement("div");
       details.className = "painting-description";
-      if (artwork.price === 0) {
+      if (!canCheckout(artwork)) {
         details.classList.add("not-for-sale");
       }
 
@@ -92,15 +123,15 @@
 
       const price = document.createElement("span");
       price.className = "price-text";
-      price.textContent = formatPrice(artwork.price, catalog.currency);
+      price.textContent = displayPrice(artwork, catalog.currency);
 
       details.append(title, price);
-      if (artwork.price > 0) {
+      if (canCheckout(artwork)) {
         const buyButton = document.createElement("button");
         buyButton.type = "button";
         buyButton.className = "buy-button";
         buyButton.textContent = "Buy";
-        buyButton.setAttribute("aria-label", `Buy ${artwork.title} for ${formatPrice(artwork.price, catalog.currency)}`);
+        buyButton.setAttribute("aria-label", `Buy ${artwork.title} for ${displayPrice(artwork, catalog.currency)}`);
         buyButton.addEventListener("click", () => initiateCheckout(card, artwork));
         details.appendChild(buyButton);
       }
@@ -114,6 +145,13 @@
 
   function renderCarousel(carousel, catalog) {
     const featured = catalog.artworks.filter((artwork) => artwork.featured);
+    featured
+      .filter((artwork) => Number.isInteger(artwork.featuredPosition))
+      .sort((left, right) => left.featuredPosition - right.featuredPosition)
+      .forEach((artwork) => {
+        featured.splice(featured.indexOf(artwork), 1);
+        featured.splice(Math.max(0, artwork.featuredPosition - 1), 0, artwork);
+      });
     if (!featured.length) {
       carousel.replaceChildren();
       return;
@@ -131,7 +169,7 @@
     function show(index) {
       current = (index + featured.length) % featured.length;
       const artwork = featured[current];
-      const paths = artworkPaths(artwork.file, true);
+      const paths = pathsForArtwork(artwork, true);
       const slide = document.createElement("button");
       slide.className = "featured-slide";
       slide.type = "button";
@@ -145,7 +183,7 @@
       if (current === 0) image.fetchPriority = "high";
       const caption = document.createElement("span");
       caption.className = "featured-caption";
-      caption.textContent = `${artwork.title} · ${formatPrice(artwork.price, catalog.currency)} · View details`;
+      caption.textContent = `${artwork.title} · ${displayPrice(artwork, catalog.currency)} · View details`;
       slide.append(image, caption);
       viewport.replaceChildren(slide);
 
@@ -169,7 +207,7 @@
 
     featured.slice(1).forEach((artwork) => {
       const preload = new Image();
-      preload.src = artworkPaths(artwork.file, true).thumbnail;
+      preload.src = pathsForArtwork(artwork, true).thumbnail;
     });
   }
 
@@ -203,7 +241,7 @@
     imageStage.className = "artwork-modal-stage";
     const image = document.createElement("img");
     image.className = "artwork-modal-image";
-    image.src = paths.thumbnail;
+    image.src = paths.full;
     image.alt = artwork.title;
     image.decoding = "async";
     imageStage.appendChild(image);
@@ -213,23 +251,57 @@
     const title = document.createElement("h2");
     title.id = "artwork-modal-title";
     title.textContent = artwork.title;
+    const metadata = document.createElement("p");
+    metadata.className = "artwork-modal-metadata";
+    metadata.textContent = [artwork.year, artwork.size, artwork.medium].filter(Boolean).join(" · ");
+    const status = document.createElement("p");
+    status.className = `artwork-modal-status artwork-status-${artwork.status || "legacy"}`;
+    status.textContent = artworkStatus(artwork);
     const price = document.createElement("p");
     price.className = "artwork-modal-price";
-    price.textContent = formatPrice(artwork.price, currency);
-    information.append(title, price);
+    price.textContent = displayPrice(artwork, currency);
+    information.append(title);
+    if (metadata.textContent) information.appendChild(metadata);
+    information.appendChild(status);
+    if (price.textContent !== status.textContent) information.appendChild(price);
 
-    if (artwork.price > 0) {
+    if (artwork.description) {
+      const description = document.createElement("p");
+      description.className = "artwork-modal-description";
+      description.textContent = artwork.description;
+      information.appendChild(description);
+    }
+
+    if (artwork.printsAvailable) {
+      const printDetails = document.createElement("p");
+      printDetails.className = "artwork-modal-prints";
+      const prices = Object.entries(artwork.printPrices || {}).map(([size, printPrice]) => (
+        `${size} ${formatPrice(printPrice, currency)}`
+      ));
+      printDetails.textContent = prices.length
+        ? `Prints available: ${prices.join(" · ")}`
+        : "Prints available by inquiry.";
+      information.appendChild(printDetails);
+    }
+
+    if (canCheckout(artwork)) {
       const buyButton = document.createElement("button");
       buyButton.type = "button";
       buyButton.className = "buy-button artwork-modal-buy";
       buyButton.textContent = "Buy now";
-      buyButton.setAttribute("aria-label", `Buy ${artwork.title} for ${formatPrice(artwork.price, currency)}`);
+      buyButton.setAttribute("aria-label", `Buy ${artwork.title} for ${displayPrice(artwork, currency)}`);
       buyButton.addEventListener("click", () => initiateCheckout(modal, artwork));
       information.appendChild(buyButton);
     } else {
       const availability = document.createElement("p");
       availability.className = "artwork-modal-availability";
-      availability.textContent = "This piece is not currently for sale.";
+      availability.textContent = artwork.status === "sold"
+        ? "This original has sold."
+        : artwork.status === "reserved"
+          ? "This original is currently reserved."
+          : typeof artwork.price === "string"
+            ? "Contact the studio to inquire about this original."
+            : "This piece is not currently for sale.";
       information.appendChild(availability);
     }
 
