@@ -3,6 +3,8 @@
 
   const catalogUrl = "https://raw.githubusercontent.com/Muzilos/muzzammil.us/main/static/artworks.json";
 
+  window.addEventListener("pageshow", resetCheckoutState);
+  window.addEventListener("focus", resetCheckoutState);
   loadArtwork();
 
   async function loadArtwork() {
@@ -64,17 +66,11 @@
       const card = document.createElement("article");
       card.className = "painting-container";
 
-      const imageControl = document.createElement(artwork.price > 0 ? "button" : "a");
-      imageControl.className = "painting-image-link";
-      if (artwork.price > 0) {
-        imageControl.type = "button";
-        imageControl.classList.add("painting-image-button");
-        imageControl.setAttribute("aria-label", `Buy ${artwork.title}`);
-        imageControl.addEventListener("click", () => initiateCheckout(card, artwork));
-      } else {
-        imageControl.href = paths.full;
-        imageControl.setAttribute("aria-label", `View ${artwork.title} full size`);
-      }
+      const imageControl = document.createElement("button");
+      imageControl.type = "button";
+      imageControl.className = "painting-image-link painting-image-button";
+      imageControl.setAttribute("aria-label", `View ${artwork.title}`);
+      imageControl.addEventListener("click", () => openArtworkModal(artwork, paths, catalog.currency, imageControl));
 
       const image = document.createElement("img");
       image.className = "art";
@@ -136,15 +132,11 @@
       current = (index + featured.length) % featured.length;
       const artwork = featured[current];
       const paths = artworkPaths(artwork.file, true);
-      const slide = document.createElement(artwork.price > 0 ? "button" : "a");
+      const slide = document.createElement("button");
       slide.className = "featured-slide";
-      if (artwork.price > 0) {
-        slide.type = "button";
-        slide.setAttribute("aria-label", `Buy featured artwork ${artwork.title}`);
-        slide.addEventListener("click", () => initiateCheckout(slide, artwork));
-      } else {
-        slide.href = "paintings/";
-      }
+      slide.type = "button";
+      slide.setAttribute("aria-label", `View featured artwork ${artwork.title}`);
+      slide.addEventListener("click", () => openArtworkModal(artwork, paths, catalog.currency, slide));
 
       const image = document.createElement("img");
       image.src = paths.thumbnail;
@@ -153,7 +145,7 @@
       if (current === 0) image.fetchPriority = "high";
       const caption = document.createElement("span");
       caption.className = "featured-caption";
-      caption.textContent = `${artwork.title} · ${formatPrice(artwork.price, catalog.currency)}${artwork.price > 0 ? " · Buy now" : ""}`;
+      caption.textContent = `${artwork.title} · ${formatPrice(artwork.price, catalog.currency)} · View details`;
       slide.append(image, caption);
       viewport.replaceChildren(slide);
 
@@ -191,12 +183,89 @@
     return button;
   }
 
+  function openArtworkModal(artwork, paths, currency, trigger) {
+    const modal = document.createElement("div");
+    modal.className = "artwork-modal";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.setAttribute("aria-labelledby", "artwork-modal-title");
+
+    const panel = document.createElement("div");
+    panel.className = "artwork-modal-panel";
+
+    const closeButton = document.createElement("button");
+    closeButton.type = "button";
+    closeButton.className = "artwork-modal-close";
+    closeButton.setAttribute("aria-label", "Close artwork details");
+    closeButton.textContent = "×";
+
+    const imageStage = document.createElement("div");
+    imageStage.className = "artwork-modal-stage";
+    const image = document.createElement("img");
+    image.className = "artwork-modal-image";
+    image.src = paths.thumbnail;
+    image.alt = artwork.title;
+    image.decoding = "async";
+    imageStage.appendChild(image);
+
+    const information = document.createElement("aside");
+    information.className = "artwork-modal-info";
+    const title = document.createElement("h2");
+    title.id = "artwork-modal-title";
+    title.textContent = artwork.title;
+    const price = document.createElement("p");
+    price.className = "artwork-modal-price";
+    price.textContent = formatPrice(artwork.price, currency);
+    information.append(title, price);
+
+    if (artwork.price > 0) {
+      const buyButton = document.createElement("button");
+      buyButton.type = "button";
+      buyButton.className = "buy-button artwork-modal-buy";
+      buyButton.textContent = "Buy now";
+      buyButton.setAttribute("aria-label", `Buy ${artwork.title} for ${formatPrice(artwork.price, currency)}`);
+      buyButton.addEventListener("click", () => initiateCheckout(modal, artwork));
+      information.appendChild(buyButton);
+    } else {
+      const availability = document.createElement("p");
+      availability.className = "artwork-modal-availability";
+      availability.textContent = "This piece is not currently for sale.";
+      information.appendChild(availability);
+    }
+
+    function closeModal() {
+      document.removeEventListener("keydown", handleKeydown);
+      document.body.classList.remove("modal-open");
+      modal.remove();
+      trigger.focus();
+    }
+
+    function handleKeydown(event) {
+      if (event.key === "Escape") closeModal();
+    }
+
+    closeButton.addEventListener("click", closeModal);
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) closeModal();
+    });
+    document.addEventListener("keydown", handleKeydown);
+
+    panel.append(closeButton, imageStage, information);
+    modal.appendChild(panel);
+    document.body.classList.add("modal-open");
+    document.body.appendChild(modal);
+    closeButton.focus();
+  }
+
   async function initiateCheckout(container, artwork) {
     const controls = container.matches("button") ? [container] : Array.from(container.querySelectorAll("button"));
-    const buyButton = container.querySelector?.(".buy-button");
-    const originalLabel = buyButton?.textContent;
+    const statusLabel = container.querySelector?.(".buy-button") || container.querySelector?.(".featured-caption");
+    container.classList.add("checkout-pending");
     controls.forEach((control) => { control.disabled = true; });
-    if (buyButton) buyButton.textContent = "Opening…";
+    if (statusLabel) {
+      statusLabel.dataset.checkoutLabel = statusLabel.textContent;
+      statusLabel.textContent = "Opening Stripe…";
+    }
 
     try {
       const response = await fetch("/api/checkout", {
@@ -211,9 +280,23 @@
       window.location.assign(result.url);
     } catch (error) {
       console.error("Error creating checkout session:", error);
-      controls.forEach((control) => { control.disabled = false; });
-      if (buyButton) buyButton.textContent = originalLabel;
+      resetCheckoutContainer(container);
       alert("There was an error opening checkout. Please try again.");
     }
+  }
+
+  function resetCheckoutState() {
+    document.querySelectorAll(".checkout-pending").forEach(resetCheckoutContainer);
+  }
+
+  function resetCheckoutContainer(container) {
+    const controls = container.matches("button") ? [container] : Array.from(container.querySelectorAll("button"));
+    const statusLabel = container.querySelector?.("[data-checkout-label]");
+    controls.forEach((control) => { control.disabled = false; });
+    if (statusLabel) {
+      statusLabel.textContent = statusLabel.dataset.checkoutLabel;
+      delete statusLabel.dataset.checkoutLabel;
+    }
+    container.classList.remove("checkout-pending");
   }
 })();
