@@ -2,9 +2,13 @@
   "use strict";
 
   const catalogUrl = "/static/artworks.json";
+  const inquiryEmail = "youngthugnumberone@gmail.com";
+  let loadedCatalog = null;
+  let activeArtworkModal = null;
 
   window.addEventListener("pageshow", resetCheckoutState);
   window.addEventListener("focus", resetCheckoutState);
+  window.addEventListener("popstate", syncArtworkFromUrl);
   loadArtwork();
 
   async function loadArtwork() {
@@ -19,8 +23,10 @@
       const catalog = await response.json();
       validateCatalog(catalog);
       catalog.artworks = catalog.artworks.filter((artwork) => artwork.listed !== false);
+      loadedCatalog = catalog;
       if (gallery) renderGallery(gallery, catalog);
       if (carousel) renderCarousel(carousel, catalog);
+      syncArtworkFromUrl();
     } catch (error) {
       console.error("Unable to load the artwork catalog:", error);
       const message = document.createElement("p");
@@ -74,6 +80,12 @@
       && artwork.price > 0;
   }
 
+  function canInquire(artwork) {
+    return artwork.status !== "sold"
+      && artwork.status !== "reserved"
+      && typeof artwork.price === "string";
+  }
+
   function formatPrice(price, currency) {
     if (typeof price === "string") return price;
     if (price === 0) return "NFS";
@@ -89,6 +101,94 @@
     return formatPrice(artwork.price, currency);
   }
 
+  function slugify(value) {
+    return value
+      .toLowerCase()
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+  }
+
+  function shortHash(value) {
+    let hash = 2166136261;
+    for (let index = 0; index < value.length; index += 1) {
+      hash ^= value.charCodeAt(index);
+      hash = Math.imul(hash, 16777619);
+    }
+    return (hash >>> 0).toString(36);
+  }
+
+  function artworkSlug(artwork) {
+    return artwork.slug || `${slugify(artwork.title) || "artwork"}-${shortHash(artwork.file)}`;
+  }
+
+  function artworkUrl(artwork) {
+    const url = new URL(window.location.href);
+    url.searchParams.set("artwork", artworkSlug(artwork));
+    url.hash = "";
+    return url;
+  }
+
+  function inquiryUrl(artwork) {
+    const subject = `Artwork inquiry: ${artwork.title}`;
+    const body = [
+      `Hi, I'm interested in ${artwork.title}.`,
+      "",
+      `Artwork: ${artworkUrl(artwork).href}`,
+      "",
+      "Please let me know about its availability and price."
+    ].join("\n");
+    return `mailto:${inquiryEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
+
+  function createInquiryLink(artwork, className) {
+    const link = document.createElement("a");
+    link.className = className;
+    link.href = inquiryUrl(artwork);
+    link.textContent = "Inquire";
+    link.setAttribute("aria-label", `Inquire about ${artwork.title}`);
+    return link;
+  }
+
+  function selectArtwork(artwork, paths, currency, trigger) {
+    const slug = artworkSlug(artwork);
+    const currentUrl = new URL(window.location.href);
+    if (currentUrl.searchParams.get("artwork") !== slug) {
+      history.pushState({ artworkModal: slug }, "", artworkUrl(artwork));
+    }
+    openArtworkModal(artwork, paths, currency, trigger);
+  }
+
+  function syncArtworkFromUrl() {
+    if (!loadedCatalog) return;
+
+    const url = new URL(window.location.href);
+    const slug = url.searchParams.get("artwork");
+    if (!slug) {
+      activeArtworkModal?.dismiss(false);
+      return;
+    }
+
+    const artwork = loadedCatalog.artworks.find((item) => artworkSlug(item) === slug);
+    if (!artwork) {
+      url.searchParams.delete("artwork");
+      history.replaceState(history.state, "", url);
+      activeArtworkModal?.dismiss(false);
+      return;
+    }
+
+    if (activeArtworkModal?.slug === slug) return;
+    const fromHome = Boolean(document.getElementById("featured-artworks"));
+    const trigger = document.querySelector(`[data-artwork-slug="${CSS.escape(slug)}"]`);
+    openArtworkModal(
+      artwork,
+      pathsForArtwork(artwork, fromHome),
+      loadedCatalog.currency,
+      trigger
+    );
+  }
+
   function renderGallery(gallery, catalog) {
     const fragment = document.createDocumentFragment();
 
@@ -100,8 +200,9 @@
       const imageControl = document.createElement("button");
       imageControl.type = "button";
       imageControl.className = "painting-image-link painting-image-button";
+      imageControl.dataset.artworkSlug = artworkSlug(artwork);
       imageControl.setAttribute("aria-label", `View ${artwork.title}`);
-      imageControl.addEventListener("click", () => openArtworkModal(artwork, paths, catalog.currency, imageControl));
+      imageControl.addEventListener("click", () => selectArtwork(artwork, paths, catalog.currency, imageControl));
 
       const image = document.createElement("img");
       image.className = "art";
@@ -113,7 +214,7 @@
 
       const details = document.createElement("div");
       details.className = "painting-description";
-      if (!canCheckout(artwork)) {
+      if (!canCheckout(artwork) && !canInquire(artwork)) {
         details.classList.add("not-for-sale");
       }
 
@@ -134,6 +235,8 @@
         buyButton.setAttribute("aria-label", `Buy ${artwork.title} for ${displayPrice(artwork, catalog.currency)}`);
         buyButton.addEventListener("click", () => initiateCheckout(card, artwork));
         details.appendChild(buyButton);
+      } else if (canInquire(artwork)) {
+        details.appendChild(createInquiryLink(artwork, "buy-button inquiry-button"));
       }
 
       card.append(imageControl, details);
@@ -144,14 +247,16 @@
   }
 
   function renderCarousel(carousel, catalog) {
-    const featured = catalog.artworks.filter((artwork) => artwork.featured);
-    featured
-      .filter((artwork) => Number.isInteger(artwork.featuredPosition))
-      .sort((left, right) => left.featuredPosition - right.featuredPosition)
-      .forEach((artwork) => {
-        featured.splice(featured.indexOf(artwork), 1);
-        featured.splice(Math.max(0, artwork.featuredPosition - 1), 0, artwork);
-      });
+    const featured = orderedFeaturedArtworks(catalog);
+    let suppressSlideClick = false;
+    let suppressResetTimer;
+
+    function markCarouselSwipe() {
+      suppressSlideClick = true;
+      window.clearTimeout(suppressResetTimer);
+      suppressResetTimer = window.setTimeout(() => { suppressSlideClick = false; }, 600);
+    }
+
     if (!featured.length) {
       carousel.replaceChildren();
       return;
@@ -173,8 +278,15 @@
       const slide = document.createElement("button");
       slide.className = "featured-slide";
       slide.type = "button";
+      slide.dataset.artworkSlug = artworkSlug(artwork);
       slide.setAttribute("aria-label", `View featured artwork ${artwork.title}`);
-      slide.addEventListener("click", () => openArtworkModal(artwork, paths, catalog.currency, slide));
+      slide.addEventListener("click", () => {
+        if (suppressSlideClick) {
+          suppressSlideClick = false;
+          return;
+        }
+        selectArtwork(artwork, paths, catalog.currency, slide);
+      });
 
       const image = document.createElement("img");
       image.src = paths.thumbnail;
@@ -202,6 +314,23 @@
 
     previous.addEventListener("click", () => show(current - 1));
     next.addEventListener("click", () => show(current + 1));
+    carousel.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        show(current - 1);
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        show(current + 1);
+      }
+    });
+    addHorizontalSwipe(viewport, () => {
+      markCarouselSwipe();
+      show(current - 1);
+    }, () => {
+      markCarouselSwipe();
+      show(current + 1);
+    });
     carousel.replaceChildren(previous, viewport, next, dots);
     show(0);
 
@@ -221,7 +350,53 @@
     return button;
   }
 
+  function orderedFeaturedArtworks(catalog) {
+    const featured = catalog.artworks.filter((artwork) => artwork.featured);
+    featured
+      .filter((artwork) => Number.isInteger(artwork.featuredPosition))
+      .sort((left, right) => left.featuredPosition - right.featuredPosition)
+      .forEach((artwork) => {
+        featured.splice(featured.indexOf(artwork), 1);
+        featured.splice(Math.max(0, artwork.featuredPosition - 1), 0, artwork);
+      });
+    return featured;
+  }
+
+  function visibleArtworkSequence() {
+    if (!loadedCatalog) return [];
+    if (document.getElementById("featured-artworks")) return orderedFeaturedArtworks(loadedCatalog);
+
+    const visibleSlugs = Array.from(document.querySelectorAll(".painting-image-button"))
+      .filter((control) => control.getClientRects().length > 0)
+      .map((control) => control.dataset.artworkSlug);
+    return visibleSlugs.map((slug) => (
+      loadedCatalog.artworks.find((artwork) => artworkSlug(artwork) === slug)
+    )).filter(Boolean);
+  }
+
+  function addHorizontalSwipe(element, showPrevious, showNext) {
+    let startX = 0;
+    let startY = 0;
+
+    element.addEventListener("touchstart", (event) => {
+      const touch = event.changedTouches[0];
+      startX = touch.clientX;
+      startY = touch.clientY;
+    }, { passive: true });
+
+    element.addEventListener("touchend", (event) => {
+      const touch = event.changedTouches[0];
+      const horizontalDistance = touch.clientX - startX;
+      const verticalDistance = touch.clientY - startY;
+      if (Math.abs(horizontalDistance) < 50 || Math.abs(horizontalDistance) <= Math.abs(verticalDistance)) return;
+      if (horizontalDistance > 0) showPrevious();
+      else showNext();
+    }, { passive: true });
+  }
+
   function openArtworkModal(artwork, paths, currency, trigger) {
+    activeArtworkModal?.dismiss(false);
+
     const modal = document.createElement("div");
     modal.className = "artwork-modal";
     modal.setAttribute("role", "dialog");
@@ -246,6 +421,34 @@
     image.decoding = "async";
     imageStage.appendChild(image);
 
+    const sequence = visibleArtworkSequence();
+    const artworkIndex = sequence.findIndex((item) => artworkSlug(item) === artworkSlug(artwork));
+
+    function navigateArtwork(offset) {
+      if (artworkIndex < 0 || sequence.length < 2) return;
+      const nextArtwork = sequence[(artworkIndex + offset + sequence.length) % sequence.length];
+      const nextSlug = artworkSlug(nextArtwork);
+      history.replaceState({ ...history.state, artworkModal: nextSlug }, "", artworkUrl(nextArtwork));
+      const nextTrigger = document.querySelector(`[data-artwork-slug="${CSS.escape(nextSlug)}"]`);
+      openArtworkModal(
+        nextArtwork,
+        pathsForArtwork(nextArtwork, Boolean(document.getElementById("featured-artworks"))),
+        currency,
+        nextTrigger
+      );
+    }
+
+    if (sequence.length > 1 && artworkIndex >= 0) {
+      const previousArtwork = carouselButton("View previous artwork", "‹");
+      previousArtwork.className = "artwork-modal-navigation artwork-modal-previous";
+      previousArtwork.addEventListener("click", () => navigateArtwork(-1));
+      const nextArtwork = carouselButton("View next artwork", "›");
+      nextArtwork.className = "artwork-modal-navigation artwork-modal-next";
+      nextArtwork.addEventListener("click", () => navigateArtwork(1));
+      imageStage.append(previousArtwork, nextArtwork);
+      addHorizontalSwipe(imageStage, () => navigateArtwork(-1), () => navigateArtwork(1));
+    }
+
     const information = document.createElement("aside");
     information.className = "artwork-modal-info";
     const title = document.createElement("h2");
@@ -264,6 +467,26 @@
     if (metadata.textContent) information.appendChild(metadata);
     information.appendChild(status);
     if (price.textContent !== status.textContent) information.appendChild(price);
+
+    const shareButton = document.createElement("button");
+    shareButton.type = "button";
+    shareButton.className = "artwork-share-button";
+    shareButton.textContent = "Share artwork";
+    shareButton.addEventListener("click", async () => {
+      const shareUrl = artworkUrl(artwork).href;
+      try {
+        if (navigator.share) {
+          await navigator.share({ title: artwork.title, url: shareUrl });
+        } else {
+          await navigator.clipboard.writeText(shareUrl);
+          shareButton.textContent = "Link copied";
+          window.setTimeout(() => { shareButton.textContent = "Share artwork"; }, 1800);
+        }
+      } catch (error) {
+        if (error.name !== "AbortError") console.error("Unable to share artwork:", error);
+      }
+    });
+    information.appendChild(shareButton);
 
     if (artwork.description) {
       const description = document.createElement("p");
@@ -303,17 +526,45 @@
             ? "Contact the studio to inquire about this original."
             : "This piece is not currently for sale.";
       information.appendChild(availability);
+      if (canInquire(artwork)) {
+        information.appendChild(createInquiryLink(
+          artwork,
+          "buy-button inquiry-button artwork-modal-buy"
+        ));
+      }
     }
 
-    function closeModal() {
+    function dismissModal(restoreFocus) {
       document.removeEventListener("keydown", handleKeydown);
       document.body.classList.remove("modal-open");
       modal.remove();
-      trigger.focus();
+      if (activeArtworkModal?.element === modal) activeArtworkModal = null;
+      if (restoreFocus && trigger?.focus) trigger.focus();
+    }
+
+    function closeModal() {
+      const slug = artworkSlug(artwork);
+      if (history.state?.artworkModal === slug) {
+        history.back();
+        return;
+      }
+
+      const url = new URL(window.location.href);
+      url.searchParams.delete("artwork");
+      history.replaceState(history.state, "", url);
+      dismissModal(true);
     }
 
     function handleKeydown(event) {
       if (event.key === "Escape") closeModal();
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        navigateArtwork(-1);
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        navigateArtwork(1);
+      }
     }
 
     closeButton.addEventListener("click", closeModal);
@@ -326,6 +577,11 @@
     modal.appendChild(panel);
     document.body.classList.add("modal-open");
     document.body.appendChild(modal);
+    activeArtworkModal = {
+      element: modal,
+      slug: artworkSlug(artwork),
+      dismiss: dismissModal
+    };
     closeButton.focus();
   }
 

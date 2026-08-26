@@ -125,15 +125,19 @@ html {
 .price-text { color: rgb(2, 194, 121); font-weight: bold; white-space: nowrap; }
 .buy-button { min-width: 66px; padding: 9px 14px; border: 0; border-radius: 5px; color: #00150d; background: rgb(2, 194, 121); font-family: inherit; font-size: 15px; font-weight: 700; cursor: pointer; }
 .buy-button:hover, .buy-button:focus-visible { background: rgb(0, 220, 190); box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25); }
+.inquiry-button { box-sizing: border-box; text-align: center; }
+.inquiry-button:hover, .inquiry-button:focus-visible { color: #00150d; }
 .buy-button:disabled, .painting-image-button:disabled, .featured-slide:disabled { cursor: wait; opacity: 0.68; }
 .modal-open { overflow: hidden; }
 .artwork-modal { position: fixed; z-index: 1000; inset: 0; display: grid; padding: 28px; place-items: center; background: rgba(0, 0, 0, 0.82); }
 .artwork-modal-panel { display: grid; position: relative; width: min(94vw, 1120px); max-height: 88vh; grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 12px; background: #0c0c0c; box-shadow: 0 22px 70px rgba(0, 0, 0, 0.7); }
-.artwork-modal-stage { display: grid; min-width: 0; min-height: 420px; padding: 24px; place-items: center; background: radial-gradient(circle at center, #202020 0, #080808 76%); }
+.artwork-modal-stage { display: grid; position: relative; min-width: 0; min-height: 420px; padding: 24px; place-items: center; touch-action: pan-y; background: radial-gradient(circle at center, #202020 0, #080808 76%); }
 .artwork-modal-image { display: block; width: 100%; height: 100%; max-height: calc(88vh - 48px); object-fit: contain; object-position: center; }
 .artwork-modal-info { display: flex; min-width: 0; flex-direction: column; justify-content: center; gap: 14px; padding: 34px 24px; border-left: 1px solid rgba(2, 194, 121, 0.45); text-align: left; }
 .artwork-modal-info h2, .artwork-modal-info p { margin: 0; }
 .artwork-modal-price { color: rgb(2, 194, 121); font-size: 20px; font-weight: 700; }
+.artwork-share-button { width: fit-content; padding: 8px 12px; border: 1px solid rgb(2, 194, 121); border-radius: 5px; color: rgb(2, 194, 121); background: transparent; font-family: inherit; font-weight: 700; cursor: pointer; }
+.artwork-share-button:hover, .artwork-share-button:focus-visible { color: #00150d; background: rgb(0, 220, 190); }
 .artwork-modal-metadata { color: rgb(220, 200, 250); line-height: 1.45; }
 .artwork-modal-status { width: fit-content; padding: 4px 9px; border: 1px solid currentColor; border-radius: 999px; color: rgb(2, 194, 121); font-size: 13px; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
 .artwork-status-sold, .artwork-status-reserved { color: rgb(190, 190, 205); }
@@ -143,6 +147,10 @@ html {
 .artwork-modal-availability { color: rgb(190, 190, 205); line-height: 1.45; }
 .artwork-modal-close { position: absolute; z-index: 2; top: 10px; right: 10px; width: 38px; height: 38px; padding: 0; border: 1px solid rgb(2, 194, 121); border-radius: 50%; color: #fff; background: rgba(0, 0, 0, 0.8); font-size: 28px; line-height: 1; cursor: pointer; }
 .artwork-modal-close:hover, .artwork-modal-close:focus-visible { color: #000; background: rgb(0, 200, 200); }
+.artwork-modal-navigation { position: absolute; z-index: 2; top: 50%; width: 42px; height: 56px; padding: 0; border: 1px solid rgb(2, 194, 121); border-radius: 8px; color: #fff; background: rgba(0, 0, 0, 0.72); font-size: 32px; line-height: 1; cursor: pointer; transform: translateY(-50%); }
+.artwork-modal-navigation:hover, .artwork-modal-navigation:focus-visible { color: #000; background: rgb(0, 200, 200); }
+.artwork-modal-previous { left: 10px; }
+.artwork-modal-next { right: 10px; }
 .artwork-error { grid-column: 1 / -1; padding: 24px; text-align: center; }
 @media (min-width: 640px) { .paintings-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 1000px) { .paintings-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
