@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Write — Muzzammil Mehdi</title>
+  <link rel="stylesheet" type="text/css" href="../static/style.css?v=20260827-1">
+</head>
+<body class="flex-container editor-page">
+  <main class="editor-shell">
+    <header class="editor-header">
+      <a href="../writing/" class="editor-back">← View writing</a>
+      <h1>Write</h1>
+      <button id="logout-button" class="quiet-button" type="button" hidden>Sign out</button>
+    </header>
+
+    <section id="editor-loading" class="auth-card" aria-live="polite">
+      <p>Opening the editor…</p>
+    </section>
+
+    <section id="setup-view" class="auth-card" hidden>
+      <p class="writing-kicker">First visit</p>
+      <h2>Protect your editor</h2>
+      <p>Create the password you’ll use whenever you return to this private address.</p>
+      <form id="setup-form" class="auth-form">
+        <label for="setup-password">Password</label>
+        <input id="setup-password" name="password" type="password" minlength="12" maxlength="256" autocomplete="new-password" required>
+        <label for="setup-confirmation">Confirm password</label>
+        <input id="setup-confirmation" name="confirmation" type="password" minlength="12" maxlength="256" autocomplete="new-password" required>
+        <button class="primary-button" type="submit">Set password</button>
+      </form>
+      <p class="editor-hint">Use at least 12 characters. There is no password reset by email.</p>
+      <p id="setup-message" class="form-message" role="alert"></p>
+    </section>
+
+    <section id="login-view" class="auth-card" hidden>
+      <p class="writing-kicker">Private editor</p>
+      <h2>Welcome back</h2>
+      <form id="login-form" class="auth-form">
+        <label for="login-password">Password</label>
+        <input id="login-password" name="password" type="password" maxlength="256" autocomplete="current-password" required>
+        <button class="primary-button" type="submit">Sign in</button>
+      </form>
+      <p id="login-message" class="form-message" role="alert"></p>
+    </section>
+
+    <section id="editor-view" class="editor-workspace" hidden>
+      <aside class="editor-sidebar">
+        <button id="new-post-button" class="primary-button" type="button">+ New thought</button>
+        <div id="editor-posts" class="editor-post-list" aria-label="Saved thoughts"></div>
+      </aside>
+      <form id="post-form" class="post-editor">
+        <input id="post-id" type="hidden">
+        <div class="post-editor-heading">
+          <span id="editor-mode">New thought</span>
+          <span id="save-state" class="save-state" aria-live="polite"></span>
+        </div>
+        <label for="post-title">Title</label>
+        <input id="post-title" type="text" maxlength="160" placeholder="A title" required>
+        <label for="post-summary">Short summary <span>(optional)</span></label>
+        <textarea id="post-summary" rows="2" maxlength="320" placeholder="A line for the writing page"></textarea>
+        <label for="post-body">Thought</label>
+        <textarea id="post-body" class="post-body-input" maxlength="100000" placeholder="Start writing…" required></textarea>
+        <div class="editor-actions">
+          <label class="status-control" for="post-status">
+            <span>Visibility</span>
+            <select id="post-status">
+              <option value="draft">Draft</option>
+              <option value="published">Published</option>
+            </select>
+          </label>
+          <div class="editor-action-buttons">
+            <button id="delete-post-button" class="danger-button" type="button" hidden>Delete</button>
+            <button class="primary-button" type="submit">Save thought</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="../static/write-editor.js?v=20260827-1" defer></script>
+</body>
+</html>

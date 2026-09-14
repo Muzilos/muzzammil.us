@@ -18,6 +18,25 @@ Every listed artwork with a nonzero price automatically gets a purchase button. 
 
 The site, static artwork assets, and Stripe Checkout API deploy together as one Cloudflare Pages project named `muzzammil-us`. AWS and S3 are not used.
 
+### Writing editor
+
+Published thoughts appear at `/writing/`. The editor lives at the intentionally unlinked `/write` address. On its first visit it asks you to create a password; afterward it uses that password to open the draft and publishing interface. Passwords are derived with PBKDF2 and editor sessions use HTTP-only cookies.
+
+The writing API stores its password, sessions, drafts, and published posts in the `muzzammil-writing` D1 database exposed to Pages Functions as `WRITING_DB`. Its binding is committed in `wrangler.toml`. To initialize or update its schema, run:
+
+```sh
+npx wrangler d1 migrations apply WRITING_DB --remote
+```
+
+For local development, Wrangler uses the same binding name with a locally persisted database:
+
+```sh
+./publish staging --dry-run
+npx wrangler pages dev .cloudflare-dist
+```
+
+The application also checks the schema on each new runtime, so a first request can safely initialize an empty database. Use a different D1 database for a public staging deployment if production content must stay isolated. After the first production deployment, visit `/write` promptly to claim the editor and set its password. The hidden URL is not the security boundary—the password and server-side session are.
+
 Install the pinned deployment tool and authenticate once:
 
 ```sh

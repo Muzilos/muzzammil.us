@@ -42,6 +42,8 @@ cp -R \
   "$repository_dir/blog" \
   "$repository_dir/paintings" \
   "$repository_dir/sounds" \
+  "$repository_dir/write" \
+  "$repository_dir/writing" \
   "$repository_dir/static" \
   "$build_dir/"
 

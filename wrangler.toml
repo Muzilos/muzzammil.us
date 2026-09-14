@@ -1,3 +1,9 @@
 name = "muzzammil-us"
 pages_build_output_dir = ".cloudflare-dist"
 compatibility_date = "2026-08-24"
+
+[[d1_databases]]
+binding = "WRITING_DB"
+database_name = "muzzammil-writing"
+database_id = "b4af7f31-1b70-46a1-9c24-1641a0004d93"
+preview_database_id = "WRITING_DB"
