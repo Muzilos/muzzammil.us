@@ -45,6 +45,10 @@ cp -R \
   "$repository_dir/static" \
   "$build_dir/"
 
+# Publish the Services page without including local reference documents.
+mkdir -p "$build_dir/services"
+cp "$repository_dir/services/index.html" "$build_dir/services/"
+
 cp \
   "$repository_dir/index.html" \
   "$repository_dir/cancel.html" \

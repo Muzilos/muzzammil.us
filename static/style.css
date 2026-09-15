@@ -172,3 +172,39 @@ html {
   .artwork-modal-info h2 { padding-right: 42px; font-size: 20px; }
   .artwork-modal-buy { width: auto; align-self: stretch; }
 }
+
+/* Home uses the available viewport space; gallery styles stay independent. */
+.home-page { height: calc(100vh - 16px); height: calc(100dvh - 16px); }
+.home-page > .main { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+.home-page .title { order: 0; flex: none; margin: 10px 0 14px; font-size: clamp(24px, 4vw, 32px); }
+.home-page .bar { flex: none; }
+.home-page .featured-section { display: flex; flex-direction: column; flex: 1; min-height: 0; margin: 14px auto 0; }
+.home-page .featured-section h2 { flex: none; margin: 0 0 10px; font-size: 20px; }
+.home-page .featured-carousel { flex: 1; min-height: 0; grid-template-rows: minmax(0, 1fr) auto; }
+.home-page .carousel-viewport { height: 100%; min-height: 0; }
+.home-page .featured-slide { height: 100%; min-height: 0; padding: 12px 54px 10px; }
+.home-page .carousel-loading { height: 100%; min-height: 0; grid-row: 1 / -1; box-sizing: border-box; }
+.home-page .carousel-dots { grid-area: 2 / 1; flex-wrap: wrap; margin-top: 8px; }
+.home-page .gallery-link { flex: none; margin-top: 8px; }
+.home-page .announcements { flex: none; width: min(94%, 1120px); margin: 12px auto 4px; }
+.home-page .announcements h2 { margin: 0 0 4px; font-size: 18px; }
+.home-page .announcements p { margin: 0; line-height: 1.4; }
+@media (max-width: 480px), (max-height: 500px) {
+  .home-page .title { margin: 4px 0 8px; font-size: 24px; }
+  .home-page .featured-section { margin-top: 8px; }
+  .home-page .featured-section h2 { margin-bottom: 6px; font-size: 18px; }
+  .home-page .featured-slide { gap: 4px; padding: 6px 42px; }
+  .home-page .featured-caption { padding: 2px 0; font-size: 14px; }
+  .home-page .announcements { margin-top: 8px; font-size: 14px; }
+  .home-page .announcements h2 { font-size: 16px; }
+}
+
+/* Services page. */
+.services-content { width: min(90%, 760px); margin: 28px auto 48px; line-height: 1.65; }
+.services-content section { margin-bottom: 28px; }
+.services-content h2 { margin: 0 0 10px; font-size: 21px; }
+.services-content p { margin: 0 0 14px; }
+.services-content ul { padding-left: 22px; }
+.services-content li { margin-bottom: 8px; }
+.services-content a { overflow-wrap: anywhere; text-decoration: underline; text-underline-offset: 3px; }
+.services-content a:focus-visible { outline: 2px solid rgb(0, 200, 200); outline-offset: 4px; }

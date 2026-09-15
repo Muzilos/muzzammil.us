@@ -2,7 +2,6 @@
   "use strict";
 
   const catalogUrl = "/static/artworks.json";
-  const inquiryEmail = "youngthugnumberone@gmail.com";
   let loadedCatalog = null;
   let activeArtworkModal = null;
 
@@ -131,15 +130,11 @@
   }
 
   function inquiryUrl(artwork) {
-    const subject = `Artwork inquiry: ${artwork.title}`;
-    const body = [
-      `Hi, I'm interested in ${artwork.title}.`,
-      "",
-      `Artwork: ${artworkUrl(artwork).href}`,
-      "",
-      "Please let me know about its availability and price."
-    ].join("\n");
-    return `mailto:${inquiryEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const url = new URL("/services/", window.location.origin);
+    url.searchParams.set("artwork", artworkSlug(artwork));
+    url.searchParams.set("title", artwork.title);
+    url.hash = "contact";
+    return url.href;
   }
 
   function createInquiryLink(artwork, className) {

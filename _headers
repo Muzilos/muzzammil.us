@@ -10,6 +10,12 @@
 /paintings/index.html
   Cache-Control: public, max-age=0, must-revalidate, no-transform
 
+/services/
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/services/index.html
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
 /blog/
   Cache-Control: public, max-age=0, must-revalidate, no-transform
 

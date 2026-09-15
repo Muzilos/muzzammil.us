@@ -17,7 +17,7 @@
         "Abstract"
       ],
       "printsAvailable": false,
-      "description": "A large-format original oil painting with a luminous, layered surface and strong room presence. Presented here as a one-of-one handmade object for serious collector inquiry.",
+      "description": "Pink, lilac, and peach overlap in this oil painting, with flashes of yellow and blue cutting through. Loose shapes suggest faces and figures without quite settling into them.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/insanity.jpg",
       "file": "imported/untitled-46x40-oil-framed.jpg",
@@ -40,7 +40,7 @@
         "Sold"
       ],
       "printsAvailable": false,
-      "description": "Sold original oil painting retained as part of the current studio archive.",
+      "description": "A red figure stretches across a wide yellow space, its long arms reaching toward the edges. I painted this piece in oil on linen.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/infinite-jester.jpg",
       "file": "imported/infinite-jester-2026-oil-on-linen.jpg",
@@ -62,7 +62,7 @@
         "Abstract"
       ],
       "printsAvailable": false,
-      "description": "Original mixed-media work on black plexiglass, available by inquiry.",
+      "description": "I used oil, acrylic, and paper on black plexiglass for this piece. Sweeping white and violet marks cross the dark surface, with bright green appearing around the edges.",
       "featured": true,
       "thumbnail": "/paintings/imported/thumbs/bedouin.jpg",
       "file": "imported/bedouin-2026-black-plexiglass.jpg",
@@ -85,7 +85,7 @@
         "Night"
       ],
       "printsAvailable": false,
-      "description": "Small one-of-one New York study from the daily acrylic-on-paper series.",
+      "description": "My small acrylic study of the Brooklyn Bridge at night. Dots of yellow light trace the cables against a deep blue sky, above the dark bands of the river.",
       "featured": true,
       "thumbnail": "/paintings/imported/thumbs/brooklyn-bridge-study.jpg",
       "file": "imported/nyc-study-brooklyn-bridge.jpg",
@@ -108,7 +108,7 @@
         "Architecture"
       ],
       "printsAvailable": false,
-      "description": "Small one-of-one New York study from the daily acrylic-on-paper series.",
+      "description": "A blue tower rises behind a tangle of green branches. This is one of my small New York studies in acrylic on paper, with the building and sky sharing much of the same blue.",
       "featured": true,
       "thumbnail": "/paintings/imported/thumbs/blue-tower-study.jpg",
       "file": "imported/nyc-study-blue-tower.jpg",
@@ -123,7 +123,7 @@
       "medium": "Acrylic on paper",
       "status": "available",
       "price": 40000,
-      "image": "/paintings/imported/nyc-study-waterfront-dusk.jpg",
+      "image": "/paintings/imported/waterfront-dusk-study-scan.png",
       "collection": "nyc-studies",
       "tags": [
         "NYC Studies",
@@ -131,9 +131,9 @@
         "Waterfront"
       ],
       "printsAvailable": false,
-      "description": "Small one-of-one New York study from the daily acrylic-on-paper series.",
+      "description": "Bright blue water fills the foreground beneath a pink and gray evening sky. Across the water, small yellow lights pick out the buildings along the shore.",
       "featured": false,
-      "thumbnail": "/paintings/imported/thumbs/waterfront-dusk-study.jpg",
+      "thumbnail": "/paintings/imported/thumbs/waterfront-dusk-study-scan.jpg",
       "file": "imported/nyc-study-waterfront-dusk.jpg",
       "printPrices": null,
       "source": "mu22.us"
@@ -154,7 +154,7 @@
         "Night"
       ],
       "printsAvailable": false,
-      "description": "Small one-of-one New York study from the daily acrylic-on-paper series.",
+      "description": "Orange and yellow lights break through a dark city block beneath a broad gray sky. One of my small New York studies, painted in acrylic on paper.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/night-block-study.jpg",
       "file": "imported/nyc-study-night-block.jpg",
@@ -177,7 +177,7 @@
         "Waterfront"
       ],
       "printsAvailable": false,
-      "description": "Small one-of-one New York study from the daily acrylic-on-paper series.",
+      "description": "A dark tree trunk and its canopy frame an open stretch of river and pale blue sky. A few light strokes interrupt the deep blue water below.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/river-trees-study.jpg",
       "file": "imported/nyc-study-river-trees.jpg",
@@ -199,7 +199,7 @@
         "Abstract"
       ],
       "printsAvailable": false,
-      "description": "Small one-of-one acrylic-on-paper study.",
+      "description": "Short green marks scatter across a yellow-green surface, with traces of blue showing through. A small acrylic study where the individual brushstrokes stay easy to see.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/green-field-study.jpg",
       "file": "imported/green-field-study.jpg",
@@ -226,7 +226,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "A large mixed-media cityscape with architectural scale and a charged, dreamlike atmosphere. One of the strongest statement works in the current inventory.",
+      "description": "Fragments of newspaper show through pale layers of paint, alongside faint pink and blue lines. In this mixed-media cityscape, the street almost disappears into the surface.",
       "featured": true,
       "thumbnail": "/paintings/imported/thumbs/city-street.jpg",
       "collection": "selected-originals",
@@ -253,7 +253,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "A compact but high-impact original with a quiet, luminous presence. The surface and composition make it read as a serious handmade object rather than decorative wall filler.",
+      "description": "A yellow candle sits in a haze of gray and pink, its narrow flame reaching upward. Look closely and you can see ridges, streaks, and small breaks in the painted surface.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/candle.jpg",
       "collection": "selected-originals",
@@ -280,7 +280,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Sold work retained as part of the archive and broader record of the studio.",
+      "description": "A cat with its tail raised faces a dark, boxy machine across a quiet room. I painted the pair in oil on wood panel, using muted pinks, browns, and gray.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/cat-and-machine.jpg",
       "collection": "archive",
@@ -307,7 +307,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "A substantial oil-on-linen figure work with interior tension, scale, and visible handwork. Built for a collector looking for a painting with psychological presence.",
+      "description": "An elongated figure bends over a vacuum cleaner in a pink room. Broad curves run through the body and clothing, giving an everyday chore an unfamiliar shape.",
       "featured": true,
       "thumbnail": "/paintings/imported/thumbs/vacuuming-framed-light.jpg",
       "collection": "selected-originals",
@@ -333,7 +333,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "A large oil-on-linen painting with an atmospheric, cinematic quality. The work has the scale and mood to anchor a room.",
+      "description": "Deep blues and grays surround a curled figure. The curved brush marks follow the body and spread into the space around it, making the figure partly disappear into the room.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/its-getting-cold.jpg",
       "collection": "selected-originals",
@@ -361,7 +361,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Supporting work retained in the archive while the main presentation leads with selected originals.",
+      "description": "A cat looks out from a landscape of orange, blue, and white. Broad bands of color sweep behind it, with a pale branching shape near the center.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/heaven.jpg",
       "collection": "archive",
@@ -387,7 +387,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "A refined original on yupo paper with an unusually strong image and object quality for its scale. Selected for the premium group because it feels complete, strange, and memorable.",
+      "description": "Two dark, branching forms emerge from a pale green surface. I painted this piece in gouache on Yupo paper; small streaks and patches of color fill the space around the trees.",
       "featured": true,
       "featuredPosition": 1,
       "thumbnail": "/paintings/imported/thumbs/tree.jpg",
@@ -415,7 +415,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "A small oil work with concentrated energy and a finished, collectible presence. Included as a compact premium original rather than a study.",
+      "description": "A figure twists through green, blue, and orange, with one arm curving up across the painting. This is a small oil on canvas board, just eight by six inches.",
       "featured": true,
       "thumbnail": "/paintings/imported/thumbs/runnin.jpg",
       "collection": "selected-originals",
@@ -442,7 +442,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Archive/supporting work retained for context, not part of the selected premium front room.",
+      "description": "A pale blue-green head nearly blends into its background. A broad band crosses the eyes, while curved brush marks describe the jaw and neck.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/head-i.jpg",
       "collection": "archive",
@@ -469,7 +469,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Archive/supporting work retained for context, not part of the selected premium front room.",
+      "description": "Purple strokes loop around a head and spill out toward the edges. A yellow bowl sits below, and a long curved shape hangs above the figure.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/head-iii.jpg",
       "collection": "archive",
@@ -496,7 +496,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Archive/supporting work retained for context, not part of the selected premium front room.",
+      "description": "A green head emerges among loose blue, yellow, and pink marks. A small round object in the foreground brings those colors together beneath the face.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/head-iv.jpg",
       "collection": "archive",
@@ -524,7 +524,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Supporting work retained in the archive while the main presentation leads with selected originals.",
+      "description": "A jacket hangs over a chair in a room of ochre, brown, and white. Dark lines pick out its folds, while parts of the room remain loosely brushed in.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/Jacket.jpg",
       "collection": "archive",
@@ -550,7 +550,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Sold earlier work retained as archive context.",
+      "description": "I used blue and white throughout this small oil painting. Broad, curved strokes carry the form into the surrounding shadows, with the canvas texture still visible.",
       "thumbnail": "/paintings/imported/thumbs/cow.jpg",
       "collection": "archive",
       "file": "imported/IMG_20191111_034703_152.jpg",
@@ -577,7 +577,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Supporting work retained in the archive while the main presentation leads with selected originals.",
+      "description": "A seated figure folds forward, turning its face away. Thick strokes of ochre, pink, and dark gray follow the back, shoulders, and bent legs.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/pain.jpg",
       "collection": "archive",
@@ -605,7 +605,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Supporting work retained in the archive while the main presentation leads with selected originals.",
+      "description": "A seated figure rests beside a green plant in a loosely painted interior. Short, thick marks describe the body, with patches of canvas showing between them.",
       "featured": false,
       "thumbnail": "/paintings/imported/thumbs/sitting-figure.jpg",
       "collection": "archive",
@@ -633,7 +633,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Sold earlier work retained as archive context.",
+      "description": "A floating face in pink and purple sits against a flat yellow background. Dark eyebrows, hair, and a beard give the head its shape, while yellow shows through the eyes.",
       "thumbnail": "/paintings/imported/thumbs/mask-off.jpg",
       "collection": "archive",
       "file": "imported/IMG_20210424_130913_187.jpg",
@@ -660,7 +660,7 @@
         "Medium": 7000,
         "Large": 12000
       },
-      "description": "Earlier drawing retained as archive context.",
+      "description": "A pencil portrait built from overlapping, angular lines. Dense shading surrounds the face and jacket, while much of the paper below stays open.",
       "thumbnail": "/paintings/imported/thumbs/our-deal-leader.jpg",
       "collection": "archive",
       "file": "imported/doc02433320251113181942_0006.jpg",
