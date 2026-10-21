@@ -1,0 +1,13 @@
+name = "muzzammil-inquiry-email"
+main = "index.js"
+compatibility_date = "2026-10-20"
+workers_dev = false
+preview_urls = false
+
+[[send_email]]
+name = "NOTIFICATIONS"
+destination_address = "smm321@gmail.com"
+
+[[kv_namespaces]]
+binding = "DELIVERY_RECEIPTS"
+id = "8e44b8575cba4e3e9c0bd0ebebd404ea"

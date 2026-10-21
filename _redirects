@@ -1,0 +1,8 @@
+/studio-hours /bookings/ 301
+/studio-hours/ /bookings/ 301
+/studio-hours/index.html /bookings/ 301
+/merch /paintings/ 302
+/merch/* /paintings/ 302
+/static/merch/* /paintings/ 302
+/static/merch.js /paintings/ 302
+/static/merch.css /paintings/ 302

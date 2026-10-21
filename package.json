@@ -1,7 +1,12 @@
 {
   "name": "muzzammil-us",
   "private": true,
+  "type": "module",
   "scripts": {
+    "test": "node --test --test-isolation=none tests/*.test.mjs",
+    "stripe:sync": "node scripts/sync-stripe.mjs",
+    "stripe:sync-merch": "node scripts/sync-merch.mjs",
+    "deploy:email": "wrangler deploy --config workers/inquiry-email/wrangler.toml",
     "deploy:production": "./publish prod",
     "deploy:staging": "./publish staging",
     "preview": "wrangler pages dev"

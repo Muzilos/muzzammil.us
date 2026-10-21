@@ -16,6 +16,28 @@
 /services/index.html
   Cache-Control: public, max-age=0, must-revalidate, no-transform
 
+/about/*
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/bookings/*
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/prints/*
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/merch/*
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/inquire/*
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/success.html
+  Cache-Control: no-store
+  Referrer-Policy: no-referrer
+
+/approaches/*
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
 /blog/
   Cache-Control: public, max-age=0, must-revalidate, no-transform
 
@@ -30,3 +52,9 @@
 
 /static/*
   Cache-Control: public, max-age=14400, must-revalidate
+
+/static/merch.json
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/static/merch/*
+  Cache-Control: no-store

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Inquire — Muzzammil Mehdi</title>
+  <meta name="description" content="Ask Muzzammil Mehdi about an artwork, lessons, custom art, a studio visit, or web help. Share your project and contact details through the inquiry form.">
+  <link rel="canonical" href="https://muzzammil.us/inquire/">
+  <link rel="stylesheet" href="/static/style.css?v=20261020-simple">
+  <link rel="stylesheet" href="/static/studio.css?v=20261020-contact-choice">
+  <script type="module" src="/static/inquiry.js?v=20261020-contact-choice"></script>
+</head>
+<body class="flex-container simple-page">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="main">
+    <h1 class="title"><a href="/">Muzzammil Mehdi</a></h1>
+    <nav class="bar booking-nav" aria-label="Main navigation"><div class="pages"><a class="nav" href="/">Home</a><a class="nav" href="/paintings/">Art</a><a class="nav" href="/about/">About</a><a class="gold-button book-me" href="/bookings/"><span class="book-me-text">Book</span></a></div></nav>
+    <main id="content" class="text-page inquiry-page">
+      <h2>Inquire</h2>
+      <p id="inquiry-artwork" hidden></p>
+      <form id="inquiry-form" class="inquiry-form" novalidate>
+        <label for="inquiry-name">Name</label>
+        <input id="inquiry-name" name="name" autocomplete="name" maxlength="100" required>
+        <div class="inquiry-contact" role="group" aria-label="Contact details" aria-describedby="inquiry-contact-help">
+          <div>
+            <label for="inquiry-email">Email</label>
+            <input id="inquiry-email" name="email" type="email" autocomplete="email" maxlength="254" aria-describedby="inquiry-contact-help">
+          </div>
+          <div>
+            <label for="inquiry-phone">Phone</label>
+            <input id="inquiry-phone" name="phone" type="tel" autocomplete="tel" maxlength="40" aria-describedby="inquiry-contact-help">
+          </div>
+        </div>
+        <p id="inquiry-contact-help" class="small-note inquiry-contact-help">Email or phone required.</p>
+        <label for="inquiry-message">Message</label>
+        <textarea id="inquiry-message" name="message" rows="5" maxlength="2000" required></textarea>
+        <div class="form-trap" aria-hidden="true"><label for="inquiry-website">Website</label><input id="inquiry-website" name="website" tabindex="-1" autocomplete="off"></div>
+        <button class="gold-button" type="submit">Send inquiry</button>
+      </form>
+      <p id="inquiry-status" role="status" aria-live="polite"></p>
+      <p><a href="mailto:smm321@gmail.com">smm321@gmail.com</a></p>
+    </main>
+  </div>
+</body>
+</html>

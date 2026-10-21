@@ -1,0 +1,29 @@
+{
+  "currency": "USD",
+  "packs": [
+    {
+      "hours": 1,
+      "amount": 10000,
+      "productId": "prod_VTT5yGbP6Woazf",
+      "priceId": "price_1USW9NJfRoNnQ3sFR3eshgi9",
+      "paymentLinkId": "plink_1USW9OJfRoNnQ3sFzedEVwpi",
+      "paymentLink": "https://buy.stripe.com/4gM14o7Ck3Zs4pC3H42ZO3I"
+    },
+    {
+      "hours": 3,
+      "amount": 28500,
+      "productId": "prod_VTT53UgIX5s8Ps",
+      "priceId": "price_1USW9OJfRoNnQ3sFbZuF0C3l",
+      "paymentLinkId": "plink_1USW9OJfRoNnQ3sFTAUdb8Kr",
+      "paymentLink": "https://buy.stripe.com/fZueVe4q87bE9JW6Tg2ZO3J"
+    },
+    {
+      "hours": 5,
+      "amount": 45000,
+      "productId": "prod_VTT5732ADMTXKc",
+      "priceId": "price_1USW9PJfRoNnQ3sFyQpllcHJ",
+      "paymentLinkId": "plink_1USW9PJfRoNnQ3sFp1P6MaUl",
+      "paymentLink": "https://buy.stripe.com/eVqcN69Ks7bEbS40uS2ZO3K"
+    }
+  ]
+}

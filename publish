@@ -29,6 +29,11 @@ fi
 repository_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 build_dir="$repository_dir/.cloudflare-dist"
 
+if [[ "$environment" == "prod" && -f "$repository_dir/.staging-only" ]]; then
+  echo "This checkout contains staging-only concepts. Review them before preparing a production release." >&2
+  exit 1
+fi
+
 if [[ "$build_dir" != "$repository_dir/.cloudflare-dist" ]]; then
   echo "Refusing to build outside the expected output directory." >&2
   exit 1
@@ -43,7 +48,18 @@ cp -R \
   "$repository_dir/paintings" \
   "$repository_dir/sounds" \
   "$repository_dir/static" \
+  "$repository_dir/about" \
+  "$repository_dir/bookings" \
+  "$repository_dir/prints" \
+  "$repository_dir/inquire" \
+  "$repository_dir/approaches" \
   "$build_dir/"
+
+# Retain withdrawn shop sources locally, without publishing products or previews.
+rm -rf -- "$build_dir/static/merch"
+rm -f -- "$build_dir/static/merch.js" "$build_dir/static/merch.css"
+# Local tee concepts stay unpublished while the owner selects a printer and samples.
+printf '{"currency":"USD","available":false,"products":[]}\n' > "$build_dir/static/merch.json"
 
 # Publish the Services page without including local reference documents.
 mkdir -p "$build_dir/services"
@@ -55,7 +71,26 @@ cp \
   "$repository_dir/error.html" \
   "$repository_dir/success.html" \
   "$repository_dir/_headers" \
+  "$repository_dir/_redirects" \
   "$build_dir/"
+
+if [[ "$environment" == "staging" ]]; then
+  printf '\n/*\n  X-Robots-Tag: noindex, nofollow\n' >> "$build_dir/_headers"
+  printf 'User-agent: *\nDisallow: /\n' > "$build_dir/robots.txt"
+else
+  cp "$repository_dir/robots.txt" "$repository_dir/sitemap.xml" "$build_dir/"
+  # Staging source pages stay private to search engines; the approved release
+  # serves indexable copies of the public pages.
+  node --input-type=module - "$build_dir" <<'NODE'
+import fs from 'node:fs';
+import path from 'node:path';
+const root = process.argv[2];
+for (const file of ['index.html', 'paintings/index.html', 'about/index.html', 'services/index.html', 'bookings/index.html', 'prints/index.html', 'inquire/index.html', 'animations/index.html', 'blog/index.html', 'sounds/index.html']) {
+  const target = path.join(root, file);
+  fs.writeFileSync(target, fs.readFileSync(target, 'utf8').replace(/^[ \t]*<meta name="robots" content="noindex, nofollow">\r?\n/gm, ''));
+}
+NODE
+fi
 
 # Keep archival BMP sources in the repository without uploading the obsolete,
 # oversized copy to Pages. The catalog serves the optimized JPEG replacement.

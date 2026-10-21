@@ -1,3 +1,26 @@
 name = "muzzammil-us"
 pages_build_output_dir = ".cloudflare-dist"
-compatibility_date = "2026-08-24"
+compatibility_date = "2026-10-20"
+
+[vars]
+SITE_ENVIRONMENT = "production"
+
+[[kv_namespaces]]
+binding = "INQUIRY_LIMITS"
+id = "8e44b8575cba4e3e9c0bd0ebebd404ea"
+
+[[services]]
+binding = "INQUIRY_EMAIL"
+service = "muzzammil-inquiry-email"
+
+# Staging keeps its own inquiry counters. Secrets stay in Pages settings.
+[env.preview.vars]
+SITE_ENVIRONMENT = "staging"
+
+[[env.preview.kv_namespaces]]
+binding = "INQUIRY_LIMITS"
+id = "4ea0886376fb48ed860d13eaf705441c"
+
+[[env.preview.services]]
+binding = "INQUIRY_EMAIL"
+service = "muzzammil-inquiry-email"

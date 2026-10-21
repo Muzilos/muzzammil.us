@@ -1,0 +1,88 @@
+/* Small additions to the existing site styles. */
+.simple-page { margin: 8px; font-size: 16px; }
+.simple-page [hidden] { display: none !important; }
+.simple-page a:focus-visible, .simple-page button:focus-visible { outline: 2px solid #00c8c8; outline-offset: 4px; }
+.skip-link { position: absolute; left: 12px; top: -60px; z-index: 2000; padding: 8px; background: #000; }
+.skip-link:focus { top: 8px; }
+.home-content { display: flex; flex: 1; min-height: 0; flex-direction: column; }
+.booking-nav .pages { display: flex; flex: 1 1 0; min-width: 0; flex-wrap: wrap; align-items: center; justify-content: center; gap: clamp(8px, 2vw, 24px); }
+.booking-nav .nav { padding: 8px 12px; }
+.booking-nav .pages .nav { display: inline-flex; align-items: center; justify-content: center; padding: 8px 16px; border: 1px solid; border-radius: 5px; color: #fff; font-family: 'Courier New', monospace; font-size: 16px; font-weight: bold; line-height: 1.2; white-space: nowrap; text-decoration: none; text-shadow: 1px 1px #171006, -1px -1px #171006, 1px -1px #171006, -1px 1px #171006; }
+.booking-nav .pages .nav[href="/"] { background: #22547b; border-color: #5a8cb2; }
+.booking-nav .pages .nav[href="/paintings/"] { background: #256449; border-color: #548a66; }
+.booking-nav .pages .nav[href="/merch/"] { background: #65478d; border-color: #9582b1; }
+.booking-nav .pages .nav[href="/about/"] { background: #914747; border-color: #bb7c72; }
+.booking-nav .pages .nav:hover { color: #fff; filter: brightness(1.2); }
+.booking-nav .pages .nav[aria-current="page"] { box-shadow: inset 0 -3px 0 #ffffff66; }
+.booking-nav a:focus-visible { outline: 2px solid #00c8c8; outline-offset: 4px; }
+.text-page a { text-decoration: underline; text-underline-offset: 3px; }
+.home-page .featured-section { margin-bottom: 12px; }
+.home-page .featured-carousel { grid-template-rows: minmax(0, 1fr); }
+.home-page .carousel-footer { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; flex: none; align-items: center; gap: 12px; margin-top: 8px; }
+.home-page .carousel-spacer { grid-area: 1 / 1; visibility: hidden; pointer-events: none; }
+.home-page .carousel-footer .carousel-dots { grid-area: 1 / 2; min-width: 0; margin: 0; }
+.home-page .carousel-footer .view-all { grid-area: 1 / 3; justify-self: end; }
+.simple-page .gold-button, .simple-page .email-button, .booking-nav .gold-button { display: inline-block; flex: none; margin: 0; padding: 8px 16px; border: 1px solid #d1a544; border-radius: 5px; color: #191306; background: #c59835; font-size: 16px; font-weight: bold; line-height: 1.2; white-space: nowrap; text-decoration: none; }
+.simple-page .gold-button:hover, .booking-nav .gold-button:hover { color: #191306; background: #d5ac50; }
+.book-me-text { color: #fff; font-family: 'Courier New', monospace; text-shadow: 1px 1px #171006, -1px -1px #171006, 1px -1px #171006, -1px 1px #171006; }
+.home-page .featured-slide { min-height: 200px; }
+.home-page .carousel-dot { border: 1px solid #02c279; background: transparent; }
+.home-page .carousel-dot.active { background: #02c279; }
+.text-page { width: min(90%, 720px); margin: 28px auto 48px; line-height: 1.6; }
+.text-page h2 { font-size: 24px; margin-top: 0; }
+.text-page h3 { font-size: 19px; margin: 28px 0 10px; }
+.text-page li { margin-bottom: 6px; }
+.text-page a { overflow-wrap: anywhere; }
+.hourly-prices { width: 100%; max-width: 500px; border-collapse: collapse; margin: 24px 0; text-align: left; }
+.hourly-prices th, .hourly-prices td { padding: 12px 16px 12px 0; border-bottom: 1px solid #333; }
+.hourly-prices tbody th { font-weight: normal; }
+.hours-page .text-page { width: min(92%, 640px); }
+.hours-page .hourly-prices { max-width: none; border: 1px solid #1c536b; background: #07131c; }
+.hours-page .hourly-prices thead { color: #59e6ff; background: #102c3b; }
+.hours-page .hourly-prices th, .hours-page .hourly-prices td { padding: 16px 20px; border-bottom-color: #1c4354; }
+.hours-page .hourly-prices tbody tr:nth-child(even) { background: #0a1c28; }
+.hours-page .hourly-prices tbody tr:hover { background: #102f3d; }
+.hours-page .hourly-prices tbody th { color: #fff; font-size: 22px; font-weight: bold; white-space: nowrap; }
+.hours-page .hourly-prices tbody td:nth-child(2) { color: #f0c95c; font-size: 22px; font-weight: bold; }
+.hours-page .email-button { color: #fff; background: #164e73; border-color: #317ca1; font-family: 'Courier New', monospace; }
+.hours-page .email-button:hover { color: #fff; background: #1e648e; }
+.small-note { font-size: 14px; color: #b3a9bd; }
+.gallery-heading { width: min(94%, 1200px); margin: 28px auto; }
+.gallery-heading h2 { margin: 0 0 10px; }
+.gallery-heading p { margin: 0; line-height: 1.5; }
+.simple-page .painting-description { grid-template-columns: minmax(0, 1fr) auto; }
+.artwork-actions { display: flex; grid-column: 1 / -1; gap: 10px; }
+.artwork-actions > .buy-button { flex: 1; box-sizing: border-box; min-width: 0; width: auto; margin: 0; text-align: center; }
+.simple-page .print-button { color: #191306; background: #c59835; text-decoration: none; }
+.simple-page .print-button:hover { color: #191306; background: #d5ac50; }
+.artwork-modal-info { overflow-y: auto; }
+.inquiry-form { display: grid; gap: 8px; max-width: 560px; }
+.inquiry-form[hidden] { display: none; }
+.inquiry-contact { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.inquiry-contact > div { min-width: 0; }
+.inquiry-contact label { display: block; margin-bottom: 8px; }
+.inquiry-contact-help { margin: 0; }
+.inquiry-form input, .inquiry-form textarea, .print-choices select { box-sizing: border-box; width: 100%; padding: 10px; border: 1px solid #34627b; border-radius: 4px; color: #fff; background: #0a1c28; font: inherit; }
+.inquiry-form textarea { resize: vertical; }
+.inquiry-form .gold-button { justify-self: start; margin-top: 8px; cursor: pointer; }
+.inquiry-form .gold-button:disabled { opacity: .65; cursor: wait; }
+.form-trap { position: absolute; left: -10000px; }
+#print-order { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+#print-order[hidden] { display: none; }
+.print-preview { width: 100%; max-height: 440px; object-fit: contain; }
+.print-choices label { display: block; margin-bottom: 6px; }
+.order-price { color: #f0c95c; font-size: 26px; font-weight: bold; margin: 16px 0; }
+@media (max-width: 600px) {
+  #print-order { grid-template-columns: 1fr; gap: 16px; }
+  .print-preview { max-height: 320px; }
+  .booking-nav .pages { gap: 8px; }
+  .booking-nav .nav { padding: 8px 6px; }
+  .text-page { width: 92%; margin-top: 24px; }
+  .home-page { min-height: 600px; }
+  .home-page .featured-caption { font-size: 12px; }
+  .home-page .carousel-footer .carousel-dots { gap: 3px; }
+  .home-page .carousel-dot { width: 8px; height: 8px; }
+  .artwork-modal-info { overflow-y: visible; }
+  .hours-page .hourly-prices th, .hours-page .hourly-prices td { padding: 14px 10px; }
+  .hours-page .hourly-prices .email-button { padding: 8px 12px; }
+}

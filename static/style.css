@@ -208,3 +208,35 @@ html {
 .services-content li { margin-bottom: 8px; }
 .services-content a { overflow-wrap: anywhere; text-decoration: underline; text-underline-offset: 3px; }
 .services-content a:focus-visible { outline: 2px solid rgb(0, 200, 200); outline-offset: 4px; }
+
+/* A presentation frame that follows the artwork's own edges. */
+.artwork-framed {
+  box-sizing: border-box;
+  border: 9px solid #302a26;
+  border-color: #51473e #28221e #211d19 #40372f;
+  padding: 3px;
+  background: #15120f;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, .55), 0 0 0 1px #675b4f;
+}
+.artwork-framed-white {
+  border: 12px solid #fff;
+  padding: 0;
+  background: #fff;
+  box-shadow: none;
+}
+.painting-frame-stage {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  box-sizing: border-box;
+}
+.painting-container .painting-frame-stage img.artwork-framed {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: auto;
+  height: auto;
+  max-width: calc(100% - 40px);
+  max-height: calc(100% - 40px);
+  aspect-ratio: auto;
+}
+.artwork-modal-image.artwork-framed { width: auto; height: auto; max-width: 100%; }

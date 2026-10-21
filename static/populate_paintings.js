@@ -17,7 +17,7 @@
 
     try {
       const response = await fetch(catalogUrl, { cache: "no-cache" });
-      if (!response.ok) throw new Error(`GitHub returned ${response.status}`);
+      if (!response.ok) throw new Error(`Catalog returned ${response.status}`);
 
       const catalog = await response.json();
       validateCatalog(catalog);
@@ -129,11 +129,10 @@
     return url;
   }
 
-  function inquiryUrl(artwork) {
-    const url = new URL("/services/", window.location.origin);
-    url.searchParams.set("artwork", artworkSlug(artwork));
-    url.searchParams.set("title", artwork.title);
-    url.hash = "contact";
+  function inquiryUrl(artwork, offer) {
+    const url = new URL("/inquire/", window.location.origin);
+    url.searchParams.set("artwork", artwork.file);
+    if (offer) url.searchParams.set("offer", offer);
     return url.href;
   }
 
@@ -143,6 +142,29 @@
     link.href = inquiryUrl(artwork);
     link.textContent = "Inquire";
     link.setAttribute("aria-label", `Inquire about ${artwork.title}`);
+    return link;
+  }
+
+  function printPaymentUrl(artwork) {
+    if (typeof artwork.printPaymentLink !== "string") return null;
+    try {
+      const url = new URL(artwork.printPaymentLink);
+      return url.protocol === "https:" && url.hostname === "buy.stripe.com"
+        && !url.username && !url.password ? url.href : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function createPrintButton(artwork) {
+    const link = document.createElement("a");
+    link.className = "buy-button print-button";
+    const sizes = artwork.printOptions || [];
+    link.href = sizes.length > 1
+      ? `/prints/?artwork=${encodeURIComponent(artwork.file)}`
+      : printPaymentUrl(artwork) || inquiryUrl(artwork, "print");
+    link.textContent = "Prints";
+    link.setAttribute("aria-label", `Prints of ${artwork.title}`);
     return link;
   }
 
@@ -201,6 +223,11 @@
 
       const image = document.createElement("img");
       image.className = "art";
+      if (artwork.frame === "dark" || artwork.frame === "white") {
+        image.classList.add("artwork-framed");
+        if (artwork.frame === "white") image.classList.add("artwork-framed-white");
+        imageControl.classList.add("painting-frame-stage");
+      }
       image.src = paths.thumbnail;
       image.alt = artwork.title;
       image.loading = "lazy";
@@ -221,18 +248,21 @@
       price.className = "price-text";
       price.textContent = displayPrice(artwork, catalog.currency);
 
-      details.append(title, price);
+      const actions = document.createElement("div");
+      actions.className = "artwork-actions";
+      details.append(title, price, actions);
       if (canCheckout(artwork)) {
         const buyButton = document.createElement("button");
         buyButton.type = "button";
         buyButton.className = "buy-button";
-        buyButton.textContent = "Buy";
+        buyButton.textContent = /\(print\)/i.test(artwork.title) ? "Buy print" : "Buy original";
         buyButton.setAttribute("aria-label", `Buy ${artwork.title} for ${displayPrice(artwork, catalog.currency)}`);
         buyButton.addEventListener("click", () => initiateCheckout(card, artwork));
-        details.appendChild(buyButton);
+        actions.appendChild(buyButton);
       } else if (canInquire(artwork)) {
-        details.appendChild(createInquiryLink(artwork, "buy-button inquiry-button"));
+        actions.appendChild(createInquiryLink(artwork, "buy-button inquiry-button"));
       }
+      actions.appendChild(createPrintButton(artwork));
 
       card.append(imageControl, details);
       fragment.appendChild(card);
@@ -290,7 +320,7 @@
       if (current === 0) image.fetchPriority = "high";
       const caption = document.createElement("span");
       caption.className = "featured-caption";
-      caption.textContent = `${artwork.title} · ${displayPrice(artwork, catalog.currency)} · View details`;
+      caption.textContent = `${artwork.title} · ${displayPrice(artwork, catalog.currency)}`;
       slide.append(image, caption);
       viewport.replaceChildren(slide);
 
@@ -326,7 +356,13 @@
       markCarouselSwipe();
       show(current + 1);
     });
-    carousel.replaceChildren(previous, viewport, next, dots);
+    const navigation = document.getElementById("featured-navigation");
+    if (navigation) {
+      navigation.prepend(dots);
+      carousel.replaceChildren(previous, viewport, next);
+    } else {
+      carousel.replaceChildren(previous, viewport, next, dots);
+    }
     show(0);
 
     featured.slice(1).forEach((artwork) => {
@@ -411,6 +447,10 @@
     imageStage.className = "artwork-modal-stage";
     const image = document.createElement("img");
     image.className = "artwork-modal-image";
+    if (artwork.frame === "dark" || artwork.frame === "white") {
+      image.classList.add("artwork-framed");
+      if (artwork.frame === "white") image.classList.add("artwork-framed-white");
+    }
     image.src = paths.full;
     image.alt = artwork.title;
     image.decoding = "async";
@@ -481,8 +521,6 @@
         if (error.name !== "AbortError") console.error("Unable to share artwork:", error);
       }
     });
-    information.appendChild(shareButton);
-
     if (artwork.description) {
       const description = document.createElement("p");
       description.className = "artwork-modal-description";
@@ -490,26 +528,16 @@
       information.appendChild(description);
     }
 
-    if (artwork.printsAvailable) {
-      const printDetails = document.createElement("p");
-      printDetails.className = "artwork-modal-prints";
-      const prices = Object.entries(artwork.printPrices || {}).map(([size, printPrice]) => (
-        `${size} ${formatPrice(printPrice, currency)}`
-      ));
-      printDetails.textContent = prices.length
-        ? `Prints available: ${prices.join(" · ")}`
-        : "Prints available by inquiry.";
-      information.appendChild(printDetails);
-    }
-
+    const actions = document.createElement("div");
+    actions.className = "artwork-actions";
     if (canCheckout(artwork)) {
       const buyButton = document.createElement("button");
       buyButton.type = "button";
       buyButton.className = "buy-button artwork-modal-buy";
-      buyButton.textContent = "Buy now";
+      buyButton.textContent = /\(print\)/i.test(artwork.title) ? "Buy this print" : "Buy this original";
       buyButton.setAttribute("aria-label", `Buy ${artwork.title} for ${displayPrice(artwork, currency)}`);
       buyButton.addEventListener("click", () => initiateCheckout(modal, artwork));
-      information.appendChild(buyButton);
+      actions.appendChild(buyButton);
     } else {
       const availability = document.createElement("p");
       availability.className = "artwork-modal-availability";
@@ -522,12 +550,27 @@
             : "This piece is not currently for sale.";
       information.appendChild(availability);
       if (canInquire(artwork)) {
-        information.appendChild(createInquiryLink(
+        actions.appendChild(createInquiryLink(
           artwork,
           "buy-button inquiry-button artwork-modal-buy"
         ));
       }
     }
+
+    actions.appendChild(createPrintButton(artwork));
+    information.appendChild(actions);
+
+    const prices = artwork.printsAvailable ? Object.entries(artwork.printPrices || {})
+      .filter(([, price]) => Number.isInteger(price) && price > 0)
+      .map(([size, price]) => `${size} ${formatPrice(price, currency)}`) : [];
+    if (prices.length) {
+      const printDetails = document.createElement("p");
+      printDetails.className = "artwork-modal-prints";
+      printDetails.textContent = prices.join(" · ");
+      information.appendChild(printDetails);
+    }
+    // Keep the buying choices together; sharing is a secondary action.
+    information.appendChild(shareButton);
 
     function dismissModal(restoreFocus) {
       document.removeEventListener("keydown", handleKeydown);
@@ -551,6 +594,18 @@
     }
 
     function handleKeydown(event) {
+      if (event.key === "Tab") {
+        const controls = Array.from(panel.querySelectorAll("a[href], button:not(:disabled)"));
+        const first = controls[0];
+        const last = controls[controls.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last?.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first?.focus();
+        }
+      }
       if (event.key === "Escape") closeModal();
       if (event.key === "ArrowLeft") {
         event.preventDefault();
@@ -597,14 +652,14 @@
         body: JSON.stringify({ artwork: artwork.file })
       });
 
-      if (!response.ok) throw new Error(`Checkout returned ${response.status}`);
       const result = await response.json();
+      if (!response.ok) throw new Error(result.error || "Checkout could not be opened.");
       if (!result.url) throw new Error("Checkout did not return a URL");
       window.location.assign(result.url);
     } catch (error) {
       console.error("Error creating checkout session:", error);
       resetCheckoutContainer(container);
-      alert("There was an error opening checkout. Please try again.");
+      alert(error.message || "Checkout could not be opened. Please try again.");
     }
   }
 
