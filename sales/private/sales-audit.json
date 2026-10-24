@@ -1,0 +1,300 @@
+{
+  "summary": {
+    "checkedAt": "2026-10-20T14:21:45.005Z",
+    "account": "smm321@gmail.com",
+    "chargesEnabled": true,
+    "complete": true,
+    "paidProductionWebsiteOrders": 0,
+    "paidProductionArtOrders": 0,
+    "productionArtGrossUsd": 0,
+    "outreachPaidArtOrders": 0,
+    "outreachArtGrossUsd": 0,
+    "productionInquiries": 0,
+    "stagingInquiries": 1,
+    "accountSucceededPayments": 0,
+    "unpaidWebsiteCheckouts": 11,
+    "verifiedAvailableOriginals": 6
+  },
+  "offers": [
+    {
+      "slug": "brooklyn-bridge-study",
+      "title": "Brooklyn Bridge Study",
+      "file": "imported/nyc-study-brooklyn-bridge.jpg",
+      "medium": "Acrylic on paper",
+      "size": "5 × 8 in",
+      "year": 2026,
+      "amount": 40000,
+      "image": "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=brooklyn-bridge-study",
+      "purchaseUrl": "https://buy.stripe.com/4gM5kE09S9jM8FS91o2ZO0i",
+      "paymentLinkId": "plink_1USW7mJfRoNnQ3sFTqiLAgvA",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "blue-tower-study",
+      "title": "Blue Tower Study",
+      "file": "imported/nyc-study-blue-tower.jpg",
+      "medium": "Acrylic on paper",
+      "size": "8 × 5 in",
+      "year": 2026,
+      "amount": 40000,
+      "image": "/paintings/imported/nyc-study-blue-tower.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=blue-tower-study",
+      "purchaseUrl": "https://buy.stripe.com/4gMbJ26yg0Nge0ca5s2ZO0m",
+      "paymentLinkId": "plink_1USW7oJfRoNnQ3sF4E50drQg",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "waterfront-dusk-study",
+      "title": "Waterfront Dusk Study",
+      "file": "imported/nyc-study-waterfront-dusk.jpg",
+      "medium": "Acrylic on paper",
+      "size": "5 × 8 in",
+      "year": 2026,
+      "amount": 40000,
+      "image": "/paintings/imported/waterfront-dusk-study-scan.png",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=waterfront-dusk-study",
+      "purchaseUrl": "https://buy.stripe.com/9B68wQ9KsbrUf4g4L82ZO0q",
+      "paymentLinkId": "plink_1USW7qJfRoNnQ3sFDM0ej2rX",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "Jacket",
+      "title": "Jacket",
+      "file": "imported/09-30-2024 13.34.jpg",
+      "medium": "Oil on canvas",
+      "size": "18 × 24 in",
+      "year": 2024,
+      "amount": 150000,
+      "image": "/paintings/imported/09-30-2024 13.34.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=Jacket",
+      "purchaseUrl": "https://buy.stripe.com/cNi5kE9Ks3Zsg8k6Tg2ZO1m",
+      "paymentLinkId": "plink_1USW8HJfRoNnQ3sFnvnncGUM",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "heaven",
+      "title": "Heaven",
+      "file": "imported/heaven.jpg",
+      "medium": "Oil on linen",
+      "size": "18 × 24 in",
+      "year": 2025,
+      "amount": 250000,
+      "image": "/paintings/imported/heaven.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=heaven",
+      "purchaseUrl": "https://buy.stripe.com/aFa9AU3m49jM2hudhE2ZO0Z",
+      "paymentLinkId": "plink_1USW87JfRoNnQ3sFORwRWoHl",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "head-i",
+      "title": "Head I",
+      "file": "imported/head 1.jpg",
+      "medium": "Oil on canvas",
+      "size": "36 × 36 in",
+      "year": 2025,
+      "amount": 270000,
+      "image": "/paintings/imported/head 1.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=head-i",
+      "purchaseUrl": "https://buy.stripe.com/dRm9AU8Go2VobS4cdA2ZO1a",
+      "paymentLinkId": "plink_1USW8BJfRoNnQ3sFbHUtNW9r",
+      "verifiedAvailable": true
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "cus_VTTIJeX9Fu32Bl",
+      "name": "test",
+      "email": "test@test.com",
+      "phone": null,
+      "description": "Website inquiry — Snake (imported/snake.jpg)\n\nhi",
+      "metadata": {
+        "artwork": "imported/snake.jpg",
+        "environment": "staging",
+        "inquiry": "true",
+        "inquiry_reference": "5e0c0f22-aeff-4b11-a84e-84267101a302",
+        "site": "muzzammil.us"
+      }
+    }
+  ],
+  "paidOrders": [],
+  "sessionIdsObserved": [
+    {
+      "id": "cs_live_b1z7byegPZHx10LbJ2mGIrnM659YYiPS6otb7iMGzFaGundTh6B5yuqQ3v",
+      "status": "expired",
+      "paid": "unpaid",
+      "metadata": {
+        "environment": "production",
+        "fulfillment": "manual",
+        "item_1": "brooklyn-bridge-study-print-small:1",
+        "item_2": "calendar-2027-a4:1",
+        "item_3": "infinite-jester-tshirt-xl:1",
+        "item_4": "planner-2027-a5:1",
+        "kind": "merch",
+        "reference": "01809aed-33c6-4423-92da-052405ebe8c8",
+        "site": "muzzammil.us"
+      },
+      "clientReferenceId": "01809aed-33c6-4423-92da-052405ebe8c8",
+      "paymentLink": null
+    },
+    {
+      "id": "cs_live_b138JKA3ARdXVPYhFYNuE5sJOXMjjILoTZcLa4GYc0C80ce04adCAhiHwk",
+      "status": "expired",
+      "paid": "unpaid",
+      "metadata": {
+        "environment": "staging",
+        "fulfillment": "manual",
+        "item_1": "brooklyn-bridge-study-print-small:1",
+        "item_2": "calendar-2027-a4:1",
+        "item_3": "infinite-jester-tshirt-xl:1",
+        "item_4": "planner-2027-a5:1",
+        "kind": "merch",
+        "reference": "6847a3d8-ed6b-4e2a-b43d-7f0876dca5e5",
+        "site": "muzzammil.us"
+      },
+      "clientReferenceId": "6847a3d8-ed6b-4e2a-b43d-7f0876dca5e5",
+      "paymentLink": null
+    },
+    {
+      "id": "cs_live_b1Rl3VgOsyKJoI5fUD8mygfrQpA8ejrJToq2Alg1m0DHnpv8LcFjDVqfuK",
+      "status": "expired",
+      "paid": "unpaid",
+      "metadata": {
+        "environment": "staging",
+        "fulfillment": "manual",
+        "item_1": "brooklyn-bridge-study-print-small:1",
+        "item_2": "calendar-2027-a4:1",
+        "item_3": "infinite-jester-tshirt-xl:1",
+        "item_4": "planner-2027-a5:1",
+        "kind": "merch",
+        "reference": "cc6df0d3-6cf0-4f41-8d6d-330314b0bb6e",
+        "site": "muzzammil.us"
+      },
+      "clientReferenceId": "cc6df0d3-6cf0-4f41-8d6d-330314b0bb6e",
+      "paymentLink": null
+    },
+    {
+      "id": "cs_live_b1N9ab6MOQl2dvJWiwIDy4UOolZMBfQQvJR5gAd7tAix3lAnySyDfEDDSG",
+      "status": "expired",
+      "paid": "unpaid",
+      "metadata": {
+        "environment": "staging",
+        "fulfillment": "manual",
+        "item_1": "brooklyn-bridge-study-print-small:1",
+        "item_2": "calendar-2027-a4:1",
+        "item_3": "infinite-jester-tshirt-xl:1",
+        "item_4": "planner-2027-a5:1",
+        "kind": "merch",
+        "reference": "fea22121-e8d9-4ebc-9ca0-72e5f55177b9",
+        "site": "muzzammil.us"
+      },
+      "clientReferenceId": "fea22121-e8d9-4ebc-9ca0-72e5f55177b9",
+      "paymentLink": null
+    },
+    {
+      "id": "cs_live_b14Ppp5Dzgctl3ELyZuASJh9n3BUf08KpOcqmOAAADfQK4LRH5f0heR5Vp",
+      "status": "expired",
+      "paid": "unpaid",
+      "metadata": {
+        "environment": "staging",
+        "fulfillment": "manual",
+        "item_1": "brooklyn-bridge-study-print-small:1",
+        "item_2": "calendar-2027-a4:1",
+        "item_3": "infinite-jester-tshirt-xl:1",
+        "item_4": "planner-2027-a5:1",
+        "kind": "merch",
+        "reference": "6d57b0aa-88d1-48d7-978c-e0036a10a773",
+        "site": "muzzammil.us"
+      },
+      "clientReferenceId": "6d57b0aa-88d1-48d7-978c-e0036a10a773",
+      "paymentLink": null
+    },
+    {
+      "id": "cs_live_a1kPzkd038UKXkn4cVgrfUT9zOLUmoit6Z2cFE7L2qLFsswFIyrL7wQ5DE",
+      "status": "open",
+      "paid": "unpaid",
+      "metadata": {
+        "artwork": "imported/snake.jpg",
+        "environment": "production",
+        "kind": "print",
+        "reference": "production_muzz_print_02253141d9b16f3648c9_5263293fc202649bdc81_4000",
+        "site": "muzzammil.us",
+        "size": "Small"
+      },
+      "clientReferenceId": null,
+      "paymentLink": "plink_1USW7eJfRoNnQ3sFzuB1XEZl"
+    },
+    {
+      "id": "cs_live_a1pjxWRzfZLIty38ToEUVpw7ybObmrWwpTfFdAOIVhPBmjUskm5vHeJtcf",
+      "status": "open",
+      "paid": "unpaid",
+      "metadata": {
+        "environment": "production",
+        "hours": "3",
+        "kind": "hours",
+        "reference": "production_muzz_hours_3_fe6d3468cf5c74d8ec2a_28500",
+        "site": "muzzammil.us"
+      },
+      "clientReferenceId": null,
+      "paymentLink": "plink_1USW9OJfRoNnQ3sFTAUdb8Kr"
+    },
+    {
+      "id": "cs_live_a1hJkikFBqVSdNJdojnD4bURaq5GXOfe1Zm6Trs31pwyTnk3y2Cua1lrzN",
+      "status": "open",
+      "paid": "unpaid",
+      "metadata": {
+        "environment": "staging",
+        "hours": "1",
+        "kind": "hours",
+        "reference": "staging_muzz_hours_1_fe6d3468cf5c74d8ec2a_10000",
+        "site": "muzzammil.us"
+      },
+      "clientReferenceId": null,
+      "paymentLink": "plink_1USW9OJfRoNnQ3sFzedEVwpi"
+    },
+    {
+      "id": "cs_live_a1hFBX7El1BzU99L8L1I7qBxzxWNjfjrP0pQzX61CB4ljRvsHUjIs4bBhE",
+      "status": "open",
+      "paid": "unpaid",
+      "metadata": {
+        "artwork": "imported/snake.jpg",
+        "environment": "staging",
+        "kind": "print",
+        "reference": "staging_muzz_print_02253141d9b16f3648c9_ab80540d98d274565e35_12000",
+        "site": "muzzammil.us",
+        "size": "Large"
+      },
+      "clientReferenceId": null,
+      "paymentLink": "plink_1USW7fJfRoNnQ3sFAo7VzIZu"
+    },
+    {
+      "id": "cs_live_a1jlqxoQvg3eYZOgrXHnFYspuRThobcSUuofeElv4NRUGEizg6F2VlbOtr",
+      "status": "open",
+      "paid": "unpaid",
+      "metadata": {
+        "artwork": "imported/snake.jpg",
+        "environment": "staging",
+        "kind": "print",
+        "reference": "staging_muzz_print_02253141d9b16f3648c9_5263293fc202649bdc81_4000",
+        "site": "muzzammil.us",
+        "size": "Small"
+      },
+      "clientReferenceId": null,
+      "paymentLink": "plink_1USW7eJfRoNnQ3sFzuB1XEZl"
+    },
+    {
+      "id": "cs_live_a1kOIIKXxYoEQ0NsPWG449xMculOr5nEEZMyaWvZ6acTomHvFFdFw7fbJ2",
+      "status": "open",
+      "paid": "unpaid",
+      "metadata": {
+        "environment": "staging",
+        "hours": "3",
+        "kind": "hours",
+        "reference": "staging_muzz_hours_3_fe6d3468cf5c74d8ec2a_28500",
+        "site": "muzzammil.us"
+      },
+      "clientReferenceId": null,
+      "paymentLink": "plink_1USW9OJfRoNnQ3sFTAUdb8Kr"
+    }
+  ]
+}

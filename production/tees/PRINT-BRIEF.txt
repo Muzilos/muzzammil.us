@@ -1,0 +1,109 @@
+MUZZAMMIL MEHDI — OVERSIZED ARTWORK TEES
+Research checked: October 20, 2026
+
+RECOMMENDATION
+Start with local DTG samples. NYC Factory is my first sampling candidate for
+the intended streetwear silhouette; compare it against BKNY Printing before
+selecting a production partner. This is a capability-based recommendation,
+not an independently verified claim that either printer has superior output.
+
+NYC Factory — 1109 Grand Avenue, Unit 3, North Bergen, NJ 07047
+https://www.nycfactoryinc.com/pages/dtg-sample
+https://www.nycfactoryinc.com/dtg
+Advertises one-piece samples, in-house production, Shaka Wear and LA Apparel
+1801GD options, and oversized DTG up to 24 x 24 inches. A large press area is
+useful flexibility, not a reason to enlarge these stamps unnecessarily.
+Confirm current sample cost, exact blank/color, repeat-run consistency,
+printable area by garment size, and turnaround directly before ordering.
+
+BKNY Printing — 87 St Nicholas Avenue, Brooklyn, NY 11237
+https://www.bknyprinting.com/
+https://www.bknyprinting.com/information
+Advertises in-house DTG and screen printing, standard DTG at 14 x 16 inches
+and oversized DTG at 16 x 21 inches. Showroom visits are by appointment.
+Useful local comparison for detailed painting reproductions and checking
+fabric/print feel in person. Confirm DTG minimums and sourcing the chosen blank.
+
+Printful — on-demand alternative
+https://www.printful.com/custom/mens/t-shirts/unisex-garment-dyed-drop-shoulder-t-shirt-shaka-wear-shgdd
+Currently lists DTG, no minimums, and a 100% USA cotton Shaka Wear SHGDD:
+7.5 oz/254 gsm, oversized fit, dropped shoulders, shorter boxy length.
+This is my on-demand candidate if holding inventory is undesirable. Validate
+the exact SKU, colors, fulfillment location, size availability, and sample
+quality before connecting live sales. No integration has been configured.
+
+BLANK DIRECTION
+The intended fit is oversized by pattern, with a broad torso and dropped
+shoulders. Try the Shaka Wear SHGDD above. Another local sourcing option is
+the AS Colour Heavy Tee 5080: 8.2 oz/280 gsm, boxy relaxed fit and dropped
+shoulders; the solid colors are 100% carded cotton. These heavier surfaces
+must be tested with detailed DTG art; greater weight alone does not ensure
+sharper printing.
+https://ascolour.com/heavy-tee-5080/
+
+Los Angeles Apparel 1801GD is a lighter comparison at 6.5 oz/220 gsm,
+100% cotton, with a spacious relaxed fit. Check actual measurements against
+the baggy silhouette; it is not interchangeable with every oversized blank.
+https://losangelesapparel.net/products/the-1801-garment-dye
+
+ARTWORK AND PLACEMENT
+Use exactly these six works:
+1. Covenant
+2. Snake
+3. Adam enjoying his apple
+4. Insanity (current color-graded v3 source)
+5. Runnin'
+6. Two Trees
+
+Clean rectangular artwork stamps, centered on the front. Remove photographed
+walls, outer unpainted margins, and frame edges. Preserve composition, color,
+and brushwork. No added lettering, logos, slogans, or generative repainting.
+Ecru is the concept color, not an approved supplier color or color match.
+Portrait stamps retain portrait proportions; Two Trees retains its landscape
+composition. Final print dimensions and placement must be checked on the
+smallest offered garment. A 10–12 inch width is a sampling direction, not
+an approved production specification.
+
+PRINT METHOD
+Sample DTG first for these full-color paintings and small initial quantities.
+Ask for a soft finish, adequate cure, and no visible pretreatment stains.
+Compare a process/simulated-process screen print only when quantities justify
+separations for each distinct painting. Ask for physical examples of paintings
+or photographic designs on the actual blank rather than judging logo samples.
+
+SOURCE RESOLUTION — ACTUAL NATIVE CROPS
+Work                         Pixels          PPI at 12-inch width
+Covenant                     1320 x 1790     110
+Snake                         908 x 1225      76
+Adam enjoying his apple        565 x 779       47
+Insanity                     1094 x 1256      91
+Runnin'                      1480 x 2000     123
+Two Trees                    2160 x 1580     180
+
+These are concept assets. In particular, Adam, Snake, and Insanity need better
+captures for crisp large prints. A 12-inch-wide print at 300 ppi requires
+3600 actual pixels across after cropping. A 12 x 16 inch stamp requires
+3600 x 4800 pixels. Capture larger to leave room for squaring and cropping.
+Do not upscale these previews and describe the result as recovered detail.
+Ask the printer to confirm the required color profile and final raster format.
+The SVG files preserve existing JPEG data inside a cropped viewport; they
+are not newly vectorized paintings and are not approved printer masters.
+
+SAMPLE COMPARISON
+Use Snake to check saturated greens/yellows and Covenant to check pale tones.
+Compare the same source file, print size, placement, and blank between shops.
+Check color in daylight, fine brushwork, ink feel, collar/fit, shrinkage,
+pretreatment residue, and print change after several care-label washes.
+Approve one physical sample of every design before selling the six designs.
+Keep the approved sample and written production specifications for reorders.
+
+DELIVERABLES AND STATUS
+Store source: merch/index.html, static/merch.js, static/merch.css,
+static/merch.json. Local preview only; existing public withdrawal stays active.
+Assets: static/merch/tees/ — one generated generic blank plus six exact crops.
+Exports: production/tees/*-concept.png — six digital concept mockups.
+Review: production/tees/collection-{1440,390,320}.png.
+Crop coordinates and pixel dimensions: production/tees/crop-manifest.json.
+Image-generation tool and exact prompt: production/tees/IMAGE-PROMPT.txt.
+No vendor contacted, purchase placed, retail price set, Stripe record created,
+or merchandise checkout enabled.

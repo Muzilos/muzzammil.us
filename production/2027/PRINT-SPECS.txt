@@ -1,0 +1,36 @@
+MUZZAMMIL MEHDI — 2027 STUDIO STATIONERY
+
+Planner: planner-2027-A5-print.pdf
+Trim: 148 × 210 mm (A5 portrait)
+Media: 154 × 216 mm, including 3 mm bleed on each edge
+134 pages including front and back covers
+53 Monday–Sunday weekly spreads; 12 monthly spreads; annual overview
+Weekly coverage: 28 December 2026 through 2 January 2028
+All 365 days of 2027 appear once in the weekly section
+Print the planner double-sided at actual size, flip on the long edge
+Artwork pages are even-numbered left pages; planning pages are odd right pages
+Keep the page order. Do not add a blank first page or impose as a booklet
+18 mm inner writing margin accommodates binding; 12 mm outer writing margin
+Recommended assembly: lay-flat coil or wire binding, with separate durable covers
+
+Calendar: calendar-2027-A4-print.pdf
+Trim: 210 × 297 mm (A4 portrait)
+Media: 216 × 303 mm, including 3 mm bleed on each edge
+13 pages: illustrated cover plus January–December 2027
+Print single-sided at actual size; bind at the top
+Reserve the top 18 mm for binding; hardware must not extend below that margin
+Monday-start grids. Holidays are intentionally not marked
+
+Both files include explicit TrimBox and BleedBox values and embedded DejaVu fonts
+There are no crop marks; use the PDF TrimBox for trimming
+The artwork is placed proportionally and clipped to curated source rectangles
+Original artwork files have not been overwritten or upscaled
+Effective image resolution is at least 220 pixels per inch at the printed size
+RGB source artwork is preserved. Have the printer apply its own paper/press profile
+Check a physical proof on the chosen stock for color and show-through
+Use paper opaque enough for alternating full-color artwork and writing pages
+
+The public preview PDFs contain samples only. Supply these full print masters
+to the printer. The production/ directory is excluded from site deployment
+Source artwork rectangles, placement sizes, and the full date schedule are in
+print-manifest.json. Regenerate with scripts/build-stationery.py

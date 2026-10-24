@@ -1,0 +1,3370 @@
+{
+  "year": 2027,
+  "minimumEffectivePpi": 220,
+  "artworks": [
+    {
+      "slug": "brooklyn-bridge-study",
+      "title": "Brooklyn Bridge Study",
+      "source": "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+      "crop": [
+        0.092,
+        0.085,
+        0.908,
+        0.897
+      ],
+      "sourcePixels": [
+        1280,
+        960
+      ]
+    },
+    {
+      "slug": "head-i",
+      "title": "Head I",
+      "source": "/paintings/imported/head 1.jpg",
+      "crop": [
+        0.038,
+        0.04,
+        0.972,
+        0.972
+      ],
+      "sourcePixels": [
+        1632,
+        1632
+      ]
+    },
+    {
+      "slug": "tree",
+      "title": "Two Trees",
+      "source": "/paintings/imported/tree.jpg",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourcePixels": [
+        2200,
+        1623
+      ]
+    },
+    {
+      "slug": "covenant",
+      "title": "Covenant",
+      "source": "/paintings/imported/covenant.jpg",
+      "crop": [
+        0.134,
+        0.095,
+        0.876,
+        0.882
+      ],
+      "sourcePixels": [
+        1866,
+        2334
+      ]
+    },
+    {
+      "slug": "waterfront-dusk-study",
+      "title": "Waterfront Dusk Study",
+      "source": "/paintings/imported/waterfront-dusk-study-scan.png",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourcePixels": [
+        2452,
+        1734
+      ]
+    },
+    {
+      "slug": "city-street",
+      "title": "City Street",
+      "source": "/paintings/imported/03_City Street_2026_36 x 46in_Mixed media.jpg",
+      "crop": [
+        0.135,
+        0.108,
+        0.877,
+        0.9
+      ],
+      "sourcePixels": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "slug": "heaven",
+      "title": "Heaven",
+      "source": "/paintings/imported/heaven.jpg",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourcePixels": [
+        2200,
+        1385
+      ]
+    },
+    {
+      "slug": "runnin",
+      "title": "Runnin'",
+      "source": "/paintings/imported/Runnin_2025_8 x 6in_Oil on canvas board-EDIT.jpg",
+      "crop": [
+        0.11,
+        0.08,
+        0.9,
+        0.922
+      ],
+      "sourcePixels": [
+        1921,
+        2400
+      ]
+    },
+    {
+      "slug": "Jacket",
+      "title": "Jacket",
+      "source": "/paintings/imported/09-30-2024 13.34.jpg",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourcePixels": [
+        2200,
+        1791
+      ]
+    },
+    {
+      "slug": "candle",
+      "title": "Candle",
+      "source": "/paintings/imported/Candle_2025_12 x 12in_Mixed Media-EDIT.jpg",
+      "crop": [
+        0.153,
+        0.054,
+        0.865,
+        0.953
+      ],
+      "sourcePixels": [
+        2400,
+        1918
+      ]
+    },
+    {
+      "slug": "untitled-blue-painting",
+      "title": "Untitled (blue painting)",
+      "source": "/paintings/imported/untitled-blue-painting.jpg",
+      "crop": [
+        0.007,
+        0.008,
+        0.996,
+        0.992
+      ],
+      "sourcePixels": [
+        3708,
+        2804
+      ]
+    },
+    {
+      "slug": "its-getting-cold",
+      "title": "It's getting cold",
+      "source": "/paintings/imported/on-the-subway-train.jpg",
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourcePixels": [
+        2160,
+        1454
+      ]
+    }
+  ],
+  "planner": {
+    "file": "production/2027/planner-2027-A5-print.pdf",
+    "trimMm": [
+      148.0,
+      210.0
+    ],
+    "bleedMm": 3,
+    "pages": [
+      {
+        "number": 1,
+        "kind": "cover"
+      },
+      {
+        "number": 2,
+        "kind": "inside-cover"
+      },
+      {
+        "number": 3,
+        "kind": "year-overview"
+      },
+      {
+        "number": 4,
+        "kind": "art",
+        "month": 1,
+        "artwork": "brooklyn-bridge-study",
+        "context": "monthly"
+      },
+      {
+        "number": 5,
+        "kind": "monthly",
+        "month": 1
+      },
+      {
+        "number": 6,
+        "kind": "art",
+        "month": 2,
+        "artwork": "head-i",
+        "context": "monthly"
+      },
+      {
+        "number": 7,
+        "kind": "monthly",
+        "month": 2
+      },
+      {
+        "number": 8,
+        "kind": "art",
+        "month": 3,
+        "artwork": "tree",
+        "context": "monthly"
+      },
+      {
+        "number": 9,
+        "kind": "monthly",
+        "month": 3
+      },
+      {
+        "number": 10,
+        "kind": "art",
+        "month": 4,
+        "artwork": "covenant",
+        "context": "monthly"
+      },
+      {
+        "number": 11,
+        "kind": "monthly",
+        "month": 4
+      },
+      {
+        "number": 12,
+        "kind": "art",
+        "month": 5,
+        "artwork": "waterfront-dusk-study",
+        "context": "monthly"
+      },
+      {
+        "number": 13,
+        "kind": "monthly",
+        "month": 5
+      },
+      {
+        "number": 14,
+        "kind": "art",
+        "month": 6,
+        "artwork": "city-street",
+        "context": "monthly"
+      },
+      {
+        "number": 15,
+        "kind": "monthly",
+        "month": 6
+      },
+      {
+        "number": 16,
+        "kind": "art",
+        "month": 7,
+        "artwork": "heaven",
+        "context": "monthly"
+      },
+      {
+        "number": 17,
+        "kind": "monthly",
+        "month": 7
+      },
+      {
+        "number": 18,
+        "kind": "art",
+        "month": 8,
+        "artwork": "runnin",
+        "context": "monthly"
+      },
+      {
+        "number": 19,
+        "kind": "monthly",
+        "month": 8
+      },
+      {
+        "number": 20,
+        "kind": "art",
+        "month": 9,
+        "artwork": "Jacket",
+        "context": "monthly"
+      },
+      {
+        "number": 21,
+        "kind": "monthly",
+        "month": 9
+      },
+      {
+        "number": 22,
+        "kind": "art",
+        "month": 10,
+        "artwork": "candle",
+        "context": "monthly"
+      },
+      {
+        "number": 23,
+        "kind": "monthly",
+        "month": 10
+      },
+      {
+        "number": 24,
+        "kind": "art",
+        "month": 11,
+        "artwork": "untitled-blue-painting",
+        "context": "monthly"
+      },
+      {
+        "number": 25,
+        "kind": "monthly",
+        "month": 11
+      },
+      {
+        "number": 26,
+        "kind": "art",
+        "month": 12,
+        "artwork": "its-getting-cold",
+        "context": "monthly"
+      },
+      {
+        "number": 27,
+        "kind": "monthly",
+        "month": 12
+      },
+      {
+        "number": 28,
+        "kind": "art",
+        "month": 1,
+        "artwork": "brooklyn-bridge-study",
+        "context": "weekly"
+      },
+      {
+        "number": 29,
+        "kind": "weekly",
+        "start": "2026-12-28",
+        "dates": [
+          "2026-12-28",
+          "2026-12-29",
+          "2026-12-30",
+          "2026-12-31",
+          "2027-01-01",
+          "2027-01-02",
+          "2027-01-03"
+        ]
+      },
+      {
+        "number": 30,
+        "kind": "art",
+        "month": 1,
+        "artwork": "brooklyn-bridge-study",
+        "context": "weekly"
+      },
+      {
+        "number": 31,
+        "kind": "weekly",
+        "start": "2027-01-04",
+        "dates": [
+          "2027-01-04",
+          "2027-01-05",
+          "2027-01-06",
+          "2027-01-07",
+          "2027-01-08",
+          "2027-01-09",
+          "2027-01-10"
+        ]
+      },
+      {
+        "number": 32,
+        "kind": "art",
+        "month": 1,
+        "artwork": "brooklyn-bridge-study",
+        "context": "weekly"
+      },
+      {
+        "number": 33,
+        "kind": "weekly",
+        "start": "2027-01-11",
+        "dates": [
+          "2027-01-11",
+          "2027-01-12",
+          "2027-01-13",
+          "2027-01-14",
+          "2027-01-15",
+          "2027-01-16",
+          "2027-01-17"
+        ]
+      },
+      {
+        "number": 34,
+        "kind": "art",
+        "month": 1,
+        "artwork": "brooklyn-bridge-study",
+        "context": "weekly"
+      },
+      {
+        "number": 35,
+        "kind": "weekly",
+        "start": "2027-01-18",
+        "dates": [
+          "2027-01-18",
+          "2027-01-19",
+          "2027-01-20",
+          "2027-01-21",
+          "2027-01-22",
+          "2027-01-23",
+          "2027-01-24"
+        ]
+      },
+      {
+        "number": 36,
+        "kind": "art",
+        "month": 1,
+        "artwork": "brooklyn-bridge-study",
+        "context": "weekly"
+      },
+      {
+        "number": 37,
+        "kind": "weekly",
+        "start": "2027-01-25",
+        "dates": [
+          "2027-01-25",
+          "2027-01-26",
+          "2027-01-27",
+          "2027-01-28",
+          "2027-01-29",
+          "2027-01-30",
+          "2027-01-31"
+        ]
+      },
+      {
+        "number": 38,
+        "kind": "art",
+        "month": 2,
+        "artwork": "head-i",
+        "context": "weekly"
+      },
+      {
+        "number": 39,
+        "kind": "weekly",
+        "start": "2027-02-01",
+        "dates": [
+          "2027-02-01",
+          "2027-02-02",
+          "2027-02-03",
+          "2027-02-04",
+          "2027-02-05",
+          "2027-02-06",
+          "2027-02-07"
+        ]
+      },
+      {
+        "number": 40,
+        "kind": "art",
+        "month": 2,
+        "artwork": "head-i",
+        "context": "weekly"
+      },
+      {
+        "number": 41,
+        "kind": "weekly",
+        "start": "2027-02-08",
+        "dates": [
+          "2027-02-08",
+          "2027-02-09",
+          "2027-02-10",
+          "2027-02-11",
+          "2027-02-12",
+          "2027-02-13",
+          "2027-02-14"
+        ]
+      },
+      {
+        "number": 42,
+        "kind": "art",
+        "month": 2,
+        "artwork": "head-i",
+        "context": "weekly"
+      },
+      {
+        "number": 43,
+        "kind": "weekly",
+        "start": "2027-02-15",
+        "dates": [
+          "2027-02-15",
+          "2027-02-16",
+          "2027-02-17",
+          "2027-02-18",
+          "2027-02-19",
+          "2027-02-20",
+          "2027-02-21"
+        ]
+      },
+      {
+        "number": 44,
+        "kind": "art",
+        "month": 2,
+        "artwork": "head-i",
+        "context": "weekly"
+      },
+      {
+        "number": 45,
+        "kind": "weekly",
+        "start": "2027-02-22",
+        "dates": [
+          "2027-02-22",
+          "2027-02-23",
+          "2027-02-24",
+          "2027-02-25",
+          "2027-02-26",
+          "2027-02-27",
+          "2027-02-28"
+        ]
+      },
+      {
+        "number": 46,
+        "kind": "art",
+        "month": 3,
+        "artwork": "tree",
+        "context": "weekly"
+      },
+      {
+        "number": 47,
+        "kind": "weekly",
+        "start": "2027-03-01",
+        "dates": [
+          "2027-03-01",
+          "2027-03-02",
+          "2027-03-03",
+          "2027-03-04",
+          "2027-03-05",
+          "2027-03-06",
+          "2027-03-07"
+        ]
+      },
+      {
+        "number": 48,
+        "kind": "art",
+        "month": 3,
+        "artwork": "tree",
+        "context": "weekly"
+      },
+      {
+        "number": 49,
+        "kind": "weekly",
+        "start": "2027-03-08",
+        "dates": [
+          "2027-03-08",
+          "2027-03-09",
+          "2027-03-10",
+          "2027-03-11",
+          "2027-03-12",
+          "2027-03-13",
+          "2027-03-14"
+        ]
+      },
+      {
+        "number": 50,
+        "kind": "art",
+        "month": 3,
+        "artwork": "tree",
+        "context": "weekly"
+      },
+      {
+        "number": 51,
+        "kind": "weekly",
+        "start": "2027-03-15",
+        "dates": [
+          "2027-03-15",
+          "2027-03-16",
+          "2027-03-17",
+          "2027-03-18",
+          "2027-03-19",
+          "2027-03-20",
+          "2027-03-21"
+        ]
+      },
+      {
+        "number": 52,
+        "kind": "art",
+        "month": 3,
+        "artwork": "tree",
+        "context": "weekly"
+      },
+      {
+        "number": 53,
+        "kind": "weekly",
+        "start": "2027-03-22",
+        "dates": [
+          "2027-03-22",
+          "2027-03-23",
+          "2027-03-24",
+          "2027-03-25",
+          "2027-03-26",
+          "2027-03-27",
+          "2027-03-28"
+        ]
+      },
+      {
+        "number": 54,
+        "kind": "art",
+        "month": 4,
+        "artwork": "covenant",
+        "context": "weekly"
+      },
+      {
+        "number": 55,
+        "kind": "weekly",
+        "start": "2027-03-29",
+        "dates": [
+          "2027-03-29",
+          "2027-03-30",
+          "2027-03-31",
+          "2027-04-01",
+          "2027-04-02",
+          "2027-04-03",
+          "2027-04-04"
+        ]
+      },
+      {
+        "number": 56,
+        "kind": "art",
+        "month": 4,
+        "artwork": "covenant",
+        "context": "weekly"
+      },
+      {
+        "number": 57,
+        "kind": "weekly",
+        "start": "2027-04-05",
+        "dates": [
+          "2027-04-05",
+          "2027-04-06",
+          "2027-04-07",
+          "2027-04-08",
+          "2027-04-09",
+          "2027-04-10",
+          "2027-04-11"
+        ]
+      },
+      {
+        "number": 58,
+        "kind": "art",
+        "month": 4,
+        "artwork": "covenant",
+        "context": "weekly"
+      },
+      {
+        "number": 59,
+        "kind": "weekly",
+        "start": "2027-04-12",
+        "dates": [
+          "2027-04-12",
+          "2027-04-13",
+          "2027-04-14",
+          "2027-04-15",
+          "2027-04-16",
+          "2027-04-17",
+          "2027-04-18"
+        ]
+      },
+      {
+        "number": 60,
+        "kind": "art",
+        "month": 4,
+        "artwork": "covenant",
+        "context": "weekly"
+      },
+      {
+        "number": 61,
+        "kind": "weekly",
+        "start": "2027-04-19",
+        "dates": [
+          "2027-04-19",
+          "2027-04-20",
+          "2027-04-21",
+          "2027-04-22",
+          "2027-04-23",
+          "2027-04-24",
+          "2027-04-25"
+        ]
+      },
+      {
+        "number": 62,
+        "kind": "art",
+        "month": 4,
+        "artwork": "covenant",
+        "context": "weekly"
+      },
+      {
+        "number": 63,
+        "kind": "weekly",
+        "start": "2027-04-26",
+        "dates": [
+          "2027-04-26",
+          "2027-04-27",
+          "2027-04-28",
+          "2027-04-29",
+          "2027-04-30",
+          "2027-05-01",
+          "2027-05-02"
+        ]
+      },
+      {
+        "number": 64,
+        "kind": "art",
+        "month": 5,
+        "artwork": "waterfront-dusk-study",
+        "context": "weekly"
+      },
+      {
+        "number": 65,
+        "kind": "weekly",
+        "start": "2027-05-03",
+        "dates": [
+          "2027-05-03",
+          "2027-05-04",
+          "2027-05-05",
+          "2027-05-06",
+          "2027-05-07",
+          "2027-05-08",
+          "2027-05-09"
+        ]
+      },
+      {
+        "number": 66,
+        "kind": "art",
+        "month": 5,
+        "artwork": "waterfront-dusk-study",
+        "context": "weekly"
+      },
+      {
+        "number": 67,
+        "kind": "weekly",
+        "start": "2027-05-10",
+        "dates": [
+          "2027-05-10",
+          "2027-05-11",
+          "2027-05-12",
+          "2027-05-13",
+          "2027-05-14",
+          "2027-05-15",
+          "2027-05-16"
+        ]
+      },
+      {
+        "number": 68,
+        "kind": "art",
+        "month": 5,
+        "artwork": "waterfront-dusk-study",
+        "context": "weekly"
+      },
+      {
+        "number": 69,
+        "kind": "weekly",
+        "start": "2027-05-17",
+        "dates": [
+          "2027-05-17",
+          "2027-05-18",
+          "2027-05-19",
+          "2027-05-20",
+          "2027-05-21",
+          "2027-05-22",
+          "2027-05-23"
+        ]
+      },
+      {
+        "number": 70,
+        "kind": "art",
+        "month": 5,
+        "artwork": "waterfront-dusk-study",
+        "context": "weekly"
+      },
+      {
+        "number": 71,
+        "kind": "weekly",
+        "start": "2027-05-24",
+        "dates": [
+          "2027-05-24",
+          "2027-05-25",
+          "2027-05-26",
+          "2027-05-27",
+          "2027-05-28",
+          "2027-05-29",
+          "2027-05-30"
+        ]
+      },
+      {
+        "number": 72,
+        "kind": "art",
+        "month": 6,
+        "artwork": "city-street",
+        "context": "weekly"
+      },
+      {
+        "number": 73,
+        "kind": "weekly",
+        "start": "2027-05-31",
+        "dates": [
+          "2027-05-31",
+          "2027-06-01",
+          "2027-06-02",
+          "2027-06-03",
+          "2027-06-04",
+          "2027-06-05",
+          "2027-06-06"
+        ]
+      },
+      {
+        "number": 74,
+        "kind": "art",
+        "month": 6,
+        "artwork": "city-street",
+        "context": "weekly"
+      },
+      {
+        "number": 75,
+        "kind": "weekly",
+        "start": "2027-06-07",
+        "dates": [
+          "2027-06-07",
+          "2027-06-08",
+          "2027-06-09",
+          "2027-06-10",
+          "2027-06-11",
+          "2027-06-12",
+          "2027-06-13"
+        ]
+      },
+      {
+        "number": 76,
+        "kind": "art",
+        "month": 6,
+        "artwork": "city-street",
+        "context": "weekly"
+      },
+      {
+        "number": 77,
+        "kind": "weekly",
+        "start": "2027-06-14",
+        "dates": [
+          "2027-06-14",
+          "2027-06-15",
+          "2027-06-16",
+          "2027-06-17",
+          "2027-06-18",
+          "2027-06-19",
+          "2027-06-20"
+        ]
+      },
+      {
+        "number": 78,
+        "kind": "art",
+        "month": 6,
+        "artwork": "city-street",
+        "context": "weekly"
+      },
+      {
+        "number": 79,
+        "kind": "weekly",
+        "start": "2027-06-21",
+        "dates": [
+          "2027-06-21",
+          "2027-06-22",
+          "2027-06-23",
+          "2027-06-24",
+          "2027-06-25",
+          "2027-06-26",
+          "2027-06-27"
+        ]
+      },
+      {
+        "number": 80,
+        "kind": "art",
+        "month": 7,
+        "artwork": "heaven",
+        "context": "weekly"
+      },
+      {
+        "number": 81,
+        "kind": "weekly",
+        "start": "2027-06-28",
+        "dates": [
+          "2027-06-28",
+          "2027-06-29",
+          "2027-06-30",
+          "2027-07-01",
+          "2027-07-02",
+          "2027-07-03",
+          "2027-07-04"
+        ]
+      },
+      {
+        "number": 82,
+        "kind": "art",
+        "month": 7,
+        "artwork": "heaven",
+        "context": "weekly"
+      },
+      {
+        "number": 83,
+        "kind": "weekly",
+        "start": "2027-07-05",
+        "dates": [
+          "2027-07-05",
+          "2027-07-06",
+          "2027-07-07",
+          "2027-07-08",
+          "2027-07-09",
+          "2027-07-10",
+          "2027-07-11"
+        ]
+      },
+      {
+        "number": 84,
+        "kind": "art",
+        "month": 7,
+        "artwork": "heaven",
+        "context": "weekly"
+      },
+      {
+        "number": 85,
+        "kind": "weekly",
+        "start": "2027-07-12",
+        "dates": [
+          "2027-07-12",
+          "2027-07-13",
+          "2027-07-14",
+          "2027-07-15",
+          "2027-07-16",
+          "2027-07-17",
+          "2027-07-18"
+        ]
+      },
+      {
+        "number": 86,
+        "kind": "art",
+        "month": 7,
+        "artwork": "heaven",
+        "context": "weekly"
+      },
+      {
+        "number": 87,
+        "kind": "weekly",
+        "start": "2027-07-19",
+        "dates": [
+          "2027-07-19",
+          "2027-07-20",
+          "2027-07-21",
+          "2027-07-22",
+          "2027-07-23",
+          "2027-07-24",
+          "2027-07-25"
+        ]
+      },
+      {
+        "number": 88,
+        "kind": "art",
+        "month": 7,
+        "artwork": "heaven",
+        "context": "weekly"
+      },
+      {
+        "number": 89,
+        "kind": "weekly",
+        "start": "2027-07-26",
+        "dates": [
+          "2027-07-26",
+          "2027-07-27",
+          "2027-07-28",
+          "2027-07-29",
+          "2027-07-30",
+          "2027-07-31",
+          "2027-08-01"
+        ]
+      },
+      {
+        "number": 90,
+        "kind": "art",
+        "month": 8,
+        "artwork": "runnin",
+        "context": "weekly"
+      },
+      {
+        "number": 91,
+        "kind": "weekly",
+        "start": "2027-08-02",
+        "dates": [
+          "2027-08-02",
+          "2027-08-03",
+          "2027-08-04",
+          "2027-08-05",
+          "2027-08-06",
+          "2027-08-07",
+          "2027-08-08"
+        ]
+      },
+      {
+        "number": 92,
+        "kind": "art",
+        "month": 8,
+        "artwork": "runnin",
+        "context": "weekly"
+      },
+      {
+        "number": 93,
+        "kind": "weekly",
+        "start": "2027-08-09",
+        "dates": [
+          "2027-08-09",
+          "2027-08-10",
+          "2027-08-11",
+          "2027-08-12",
+          "2027-08-13",
+          "2027-08-14",
+          "2027-08-15"
+        ]
+      },
+      {
+        "number": 94,
+        "kind": "art",
+        "month": 8,
+        "artwork": "runnin",
+        "context": "weekly"
+      },
+      {
+        "number": 95,
+        "kind": "weekly",
+        "start": "2027-08-16",
+        "dates": [
+          "2027-08-16",
+          "2027-08-17",
+          "2027-08-18",
+          "2027-08-19",
+          "2027-08-20",
+          "2027-08-21",
+          "2027-08-22"
+        ]
+      },
+      {
+        "number": 96,
+        "kind": "art",
+        "month": 8,
+        "artwork": "runnin",
+        "context": "weekly"
+      },
+      {
+        "number": 97,
+        "kind": "weekly",
+        "start": "2027-08-23",
+        "dates": [
+          "2027-08-23",
+          "2027-08-24",
+          "2027-08-25",
+          "2027-08-26",
+          "2027-08-27",
+          "2027-08-28",
+          "2027-08-29"
+        ]
+      },
+      {
+        "number": 98,
+        "kind": "art",
+        "month": 9,
+        "artwork": "Jacket",
+        "context": "weekly"
+      },
+      {
+        "number": 99,
+        "kind": "weekly",
+        "start": "2027-08-30",
+        "dates": [
+          "2027-08-30",
+          "2027-08-31",
+          "2027-09-01",
+          "2027-09-02",
+          "2027-09-03",
+          "2027-09-04",
+          "2027-09-05"
+        ]
+      },
+      {
+        "number": 100,
+        "kind": "art",
+        "month": 9,
+        "artwork": "Jacket",
+        "context": "weekly"
+      },
+      {
+        "number": 101,
+        "kind": "weekly",
+        "start": "2027-09-06",
+        "dates": [
+          "2027-09-06",
+          "2027-09-07",
+          "2027-09-08",
+          "2027-09-09",
+          "2027-09-10",
+          "2027-09-11",
+          "2027-09-12"
+        ]
+      },
+      {
+        "number": 102,
+        "kind": "art",
+        "month": 9,
+        "artwork": "Jacket",
+        "context": "weekly"
+      },
+      {
+        "number": 103,
+        "kind": "weekly",
+        "start": "2027-09-13",
+        "dates": [
+          "2027-09-13",
+          "2027-09-14",
+          "2027-09-15",
+          "2027-09-16",
+          "2027-09-17",
+          "2027-09-18",
+          "2027-09-19"
+        ]
+      },
+      {
+        "number": 104,
+        "kind": "art",
+        "month": 9,
+        "artwork": "Jacket",
+        "context": "weekly"
+      },
+      {
+        "number": 105,
+        "kind": "weekly",
+        "start": "2027-09-20",
+        "dates": [
+          "2027-09-20",
+          "2027-09-21",
+          "2027-09-22",
+          "2027-09-23",
+          "2027-09-24",
+          "2027-09-25",
+          "2027-09-26"
+        ]
+      },
+      {
+        "number": 106,
+        "kind": "art",
+        "month": 9,
+        "artwork": "Jacket",
+        "context": "weekly"
+      },
+      {
+        "number": 107,
+        "kind": "weekly",
+        "start": "2027-09-27",
+        "dates": [
+          "2027-09-27",
+          "2027-09-28",
+          "2027-09-29",
+          "2027-09-30",
+          "2027-10-01",
+          "2027-10-02",
+          "2027-10-03"
+        ]
+      },
+      {
+        "number": 108,
+        "kind": "art",
+        "month": 10,
+        "artwork": "candle",
+        "context": "weekly"
+      },
+      {
+        "number": 109,
+        "kind": "weekly",
+        "start": "2027-10-04",
+        "dates": [
+          "2027-10-04",
+          "2027-10-05",
+          "2027-10-06",
+          "2027-10-07",
+          "2027-10-08",
+          "2027-10-09",
+          "2027-10-10"
+        ]
+      },
+      {
+        "number": 110,
+        "kind": "art",
+        "month": 10,
+        "artwork": "candle",
+        "context": "weekly"
+      },
+      {
+        "number": 111,
+        "kind": "weekly",
+        "start": "2027-10-11",
+        "dates": [
+          "2027-10-11",
+          "2027-10-12",
+          "2027-10-13",
+          "2027-10-14",
+          "2027-10-15",
+          "2027-10-16",
+          "2027-10-17"
+        ]
+      },
+      {
+        "number": 112,
+        "kind": "art",
+        "month": 10,
+        "artwork": "candle",
+        "context": "weekly"
+      },
+      {
+        "number": 113,
+        "kind": "weekly",
+        "start": "2027-10-18",
+        "dates": [
+          "2027-10-18",
+          "2027-10-19",
+          "2027-10-20",
+          "2027-10-21",
+          "2027-10-22",
+          "2027-10-23",
+          "2027-10-24"
+        ]
+      },
+      {
+        "number": 114,
+        "kind": "art",
+        "month": 10,
+        "artwork": "candle",
+        "context": "weekly"
+      },
+      {
+        "number": 115,
+        "kind": "weekly",
+        "start": "2027-10-25",
+        "dates": [
+          "2027-10-25",
+          "2027-10-26",
+          "2027-10-27",
+          "2027-10-28",
+          "2027-10-29",
+          "2027-10-30",
+          "2027-10-31"
+        ]
+      },
+      {
+        "number": 116,
+        "kind": "art",
+        "month": 11,
+        "artwork": "untitled-blue-painting",
+        "context": "weekly"
+      },
+      {
+        "number": 117,
+        "kind": "weekly",
+        "start": "2027-11-01",
+        "dates": [
+          "2027-11-01",
+          "2027-11-02",
+          "2027-11-03",
+          "2027-11-04",
+          "2027-11-05",
+          "2027-11-06",
+          "2027-11-07"
+        ]
+      },
+      {
+        "number": 118,
+        "kind": "art",
+        "month": 11,
+        "artwork": "untitled-blue-painting",
+        "context": "weekly"
+      },
+      {
+        "number": 119,
+        "kind": "weekly",
+        "start": "2027-11-08",
+        "dates": [
+          "2027-11-08",
+          "2027-11-09",
+          "2027-11-10",
+          "2027-11-11",
+          "2027-11-12",
+          "2027-11-13",
+          "2027-11-14"
+        ]
+      },
+      {
+        "number": 120,
+        "kind": "art",
+        "month": 11,
+        "artwork": "untitled-blue-painting",
+        "context": "weekly"
+      },
+      {
+        "number": 121,
+        "kind": "weekly",
+        "start": "2027-11-15",
+        "dates": [
+          "2027-11-15",
+          "2027-11-16",
+          "2027-11-17",
+          "2027-11-18",
+          "2027-11-19",
+          "2027-11-20",
+          "2027-11-21"
+        ]
+      },
+      {
+        "number": 122,
+        "kind": "art",
+        "month": 11,
+        "artwork": "untitled-blue-painting",
+        "context": "weekly"
+      },
+      {
+        "number": 123,
+        "kind": "weekly",
+        "start": "2027-11-22",
+        "dates": [
+          "2027-11-22",
+          "2027-11-23",
+          "2027-11-24",
+          "2027-11-25",
+          "2027-11-26",
+          "2027-11-27",
+          "2027-11-28"
+        ]
+      },
+      {
+        "number": 124,
+        "kind": "art",
+        "month": 12,
+        "artwork": "its-getting-cold",
+        "context": "weekly"
+      },
+      {
+        "number": 125,
+        "kind": "weekly",
+        "start": "2027-11-29",
+        "dates": [
+          "2027-11-29",
+          "2027-11-30",
+          "2027-12-01",
+          "2027-12-02",
+          "2027-12-03",
+          "2027-12-04",
+          "2027-12-05"
+        ]
+      },
+      {
+        "number": 126,
+        "kind": "art",
+        "month": 12,
+        "artwork": "its-getting-cold",
+        "context": "weekly"
+      },
+      {
+        "number": 127,
+        "kind": "weekly",
+        "start": "2027-12-06",
+        "dates": [
+          "2027-12-06",
+          "2027-12-07",
+          "2027-12-08",
+          "2027-12-09",
+          "2027-12-10",
+          "2027-12-11",
+          "2027-12-12"
+        ]
+      },
+      {
+        "number": 128,
+        "kind": "art",
+        "month": 12,
+        "artwork": "its-getting-cold",
+        "context": "weekly"
+      },
+      {
+        "number": 129,
+        "kind": "weekly",
+        "start": "2027-12-13",
+        "dates": [
+          "2027-12-13",
+          "2027-12-14",
+          "2027-12-15",
+          "2027-12-16",
+          "2027-12-17",
+          "2027-12-18",
+          "2027-12-19"
+        ]
+      },
+      {
+        "number": 130,
+        "kind": "art",
+        "month": 12,
+        "artwork": "its-getting-cold",
+        "context": "weekly"
+      },
+      {
+        "number": 131,
+        "kind": "weekly",
+        "start": "2027-12-20",
+        "dates": [
+          "2027-12-20",
+          "2027-12-21",
+          "2027-12-22",
+          "2027-12-23",
+          "2027-12-24",
+          "2027-12-25",
+          "2027-12-26"
+        ]
+      },
+      {
+        "number": 132,
+        "kind": "art",
+        "month": 12,
+        "artwork": "its-getting-cold",
+        "context": "weekly"
+      },
+      {
+        "number": 133,
+        "kind": "weekly",
+        "start": "2027-12-27",
+        "dates": [
+          "2027-12-27",
+          "2027-12-28",
+          "2027-12-29",
+          "2027-12-30",
+          "2027-12-31",
+          "2028-01-01",
+          "2028-01-02"
+        ]
+      },
+      {
+        "number": 134,
+        "kind": "back-cover"
+      }
+    ],
+    "placements": [
+      {
+        "page": 1,
+        "slug": "covenant",
+        "title": "Covenant",
+        "crop": [
+          250,
+          222,
+          1635,
+          2059
+        ],
+        "effectivePpi": 353.48,
+        "rectMm": [
+          24.24,
+          32.0,
+          99.521,
+          132.0
+        ]
+      },
+      {
+        "page": 4,
+        "slug": "brooklyn-bridge-study",
+        "title": "Brooklyn Bridge Study",
+        "crop": [
+          118,
+          82,
+          1162,
+          861
+        ],
+        "effectivePpi": 224.73,
+        "rectMm": [
+          12.0,
+          61.976,
+          118.0,
+          88.048
+        ]
+      },
+      {
+        "page": 6,
+        "slug": "head-i",
+        "title": "Head I",
+        "crop": [
+          62,
+          65,
+          1586,
+          1586
+        ],
+        "effectivePpi": 328.05,
+        "rectMm": [
+          12.0,
+          47.116,
+          118.0,
+          117.768
+        ]
+      },
+      {
+        "page": 8,
+        "slug": "tree",
+        "title": "Two Trees",
+        "crop": [
+          0,
+          0,
+          2200,
+          1623
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          62.474,
+          118.0,
+          87.052
+        ]
+      },
+      {
+        "page": 10,
+        "slug": "covenant",
+        "title": "Covenant",
+        "crop": [
+          250,
+          222,
+          1635,
+          2059
+        ],
+        "effectivePpi": 298.13,
+        "rectMm": [
+          12.0,
+          27.745,
+          118.0,
+          156.51
+        ]
+      },
+      {
+        "page": 12,
+        "slug": "waterfront-dusk-study",
+        "title": "Waterfront Dusk Study",
+        "crop": [
+          0,
+          0,
+          2452,
+          1734
+        ],
+        "effectivePpi": 527.8,
+        "rectMm": [
+          12.0,
+          64.277,
+          118.0,
+          83.447
+        ]
+      },
+      {
+        "page": 14,
+        "slug": "city-street",
+        "title": "City Street",
+        "crop": [
+          324,
+          194,
+          2105,
+          1620
+        ],
+        "effectivePpi": 383.37,
+        "rectMm": [
+          12.0,
+          58.76,
+          118.0,
+          94.48
+        ]
+      },
+      {
+        "page": 16,
+        "slug": "heaven",
+        "title": "Heaven",
+        "crop": [
+          0,
+          0,
+          2200,
+          1385
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          68.857,
+          118.0,
+          74.286
+        ]
+      },
+      {
+        "page": 18,
+        "slug": "runnin",
+        "title": "Runnin'",
+        "crop": [
+          211,
+          192,
+          1729,
+          2213
+        ],
+        "effectivePpi": 326.76,
+        "rectMm": [
+          12.0,
+          27.45,
+          118.0,
+          157.1
+        ]
+      },
+      {
+        "page": 20,
+        "slug": "Jacket",
+        "title": "Jacket",
+        "crop": [
+          0,
+          0,
+          2200,
+          1791
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          57.969,
+          118.0,
+          96.063
+        ]
+      },
+      {
+        "page": 22,
+        "slug": "candle",
+        "title": "Candle",
+        "crop": [
+          367,
+          104,
+          2076,
+          1828
+        ],
+        "effectivePpi": 367.87,
+        "rectMm": [
+          12.0,
+          46.482,
+          118.0,
+          119.036
+        ]
+      },
+      {
+        "page": 24,
+        "slug": "untitled-blue-painting",
+        "title": "Untitled (blue painting)",
+        "crop": [
+          26,
+          22,
+          3693,
+          2782
+        ],
+        "effectivePpi": 789.34,
+        "rectMm": [
+          12.0,
+          61.593,
+          118.0,
+          88.814
+        ]
+      },
+      {
+        "page": 26,
+        "slug": "its-getting-cold",
+        "title": "It's getting cold",
+        "crop": [
+          0,
+          0,
+          2160,
+          1454
+        ],
+        "effectivePpi": 464.95,
+        "rectMm": [
+          12.0,
+          66.284,
+          118.0,
+          79.431
+        ]
+      },
+      {
+        "page": 28,
+        "slug": "brooklyn-bridge-study",
+        "title": "Brooklyn Bridge Study",
+        "crop": [
+          118,
+          82,
+          1162,
+          861
+        ],
+        "effectivePpi": 224.73,
+        "rectMm": [
+          12.0,
+          61.976,
+          118.0,
+          88.048
+        ]
+      },
+      {
+        "page": 30,
+        "slug": "brooklyn-bridge-study",
+        "title": "Brooklyn Bridge Study",
+        "crop": [
+          118,
+          82,
+          1162,
+          861
+        ],
+        "effectivePpi": 224.73,
+        "rectMm": [
+          12.0,
+          61.976,
+          118.0,
+          88.048
+        ]
+      },
+      {
+        "page": 32,
+        "slug": "brooklyn-bridge-study",
+        "title": "Brooklyn Bridge Study",
+        "crop": [
+          118,
+          82,
+          1162,
+          861
+        ],
+        "effectivePpi": 224.73,
+        "rectMm": [
+          12.0,
+          61.976,
+          118.0,
+          88.048
+        ]
+      },
+      {
+        "page": 34,
+        "slug": "brooklyn-bridge-study",
+        "title": "Brooklyn Bridge Study",
+        "crop": [
+          118,
+          82,
+          1162,
+          861
+        ],
+        "effectivePpi": 224.73,
+        "rectMm": [
+          12.0,
+          61.976,
+          118.0,
+          88.048
+        ]
+      },
+      {
+        "page": 36,
+        "slug": "brooklyn-bridge-study",
+        "title": "Brooklyn Bridge Study",
+        "crop": [
+          118,
+          82,
+          1162,
+          861
+        ],
+        "effectivePpi": 224.73,
+        "rectMm": [
+          12.0,
+          61.976,
+          118.0,
+          88.048
+        ]
+      },
+      {
+        "page": 38,
+        "slug": "head-i",
+        "title": "Head I",
+        "crop": [
+          62,
+          65,
+          1586,
+          1586
+        ],
+        "effectivePpi": 328.05,
+        "rectMm": [
+          12.0,
+          47.116,
+          118.0,
+          117.768
+        ]
+      },
+      {
+        "page": 40,
+        "slug": "head-i",
+        "title": "Head I",
+        "crop": [
+          62,
+          65,
+          1586,
+          1586
+        ],
+        "effectivePpi": 328.05,
+        "rectMm": [
+          12.0,
+          47.116,
+          118.0,
+          117.768
+        ]
+      },
+      {
+        "page": 42,
+        "slug": "head-i",
+        "title": "Head I",
+        "crop": [
+          62,
+          65,
+          1586,
+          1586
+        ],
+        "effectivePpi": 328.05,
+        "rectMm": [
+          12.0,
+          47.116,
+          118.0,
+          117.768
+        ]
+      },
+      {
+        "page": 44,
+        "slug": "head-i",
+        "title": "Head I",
+        "crop": [
+          62,
+          65,
+          1586,
+          1586
+        ],
+        "effectivePpi": 328.05,
+        "rectMm": [
+          12.0,
+          47.116,
+          118.0,
+          117.768
+        ]
+      },
+      {
+        "page": 46,
+        "slug": "tree",
+        "title": "Two Trees",
+        "crop": [
+          0,
+          0,
+          2200,
+          1623
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          62.474,
+          118.0,
+          87.052
+        ]
+      },
+      {
+        "page": 48,
+        "slug": "tree",
+        "title": "Two Trees",
+        "crop": [
+          0,
+          0,
+          2200,
+          1623
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          62.474,
+          118.0,
+          87.052
+        ]
+      },
+      {
+        "page": 50,
+        "slug": "tree",
+        "title": "Two Trees",
+        "crop": [
+          0,
+          0,
+          2200,
+          1623
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          62.474,
+          118.0,
+          87.052
+        ]
+      },
+      {
+        "page": 52,
+        "slug": "tree",
+        "title": "Two Trees",
+        "crop": [
+          0,
+          0,
+          2200,
+          1623
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          62.474,
+          118.0,
+          87.052
+        ]
+      },
+      {
+        "page": 54,
+        "slug": "covenant",
+        "title": "Covenant",
+        "crop": [
+          250,
+          222,
+          1635,
+          2059
+        ],
+        "effectivePpi": 298.13,
+        "rectMm": [
+          12.0,
+          27.745,
+          118.0,
+          156.51
+        ]
+      },
+      {
+        "page": 56,
+        "slug": "covenant",
+        "title": "Covenant",
+        "crop": [
+          250,
+          222,
+          1635,
+          2059
+        ],
+        "effectivePpi": 298.13,
+        "rectMm": [
+          12.0,
+          27.745,
+          118.0,
+          156.51
+        ]
+      },
+      {
+        "page": 58,
+        "slug": "covenant",
+        "title": "Covenant",
+        "crop": [
+          250,
+          222,
+          1635,
+          2059
+        ],
+        "effectivePpi": 298.13,
+        "rectMm": [
+          12.0,
+          27.745,
+          118.0,
+          156.51
+        ]
+      },
+      {
+        "page": 60,
+        "slug": "covenant",
+        "title": "Covenant",
+        "crop": [
+          250,
+          222,
+          1635,
+          2059
+        ],
+        "effectivePpi": 298.13,
+        "rectMm": [
+          12.0,
+          27.745,
+          118.0,
+          156.51
+        ]
+      },
+      {
+        "page": 62,
+        "slug": "covenant",
+        "title": "Covenant",
+        "crop": [
+          250,
+          222,
+          1635,
+          2059
+        ],
+        "effectivePpi": 298.13,
+        "rectMm": [
+          12.0,
+          27.745,
+          118.0,
+          156.51
+        ]
+      },
+      {
+        "page": 64,
+        "slug": "waterfront-dusk-study",
+        "title": "Waterfront Dusk Study",
+        "crop": [
+          0,
+          0,
+          2452,
+          1734
+        ],
+        "effectivePpi": 527.8,
+        "rectMm": [
+          12.0,
+          64.277,
+          118.0,
+          83.447
+        ]
+      },
+      {
+        "page": 66,
+        "slug": "waterfront-dusk-study",
+        "title": "Waterfront Dusk Study",
+        "crop": [
+          0,
+          0,
+          2452,
+          1734
+        ],
+        "effectivePpi": 527.8,
+        "rectMm": [
+          12.0,
+          64.277,
+          118.0,
+          83.447
+        ]
+      },
+      {
+        "page": 68,
+        "slug": "waterfront-dusk-study",
+        "title": "Waterfront Dusk Study",
+        "crop": [
+          0,
+          0,
+          2452,
+          1734
+        ],
+        "effectivePpi": 527.8,
+        "rectMm": [
+          12.0,
+          64.277,
+          118.0,
+          83.447
+        ]
+      },
+      {
+        "page": 70,
+        "slug": "waterfront-dusk-study",
+        "title": "Waterfront Dusk Study",
+        "crop": [
+          0,
+          0,
+          2452,
+          1734
+        ],
+        "effectivePpi": 527.8,
+        "rectMm": [
+          12.0,
+          64.277,
+          118.0,
+          83.447
+        ]
+      },
+      {
+        "page": 72,
+        "slug": "city-street",
+        "title": "City Street",
+        "crop": [
+          324,
+          194,
+          2105,
+          1620
+        ],
+        "effectivePpi": 383.37,
+        "rectMm": [
+          12.0,
+          58.76,
+          118.0,
+          94.48
+        ]
+      },
+      {
+        "page": 74,
+        "slug": "city-street",
+        "title": "City Street",
+        "crop": [
+          324,
+          194,
+          2105,
+          1620
+        ],
+        "effectivePpi": 383.37,
+        "rectMm": [
+          12.0,
+          58.76,
+          118.0,
+          94.48
+        ]
+      },
+      {
+        "page": 76,
+        "slug": "city-street",
+        "title": "City Street",
+        "crop": [
+          324,
+          194,
+          2105,
+          1620
+        ],
+        "effectivePpi": 383.37,
+        "rectMm": [
+          12.0,
+          58.76,
+          118.0,
+          94.48
+        ]
+      },
+      {
+        "page": 78,
+        "slug": "city-street",
+        "title": "City Street",
+        "crop": [
+          324,
+          194,
+          2105,
+          1620
+        ],
+        "effectivePpi": 383.37,
+        "rectMm": [
+          12.0,
+          58.76,
+          118.0,
+          94.48
+        ]
+      },
+      {
+        "page": 80,
+        "slug": "heaven",
+        "title": "Heaven",
+        "crop": [
+          0,
+          0,
+          2200,
+          1385
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          68.857,
+          118.0,
+          74.286
+        ]
+      },
+      {
+        "page": 82,
+        "slug": "heaven",
+        "title": "Heaven",
+        "crop": [
+          0,
+          0,
+          2200,
+          1385
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          68.857,
+          118.0,
+          74.286
+        ]
+      },
+      {
+        "page": 84,
+        "slug": "heaven",
+        "title": "Heaven",
+        "crop": [
+          0,
+          0,
+          2200,
+          1385
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          68.857,
+          118.0,
+          74.286
+        ]
+      },
+      {
+        "page": 86,
+        "slug": "heaven",
+        "title": "Heaven",
+        "crop": [
+          0,
+          0,
+          2200,
+          1385
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          68.857,
+          118.0,
+          74.286
+        ]
+      },
+      {
+        "page": 88,
+        "slug": "heaven",
+        "title": "Heaven",
+        "crop": [
+          0,
+          0,
+          2200,
+          1385
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          68.857,
+          118.0,
+          74.286
+        ]
+      },
+      {
+        "page": 90,
+        "slug": "runnin",
+        "title": "Runnin'",
+        "crop": [
+          211,
+          192,
+          1729,
+          2213
+        ],
+        "effectivePpi": 326.76,
+        "rectMm": [
+          12.0,
+          27.45,
+          118.0,
+          157.1
+        ]
+      },
+      {
+        "page": 92,
+        "slug": "runnin",
+        "title": "Runnin'",
+        "crop": [
+          211,
+          192,
+          1729,
+          2213
+        ],
+        "effectivePpi": 326.76,
+        "rectMm": [
+          12.0,
+          27.45,
+          118.0,
+          157.1
+        ]
+      },
+      {
+        "page": 94,
+        "slug": "runnin",
+        "title": "Runnin'",
+        "crop": [
+          211,
+          192,
+          1729,
+          2213
+        ],
+        "effectivePpi": 326.76,
+        "rectMm": [
+          12.0,
+          27.45,
+          118.0,
+          157.1
+        ]
+      },
+      {
+        "page": 96,
+        "slug": "runnin",
+        "title": "Runnin'",
+        "crop": [
+          211,
+          192,
+          1729,
+          2213
+        ],
+        "effectivePpi": 326.76,
+        "rectMm": [
+          12.0,
+          27.45,
+          118.0,
+          157.1
+        ]
+      },
+      {
+        "page": 98,
+        "slug": "Jacket",
+        "title": "Jacket",
+        "crop": [
+          0,
+          0,
+          2200,
+          1791
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          57.969,
+          118.0,
+          96.063
+        ]
+      },
+      {
+        "page": 100,
+        "slug": "Jacket",
+        "title": "Jacket",
+        "crop": [
+          0,
+          0,
+          2200,
+          1791
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          57.969,
+          118.0,
+          96.063
+        ]
+      },
+      {
+        "page": 102,
+        "slug": "Jacket",
+        "title": "Jacket",
+        "crop": [
+          0,
+          0,
+          2200,
+          1791
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          57.969,
+          118.0,
+          96.063
+        ]
+      },
+      {
+        "page": 104,
+        "slug": "Jacket",
+        "title": "Jacket",
+        "crop": [
+          0,
+          0,
+          2200,
+          1791
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          57.969,
+          118.0,
+          96.063
+        ]
+      },
+      {
+        "page": 106,
+        "slug": "Jacket",
+        "title": "Jacket",
+        "crop": [
+          0,
+          0,
+          2200,
+          1791
+        ],
+        "effectivePpi": 473.56,
+        "rectMm": [
+          12.0,
+          57.969,
+          118.0,
+          96.063
+        ]
+      },
+      {
+        "page": 108,
+        "slug": "candle",
+        "title": "Candle",
+        "crop": [
+          367,
+          104,
+          2076,
+          1828
+        ],
+        "effectivePpi": 367.87,
+        "rectMm": [
+          12.0,
+          46.482,
+          118.0,
+          119.036
+        ]
+      },
+      {
+        "page": 110,
+        "slug": "candle",
+        "title": "Candle",
+        "crop": [
+          367,
+          104,
+          2076,
+          1828
+        ],
+        "effectivePpi": 367.87,
+        "rectMm": [
+          12.0,
+          46.482,
+          118.0,
+          119.036
+        ]
+      },
+      {
+        "page": 112,
+        "slug": "candle",
+        "title": "Candle",
+        "crop": [
+          367,
+          104,
+          2076,
+          1828
+        ],
+        "effectivePpi": 367.87,
+        "rectMm": [
+          12.0,
+          46.482,
+          118.0,
+          119.036
+        ]
+      },
+      {
+        "page": 114,
+        "slug": "candle",
+        "title": "Candle",
+        "crop": [
+          367,
+          104,
+          2076,
+          1828
+        ],
+        "effectivePpi": 367.87,
+        "rectMm": [
+          12.0,
+          46.482,
+          118.0,
+          119.036
+        ]
+      },
+      {
+        "page": 116,
+        "slug": "untitled-blue-painting",
+        "title": "Untitled (blue painting)",
+        "crop": [
+          26,
+          22,
+          3693,
+          2782
+        ],
+        "effectivePpi": 789.34,
+        "rectMm": [
+          12.0,
+          61.593,
+          118.0,
+          88.814
+        ]
+      },
+      {
+        "page": 118,
+        "slug": "untitled-blue-painting",
+        "title": "Untitled (blue painting)",
+        "crop": [
+          26,
+          22,
+          3693,
+          2782
+        ],
+        "effectivePpi": 789.34,
+        "rectMm": [
+          12.0,
+          61.593,
+          118.0,
+          88.814
+        ]
+      },
+      {
+        "page": 120,
+        "slug": "untitled-blue-painting",
+        "title": "Untitled (blue painting)",
+        "crop": [
+          26,
+          22,
+          3693,
+          2782
+        ],
+        "effectivePpi": 789.34,
+        "rectMm": [
+          12.0,
+          61.593,
+          118.0,
+          88.814
+        ]
+      },
+      {
+        "page": 122,
+        "slug": "untitled-blue-painting",
+        "title": "Untitled (blue painting)",
+        "crop": [
+          26,
+          22,
+          3693,
+          2782
+        ],
+        "effectivePpi": 789.34,
+        "rectMm": [
+          12.0,
+          61.593,
+          118.0,
+          88.814
+        ]
+      },
+      {
+        "page": 124,
+        "slug": "its-getting-cold",
+        "title": "It's getting cold",
+        "crop": [
+          0,
+          0,
+          2160,
+          1454
+        ],
+        "effectivePpi": 464.95,
+        "rectMm": [
+          12.0,
+          66.284,
+          118.0,
+          79.431
+        ]
+      },
+      {
+        "page": 126,
+        "slug": "its-getting-cold",
+        "title": "It's getting cold",
+        "crop": [
+          0,
+          0,
+          2160,
+          1454
+        ],
+        "effectivePpi": 464.95,
+        "rectMm": [
+          12.0,
+          66.284,
+          118.0,
+          79.431
+        ]
+      },
+      {
+        "page": 128,
+        "slug": "its-getting-cold",
+        "title": "It's getting cold",
+        "crop": [
+          0,
+          0,
+          2160,
+          1454
+        ],
+        "effectivePpi": 464.95,
+        "rectMm": [
+          12.0,
+          66.284,
+          118.0,
+          79.431
+        ]
+      },
+      {
+        "page": 130,
+        "slug": "its-getting-cold",
+        "title": "It's getting cold",
+        "crop": [
+          0,
+          0,
+          2160,
+          1454
+        ],
+        "effectivePpi": 464.95,
+        "rectMm": [
+          12.0,
+          66.284,
+          118.0,
+          79.431
+        ]
+      },
+      {
+        "page": 132,
+        "slug": "its-getting-cold",
+        "title": "It's getting cold",
+        "crop": [
+          0,
+          0,
+          2160,
+          1454
+        ],
+        "effectivePpi": 464.95,
+        "rectMm": [
+          12.0,
+          66.284,
+          118.0,
+          79.431
+        ]
+      }
+    ]
+  },
+  "calendar": {
+    "file": "production/2027/calendar-2027-A4-print.pdf",
+    "trimMm": [
+      210.0,
+      297.0
+    ],
+    "bleedMm": 3,
+    "pages": [
+      {
+        "number": 1,
+        "kind": "cover"
+      },
+      {
+        "number": 2,
+        "kind": "calendar-month",
+        "month": 1,
+        "dates": [
+          "2027-01-01",
+          "2027-01-02",
+          "2027-01-03",
+          "2027-01-04",
+          "2027-01-05",
+          "2027-01-06",
+          "2027-01-07",
+          "2027-01-08",
+          "2027-01-09",
+          "2027-01-10",
+          "2027-01-11",
+          "2027-01-12",
+          "2027-01-13",
+          "2027-01-14",
+          "2027-01-15",
+          "2027-01-16",
+          "2027-01-17",
+          "2027-01-18",
+          "2027-01-19",
+          "2027-01-20",
+          "2027-01-21",
+          "2027-01-22",
+          "2027-01-23",
+          "2027-01-24",
+          "2027-01-25",
+          "2027-01-26",
+          "2027-01-27",
+          "2027-01-28",
+          "2027-01-29",
+          "2027-01-30",
+          "2027-01-31"
+        ],
+        "artwork": "brooklyn-bridge-study"
+      },
+      {
+        "number": 3,
+        "kind": "calendar-month",
+        "month": 2,
+        "dates": [
+          "2027-02-01",
+          "2027-02-02",
+          "2027-02-03",
+          "2027-02-04",
+          "2027-02-05",
+          "2027-02-06",
+          "2027-02-07",
+          "2027-02-08",
+          "2027-02-09",
+          "2027-02-10",
+          "2027-02-11",
+          "2027-02-12",
+          "2027-02-13",
+          "2027-02-14",
+          "2027-02-15",
+          "2027-02-16",
+          "2027-02-17",
+          "2027-02-18",
+          "2027-02-19",
+          "2027-02-20",
+          "2027-02-21",
+          "2027-02-22",
+          "2027-02-23",
+          "2027-02-24",
+          "2027-02-25",
+          "2027-02-26",
+          "2027-02-27",
+          "2027-02-28"
+        ],
+        "artwork": "head-i"
+      },
+      {
+        "number": 4,
+        "kind": "calendar-month",
+        "month": 3,
+        "dates": [
+          "2027-03-01",
+          "2027-03-02",
+          "2027-03-03",
+          "2027-03-04",
+          "2027-03-05",
+          "2027-03-06",
+          "2027-03-07",
+          "2027-03-08",
+          "2027-03-09",
+          "2027-03-10",
+          "2027-03-11",
+          "2027-03-12",
+          "2027-03-13",
+          "2027-03-14",
+          "2027-03-15",
+          "2027-03-16",
+          "2027-03-17",
+          "2027-03-18",
+          "2027-03-19",
+          "2027-03-20",
+          "2027-03-21",
+          "2027-03-22",
+          "2027-03-23",
+          "2027-03-24",
+          "2027-03-25",
+          "2027-03-26",
+          "2027-03-27",
+          "2027-03-28",
+          "2027-03-29",
+          "2027-03-30",
+          "2027-03-31"
+        ],
+        "artwork": "tree"
+      },
+      {
+        "number": 5,
+        "kind": "calendar-month",
+        "month": 4,
+        "dates": [
+          "2027-04-01",
+          "2027-04-02",
+          "2027-04-03",
+          "2027-04-04",
+          "2027-04-05",
+          "2027-04-06",
+          "2027-04-07",
+          "2027-04-08",
+          "2027-04-09",
+          "2027-04-10",
+          "2027-04-11",
+          "2027-04-12",
+          "2027-04-13",
+          "2027-04-14",
+          "2027-04-15",
+          "2027-04-16",
+          "2027-04-17",
+          "2027-04-18",
+          "2027-04-19",
+          "2027-04-20",
+          "2027-04-21",
+          "2027-04-22",
+          "2027-04-23",
+          "2027-04-24",
+          "2027-04-25",
+          "2027-04-26",
+          "2027-04-27",
+          "2027-04-28",
+          "2027-04-29",
+          "2027-04-30"
+        ],
+        "artwork": "covenant"
+      },
+      {
+        "number": 6,
+        "kind": "calendar-month",
+        "month": 5,
+        "dates": [
+          "2027-05-01",
+          "2027-05-02",
+          "2027-05-03",
+          "2027-05-04",
+          "2027-05-05",
+          "2027-05-06",
+          "2027-05-07",
+          "2027-05-08",
+          "2027-05-09",
+          "2027-05-10",
+          "2027-05-11",
+          "2027-05-12",
+          "2027-05-13",
+          "2027-05-14",
+          "2027-05-15",
+          "2027-05-16",
+          "2027-05-17",
+          "2027-05-18",
+          "2027-05-19",
+          "2027-05-20",
+          "2027-05-21",
+          "2027-05-22",
+          "2027-05-23",
+          "2027-05-24",
+          "2027-05-25",
+          "2027-05-26",
+          "2027-05-27",
+          "2027-05-28",
+          "2027-05-29",
+          "2027-05-30",
+          "2027-05-31"
+        ],
+        "artwork": "waterfront-dusk-study"
+      },
+      {
+        "number": 7,
+        "kind": "calendar-month",
+        "month": 6,
+        "dates": [
+          "2027-06-01",
+          "2027-06-02",
+          "2027-06-03",
+          "2027-06-04",
+          "2027-06-05",
+          "2027-06-06",
+          "2027-06-07",
+          "2027-06-08",
+          "2027-06-09",
+          "2027-06-10",
+          "2027-06-11",
+          "2027-06-12",
+          "2027-06-13",
+          "2027-06-14",
+          "2027-06-15",
+          "2027-06-16",
+          "2027-06-17",
+          "2027-06-18",
+          "2027-06-19",
+          "2027-06-20",
+          "2027-06-21",
+          "2027-06-22",
+          "2027-06-23",
+          "2027-06-24",
+          "2027-06-25",
+          "2027-06-26",
+          "2027-06-27",
+          "2027-06-28",
+          "2027-06-29",
+          "2027-06-30"
+        ],
+        "artwork": "city-street"
+      },
+      {
+        "number": 8,
+        "kind": "calendar-month",
+        "month": 7,
+        "dates": [
+          "2027-07-01",
+          "2027-07-02",
+          "2027-07-03",
+          "2027-07-04",
+          "2027-07-05",
+          "2027-07-06",
+          "2027-07-07",
+          "2027-07-08",
+          "2027-07-09",
+          "2027-07-10",
+          "2027-07-11",
+          "2027-07-12",
+          "2027-07-13",
+          "2027-07-14",
+          "2027-07-15",
+          "2027-07-16",
+          "2027-07-17",
+          "2027-07-18",
+          "2027-07-19",
+          "2027-07-20",
+          "2027-07-21",
+          "2027-07-22",
+          "2027-07-23",
+          "2027-07-24",
+          "2027-07-25",
+          "2027-07-26",
+          "2027-07-27",
+          "2027-07-28",
+          "2027-07-29",
+          "2027-07-30",
+          "2027-07-31"
+        ],
+        "artwork": "heaven"
+      },
+      {
+        "number": 9,
+        "kind": "calendar-month",
+        "month": 8,
+        "dates": [
+          "2027-08-01",
+          "2027-08-02",
+          "2027-08-03",
+          "2027-08-04",
+          "2027-08-05",
+          "2027-08-06",
+          "2027-08-07",
+          "2027-08-08",
+          "2027-08-09",
+          "2027-08-10",
+          "2027-08-11",
+          "2027-08-12",
+          "2027-08-13",
+          "2027-08-14",
+          "2027-08-15",
+          "2027-08-16",
+          "2027-08-17",
+          "2027-08-18",
+          "2027-08-19",
+          "2027-08-20",
+          "2027-08-21",
+          "2027-08-22",
+          "2027-08-23",
+          "2027-08-24",
+          "2027-08-25",
+          "2027-08-26",
+          "2027-08-27",
+          "2027-08-28",
+          "2027-08-29",
+          "2027-08-30",
+          "2027-08-31"
+        ],
+        "artwork": "runnin"
+      },
+      {
+        "number": 10,
+        "kind": "calendar-month",
+        "month": 9,
+        "dates": [
+          "2027-09-01",
+          "2027-09-02",
+          "2027-09-03",
+          "2027-09-04",
+          "2027-09-05",
+          "2027-09-06",
+          "2027-09-07",
+          "2027-09-08",
+          "2027-09-09",
+          "2027-09-10",
+          "2027-09-11",
+          "2027-09-12",
+          "2027-09-13",
+          "2027-09-14",
+          "2027-09-15",
+          "2027-09-16",
+          "2027-09-17",
+          "2027-09-18",
+          "2027-09-19",
+          "2027-09-20",
+          "2027-09-21",
+          "2027-09-22",
+          "2027-09-23",
+          "2027-09-24",
+          "2027-09-25",
+          "2027-09-26",
+          "2027-09-27",
+          "2027-09-28",
+          "2027-09-29",
+          "2027-09-30"
+        ],
+        "artwork": "Jacket"
+      },
+      {
+        "number": 11,
+        "kind": "calendar-month",
+        "month": 10,
+        "dates": [
+          "2027-10-01",
+          "2027-10-02",
+          "2027-10-03",
+          "2027-10-04",
+          "2027-10-05",
+          "2027-10-06",
+          "2027-10-07",
+          "2027-10-08",
+          "2027-10-09",
+          "2027-10-10",
+          "2027-10-11",
+          "2027-10-12",
+          "2027-10-13",
+          "2027-10-14",
+          "2027-10-15",
+          "2027-10-16",
+          "2027-10-17",
+          "2027-10-18",
+          "2027-10-19",
+          "2027-10-20",
+          "2027-10-21",
+          "2027-10-22",
+          "2027-10-23",
+          "2027-10-24",
+          "2027-10-25",
+          "2027-10-26",
+          "2027-10-27",
+          "2027-10-28",
+          "2027-10-29",
+          "2027-10-30",
+          "2027-10-31"
+        ],
+        "artwork": "candle"
+      },
+      {
+        "number": 12,
+        "kind": "calendar-month",
+        "month": 11,
+        "dates": [
+          "2027-11-01",
+          "2027-11-02",
+          "2027-11-03",
+          "2027-11-04",
+          "2027-11-05",
+          "2027-11-06",
+          "2027-11-07",
+          "2027-11-08",
+          "2027-11-09",
+          "2027-11-10",
+          "2027-11-11",
+          "2027-11-12",
+          "2027-11-13",
+          "2027-11-14",
+          "2027-11-15",
+          "2027-11-16",
+          "2027-11-17",
+          "2027-11-18",
+          "2027-11-19",
+          "2027-11-20",
+          "2027-11-21",
+          "2027-11-22",
+          "2027-11-23",
+          "2027-11-24",
+          "2027-11-25",
+          "2027-11-26",
+          "2027-11-27",
+          "2027-11-28",
+          "2027-11-29",
+          "2027-11-30"
+        ],
+        "artwork": "untitled-blue-painting"
+      },
+      {
+        "number": 13,
+        "kind": "calendar-month",
+        "month": 12,
+        "dates": [
+          "2027-12-01",
+          "2027-12-02",
+          "2027-12-03",
+          "2027-12-04",
+          "2027-12-05",
+          "2027-12-06",
+          "2027-12-07",
+          "2027-12-08",
+          "2027-12-09",
+          "2027-12-10",
+          "2027-12-11",
+          "2027-12-12",
+          "2027-12-13",
+          "2027-12-14",
+          "2027-12-15",
+          "2027-12-16",
+          "2027-12-17",
+          "2027-12-18",
+          "2027-12-19",
+          "2027-12-20",
+          "2027-12-21",
+          "2027-12-22",
+          "2027-12-23",
+          "2027-12-24",
+          "2027-12-25",
+          "2027-12-26",
+          "2027-12-27",
+          "2027-12-28",
+          "2027-12-29",
+          "2027-12-30",
+          "2027-12-31"
+        ],
+        "artwork": "its-getting-cold"
+      }
+    ],
+    "placements": [
+      {
+        "page": 1,
+        "slug": "waterfront-dusk-study",
+        "title": "Waterfront Dusk Study",
+        "crop": [
+          0,
+          0,
+          2452,
+          1734
+        ],
+        "effectivePpi": 349.89,
+        "rectMm": [
+          16.0,
+          76.561,
+          178.0,
+          125.878
+        ]
+      },
+      {
+        "page": 2,
+        "slug": "brooklyn-bridge-study",
+        "title": "Brooklyn Bridge Study",
+        "crop": [
+          118,
+          82,
+          1162,
+          861
+        ],
+        "effectivePpi": 220.0,
+        "rectMm": [
+          44.733,
+          157.53,
+          120.535,
+          89.939
+        ]
+      },
+      {
+        "page": 3,
+        "slug": "head-i",
+        "title": "Head I",
+        "crop": [
+          62,
+          65,
+          1586,
+          1586
+        ],
+        "effectivePpi": 319.28,
+        "rectMm": [
+          44.381,
+          142.0,
+          121.239,
+          121.0
+        ]
+      },
+      {
+        "page": 4,
+        "slug": "tree",
+        "title": "Two Trees",
+        "crop": [
+          0,
+          0,
+          2200,
+          1623
+        ],
+        "effectivePpi": 340.7,
+        "rectMm": [
+          22.991,
+          142.0,
+          164.017,
+          121.0
+        ]
+      },
+      {
+        "page": 5,
+        "slug": "covenant",
+        "title": "Covenant",
+        "crop": [
+          250,
+          222,
+          1635,
+          2059
+        ],
+        "effectivePpi": 385.62,
+        "rectMm": [
+          59.386,
+          142.0,
+          91.228,
+          121.0
+        ]
+      },
+      {
+        "page": 6,
+        "slug": "waterfront-dusk-study",
+        "title": "Waterfront Dusk Study",
+        "crop": [
+          0,
+          0,
+          2452,
+          1734
+        ],
+        "effectivePpi": 364.0,
+        "rectMm": [
+          19.449,
+          142.0,
+          171.103,
+          121.0
+        ]
+      },
+      {
+        "page": 7,
+        "slug": "city-street",
+        "title": "City Street",
+        "crop": [
+          324,
+          194,
+          2105,
+          1620
+        ],
+        "effectivePpi": 299.34,
+        "rectMm": [
+          29.439,
+          142.0,
+          151.123,
+          121.0
+        ]
+      },
+      {
+        "page": 8,
+        "slug": "heaven",
+        "title": "Heaven",
+        "crop": [
+          0,
+          0,
+          2200,
+          1385
+        ],
+        "effectivePpi": 313.93,
+        "rectMm": [
+          16.0,
+          146.47,
+          178.0,
+          112.059
+        ]
+      },
+      {
+        "page": 9,
+        "slug": "runnin",
+        "title": "Runnin'",
+        "crop": [
+          211,
+          192,
+          1729,
+          2213
+        ],
+        "effectivePpi": 424.24,
+        "rectMm": [
+          59.558,
+          142.0,
+          90.885,
+          121.0
+        ]
+      },
+      {
+        "page": 10,
+        "slug": "Jacket",
+        "title": "Jacket",
+        "crop": [
+          0,
+          0,
+          2200,
+          1791
+        ],
+        "effectivePpi": 375.96,
+        "rectMm": [
+          30.684,
+          142.0,
+          148.632,
+          121.0
+        ]
+      },
+      {
+        "page": 11,
+        "slug": "candle",
+        "title": "Candle",
+        "crop": [
+          367,
+          104,
+          2076,
+          1828
+        ],
+        "effectivePpi": 361.9,
+        "rectMm": [
+          45.026,
+          142.0,
+          119.947,
+          121.0
+        ]
+      },
+      {
+        "page": 12,
+        "slug": "untitled-blue-painting",
+        "title": "Untitled (blue painting)",
+        "crop": [
+          26,
+          22,
+          3693,
+          2782
+        ],
+        "effectivePpi": 579.37,
+        "rectMm": [
+          24.618,
+          142.0,
+          160.763,
+          121.0
+        ]
+      },
+      {
+        "page": 13,
+        "slug": "its-getting-cold",
+        "title": "It's getting cold",
+        "crop": [
+          0,
+          0,
+          2160,
+          1454
+        ],
+        "effectivePpi": 308.22,
+        "rectMm": [
+          16.0,
+          142.59,
+          178.0,
+          119.82
+        ]
+      }
+    ]
+  }
+}

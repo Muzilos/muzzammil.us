@@ -1,0 +1,7 @@
+Mode: built-in image_gen tool. Use case: product-mockup.
+Output: static/merch/tees/oversized-ecru.png
+The six artworks are original JPEGs cropped using SVG viewports and composed
+over this generated generic blank in HTML/CSS. They were not AI-redrawn.
+
+Exact blank-generation prompt:
+Use case: product-mockup. Create a premium e-commerce flat-lay studio photograph of ONE blank oversized heavyweight cotton T-shirt in warm off-white/ecru on a seamless warm light gray background. Portrait image 4:5. Perfectly overhead, front facing viewer, completely straight and symmetrical, no tilt or perspective. Wide boxy torso, distinctly dropped shoulder seams and roomy elbow-length sleeves, thick ribbed crewneck, tactile dense 280gsm cotton, realistic subtle stitching. Entire garment visible with small generous margin, neck at image y=13%, bottom hem y=90%, body edges around x=23% and x=77%, sleeve ends around x=6% and x=94%. Front chest must be smooth, flat and uniformly lit for later precise artwork placement with HTML. Minimal natural creasing only on outer edges and sleeves; beautiful soft studio side light and delicate contact shadow. No print, no logo, no labels, no hanger, no model, no objects, no typography. This is a generic concept blank, do not reproduce any branded manufacturer's specific product.

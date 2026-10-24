@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-20T14:11:07.180Z",
+  "applied": true,
+  "account": "smm321@gmail.com",
+  "candidates": 1,
+  "results": [
+    {
+      "id": "cs_live_b1N9ab6MOQl2dvJWiwIDy4UOolZMBfQQvJR5gAd7tAix3lAnySyDfEDDSG",
+      "status": "expired",
+      "action": "expired",
+      "environment": "staging"
+    }
+  ],
+  "chargesMade": 0
+}

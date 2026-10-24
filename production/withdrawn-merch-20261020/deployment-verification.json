@@ -1,0 +1,96 @@
+{
+  "verifiedAt": "2026-10-20T14:11:06.611Z",
+  "origin": "https://muzzammil.us",
+  "productionDeployment": "https://0cba68b7.muzzammil-us.pages.dev",
+  "stagingDeployment": "https://476a7a8c.muzzammil-us.pages.dev",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/paintings/",
+      "status": 200
+    },
+    {
+      "path": "/about/",
+      "status": 200
+    },
+    {
+      "path": "/bookings/",
+      "status": 200
+    },
+    {
+      "path": "/prints/?artwork=imported%2Fnyc-study-brooklyn-bridge.jpg",
+      "status": 200
+    },
+    {
+      "path": "/merch",
+      "status": 302
+    },
+    {
+      "path": "/merch/",
+      "status": 302
+    },
+    {
+      "path": "/merch/?product=planner-2027",
+      "status": 302
+    },
+    {
+      "path": "/merch/?product=calendar-2027",
+      "status": 302
+    },
+    {
+      "path": "/merch/index.html",
+      "status": 302
+    },
+    {
+      "path": "/static/merch/calendar-2027-cover.jpg",
+      "status": 302
+    },
+    {
+      "path": "/static/merch/calendar-2027-january.jpg",
+      "status": 302
+    },
+    {
+      "path": "/static/merch/calendar-2027-july.jpg",
+      "status": 302
+    },
+    {
+      "path": "/static/merch/calendar-2027-preview.pdf",
+      "status": 302
+    },
+    {
+      "path": "/static/merch/planner-2027-art-page.jpg",
+      "status": 302
+    },
+    {
+      "path": "/static/merch/planner-2027-cover.jpg",
+      "status": 302
+    },
+    {
+      "path": "/static/merch/planner-2027-preview.pdf",
+      "status": 302
+    },
+    {
+      "path": "/static/merch/planner-2027-spread.jpg",
+      "status": 302
+    },
+    {
+      "path": "/static/merch/planner-2027-week-page.jpg",
+      "status": 302
+    },
+    {
+      "path": "/static/merch.json",
+      "status": 200
+    },
+    {
+      "path": "/api/merch-checkout",
+      "status": 410
+    },
+    {
+      "path": "/static/artworks.json",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-10-20T14:21:45.005Z",
+  "offers": [
+    {
+      "slug": "brooklyn-bridge-study",
+      "title": "Brooklyn Bridge Study",
+      "file": "imported/nyc-study-brooklyn-bridge.jpg",
+      "medium": "Acrylic on paper",
+      "size": "5 × 8 in",
+      "year": 2026,
+      "amount": 40000,
+      "image": "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=brooklyn-bridge-study",
+      "purchaseUrl": "https://buy.stripe.com/4gM5kE09S9jM8FS91o2ZO0i",
+      "paymentLinkId": "plink_1USW7mJfRoNnQ3sFTqiLAgvA",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "blue-tower-study",
+      "title": "Blue Tower Study",
+      "file": "imported/nyc-study-blue-tower.jpg",
+      "medium": "Acrylic on paper",
+      "size": "8 × 5 in",
+      "year": 2026,
+      "amount": 40000,
+      "image": "/paintings/imported/nyc-study-blue-tower.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=blue-tower-study",
+      "purchaseUrl": "https://buy.stripe.com/4gMbJ26yg0Nge0ca5s2ZO0m",
+      "paymentLinkId": "plink_1USW7oJfRoNnQ3sF4E50drQg",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "waterfront-dusk-study",
+      "title": "Waterfront Dusk Study",
+      "file": "imported/nyc-study-waterfront-dusk.jpg",
+      "medium": "Acrylic on paper",
+      "size": "5 × 8 in",
+      "year": 2026,
+      "amount": 40000,
+      "image": "/paintings/imported/waterfront-dusk-study-scan.png",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=waterfront-dusk-study",
+      "purchaseUrl": "https://buy.stripe.com/9B68wQ9KsbrUf4g4L82ZO0q",
+      "paymentLinkId": "plink_1USW7qJfRoNnQ3sFDM0ej2rX",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "Jacket",
+      "title": "Jacket",
+      "file": "imported/09-30-2024 13.34.jpg",
+      "medium": "Oil on canvas",
+      "size": "18 × 24 in",
+      "year": 2024,
+      "amount": 150000,
+      "image": "/paintings/imported/09-30-2024 13.34.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=Jacket",
+      "purchaseUrl": "https://buy.stripe.com/cNi5kE9Ks3Zsg8k6Tg2ZO1m",
+      "paymentLinkId": "plink_1USW8HJfRoNnQ3sFnvnncGUM",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "heaven",
+      "title": "Heaven",
+      "file": "imported/heaven.jpg",
+      "medium": "Oil on linen",
+      "size": "18 × 24 in",
+      "year": 2025,
+      "amount": 250000,
+      "image": "/paintings/imported/heaven.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=heaven",
+      "purchaseUrl": "https://buy.stripe.com/aFa9AU3m49jM2hudhE2ZO0Z",
+      "paymentLinkId": "plink_1USW87JfRoNnQ3sFORwRWoHl",
+      "verifiedAvailable": true
+    },
+    {
+      "slug": "head-i",
+      "title": "Head I",
+      "file": "imported/head 1.jpg",
+      "medium": "Oil on canvas",
+      "size": "36 × 36 in",
+      "year": 2025,
+      "amount": 270000,
+      "image": "/paintings/imported/head 1.jpg",
+      "galleryUrl": "https://muzzammil.us/paintings/?artwork=head-i",
+      "purchaseUrl": "https://buy.stripe.com/dRm9AU8Go2VobS4cdA2ZO1a",
+      "paymentLinkId": "plink_1USW8BJfRoNnQ3sFbHUtNW9r",
+      "verifiedAvailable": true
+    }
+  ]
+}

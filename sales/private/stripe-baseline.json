@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-20T07:25:56.913Z",
+  "accountId": "acct_1TdOdAJfRoNnQ3sF",
+  "accountEmail": "smm321@gmail.com",
+  "chargesEnabled": true,
+  "scope": "Latest 100 customers and latest 100 checkout sessions; GET requests only.",
+  "customersHasMore": false,
+  "sessionsHasMore": false,
+  "inquiries": [
+    {
+      "id": "cus_VTTIJeX9Fu32Bl",
+      "created": "2026-10-20T06:17:06.000Z",
+      "name": "test",
+      "email": "test@test.com",
+      "phone": null,
+      "description": "Website inquiry — Snake (imported/snake.jpg)\n\nhi",
+      "metadata": {
+        "artwork": "imported/snake.jpg",
+        "environment": "staging",
+        "inquiry": "true",
+        "inquiry_reference": "5e0c0f22-aeff-4b11-a84e-84267101a302",
+        "site": "muzzammil.us"
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "id": "cs_live_a1kPzkd038UKXkn4cVgrfUT9zOLUmoit6Z2cFE7L2qLFsswFIyrL7wQ5DE",
+      "created": "2026-10-20T06:39:19.000Z",
+      "paymentStatus": "unpaid",
+      "status": "open",
+      "amountTotal": 4000,
+      "currency": "usd",
+      "paymentLink": "plink_1USW7eJfRoNnQ3sFzuB1XEZl",
+      "metadata": {
+        "artwork": "imported/snake.jpg",
+        "environment": "production",
+        "kind": "print",
+        "reference": "production_muzz_print_02253141d9b16f3648c9_5263293fc202649bdc81_4000",
+        "site": "muzzammil.us",
+        "size": "Small"
+      }
+    },
+    {
+      "id": "cs_live_a1pjxWRzfZLIty38ToEUVpw7ybObmrWwpTfFdAOIVhPBmjUskm5vHeJtcf",
+      "created": "2026-10-20T06:39:17.000Z",
+      "paymentStatus": "unpaid",
+      "status": "open",
+      "amountTotal": 28500,
+      "currency": "usd",
+      "paymentLink": "plink_1USW9OJfRoNnQ3sFTAUdb8Kr",
+      "metadata": {
+        "environment": "production",
+        "hours": "3",
+        "kind": "hours",
+        "reference": "production_muzz_hours_3_fe6d3468cf5c74d8ec2a_28500",
+        "site": "muzzammil.us"
+      }
+    },
+    {
+      "id": "cs_live_a1hJkikFBqVSdNJdojnD4bURaq5GXOfe1Zm6Trs31pwyTnk3y2Cua1lrzN",
+      "created": "2026-10-20T06:30:31.000Z",
+      "paymentStatus": "unpaid",
+      "status": "open",
+      "amountTotal": 10000,
+      "currency": "usd",
+      "paymentLink": "plink_1USW9OJfRoNnQ3sFzedEVwpi",
+      "metadata": {
+        "environment": "staging",
+        "hours": "1",
+        "kind": "hours",
+        "reference": "staging_muzz_hours_1_fe6d3468cf5c74d8ec2a_10000",
+        "site": "muzzammil.us"
+      }
+    },
+    {
+      "id": "cs_live_a1hFBX7El1BzU99L8L1I7qBxzxWNjfjrP0pQzX61CB4ljRvsHUjIs4bBhE",
+      "created": "2026-10-20T06:16:39.000Z",
+      "paymentStatus": "unpaid",
+      "status": "open",
+      "amountTotal": 12000,
+      "currency": "usd",
+      "paymentLink": "plink_1USW7fJfRoNnQ3sFAo7VzIZu",
+      "metadata": {
+        "artwork": "imported/snake.jpg",
+        "environment": "staging",
+        "kind": "print",
+        "reference": "staging_muzz_print_02253141d9b16f3648c9_ab80540d98d274565e35_12000",
+        "site": "muzzammil.us",
+        "size": "Large"
+      }
+    },
+    {
+      "id": "cs_live_a1jlqxoQvg3eYZOgrXHnFYspuRThobcSUuofeElv4NRUGEizg6F2VlbOtr",
+      "created": "2026-10-20T06:10:07.000Z",
+      "paymentStatus": "unpaid",
+      "status": "open",
+      "amountTotal": 4000,
+      "currency": "usd",
+      "paymentLink": "plink_1USW7eJfRoNnQ3sFzuB1XEZl",
+      "metadata": {
+        "artwork": "imported/snake.jpg",
+        "environment": "staging",
+        "kind": "print",
+        "reference": "staging_muzz_print_02253141d9b16f3648c9_5263293fc202649bdc81_4000",
+        "site": "muzzammil.us",
+        "size": "Small"
+      }
+    },
+    {
+      "id": "cs_live_a1kOIIKXxYoEQ0NsPWG449xMculOr5nEEZMyaWvZ6acTomHvFFdFw7fbJ2",
+      "created": "2026-10-20T06:10:05.000Z",
+      "paymentStatus": "unpaid",
+      "status": "open",
+      "amountTotal": 28500,
+      "currency": "usd",
+      "paymentLink": "plink_1USW9OJfRoNnQ3sFTAUdb8Kr",
+      "metadata": {
+        "environment": "staging",
+        "hours": "3",
+        "kind": "hours",
+        "reference": "staging_muzz_hours_3_fe6d3468cf5c74d8ec2a_28500",
+        "site": "muzzammil.us"
+      }
+    }
+  ]
+}

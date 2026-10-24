@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-20T14:21:55.953995+00:00",
+  "goalStatus": "blocked",
+  "previousGoalTurnClassification": "no progress: revalidated unchanged no-outreach/no-posting constraints and zero paid orders or production inquiries; no new authorized acquisition channel",
+  "currentGoalTurnClassification": "no progress: third consecutive revalidation of unchanged acquisition blocker; Stripe shows no paid orders or production inquiries and outreach/posting remain prohibited",
+  "requiredSender": "smm321@gmail.com",
+  "confirmedGmailSender": "edwardhuntertorres1996@gmail.com",
+  "explicitBatchSendApprovalReceived": false,
+  "outreachMessagesPrepared": 6,
+  "outreachMessagesSent": 0,
+  "paidWebsiteOrders": 0,
+  "paidArtRevenueUsd": 0,
+  "salesAuditAt": "2026-10-20T14:21:45.005Z",
+  "blockedCondition": "No inbound customers or bookings yet, and the owner prohibits outreach and posting on their behalf. Further acquisition requires new inbound demand or an owner-authorized channel.",
+  "consecutiveGoalTurnsWithThisCondition": 3,
+  "reviewFile": "sales/OUTREACH-REVIEW.txt",
+  "additionalChannel": {
+    "name": "Metricool",
+    "state": "Do not pursue; owner prohibited outreach on their behalf.",
+    "required": false
+  },
+  "nextAction": "Await real inbound demand or an owner-authorized acquisition channel. Do not repeatedly poll, send emails, do outreach, publish posts, buy ads, or relaunch merchandise. Goal marked blocked after three consecutive unchanged checks.",
+  "websiteChanged": false,
+  "completionProven": false,
+  "outreachAllowed": false,
+  "outreachStatus": "cancelled_by_owner",
+  "merchandiseAvailable": false,
+  "standalonePrintsAvailable": true,
+  "merchandiseRemovalVerified": true,
+  "productionInquiries": 0,
+  "discoveryVerificationFile": "sales/discovery-verification.json",
+  "deploymentUrl": "https://e7d53574.muzzammil-us.pages.dev",
+  "remainingRequirement": "Actual clients, customers, students, or interested parties beginning to book. None verified in latest Stripe audit.",
+  "searchAnalytics": {
+    "provider": "Windsor.ai",
+    "installed": false,
+    "previouslySuggestedAt": "2026-10-13T18:00:26.917308Z",
+    "suggestedAgain": false
+  },
+  "emailsSentThisTurn": 0
+}

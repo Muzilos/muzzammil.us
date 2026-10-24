@@ -1,0 +1,523 @@
+{
+  "currency": "USD",
+  "products": [
+    {
+      "id": "planner-2027",
+      "category": "planner",
+      "name": "Weekly planner",
+      "artwork": "2027",
+      "artworkSlug": "covenant",
+      "artworkFile": "imported/covenant.jpg",
+      "image": "/static/merch/planner-2027-cover.jpg?v=20261020-minimal",
+      "tone": "tone-peach",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "A5 · 134 pages · Alternating artwork pages",
+      "description": "A5, 134 pages. 53 dated weekly spreads, 12 monthly calendars, and a year overview. Artwork on alternating left pages; daily entries on the right. Monday starts. 28 December 2026–2 January 2028.",
+      "previewPdf": "/static/merch/planner-2027-preview.pdf?v=20261020-minimal",
+      "insideImage": "/static/merch/planner-2027-spread.jpg?v=20261020-minimal",
+      "variants": [
+        {
+          "sku": "planner-2027-a5",
+          "label": "A5 · 2027",
+          "amount": 4800,
+          "available": true,
+          "stripePriceId": "price_1USXnPJfRoNnQ3sFGBNztRpM",
+          "stripeProductId": "prod_VTUmiz4IGjpMYW"
+        }
+      ],
+      "sourceArtworks": [
+        "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+        "/paintings/imported/head 1.jpg",
+        "/paintings/imported/tree.jpg",
+        "/paintings/imported/covenant.jpg",
+        "/paintings/imported/waterfront-dusk-study-scan.png",
+        "/paintings/imported/03_City Street_2026_36 x 46in_Mixed media.jpg",
+        "/paintings/imported/heaven.jpg",
+        "/paintings/imported/Runnin_2025_8 x 6in_Oil on canvas board-EDIT.jpg",
+        "/paintings/imported/09-30-2024 13.34.jpg",
+        "/paintings/imported/Candle_2025_12 x 12in_Mixed Media-EDIT.jpg",
+        "/paintings/imported/untitled-blue-painting.jpg",
+        "/paintings/imported/on-the-subway-train.jpg"
+      ]
+    },
+    {
+      "id": "calendar-2027",
+      "category": "calendar",
+      "name": "Art calendar",
+      "artwork": "2027",
+      "artworkSlug": "waterfront-dusk-study",
+      "artworkFile": "imported/nyc-study-waterfront-dusk.jpg",
+      "image": "/static/merch/calendar-2027-cover.jpg?v=20261020-minimal",
+      "tone": "tone-blue",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "A4 · 12 months · 12 paintings",
+      "description": "A4 wall calendar. Cover and 12 monthly pages for 2027, each with an artwork and a Monday-start date grid.",
+      "previewPdf": "/static/merch/calendar-2027-preview.pdf?v=20261020-minimal",
+      "insideImage": "/static/merch/calendar-2027-january.jpg?v=20261020-minimal",
+      "variants": [
+        {
+          "sku": "calendar-2027-a4",
+          "label": "A4 · 2027",
+          "amount": 3200,
+          "available": true,
+          "stripePriceId": "price_1USXnPJfRoNnQ3sFbED7cumL",
+          "stripeProductId": "prod_VTUmTPyQQEq7wz"
+        }
+      ],
+      "sourceArtworks": [
+        "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+        "/paintings/imported/head 1.jpg",
+        "/paintings/imported/tree.jpg",
+        "/paintings/imported/covenant.jpg",
+        "/paintings/imported/waterfront-dusk-study-scan.png",
+        "/paintings/imported/03_City Street_2026_36 x 46in_Mixed media.jpg",
+        "/paintings/imported/heaven.jpg",
+        "/paintings/imported/Runnin_2025_8 x 6in_Oil on canvas board-EDIT.jpg",
+        "/paintings/imported/09-30-2024 13.34.jpg",
+        "/paintings/imported/Candle_2025_12 x 12in_Mixed Media-EDIT.jpg",
+        "/paintings/imported/untitled-blue-painting.jpg",
+        "/paintings/imported/on-the-subway-train.jpg"
+      ]
+    },
+    {
+      "id": "infinite-jester-tshirt",
+      "category": "tshirt",
+      "name": "Art T-shirt",
+      "artwork": "Infinite Jester",
+      "artworkSlug": "infinite-jester",
+      "artworkFile": "imported/infinite-jester-2026-oil-on-linen.jpg",
+      "image": "/paintings/imported/infinite-jester-2026-oil-on-linen.jpg",
+      "tone": "tone-yellow",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "White · S–2XL",
+      "description": "White T-shirt with the artwork printed on the front. Sizes S–2XL.",
+      "variants": [
+        {
+          "sku": "infinite-jester-tshirt-s",
+          "label": "S",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXenJfRoNnQ3sFrUxAy7aS",
+          "stripeProductId": "prod_VTUeGlsJmW1NUm"
+        },
+        {
+          "sku": "infinite-jester-tshirt-m",
+          "label": "M",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXenJfRoNnQ3sFpFK6NZUi",
+          "stripeProductId": "prod_VTUeGlsJmW1NUm"
+        },
+        {
+          "sku": "infinite-jester-tshirt-l",
+          "label": "L",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXenJfRoNnQ3sFrZB31An3",
+          "stripeProductId": "prod_VTUeGlsJmW1NUm"
+        },
+        {
+          "sku": "infinite-jester-tshirt-xl",
+          "label": "XL",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXeoJfRoNnQ3sFYBVOuqoN",
+          "stripeProductId": "prod_VTUeGlsJmW1NUm"
+        },
+        {
+          "sku": "infinite-jester-tshirt-2xl",
+          "label": "2XL",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXeoJfRoNnQ3sFEXMhGw1p",
+          "stripeProductId": "prod_VTUeGlsJmW1NUm"
+        }
+      ]
+    },
+    {
+      "id": "covenant-tote",
+      "category": "tote",
+      "name": "Art tote",
+      "artwork": "Covenant",
+      "artworkSlug": "covenant",
+      "artworkFile": "imported/covenant.jpg",
+      "image": "/paintings/imported/covenant.jpg",
+      "tone": "tone-peach",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "Natural · One size",
+      "description": "Natural-colored tote bag with the artwork printed on the front.",
+      "variants": [
+        {
+          "sku": "covenant-tote-one-size",
+          "label": "One size",
+          "amount": 2800,
+          "available": true,
+          "stripePriceId": "price_1USXeoJfRoNnQ3sFqoFIctdJ",
+          "stripeProductId": "prod_VTUeHeRUHyyguO"
+        }
+      ]
+    },
+    {
+      "id": "brooklyn-bridge-study-mug",
+      "category": "mug",
+      "name": "Art mug",
+      "artwork": "Brooklyn Bridge Study",
+      "artworkSlug": "brooklyn-bridge-study",
+      "artworkFile": "imported/nyc-study-brooklyn-bridge.jpg",
+      "image": "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+      "tone": "tone-blue",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "White · One size",
+      "description": "White mug printed with the artwork.",
+      "variants": [
+        {
+          "sku": "brooklyn-bridge-study-mug-one-size",
+          "label": "One size",
+          "amount": 2200,
+          "available": true,
+          "stripePriceId": "price_1USXeoJfRoNnQ3sFl6lCeVeI",
+          "stripeProductId": "prod_VTUessUnuvOMgU"
+        }
+      ]
+    },
+    {
+      "id": "covenant-tshirt",
+      "category": "tshirt",
+      "name": "Art T-shirt",
+      "artwork": "Covenant",
+      "artworkSlug": "covenant",
+      "artworkFile": "imported/covenant.jpg",
+      "image": "/paintings/imported/covenant.jpg",
+      "tone": "tone-peach",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "White · S–2XL",
+      "description": "White T-shirt with the artwork printed on the front. Sizes S–2XL.",
+      "variants": [
+        {
+          "sku": "covenant-tshirt-s",
+          "label": "S",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXeoJfRoNnQ3sFP0oaeUSR",
+          "stripeProductId": "prod_VTUeu8efbdKFFL"
+        },
+        {
+          "sku": "covenant-tshirt-m",
+          "label": "M",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXepJfRoNnQ3sFLpsqZUse",
+          "stripeProductId": "prod_VTUeu8efbdKFFL"
+        },
+        {
+          "sku": "covenant-tshirt-l",
+          "label": "L",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXepJfRoNnQ3sFvARLtfsx",
+          "stripeProductId": "prod_VTUeu8efbdKFFL"
+        },
+        {
+          "sku": "covenant-tshirt-xl",
+          "label": "XL",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXepJfRoNnQ3sF3iDm6atP",
+          "stripeProductId": "prod_VTUeu8efbdKFFL"
+        },
+        {
+          "sku": "covenant-tshirt-2xl",
+          "label": "2XL",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXepJfRoNnQ3sFJICUDuLT",
+          "stripeProductId": "prod_VTUeu8efbdKFFL"
+        }
+      ]
+    },
+    {
+      "id": "brooklyn-bridge-study-tshirt",
+      "category": "tshirt",
+      "name": "Art T-shirt",
+      "artwork": "Brooklyn Bridge Study",
+      "artworkSlug": "brooklyn-bridge-study",
+      "artworkFile": "imported/nyc-study-brooklyn-bridge.jpg",
+      "image": "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+      "tone": "tone-blue",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "White · S–2XL",
+      "description": "White T-shirt with the artwork printed on the front. Sizes S–2XL.",
+      "variants": [
+        {
+          "sku": "brooklyn-bridge-study-tshirt-s",
+          "label": "S",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXepJfRoNnQ3sFD7BHjiib",
+          "stripeProductId": "prod_VTUe7Q9sDIqcOp"
+        },
+        {
+          "sku": "brooklyn-bridge-study-tshirt-m",
+          "label": "M",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXepJfRoNnQ3sFfOq59GTp",
+          "stripeProductId": "prod_VTUe7Q9sDIqcOp"
+        },
+        {
+          "sku": "brooklyn-bridge-study-tshirt-l",
+          "label": "L",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXepJfRoNnQ3sFAkMAnIy4",
+          "stripeProductId": "prod_VTUe7Q9sDIqcOp"
+        },
+        {
+          "sku": "brooklyn-bridge-study-tshirt-xl",
+          "label": "XL",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXeqJfRoNnQ3sFc3DjnPGe",
+          "stripeProductId": "prod_VTUe7Q9sDIqcOp"
+        },
+        {
+          "sku": "brooklyn-bridge-study-tshirt-2xl",
+          "label": "2XL",
+          "amount": 3800,
+          "available": true,
+          "stripePriceId": "price_1USXeqJfRoNnQ3sFH6vfG94l",
+          "stripeProductId": "prod_VTUe7Q9sDIqcOp"
+        }
+      ]
+    },
+    {
+      "id": "infinite-jester-tote",
+      "category": "tote",
+      "name": "Art tote",
+      "artwork": "Infinite Jester",
+      "artworkSlug": "infinite-jester",
+      "artworkFile": "imported/infinite-jester-2026-oil-on-linen.jpg",
+      "image": "/paintings/imported/infinite-jester-2026-oil-on-linen.jpg",
+      "tone": "tone-yellow",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "Natural · One size",
+      "description": "Natural-colored tote bag with the artwork printed on the front.",
+      "variants": [
+        {
+          "sku": "infinite-jester-tote-one-size",
+          "label": "One size",
+          "amount": 2800,
+          "available": true,
+          "stripePriceId": "price_1USXeqJfRoNnQ3sFzTWlteG2",
+          "stripeProductId": "prod_VTUeqbWR4fKxkf"
+        }
+      ]
+    },
+    {
+      "id": "brooklyn-bridge-study-tote",
+      "category": "tote",
+      "name": "Art tote",
+      "artwork": "Brooklyn Bridge Study",
+      "artworkSlug": "brooklyn-bridge-study",
+      "artworkFile": "imported/nyc-study-brooklyn-bridge.jpg",
+      "image": "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+      "tone": "tone-blue",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "Natural · One size",
+      "description": "Natural-colored tote bag with the artwork printed on the front.",
+      "variants": [
+        {
+          "sku": "brooklyn-bridge-study-tote-one-size",
+          "label": "One size",
+          "amount": 2800,
+          "available": true,
+          "stripePriceId": "price_1USXeqJfRoNnQ3sFHXxKov8Y",
+          "stripeProductId": "prod_VTUet4UJvmchjI"
+        }
+      ]
+    },
+    {
+      "id": "infinite-jester-mug",
+      "category": "mug",
+      "name": "Art mug",
+      "artwork": "Infinite Jester",
+      "artworkSlug": "infinite-jester",
+      "artworkFile": "imported/infinite-jester-2026-oil-on-linen.jpg",
+      "image": "/paintings/imported/infinite-jester-2026-oil-on-linen.jpg",
+      "tone": "tone-yellow",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "White · One size",
+      "description": "White mug printed with the artwork.",
+      "variants": [
+        {
+          "sku": "infinite-jester-mug-one-size",
+          "label": "One size",
+          "amount": 2200,
+          "available": true,
+          "stripePriceId": "price_1USXeqJfRoNnQ3sFjaa4TmTW",
+          "stripeProductId": "prod_VTUeFZJS84dOkT"
+        }
+      ]
+    },
+    {
+      "id": "covenant-mug",
+      "category": "mug",
+      "name": "Art mug",
+      "artwork": "Covenant",
+      "artworkSlug": "covenant",
+      "artworkFile": "imported/covenant.jpg",
+      "image": "/paintings/imported/covenant.jpg",
+      "tone": "tone-peach",
+      "available": true,
+      "fulfillment": "manual-merch",
+      "optionNote": "White · One size",
+      "description": "White mug printed with the artwork.",
+      "variants": [
+        {
+          "sku": "covenant-mug-one-size",
+          "label": "One size",
+          "amount": 2200,
+          "available": true,
+          "stripePriceId": "price_1USXerJfRoNnQ3sFCJXmBOpJ",
+          "stripeProductId": "prod_VTUe2zy8OEtG4F"
+        }
+      ]
+    },
+    {
+      "id": "infinite-jester-print",
+      "category": "print",
+      "name": "Art print",
+      "artwork": "Infinite Jester",
+      "artworkSlug": "infinite-jester",
+      "artworkFile": "imported/infinite-jester-2026-oil-on-linen.jpg",
+      "image": "/paintings/imported/infinite-jester-2026-oil-on-linen.jpg",
+      "tone": "tone-yellow",
+      "available": true,
+      "fulfillment": "manual-print",
+      "optionNote": "Three sizes · US shipping included",
+      "description": "Art print. Small, Medium, or Large. US shipping included.",
+      "variants": [
+        {
+          "sku": "infinite-jester-print-small",
+          "label": "Small",
+          "amount": 4000,
+          "available": true,
+          "stripePriceId": "price_1USW7iJfRoNnQ3sFyPqa5Ptk",
+          "stripeProductId": "prod_VTT3kiEKrt13Fj"
+        },
+        {
+          "sku": "infinite-jester-print-medium",
+          "label": "Medium",
+          "amount": 7000,
+          "available": true,
+          "stripePriceId": "price_1USW7iJfRoNnQ3sFZLAwZi0u",
+          "stripeProductId": "prod_VTT3kiEKrt13Fj"
+        },
+        {
+          "sku": "infinite-jester-print-large",
+          "label": "Large",
+          "amount": 12000,
+          "available": true,
+          "stripePriceId": "price_1USW7iJfRoNnQ3sFo39EK1ss",
+          "stripeProductId": "prod_VTT3kiEKrt13Fj"
+        }
+      ]
+    },
+    {
+      "id": "covenant-print",
+      "category": "print",
+      "name": "Art print",
+      "artwork": "Covenant",
+      "artworkSlug": "covenant",
+      "artworkFile": "imported/covenant.jpg",
+      "image": "/paintings/imported/covenant.jpg",
+      "tone": "tone-peach",
+      "available": true,
+      "fulfillment": "manual-print",
+      "optionNote": "Three sizes · US shipping included",
+      "description": "Art print. Small, Medium, or Large. US shipping included.",
+      "variants": [
+        {
+          "sku": "covenant-print-small",
+          "label": "Small",
+          "amount": 4000,
+          "available": true,
+          "stripePriceId": "price_1USWu4JfRoNnQ3sFG8prYukW",
+          "stripeProductId": "prod_VTTrMqb20mSplZ"
+        },
+        {
+          "sku": "covenant-print-medium",
+          "label": "Medium",
+          "amount": 7000,
+          "available": true,
+          "stripePriceId": "price_1USWu4JfRoNnQ3sFzY1cRTDM",
+          "stripeProductId": "prod_VTTrMqb20mSplZ"
+        },
+        {
+          "sku": "covenant-print-large",
+          "label": "Large",
+          "amount": 12000,
+          "available": true,
+          "stripePriceId": "price_1USWu5JfRoNnQ3sFzwC78VSj",
+          "stripeProductId": "prod_VTTrMqb20mSplZ"
+        }
+      ]
+    },
+    {
+      "id": "brooklyn-bridge-study-print",
+      "category": "print",
+      "name": "Art print",
+      "artwork": "Brooklyn Bridge Study",
+      "artworkSlug": "brooklyn-bridge-study",
+      "artworkFile": "imported/nyc-study-brooklyn-bridge.jpg",
+      "image": "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+      "tone": "tone-blue",
+      "available": true,
+      "fulfillment": "manual-print",
+      "optionNote": "Three sizes · US shipping included",
+      "description": "Art print. Small, Medium, or Large. US shipping included.",
+      "variants": [
+        {
+          "sku": "brooklyn-bridge-study-print-small",
+          "label": "Small",
+          "amount": 4000,
+          "available": true,
+          "stripePriceId": "price_1USW7lJfRoNnQ3sFwSM5adJM",
+          "stripeProductId": "prod_VTT3bO6olTuZOX"
+        },
+        {
+          "sku": "brooklyn-bridge-study-print-medium",
+          "label": "Medium",
+          "amount": 7000,
+          "available": true,
+          "stripePriceId": "price_1USW7lJfRoNnQ3sFZ8EtAQFx",
+          "stripeProductId": "prod_VTT3bO6olTuZOX"
+        },
+        {
+          "sku": "brooklyn-bridge-study-print-large",
+          "label": "Large",
+          "amount": 12000,
+          "available": true,
+          "stripePriceId": "price_1USW7lJfRoNnQ3sFbi6RbD6X",
+          "stripeProductId": "prod_VTT3bO6olTuZOX"
+        }
+      ]
+    }
+  ],
+  "shipping": {
+    "countries": [
+      "US"
+    ],
+    "merchOrderAmount": 695
+  }
+}

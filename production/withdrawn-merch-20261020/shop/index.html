@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Artwork T-shirts, tote bags, mugs, art prints, and 2027 planners and calendars by Muzzammil Mehdi.">
+  <title>Merch — Muzzammil Mehdi</title>
+  <link rel="stylesheet" href="/static/style.css?v=20261020-simple">
+  <link rel="stylesheet" href="/static/studio.css?v=20261020-nav-colors">
+  <link rel="stylesheet" href="/static/merch.css?v=20261020-minimal">
+  <script type="module" src="/static/merch.js?v=20261020-minimal"></script>
+</head>
+<body class="flex-container simple-page merch-page">
+  <a class="skip-link" href="#content">Skip to shop</a>
+  <div class="main">
+    <h1 class="title"><a href="/">Muzzammil Mehdi</a></h1>
+    <nav class="bar booking-nav" aria-label="Main navigation"><div class="pages"><a class="nav" href="/">Home</a><a class="nav" href="/paintings/">Artworks</a><a class="nav" href="/merch/" aria-current="page">Merch</a><a class="nav" href="/about/">About</a><a class="gold-button book-me" href="/bookings/"><span class="book-me-text">Bookings</span></a></div></nav>
+    <main id="content" class="shop-shell">
+      <div class="shop-topline"><button id="open-cart" class="cart-toggle" type="button" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg>Bag <span id="cart-count">0</span></button></div>
+      <section aria-label="Shop the collection">
+        <div class="shop-toolbar">
+          <div class="shop-filters" role="group" aria-label="Filter products"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="planner" aria-pressed="false">Planners</button><button type="button" data-filter="calendar" aria-pressed="false">Calendars</button><button type="button" data-filter="tshirt" aria-pressed="false">T-shirts</button><button type="button" data-filter="tote" aria-pressed="false">Totes</button><button type="button" data-filter="mug" aria-pressed="false">Mugs</button><button type="button" data-filter="print" aria-pressed="false">Art prints</button></div>
+          <label class="shop-sort">Sort by <select id="shop-sort"><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="available">Available now</option></select></label>
+        </div>
+        <p id="product-count" class="product-count" aria-live="polite"></p>
+        <div id="product-grid" class="product-grid"><p role="status">Loading the collection…</p></div>
+        <noscript><p>Please enable JavaScript to shop the collection. You can also <a href="mailto:smm321@gmail.com">email Muzzammil</a> about an order.</p></noscript>
+      </section>
+      <footer class="shop-footer"><span>Muzzammil Mehdi</span><a href="mailto:smm321@gmail.com">Contact</a></footer>
+    </main>
+  </div>
+  <dialog id="product-dialog" class="product-dialog" aria-labelledby="product-name"><button class="dialog-close" type="button" data-close="product-dialog" aria-label="Close product details">×</button><div id="product-detail"></div></dialog>
+  <dialog id="cart-dialog" class="cart-dialog" aria-labelledby="cart-title"><div class="cart-header"><h2 id="cart-title">Your bag <span id="cart-heading-count"></span></h2><button class="dialog-close" type="button" data-close="cart-dialog" aria-label="Close shopping bag">×</button></div><div id="cart-items" class="cart-items"></div><div id="cart-summary" class="cart-summary" hidden><div class="cart-subtotal"><span>Subtotal</span><strong id="cart-subtotal"></strong></div><p id="cart-shipping" class="cart-shipping"></p><button id="checkout-button" class="shop-button" type="button">Continue to checkout <span aria-hidden="true">↗</span></button><p class="checkout-caption">Secure payment with Stripe</p></div><p id="checkout-error" class="shop-error" role="alert" hidden></p><button type="button" class="continue-shopping" data-close="cart-dialog">Continue shopping</button></dialog>
+  <p id="shop-toast" class="shop-toast" role="status" aria-live="polite" hidden></p>
+</body>
+</html>

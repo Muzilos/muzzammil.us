@@ -1,0 +1,161 @@
+{
+  "campaign": "oct2026-originals",
+  "senderName": "Muzzammil Mehdi",
+  "senderEmail": "smm321@gmail.com",
+  "status": "cancelled_by_owner",
+  "checkedDate": "2026-10-20",
+  "messages": [
+    {
+      "id": "L01",
+      "priority": 1,
+      "company": "Art Advisory",
+      "to": "hello@artadvisoryllc.com",
+      "route": "Published invitation for artists to email portfolios",
+      "sources": [
+        "https://www.artadvisorydc.com/contact",
+        "https://www.artadvisorydc.com/"
+      ],
+      "evidence": "The contact page invites artist portfolios; the practice serves corporate, healthcare, hospitality, and residential projects.",
+      "fit": "Proposed stock-painting supply for client projects; no current buyer brief has been confirmed.",
+      "subject": "Available paintings \u2014 Muzzammil Mehdi",
+      "body": "Hello Art Advisory team,\n\nI am an artist working in painting, with an MFA from the New York Studio School (2026). I'm responding to your invitation for artist portfolios.\n\nI have small New York studies at $400, Jacket at $1,500, and Head I at $2,700 available. The attached three-page sheet has images, dimensions, retail prices, and links to each work.\n\nAre you sourcing original paintings in this range for any current projects? I can suggest pieces against a wall size and budget.\n\nMuzzammil Mehdi\nsmm321@gmail.com\nhttps://muzzammil.us/paintings/",
+      "offeredSlugs": [
+        "brooklyn-bridge-study",
+        "blue-tower-study",
+        "Jacket",
+        "head-i"
+      ],
+      "attachments": [
+        "sales/available-originals.pdf"
+      ],
+      "followup": "No automatic follow-up. If sent and unanswered, review once after 10 business days. Stop on a decline."
+    },
+    {
+      "id": "L02",
+      "priority": 2,
+      "company": "SEND Office",
+      "contactName": "Sarah E.N. Davis",
+      "to": "hello@send-office.com",
+      "route": "Published general business contact; no dedicated artist-submission policy found",
+      "sources": [
+        "https://send-office.com/"
+      ],
+      "evidence": "The practice lists art sourcing, residential projects, and an interest in connecting clients with emerging artists.",
+      "fit": "Proposed original paintings for residential rooms; no active sourcing request has been confirmed.",
+      "subject": "Jacket and Head I \u2014 available originals",
+      "body": "Hi Sarah,\n\nI am an artist working in painting, with an MFA from the New York Studio School (2026). I saw your Greene Ave residence project and art-sourcing service.\n\nTwo available originals for consideration:\nJacket \u2014 oil on canvas, 18 \u00d7 24 in, $1,500.\nHead I \u2014 oil on canvas, 36 \u00d7 36 in, $2,700.\n\nImages and details are attached. Are you choosing paintings for any current residential projects? If you send the wall dimensions and budget, I can suggest available work.\n\nMuzzammil Mehdi\nsmm321@gmail.com\nhttps://muzzammil.us/paintings/\n\nIf you prefer no artist enquiries, please let me know.",
+      "offeredSlugs": [
+        "Jacket",
+        "head-i"
+      ],
+      "attachments": [
+        "sales/available-originals.pdf"
+      ],
+      "followup": "No automatic follow-up. If sent and unanswered, review once after 7 business days. Stop on a decline."
+    },
+    {
+      "id": "L03",
+      "priority": 3,
+      "company": "Skyframe",
+      "to": "info@skyframe.com",
+      "route": "Published general business contact on the art-sourcing page",
+      "sources": [
+        "https://skyframe.com/pages/art-sourcing"
+      ],
+      "evidence": "Skyframe sources artwork for interiors and says it partners with local and emerging artists.",
+      "fit": "Proposed New York city studies and original paintings for sourced collections; current demand is unknown.",
+      "subject": "New York studies and original paintings for art sourcing",
+      "body": "Hello Skyframe art-sourcing team,\n\nI am an artist working in painting, with an MFA from the New York Studio School (2026). I saw that you work with emerging artists on residential and hospitality projects.\n\nI have three small New York studies at $400 each, plus larger paintings from $1,500 to $2,700. I've attached images, dimensions, and retail prices.\n\nAre you currently reviewing artists for projects or your sourcing network? If there is an active brief, I can suggest available pieces.\n\nMuzzammil Mehdi\nsmm321@gmail.com\nhttps://muzzammil.us/paintings/\n\nIf you prefer no artist enquiries, please let me know.",
+      "offeredSlugs": [
+        "brooklyn-bridge-study",
+        "blue-tower-study",
+        "waterfront-dusk-study",
+        "Jacket",
+        "head-i"
+      ],
+      "attachments": [
+        "sales/available-originals.pdf"
+      ],
+      "followup": "No automatic follow-up. If sent and unanswered, review once after 10 business days. Stop on a decline."
+    },
+    {
+      "id": "L04",
+      "priority": 4,
+      "company": "Uprise Art",
+      "to": "submissions@upriseart.com",
+      "route": "Dedicated published artist portfolio address",
+      "sources": [
+        "https://www.upriseart.com/contact",
+        "https://www.upriseart.com/advisory"
+      ],
+      "evidence": "Uprise publishes a portfolio-submission email and offers advisory services to collectors and trade clients.",
+      "fit": "Artist portfolio review and possible future placement; this is a longer-term route, not an identified purchase request.",
+      "subject": "Artist portfolio \u2014 Muzzammil Mehdi",
+      "body": "Hello Uprise Art team,\n\nI am an artist working in painting, submitting my portfolio for consideration. I completed an MFA in Painting at the New York Studio School in 2026.\n\nThe attached sheet contains six available originals, from small New York studies at $400 to Head I, a 36 \u00d7 36 in oil painting at $2,700. Images, media, dimensions, retail prices, and individual artwork links are included.\n\nFull portfolio: https://muzzammil.us/paintings/\n\nPlease let me know if any works fit your current selection.\n\nMuzzammil Mehdi\nsmm321@gmail.com",
+      "offeredSlugs": [
+        "brooklyn-bridge-study",
+        "blue-tower-study",
+        "waterfront-dusk-study",
+        "Jacket",
+        "heaven",
+        "head-i"
+      ],
+      "attachments": [
+        "sales/available-originals.pdf"
+      ],
+      "followup": "One portfolio submission. No follow-up unless they respond or publish a request for an update."
+    },
+    {
+      "id": "L05",
+      "priority": 5,
+      "company": "ArtLink",
+      "to": "creatives@artlink.com",
+      "route": "Dedicated published artist-submission address",
+      "sources": [
+        "https://artlink.com/contact"
+      ],
+      "evidence": "ArtLink requests artist information and portfolios through its creatives email for hospitality art procurement.",
+      "fit": "Possible hospitality acquisition or commission enquiry; project demand, budgets, shipping, and terms are unconfirmed.",
+      "subject": "Artist portfolio \u2014 original paintings by Muzzammil Mehdi",
+      "body": "Hello ArtLink creatives team,\n\nI am an artist working in painting, with an MFA from the New York Studio School (2026). I'm submitting available original paintings for your hospitality projects.\n\nThe attached sheet includes city studies and oil paintings, with images, dimensions, and retail prices from $400 to $2,700.\n\nAre any current projects looking for work in this range? I can respond to a brief with available pieces and confirm delivery details before quoting.\n\nPortfolio: https://muzzammil.us/paintings/\n\nMuzzammil Mehdi\nsmm321@gmail.com",
+      "offeredSlugs": [
+        "brooklyn-bridge-study",
+        "waterfront-dusk-study",
+        "Jacket",
+        "heaven",
+        "head-i"
+      ],
+      "attachments": [
+        "sales/available-originals.pdf"
+      ],
+      "followup": "One submission. Review again only if they respond or publish an active matching project brief."
+    },
+    {
+      "id": "L06",
+      "priority": 6,
+      "company": "MAD Gallery NYC",
+      "to": "submit@madgallerynyc.com",
+      "route": "Dedicated published submission address; asks for image samples, name, medium, and dimensions",
+      "sources": [
+        "https://www.madgallerynyc.com/"
+      ],
+      "evidence": "MAD requests artwork images with artist name, medium, and dimensions for its New York pop-up programme.",
+      "fit": "Possible exhibition sale; no invitation, fees, commission arrangement, or sale has been agreed.",
+      "subject": "Painting submission \u2014 Muzzammil Mehdi",
+      "body": "Hello MAD Gallery team,\n\nI am an artist working in painting, with an MFA from the New York Studio School (2026). Are you selecting paintings for an upcoming pop-up? I've attached three available works:\n\nJacket \u2014 oil on canvas, 18 \u00d7 24 in, $1,500.\nHeaven \u2014 oil on linen, 18 \u00d7 24 in, $2,500.\nHead I \u2014 oil on canvas, 36 \u00d7 36 in, $2,700.\n\nThese are retail prices. Please let me know your exhibition dates and sales terms if the work is a fit.\n\nPortfolio: https://muzzammil.us/paintings/\n\nMuzzammil Mehdi\nsmm321@gmail.com",
+      "offeredSlugs": [
+        "Jacket",
+        "heaven",
+        "head-i"
+      ],
+      "attachments": [
+        "paintings/imported/09-30-2024 13.34.jpg",
+        "paintings/imported/heaven.jpg",
+        "paintings/imported/head 1.jpg"
+      ],
+      "followup": "One submission. No repeated pitches without a response or a new open invitation."
+    }
+  ],
+  "cancelledAt": "2026-10-20T14:07:22.079339+00:00",
+  "cancellationReason": "Do not cold-email or do outreach on my behalf. Keep work lowkey."
+}

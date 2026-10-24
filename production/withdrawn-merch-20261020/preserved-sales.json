@@ -1,0 +1,24 @@
+{
+  "preservedFiles": [
+    {
+      "path": "static/artworks.json",
+      "sha256": "1be8136aebd1c8fcb95449ab8c01d53baba773365fcbc0a2273018f75dc1a7c4"
+    },
+    {
+      "path": "static/prints.js",
+      "sha256": "53c0001e873f7bc98a6a890164cfb3d7b69ef494514c3e706f1ad587c777e243"
+    },
+    {
+      "path": "static/populate_paintings.js",
+      "sha256": "7f09770d82947922a6852eb2fb59c03894ae7dd4e76d868d9bdc886289eb25a8"
+    },
+    {
+      "path": "functions/api/checkout.js",
+      "sha256": "b0d68dc7f1ce8e1f85b9a70f363edc1e779bf07c75e632f69960317e215de7aa"
+    },
+    {
+      "path": "static/hourly-packs.json",
+      "sha256": "077ddb051baaa8b38509617421801bd85d407fcda88aa895271b61bf452ce954"
+    }
+  ]
+}

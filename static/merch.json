@@ -1,0 +1,13 @@
+{
+  "currency": "USD",
+  "available": false,
+  "status": "concept-preview",
+  "products": [
+    { "id": "covenant-tee", "edition": "01", "artwork": "Covenant", "name": "Oversized tee", "category": "tshirt", "available": false, "fulfillment": null, "variants": [], "image": "/static/merch/tees/covenant-crop.svg", "cropSize": [1320, 1790], "description": "A warm field of coral and peach. A clean rectangular crop brings the painting’s quiet layers to the center of an ecru tee." },
+    { "id": "snake-tee", "edition": "02", "artwork": "Snake", "name": "Oversized tee", "category": "tshirt", "available": false, "fulfillment": null, "variants": [], "image": "/static/merch/tees/snake-crop.svg", "cropSize": [908, 1225], "description": "Deep green and orange move across a vivid yellow field. The painted surface becomes a bold front stamp, cropped clear of the unpainted canvas margin." },
+    { "id": "adam-tee", "edition": "03", "artwork": "Adam enjoying his apple", "name": "Oversized tee", "category": "tshirt", "available": false, "fulfillment": null, "variants": [], "image": "/static/merch/tees/adam-crop.svg", "cropSize": [565, 779], "description": "A figure and a red apple within a green field. A portrait crop keeps the figure and the surrounding color together." },
+    { "id": "insanity-tee", "edition": "04", "artwork": "Insanity", "name": "Oversized tee", "category": "tshirt", "available": false, "fulfillment": null, "variants": [], "image": "/static/merch/tees/insanity-crop.svg", "cropSize": [1094, 1256], "description": "Pink, lilac, peach, and sudden flashes of blue and yellow. An uninterrupted artwork stamp preserves the painting’s energetic brushwork." },
+    { "id": "runnin-tee", "edition": "05", "artwork": "Runnin'", "name": "Oversized tee", "category": "tshirt", "available": false, "fulfillment": null, "variants": [], "image": "/static/merch/tees/runnin-crop.svg", "cropSize": [1480, 2000], "description": "A twisting figure moves through green, blue, and orange. The photographed wall is cropped away to place the painting directly on the chest." },
+    { "id": "two-trees-tee", "edition": "06", "artwork": "Two Trees", "name": "Oversized tee", "category": "tshirt", "available": false, "fulfillment": null, "variants": [], "image": "/static/merch/tees/two-trees-crop.svg", "cropSize": [2160, 1580], "description": "Dark branching forms within pale green. A wider landscape stamp gives the original composition room across the front of the tee." }
+  ]
+}

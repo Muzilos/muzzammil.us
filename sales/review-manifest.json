@@ -1,0 +1,62 @@
+{
+  "preparedAt": "2026-10-20T08:29:23.390773+00:00",
+  "status": "cancelled_by_owner",
+  "sender": "Muzzammil Mehdi <smm321@gmail.com>",
+  "messages": 6,
+  "sent": 0,
+  "paidOrders": 0,
+  "files": [
+    {
+      "path": "sales/OUTREACH-REVIEW.txt",
+      "bytes": 6658,
+      "sha256": "4d352da482d3ae86f7660827eebb267e17e060c3e7e07064fcc0dda3684671e5"
+    },
+    {
+      "path": "sales/available-originals.pdf",
+      "bytes": 2933780,
+      "sha256": "05144e3d64a6cbdcfa622497a65eb76d2eca8110ad594f4cbb48b240f4763b37"
+    },
+    {
+      "path": "sales/batch-one.json",
+      "bytes": 9625,
+      "sha256": "9715bcd26f7cd93771f4dafd56f1791794d1a468f0f420d9603945f6d21d35e3"
+    },
+    {
+      "path": "sales/collector-messages.txt",
+      "bytes": 2335,
+      "sha256": "b1f9549ba58b1ae57f17dd488d1437a465da295edb88d9af694e2738ae4e75a7"
+    },
+    {
+      "path": "sales/archive/cancelled-20261020/drafts/L01-art-advisory.eml",
+      "bytes": 4016973,
+      "sha256": "21089e3ab8210fe9f6bccf5e072dedb79e29264b7c81c574089822af8378b614"
+    },
+    {
+      "path": "sales/archive/cancelled-20261020/drafts/L02-send-office.eml",
+      "bytes": 4017118,
+      "sha256": "8c0dec42502f1c7fa069bc6e74d912a7bed0e95175e8599cdb45829f1ca83cbc"
+    },
+    {
+      "path": "sales/archive/cancelled-20261020/drafts/L03-skyframe.eml",
+      "bytes": 4017108,
+      "sha256": "676ed90bc2b919bc31f6cbf5b06f5969f77fd2fb00cf59a46ba3101205609c8e"
+    },
+    {
+      "path": "sales/archive/cancelled-20261020/drafts/L04-uprise-art.eml",
+      "bytes": 4016956,
+      "sha256": "f76e276d0081334be49847052afac261f677561c634051f74a43bb91f71f8acf"
+    },
+    {
+      "path": "sales/archive/cancelled-20261020/drafts/L05-artlink.eml",
+      "bytes": 4016988,
+      "sha256": "2c7c45d22d313348444ddb93fa4d0268285e4442055b78ef2eaca5a3b78de234"
+    },
+    {
+      "path": "sales/archive/cancelled-20261020/drafts/L06-mad-gallery-nyc.eml",
+      "bytes": 2879551,
+      "sha256": "e59f70e4338c6a54d1e8edb08e9808cdf3fbe6c9a9cdf71cecbf37762637f2bd"
+    }
+  ],
+  "updatedAt": "2026-10-20T13:56:58.600484+00:00",
+  "outreachAllowed": false
+}

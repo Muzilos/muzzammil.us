@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-20T14:19:58.777267+00:00",
+  "deployment": "https://e7d53574.muzzammil-us.pages.dev",
+  "checks": [
+    {
+      "url": "https://muzzammil.us/",
+      "verified": true
+    },
+    {
+      "url": "https://muzzammil.us/paintings/",
+      "verified": true
+    },
+    {
+      "url": "https://muzzammil.us/about/",
+      "verified": true
+    },
+    {
+      "url": "https://muzzammil.us/bookings/",
+      "verified": true
+    },
+    {
+      "url": "https://muzzammil.us/inquire/",
+      "verified": true
+    },
+    {
+      "url": "https://muzzammil.us/robots.txt",
+      "verified": true
+    },
+    {
+      "url": "https://muzzammil.us/sitemap.xml",
+      "verified": true
+    },
+    {
+      "url": "https://mu22.us/services/",
+      "verified": true,
+      "detail": "Indexed legacy domain serves current page with booking link and canonical About URL."
+    }
+  ],
+  "bookingPaymentLinks": "All 3 verified active in Stripe at catalog prices using GET only.",
+  "emailsSent": 0,
+  "inquiriesSubmitted": 0,
+  "testsPassed": 25,
+  "searchIndexingConfirmed": false,
+  "bookingsAcquired": 0
+}
