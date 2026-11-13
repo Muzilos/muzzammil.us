@@ -53,7 +53,14 @@
 /static/*
   Cache-Control: public, max-age=14400, must-revalidate
 
+/static/studio.css
+  ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
 /static/merch.json
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/static/planner.json
   Cache-Control: public, max-age=0, must-revalidate, no-transform
 
 /static/merch/*

@@ -1,6 +1,7 @@
 *.mp4
 *.mov
 .cloudflare-dist/
+.publish.lock
 .dev.vars
 .env*
 .wrangler/

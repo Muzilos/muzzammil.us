@@ -1,0 +1,35 @@
+{
+  "slug": "god-her-warm-light",
+  "source": "https://www.instagram.com/p/Dfhj_WPh4V0/",
+  "caption": "God her warm light every day we stray further\n12x12 mixed on wood",
+  "original": "god-her-warm-light-instagram.jpg",
+  "sourceSha256": "f6f61c7abfe88962a95b99712522ec9f7e2e00b80ba2a362449dd682e3d3954b",
+  "sourceSize": [
+    1440,
+    1440
+  ],
+  "method": "Perspective correction, traced edge mask, and white wall compositing using Pillow and NumPy, preserving the photographed panel's color and exposure.",
+  "wallColor": "#ffffff",
+  "cornersClockwise": [
+    [
+      50,
+      60
+    ],
+    [
+      1368,
+      64
+    ],
+    [
+      1345,
+      1369
+    ],
+    [
+      72,
+      1357
+    ]
+  ],
+  "extracted": "god-her-warm-light-extracted.png",
+  "image": "/paintings/imported/god-her-warm-light-gallery.jpg",
+  "thumbnail": "/paintings/imported/thumbs/god-her-warm-light-gallery.webp",
+  "script": "scripts/edit-god-her-warm-light.py"
+}

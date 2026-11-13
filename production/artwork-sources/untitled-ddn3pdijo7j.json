@@ -1,0 +1,27 @@
+{
+  "slug": "untitled-ddn3pdijo7j",
+  "title": "Untitled",
+  "source": "https://www.instagram.com/p/DDn3pdIJo7J/",
+  "original": "untitled-ddn3pdijo7j-instagram.jpg",
+  "sourceSha256": "aadf146bdce5a29ddae40361d170bf8f7a31031df8630da3a5077fe6ccf1649e",
+  "sourceSize": [
+    1440,
+    1162
+  ],
+  "cornersClockwise": null,
+  "method": "Pillow and NumPy only: preserve photo colors; white wall composite; perspective correction and perimeter mask for Old Lady Liberty.",
+  "image": "/paintings/imported/untitled-ddn3pdijo7j-gallery.jpg",
+  "thumbnail": "/paintings/imported/thumbs/untitled-ddn3pdijo7j-gallery.webp",
+  "file": "imported/untitled-ddn3pdijo7j.jpg",
+  "price": 27500,
+  "uploadedAt": "2024-12-16T02:45:31.369000+00:00",
+  "uploadedAtBasis": "Instagram media ID timestamp decoded from post shortcode",
+  "printsAvailable": true,
+  "printPrices": {
+    "Small": 3000,
+    "Medium": 5000,
+    "Large": 7500
+  },
+  "script": "scripts/edit-instagram-additions.py",
+  "medium": "Mixed media"
+}

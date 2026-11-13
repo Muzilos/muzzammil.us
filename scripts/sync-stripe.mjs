@@ -1,12 +1,18 @@
 import fs from 'node:fs';
 import crypto from 'node:crypto';
+import { parseArgs } from 'node:util';
 
-// Creates only missing records. Keys never enter the generated catalog.
+// Reuse matching records, replace changed offers, and retire obsolete links.
+// Keys never enter the generated catalog.
 process.loadEnvFile('.env');
 if (!process.env.STRIPE_SECRET_KEY) throw new Error('STRIPE_SECRET_KEY is missing.');
 const origin = 'https://muzzammil.us';
 const catalogPath = 'static/artworks.json';
 const catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+const { values } = parseArgs({ options: { artwork: { type: 'string' } } });
+const selectedArtworks = catalog.artworks.filter(artwork => artwork.listed !== false
+  && (!values.artwork || artwork.file === values.artwork));
+if (!selectedArtworks.length) throw new Error('No listed artwork matches the requested file.');
 const digest = value => crypto.createHash('sha256').update(value).digest('hex').slice(0, 20);
 const created = { products: 0, prices: 0, payment_links: 0 };
 
@@ -40,6 +46,15 @@ const prices = await list('prices');
 const links = await list('payment_links');
 
 async function offer({ reference, name, amount, size, artwork, hours, kind, image }) {
+  if (kind === 'original') {
+    const previous = links.filter(link => link.metadata?.kind === 'original' && link.metadata?.artwork === artwork.file);
+    if (previous.some(link => link.restrictions?.completed_sessions?.count > 0)) {
+      throw new Error(`Cannot reissue a purchased original: ${artwork.file}`);
+    }
+    if (previous.length && previous.every(link => !link.active)) {
+      throw new Error(`Cannot reissue a withdrawn original: ${artwork.file}`);
+    }
+  }
   let product = products.find(p => p.active && p.metadata?.reference === reference);
   if (!product) {
     const data = {
@@ -128,10 +143,11 @@ async function offer({ reference, name, amount, size, artwork, hours, kind, imag
   return { productId: product.id, priceId: price.id, paymentLinkId: link.id, paymentLink: link.url };
 }
 
-for (const [index, artwork] of catalog.artworks.entries()) {
-  if (artwork.listed === false) continue;
+for (const [index, artwork] of selectedArtworks.entries()) {
   const reference = `muzz_print_${digest(artwork.file)}`;
-  const image = new URL(artwork.thumbnail || `/paintings/-compressed/optimized/thumb_${artwork.file}.webp`, origin).href;
+  const image = new URL(artwork.thumbnailRotation
+    ? artwork.image || `/paintings/-/${artwork.file}`
+    : artwork.thumbnail || `/paintings/-compressed/optimized/thumb_${artwork.file}.webp`, origin).href;
   artwork.printOptions = [];
   for (const [size, amount] of Object.entries(artwork.printPrices || {})) {
     if (!Number.isInteger(amount) || amount <= 0) throw new Error(`Invalid print price: ${artwork.file}`);
@@ -139,7 +155,7 @@ for (const [index, artwork] of catalog.artworks.entries()) {
     artwork.printOptions.push({ size, amount, ...record });
   }
   artwork.printPaymentLink = artwork.printOptions[0]?.paymentLink;
-  if (artwork.status !== 'sold' && artwork.status !== 'reserved' && Number.isInteger(artwork.price) && artwork.price > 0) {
+  if (!['sold', 'reserved', 'unavailable'].includes(artwork.status) && Number.isInteger(artwork.price) && artwork.price > 0) {
     if (/\(print\)/i.test(artwork.title)) {
       artwork.purchasePaymentLink = artwork.printPaymentLink;
     } else {
@@ -153,9 +169,20 @@ for (const [index, artwork] of catalog.artworks.entries()) {
   if ((index + 1) % 10 === 0) console.log(`Synced ${index + 1}/${catalog.artworks.length} artworks.`);
 }
 
-const packs = [];
-for (const [hours, amount] of [[1, 10000], [3, 28500], [5, 45000]]) {
-  packs.push({ hours, amount, ...await offer({ reference: `muzz_hours_${hours}`, name: `${hours} ${hours === 1 ? 'hour' : 'hours'} with Muzzammil`, hours, amount, kind: 'hours' }) });
+// Old direct URLs must not keep selling reserved originals or old prices.
+// Retain all Stripe products, prices, and purchase history.
+const currentLinks = new Set(catalog.artworks.flatMap(artwork => [
+  ...((artwork.printOptions || []).map(option => option.paymentLinkId)),
+  ...(!['sold', 'reserved', 'unavailable'].includes(artwork.status) && artwork.price > 0 ? [artwork.purchasePaymentLinkId] : [])
+]));
+const listedFiles = new Set(selectedArtworks.map(artwork => artwork.file));
+let retiredLinks = 0;
+for (const link of links) {
+  if (link.active && link.metadata?.site === 'muzzammil.us'
+    && ['original', 'print'].includes(link.metadata?.kind)
+    && listedFiles.has(link.metadata?.artwork) && !currentLinks.has(link.id)) {
+    await stripe(`payment_links/${link.id}`, { active: 'false' }, `muzz-retire-${link.id}`);
+    retiredLinks++;
+  }
 }
-fs.writeFileSync('static/hourly-packs.json', `${JSON.stringify({ currency: 'USD', packs }, null, 2)}\n`);
-console.log(JSON.stringify({ created, artworks: catalog.artworks.filter(a => a.listed !== false).length, printOptions: catalog.artworks.reduce((n, a) => n + (a.printOptions?.length || 0), 0), packs: packs.length }));
+console.log(JSON.stringify({ created, retiredLinks, artworks: catalog.artworks.filter(a => a.listed !== false).length, printOptions: catalog.artworks.reduce((n, a) => n + (a.printOptions?.length || 0), 0) }));

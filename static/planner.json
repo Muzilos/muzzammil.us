@@ -1,0 +1,16 @@
+{
+  "id": "planner-2027",
+  "name": "2027 pocket planner",
+  "currency": "USD",
+  "amount": 2400,
+  "previewPdf": "/static/planner/pocket-planner-2027.pdf",
+  "checkout": {
+    "enabled": true,
+    "stripeProductId": "prod_VUtXJWHTpxGWaB",
+    "stripePriceId": "price_1UVyKPJfRoNnQ3sFa0N1K0zL",
+    "stripePaymentLinkId": "plink_1UVyKQJfRoNnQ3sFqrEprg76",
+    "paymentLink": "https://buy.stripe.com/6oU00k5uc9jMbS4cdA2ZO3V",
+    "taxBehavior": "inclusive",
+    "shippingIncluded": true
+  }
+}

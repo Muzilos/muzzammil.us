@@ -5,6 +5,23 @@
 .skip-link { position: absolute; left: 12px; top: -60px; z-index: 2000; padding: 8px; background: #000; }
 .skip-link:focus { top: 8px; }
 .home-content { display: flex; flex: 1; min-height: 0; flex-direction: column; }
+@keyframes holiday-pixel-chase { from { stroke-dashoffset: var(--light-offset); } to { stroke-dashoffset: calc(var(--light-offset) - 36); } }
+@keyframes holiday-pixel-flash { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+.holiday-sale { position: relative; display: flex; flex: none; align-self: center; flex-wrap: wrap; justify-content: center; overflow: hidden; width: fit-content; max-width: calc(100% - 16px); margin: 14px auto 0; padding: 10px; border: 0; border-radius: 0; color: #ffff00; background: #002b0c; font: bold 16px/1.2 'Courier New', monospace; text-align: center; text-decoration: none; }
+.holiday-sale:visited, .holiday-sale:focus, .holiday-sale:hover { color: #ffff00; }
+.holiday-sale-label { display: flex; align-items: center; justify-content: center; flex: 1 0 auto; padding: 10px 16px; color: #ffff00; background: #ff2400; }
+.holiday-sale-offer { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0 7px; flex: 1 0 auto; padding: 10px 16px; color: #ffff00; background: #008020; }
+.holiday-sale strong { color: #ffff00; font-weight: inherit; }
+.holiday-sale small { display: inline-block; color: #ffff00; font-size: 11px; font-weight: normal; white-space: nowrap; }
+.holiday-leds { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+.holiday-leds rect { width: calc(100% - 8px); height: calc(100% - 8px); fill: none; stroke: var(--light-color); stroke-width: 8px; stroke-dasharray: 8 28; stroke-linecap: butt; shape-rendering: crispEdges; animation: holiday-pixel-chase 1.2s steps(3, end) infinite, holiday-pixel-flash 1.6s steps(1, end) infinite; }
+@media (prefers-reduced-motion: reduce) { .holiday-leds rect { animation: none; stroke-dashoffset: var(--light-offset); } }
+.artwork-rotation-stage { display: block; position: relative; width: 100%; height: 100%; min-height: 0; overflow: hidden; container-type: size; }
+.painting-image-button > .artwork-rotation-stage, #print-order > .artwork-rotation-stage { height: auto; aspect-ratio: 4 / 3; }
+.artwork-modal-stage > .artwork-rotation-stage { height: min(62vh, 650px); }
+.artwork-rotation-stage > img { position: absolute; left: 50%; top: 50%; width: 100cqh; height: 100cqw; max-width: none; max-height: none; aspect-ratio: auto; object-fit: contain; transform: translate(-50%, -50%) rotate(90deg); }
+.painting-image-button:hover .artwork-rotation-stage > img, .painting-image-button:focus-visible .artwork-rotation-stage > img { transform: translate(-50%, -50%) rotate(90deg) scale(1.015); }
+.artwork-status-unavailable { color: rgb(190, 190, 205); }
 .booking-nav .pages { display: flex; flex: 1 1 0; min-width: 0; flex-wrap: wrap; align-items: center; justify-content: center; gap: clamp(8px, 2vw, 24px); }
 .booking-nav .nav { padding: 8px 12px; }
 .booking-nav .pages .nav { display: inline-flex; align-items: center; justify-content: center; padding: 8px 16px; border: 1px solid; border-radius: 5px; color: #fff; font-family: 'Courier New', monospace; font-size: 16px; font-weight: bold; line-height: 1.2; white-space: nowrap; text-decoration: none; text-shadow: 1px 1px #171006, -1px -1px #171006, 1px -1px #171006, -1px 1px #171006; }

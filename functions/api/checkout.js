@@ -9,7 +9,7 @@ export async function onRequestPost({ request, env }) {
   try {
     const catalog = await catalogFor(request, env);
     const artwork = catalog.artworks.find(entry => entry.file === payload.artwork && entry.listed !== false);
-    if (!artwork || artwork.status === 'sold' || artwork.status === 'reserved' || !Number.isInteger(artwork.price) || artwork.price <= 0) {
+    if (!artwork || ['sold', 'reserved', 'unavailable'].includes(artwork.status) || !Number.isInteger(artwork.price) || artwork.price <= 0) {
       return json({ error: 'This artwork is not available for purchase.' }, 404);
     }
     // Reuse Stripe's one-purchase link for each original instead of creating

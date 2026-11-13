@@ -25,7 +25,7 @@
         retry.hidden = result.status === 'expired';
         return;
       }
-      title.textContent = 'Payment received';
+      title.textContent = result.kind === 'planner' ? 'Preorder payment received' : 'Payment received';
       if (result.kind === 'merch') {
         try {
           const { acknowledgePurchase } = await import('./merch-cart.js');

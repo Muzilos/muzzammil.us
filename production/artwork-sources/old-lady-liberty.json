@@ -1,0 +1,44 @@
+{
+  "slug": "old-lady-liberty",
+  "title": "Old Lady Liberty",
+  "source": "https://www.instagram.com/p/DaV9NUsBdXF/",
+  "original": "old-lady-liberty-instagram.jpg",
+  "sourceSha256": "41e43f73e76c7949a13ee1db636ed0b426379a4cbb9d2feb524080979864c593",
+  "sourceSize": [
+    1440,
+    1920
+  ],
+  "cornersClockwise": [
+    [
+      20,
+      188
+    ],
+    [
+      1390,
+      192
+    ],
+    [
+      1366,
+      1533
+    ],
+    [
+      48,
+      1538
+    ]
+  ],
+  "method": "Pillow and NumPy only: preserve photo colors; white wall composite; perspective correction and perimeter mask for Old Lady Liberty.",
+  "image": "/paintings/imported/old-lady-liberty-gallery.jpg",
+  "thumbnail": "/paintings/imported/thumbs/old-lady-liberty-gallery.webp",
+  "file": "imported/old-lady-liberty.jpg",
+  "price": 25000,
+  "uploadedAt": "2026-07-03T19:49:50.769000+00:00",
+  "uploadedAtBasis": "Instagram media ID timestamp decoded from post shortcode",
+  "printsAvailable": true,
+  "printPrices": {
+    "Small": 3000,
+    "Medium": 5000,
+    "Large": 7500
+  },
+  "script": "scripts/edit-instagram-additions.py",
+  "medium": "Oil and joint compound on wood"
+}

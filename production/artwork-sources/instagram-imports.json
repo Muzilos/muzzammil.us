@@ -1,0 +1,22 @@
+{
+  "artworks": [
+    {
+      "slug": "my-shadow",
+      "tool": "built-in image_gen",
+      "source": "https://www.instagram.com/p/DezYMrbhvCI/",
+      "original": "my-shadow-instagram.jpg",
+      "image": "/paintings/imported/my-shadow-white.jpg",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied photograph of the painting My shadow. Prepare a faithful fine art catalog photograph. Remove ONLY the dark studio table and all surrounding objects. Preserve every detail, brush stroke, color, texture and shape inside the peach painting exactly. Straighten the panel subtly to front-on 3:4 proportions, keep the entire painting visible with no lost edges, crop surrounding clutter, place centered against pure white #ffffff background with a narrow even margin about 4% around the panel. No frame, no typography, no new brushstrokes, no reinterpretation, no changes to artwork."
+    },
+    {
+      "slug": "leave-things-a-little-awkward",
+      "tool": "Pillow and NumPy",
+      "source": "https://www.instagram.com/p/DfCu32WBWL4/",
+      "original": "leave-things-a-little-awkward-instagram.jpg",
+      "image": "/paintings/imported/leave-things-a-little-awkward-white.jpg",
+      "thumbnail": "/paintings/imported/thumbs/leave-things-a-little-awkward-white.webp",
+      "method": "Photograph masked, straightened to 11:14, and composited onto white. No color or exposure adjustment and no generative editing.",
+      "script": "scripts/edit-leave-things-a-little-awkward.py"
+    }
+  ]
+}

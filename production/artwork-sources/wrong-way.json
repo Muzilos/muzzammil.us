@@ -1,0 +1,28 @@
+{
+  "slug": "wrong-way",
+  "title": "Wrong way",
+  "source": "https://www.instagram.com/p/DDV5tquuJB4/",
+  "original": "wrong-way-instagram.jpg",
+  "sourceSha256": "3ef3386183be70e4f47ad4e843153575f29af1882ee5f10846cdcdbcc0e1466a",
+  "sourceSize": [
+    1440,
+    1431
+  ],
+  "cornersClockwise": null,
+  "method": "Pillow and NumPy only: preserve photo colors; white wall composite; perspective correction and perimeter mask for Old Lady Liberty.",
+  "image": "/paintings/imported/wrong-way-gallery.jpg",
+  "thumbnail": "/paintings/imported/thumbs/wrong-way-gallery.webp",
+  "file": "imported/wrong-way.jpg",
+  "price": 47500,
+  "uploadedAt": "2024-12-09T03:17:14.678000+00:00",
+  "uploadedAtBasis": "Instagram media ID timestamp decoded from post shortcode",
+  "printsAvailable": true,
+  "printPrices": {
+    "Small": 3000,
+    "Medium": 5000,
+    "Large": 7500
+  },
+  "script": "scripts/edit-instagram-additions.py",
+  "medium": "Mixed media",
+  "size": "12 × 12 in"
+}

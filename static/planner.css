@@ -1,0 +1,34 @@
+.planner-shop { width: min(92%, 980px); margin: 42px auto 64px; }
+.planner-flyer { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); align-items: start; gap: 32px; padding: 28px; overflow: hidden; border: 1px solid #315344; border-radius: 8px; background: #0d1714; }
+.planner-book { min-width: 0; margin: 0; }
+.flyer-copy { align-self: center; min-width: 0; color: #e4e5da; font-size: 16px; line-height: 1.6; }
+.flyer-copy h2 { margin: 0 0 18px; font: normal 34px/1.1 Georgia, serif; letter-spacing: -.025em; }
+.planner-price { margin: 0; color: #f2dfad; font-size: 28px; }
+.planner-price span { color: #b2beb5; font-size: 12px; white-space: nowrap; }
+.planner-cost-note { margin: 0 0 24px; color: #bdc5bc; font-size: 13px; }
+.planner-checkout { display: inline-block; margin-top: 20px; white-space: normal; text-align: center; }
+.planner-order-note { margin-top: 18px; color: #bdc5bc; font-size: 12px; }
+#planner-load-status:empty, #preview-status:empty { display: none; }
+.planner-book button { padding: 8px 13px; border: 1px solid #728b79; border-radius: 4px; color: #f2dfad; background: #204e3c; cursor: pointer; font: inherit; }
+.planner-book button:disabled { opacity: .45; cursor: default; }
+#preview-status { margin: 10px 0 0; color: #bdc5bc; font-size: 13px; }
+#preview-stage { position: relative; width: 100%; aspect-ratio: 324 / 512.64; overflow: hidden; border-radius: 4px; background: #fff; perspective: 1600px; touch-action: pan-y; cursor: pointer; box-shadow: 0 5px 24px #0004; }
+#preview-stage:focus-visible { outline: 2px solid #00c8c8; outline-offset: 4px; }
+#preview-canvas, #preview-cover { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; }
+.page-turn-sheet { position: absolute; inset: 0; z-index: 2; transform-origin: 0 50%; transform-style: preserve-3d; pointer-events: none; box-shadow: 14px 3px 28px #0005; }
+.page-turn-front, .page-turn-back, .page-turn-shade { position: absolute; inset: 0; width: 100%; height: 100%; backface-visibility: hidden; }
+.page-turn-front { transform: translateZ(.1px); }
+.page-turn-back { transform: rotateY(180deg); background: linear-gradient(90deg, #d7d0c0, #fffdf7 16%, #f6f0e3); }
+.page-turn-shade { transform: translateZ(.2px); background: linear-gradient(90deg, #0003, transparent 14%, #ffffff16 70%, #0002); }
+.preview-controls { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 14px; font-size: 13px; }
+#preview-page { white-space: nowrap; font-variant-numeric: tabular-nums; }
+#preview-retry { margin-top: 12px; }
+@media (min-width: 741px) {
+  .planner-flyer { grid-template-columns: 3.625in minmax(0, 1fr); }
+  #preview-stage { height: 5.5in; aspect-ratio: auto; }
+}
+@media (max-width: 740px) {
+  .planner-shop { width: min(94%, 460px); margin-top: 24px; }
+  .planner-flyer { grid-template-columns: 1fr; gap: 28px; padding: 20px; }
+  .flyer-copy h2 { font-size: 32px; }
+}

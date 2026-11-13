@@ -2,6 +2,12 @@ import { contactErrors } from './inquiry-contact.js?v=20261020-contact-choice';
 
 (async function () {
   'use strict';
+  const params = new URLSearchParams(location.search);
+  const selected = params.get('artwork');
+  if (selected && params.get('offer') === 'print') {
+    location.replace(`/prints/?artwork=${encodeURIComponent(selected)}`);
+    return;
+  }
   const form = document.getElementById('inquiry-form');
   const status = document.getElementById('inquiry-status');
   const reference = crypto.randomUUID();
@@ -16,7 +22,6 @@ import { contactErrors } from './inquiry-contact.js?v=20261020-contact-choice';
     input.addEventListener('input', validateContact);
     input.addEventListener('change', validateContact);
   }
-  const selected = new URLSearchParams(location.search).get('artwork');
   let artwork;
   if (selected) {
     form.querySelector('button').disabled = true;

@@ -29,6 +29,14 @@ fi
 repository_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 build_dir="$repository_dir/.cloudflare-dist"
 
+# Both environments share the build directory. Keep it intact until the
+# current upload finishes, including when another command requests a dry run.
+exec 9>"$repository_dir/.publish.lock"
+if ! flock -n 9; then
+  echo "Another publish is using the build directory; waiting for it to finish."
+  flock 9
+fi
+
 if [[ "$environment" == "prod" && -f "$repository_dir/.staging-only" ]]; then
   echo "This checkout contains staging-only concepts. Review them before preparing a production release." >&2
   exit 1
@@ -50,12 +58,14 @@ cp -R \
   "$repository_dir/static" \
   "$repository_dir/about" \
   "$repository_dir/bookings" \
+  "$repository_dir/merch" \
   "$repository_dir/prints" \
   "$repository_dir/inquire" \
   "$repository_dir/approaches" \
   "$build_dir/"
 
-# Retain withdrawn shop sources locally, without publishing products or previews.
+# Keep previous merchandise concepts and previews private. The planner uses
+# static/planner.* and its own explicitly supplied PDF under static/planner/.
 rm -rf -- "$build_dir/static/merch"
 rm -f -- "$build_dir/static/merch.js" "$build_dir/static/merch.css"
 # Local tee concepts stay unpublished while the owner selects a printer and samples.
@@ -85,7 +95,7 @@ else
 import fs from 'node:fs';
 import path from 'node:path';
 const root = process.argv[2];
-for (const file of ['index.html', 'paintings/index.html', 'about/index.html', 'services/index.html', 'bookings/index.html', 'prints/index.html', 'inquire/index.html', 'animations/index.html', 'blog/index.html', 'sounds/index.html']) {
+for (const file of ['index.html', 'paintings/index.html', 'about/index.html', 'services/index.html', 'bookings/index.html', 'merch/index.html', 'prints/index.html', 'inquire/index.html', 'animations/index.html', 'blog/index.html', 'sounds/index.html']) {
   const target = path.join(root, file);
   fs.writeFileSync(target, fs.readFileSync(target, 'utf8').replace(/^[ \t]*<meta name="robots" content="noindex, nofollow">\r?\n/gm, ''));
 }

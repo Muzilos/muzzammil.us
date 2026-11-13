@@ -1,0 +1,23 @@
+{
+  "source": "/paintings/imported/waterfront-dusk-study-scan.png",
+  "sourceSha256": "ce90666acfbaf6ea7bf9a7d7dd0f9741ea9adb6322867e226d90d20eda652897",
+  "reference": "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
+  "sourceSize": [
+    2452,
+    1734
+  ],
+  "outputSize": [
+    1280,
+    960
+  ],
+  "panelSize": [
+    1049,
+    742
+  ],
+  "offset": [
+    115,
+    109
+  ],
+  "method": "Pillow only: full scan resized proportionally; reference wall margin cloned and mirrored; composited drop shadow. No generative editing.",
+  "script": "scripts/frame-waterfront-dusk-study.py"
+}

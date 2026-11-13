@@ -1,3 +1,5 @@
+import { presentArtworkImage } from './artwork-image.js';
+
 (async function () {
   'use strict';
   const status = document.getElementById('print-status');
@@ -6,13 +8,14 @@
     const response = await fetch('/static/artworks.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error();
     const catalog = await response.json();
-    const artwork = catalog.artworks.find(a => a.listed !== false && a.file === reference);
+    const artwork = catalog.artworks.find(a => a.listed !== false && (a.file === reference || a.slug === reference));
     if (!artwork?.printOptions?.length) throw new Error();
     document.getElementById('print-title').textContent = `${artwork.title} — print`;
     document.title = `${artwork.title} — print — Muzzammil Mehdi`;
     const image = document.getElementById('print-image');
     image.src = artwork.thumbnail || `/paintings/-compressed/optimized/thumb_${artwork.file}.webp`;
     image.alt = artwork.title;
+    presentArtworkImage(image, artwork.thumbnailRotation);
     const select = document.getElementById('print-size');
     const buy = document.getElementById('print-buy');
     const choices = artwork.printOptions.filter(option => {

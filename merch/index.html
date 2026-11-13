@@ -4,35 +4,44 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Six paintings by Muzzammil Mehdi, imagined as clean artwork stamps on oversized heavyweight T-shirts.">
   <title>Merch — Muzzammil Mehdi</title>
+  <meta name="description" content="Preorder the 2027 pocket planner by Muzzammil Mehdi. $24.00 each, including taxes and shipping.">
+  <link rel="canonical" href="https://muzzammil.us/merch/">
   <link rel="stylesheet" href="/static/style.css?v=20261020-simple">
-  <link rel="stylesheet" href="/static/studio.css?v=20261020-nav-colors">
-  <link rel="stylesheet" href="/static/merch.css?v=20261020-tees">
-  <script type="module" src="/static/merch.js?v=20261020-tees"></script>
+  <link rel="stylesheet" href="/static/studio.css?v=20261111-neon-tokyo-3">
+  <link rel="stylesheet" href="/static/planner.css?v=20261102-pocket-planner">
+  <script type="module" src="/static/planner.js?v=20261027-pocket-planner"></script>
+  <noscript><style>.planner-book #preview-status, .planner-book .preview-controls { display: none; }</style></noscript>
+  <script src="/static/snow.js?v=20261113-snow-drift-1" defer></script>
 </head>
 <body class="flex-container simple-page merch-page">
-  <a class="skip-link" href="#content">Skip to collection</a>
+  <a class="skip-link" href="#content">Skip to content</a>
   <div class="main">
     <h1 class="title"><a href="/">Muzzammil Mehdi</a></h1>
-    <nav class="bar booking-nav" aria-label="Main navigation"><div class="pages"><a class="nav" href="/">Home</a><a class="nav" href="/paintings/">Artworks</a><a class="nav" href="/merch/" aria-current="page">Merch</a><a class="nav" href="/about/">About</a><a class="gold-button book-me" href="/bookings/"><span class="book-me-text">Bookings</span></a></div></nav>
-    <main id="content" class="shop-shell">
-      <header class="collection-intro">
-        <p class="eyebrow">Paintings to wear / Collection 01</p>
-        <div class="intro-line"><h2>Off the wall.</h2><p>Six works. A generous fit.<br>Art at the center of it.</p></div>
-        <p class="collection-note">Oversized tee concepts in ecru. Digital mockups; final garments, print quality, sizing, and prices will follow physical sampling.</p>
-      </header>
-      <div class="collection-bar"><span>Oversized T-shirts</span><span>6 works · Preview collection</span></div>
-      <section id="product-grid" class="product-grid" aria-label="Artwork tee concepts" aria-live="polite"><p role="status">Loading the collection…</p></section>
-      <noscript><p>Enable JavaScript to view the tee mockups. The featured works are Covenant, Snake, Adam enjoying his apple, Insanity, Runnin', and Two Trees.</p></noscript>
-      <section class="collection-details" aria-label="Collection direction">
-        <div><p class="eyebrow">The silhouette</p><h3>Room to move.</h3><p>A boxy body, dropped shoulders, and generous sleeves. The direction is a substantial cotton tee that gives each painting space.</p></div>
-        <div><p class="eyebrow">The artwork</p><h3>A clean stamp.</h3><p>Direct crops of the paintings, with photographed walls and outer margins removed. Original color and brushwork, without added lettering.</p></div>
-        <div><p class="eyebrow">Before the first drop</p><h3>Sample first.</h3><p>Each design will be checked on a physical tee before release. This collection is in development and isn’t available to purchase yet.</p></div>
-      </section>
-      <footer class="shop-footer"><span>Muzzammil Mehdi</span><a href="/inquire/">Get in touch ↗</a></footer>
+    <nav class="bar booking-nav" aria-label="Main navigation"><div class="pages"><a class="nav" href="/">Home</a><a class="nav" href="/paintings/">Art</a><a class="nav" href="/about/">About</a><a class="gold-button book-me" href="/merch/" aria-current="page"><span class="book-me-text">Merch</span></a></div></nav>
+    <main id="content" class="planner-shop">
+      <article class="planner-flyer" aria-labelledby="planner-title">
+        <figure id="planner-preview" class="planner-book" aria-label="Read the 2027 pocket planner">
+          <div id="preview-stage" aria-busy="false" role="group" tabindex="0" aria-label="Planner. Use the arrow keys, swipe, or click either side to turn a page.">
+            <img id="preview-cover" src="/static/planner/pocket-planner-2027-cover.jpg" width="900" height="1425" alt="Front cover of the 2027 pocket planner" fetchpriority="high">
+            <canvas id="preview-canvas" role="img" aria-label="Planner front cover" hidden></canvas>
+          </div>
+          <div class="preview-controls"><button id="preview-previous" type="button" disabled aria-label="Previous page">← Previous</button><span id="preview-page" aria-live="polite"></span><button id="preview-next" type="button" disabled aria-label="Next page">Next →</button></div>
+          <p id="preview-status" role="status" aria-live="polite">Loading pages…</p>
+          <button id="preview-retry" type="button" hidden>Try again</button>
+          <noscript><p>Enable JavaScript to turn the planner pages.</p></noscript>
+        </figure>
+        <div class="flyer-copy">
+          <h2 id="planner-title">2027 pocket planner</h2>
+          <p class="planner-price">$24.00 <span>each</span></p>
+          <p class="planner-cost-note">Taxes, worldwide shipping, and all fees included.</p>
+          <p>Preorder your 2027 pocket planner.<br>Each planner includes high quality prints of entirely handmade artwork.</p>
+          <a id="planner-checkout" class="gold-button planner-checkout" href="https://buy.stripe.com/6oU00k5uc9jMbS4cdA2ZO3V">Reserve your planner</a>
+          <p id="planner-order-note" class="planner-order-note">You will be notified when your orders are ready to ship.</p>
+          <p id="planner-load-status" role="status"></p>
+        </div>
+      </article>
     </main>
   </div>
-  <dialog id="product-dialog" aria-labelledby="product-title"><button class="dialog-close" type="button" aria-label="Close product preview">×</button><div id="product-detail"></div></dialog>
 </body>
 </html>

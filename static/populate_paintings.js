@@ -1,3 +1,5 @@
+import { presentArtworkImage } from './artwork-image.js';
+
 (function () {
   "use strict";
 
@@ -68,6 +70,7 @@
   function artworkStatus(artwork) {
     if (artwork.status === "sold") return "Sold";
     if (artwork.status === "reserved") return "Reserved";
+    if (artwork.status === "unavailable") return "Unavailable";
     if (artwork.status === "available") return "Available";
     return artwork.price === 0 ? "Not for sale" : "Available";
   }
@@ -75,6 +78,7 @@
   function canCheckout(artwork) {
     return artwork.status !== "sold"
       && artwork.status !== "reserved"
+      && artwork.status !== "unavailable"
       && Number.isInteger(artwork.price)
       && artwork.price > 0;
   }
@@ -82,6 +86,7 @@
   function canInquire(artwork) {
     return artwork.status !== "sold"
       && artwork.status !== "reserved"
+      && artwork.status !== "unavailable"
       && typeof artwork.price === "string";
   }
 
@@ -97,6 +102,7 @@
   function displayPrice(artwork, currency) {
     if (artwork.status === "sold") return "Sold";
     if (artwork.status === "reserved") return "Reserved";
+    if (artwork.status === "unavailable") return "Unavailable";
     return formatPrice(artwork.price, currency);
   }
 
@@ -160,9 +166,8 @@
     const link = document.createElement("a");
     link.className = "buy-button print-button";
     const sizes = artwork.printOptions || [];
-    link.href = sizes.length > 1
-      ? `/prints/?artwork=${encodeURIComponent(artwork.file)}`
-      : printPaymentUrl(artwork) || inquiryUrl(artwork, "print");
+    link.href = (sizes.length === 1 && printPaymentUrl(artwork))
+      || `/prints/?artwork=${encodeURIComponent(artwork.file)}`;
     link.textContent = "Prints";
     link.setAttribute("aria-label", `Prints of ${artwork.title}`);
     return link;
@@ -232,7 +237,7 @@
       image.alt = artwork.title;
       image.loading = "lazy";
       image.decoding = "async";
-      imageControl.appendChild(image);
+      imageControl.appendChild(presentArtworkImage(image, artwork.thumbnailRotation));
 
       const details = document.createElement("div");
       details.className = "painting-description";
@@ -321,7 +326,7 @@
       const caption = document.createElement("span");
       caption.className = "featured-caption";
       caption.textContent = `${artwork.title} · ${displayPrice(artwork, catalog.currency)}`;
-      slide.append(image, caption);
+      slide.append(presentArtworkImage(image, artwork.thumbnailRotation), caption);
       viewport.replaceChildren(slide);
 
       Array.from(dots.children).forEach((dot, dotIndex) => {
@@ -454,7 +459,7 @@
     image.src = paths.full;
     image.alt = artwork.title;
     image.decoding = "async";
-    imageStage.appendChild(image);
+    imageStage.appendChild(presentArtworkImage(image, artwork.rotation));
 
     const sequence = visibleArtworkSequence();
     const artworkIndex = sequence.findIndex((item) => artworkSlug(item) === artworkSlug(artwork));

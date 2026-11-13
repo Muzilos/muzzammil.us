@@ -15,9 +15,10 @@ const environment = artworks => ({
   ASSETS: { fetch: async () => response({ artworks }) }
 });
 
-test('sold originals and unknown artworks cannot reach Stripe', async t => {
+test('sold, reserved, unavailable and unknown originals cannot reach Stripe', async t => {
   t.mock.method(globalThis, 'fetch', () => { throw new Error('Unexpected Stripe request'); });
-  for (const artwork of [{ ...original, status: 'sold' }, { ...original, status: 'reserved' }]) {
+  for (const status of ['sold', 'reserved', 'unavailable']) {
+    const artwork = { ...original, status };
     const result = await checkout({ request: post('/api/checkout', { artwork: original.file, price: 1 }), env: environment([artwork]) });
     assert.equal(result.status, 404);
   }

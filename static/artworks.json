@@ -2,6 +2,167 @@
   "currency": "USD",
   "artworks": [
     {
+      "slug": "god-her-warm-light",
+      "title": "God her warm light every day we stray further",
+      "size": "12 × 12 in",
+      "medium": "Mixed media on wood",
+      "price": 47500,
+      "image": "/paintings/imported/god-her-warm-light-gallery.jpg",
+      "thumbnail": "/paintings/imported/thumbs/god-her-warm-light-gallery.webp",
+      "file": "imported/god-her-warm-light.jpg",
+      "collection": "selected-originals",
+      "tags": [
+        "Selected Originals"
+      ],
+      "featured": true,
+      "featuredPosition": 1,
+      "source": "https://www.instagram.com/p/Dfhj_WPh4V0/",
+      "status": "available",
+      "printsAvailable": true,
+      "printPrices": {
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
+      },
+      "printOptions": [
+        {
+          "size": "Small",
+          "amount": 3000,
+          "productId": "prod_VbkIYUYLYrInIY",
+          "priceId": "price_1UaWnpJfRoNnQ3sFRSt5MC6q",
+          "paymentLinkId": "plink_1UaWnqJfRoNnQ3sFei78wOrs",
+          "paymentLink": "https://buy.stripe.com/8x2fZicWEdA2cW84L82ZP3D"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VbkIYUYLYrInIY",
+          "priceId": "price_1UaWnqJfRoNnQ3sFOdXNvgT8",
+          "paymentLinkId": "plink_1UaWnqJfRoNnQ3sFDIuhEVhz",
+          "paymentLink": "https://buy.stripe.com/00wdRa2i0eE69JWcdA2ZP3E"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VbkIYUYLYrInIY",
+          "priceId": "price_1UaWnqJfRoNnQ3sFve6OVY1r",
+          "paymentLinkId": "plink_1UaWnqJfRoNnQ3sFt94lgK3M",
+          "paymentLink": "https://buy.stripe.com/6oU4gAe0IcvY6xK7Xk2ZP3F"
+        }
+      ],
+      "purchasePaymentLink": "https://buy.stripe.com/cNi7sMcWE7bEaO02D02ZO3W",
+      "purchasePaymentLinkId": "plink_1UaWFQJfRoNnQ3sF8mYpTo0j",
+      "stripeProductId": "prod_Vbjirau9bTiEot",
+      "printPaymentLink": "https://buy.stripe.com/8x2fZicWEdA2cW84L82ZP3D"
+    },
+    {
+      "slug": "my-shadow",
+      "title": "My shadow",
+      "size": "12 × 9 in",
+      "status": "available",
+      "price": 47500,
+      "image": "/paintings/imported/my-shadow-white.jpg",
+      "thumbnail": "/paintings/imported/thumbs/my-shadow-white.webp",
+      "file": "imported/my-shadow.jpg",
+      "collection": "selected-originals",
+      "tags": [
+        "Selected Originals"
+      ],
+      "printsAvailable": true,
+      "featured": true,
+      "featuredPosition": 2,
+      "source": "https://www.instagram.com/p/DezYMrbhvCI/",
+      "printPrices": {
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
+      },
+      "medium": "Oil on panel",
+      "printOptions": [
+        {
+          "size": "Small",
+          "amount": 3000,
+          "productId": "prod_VX2JI6OK1PWlf3",
+          "priceId": "price_1UaWFRJfRoNnQ3sFSD80tM77",
+          "paymentLinkId": "plink_1UaWFRJfRoNnQ3sFALGsRwqj",
+          "paymentLink": "https://buy.stripe.com/5kQfZig8QdA24pC3H42ZO3X"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VX2JI6OK1PWlf3",
+          "priceId": "price_1UaWFRJfRoNnQ3sF8DfOJRpe",
+          "paymentLinkId": "plink_1UaWFRJfRoNnQ3sFGHGtO0xf",
+          "paymentLink": "https://buy.stripe.com/4gMbJ2aOw1RkaO0a5s2ZO3Y"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VX2JI6OK1PWlf3",
+          "priceId": "price_1UaWFRJfRoNnQ3sFjFw0DMaU",
+          "paymentLinkId": "plink_1UaWFSJfRoNnQ3sFUdTL65Ta",
+          "paymentLink": "https://buy.stripe.com/eVqdRaf4MfIacW80uS2ZO3Z"
+        }
+      ],
+      "printPaymentLink": "https://buy.stripe.com/5kQfZig8QdA24pC3H42ZO3X",
+      "purchasePaymentLink": "https://buy.stripe.com/aFafZi9Ks7bE9JW91o2ZO40",
+      "purchasePaymentLinkId": "plink_1UaWFSJfRoNnQ3sFZitJ7j5M",
+      "stripeProductId": "prod_VbjibeUOGpSEL1"
+    },
+    {
+      "slug": "leave-things-a-little-awkward",
+      "title": "You see the trick here, really, is to always leave things a little awkward",
+      "size": "14 × 11 in",
+      "status": "available",
+      "price": 47500,
+      "image": "/paintings/imported/leave-things-a-little-awkward-white.jpg",
+      "thumbnail": "/paintings/imported/thumbs/leave-things-a-little-awkward-white.webp",
+      "file": "imported/leave-things-a-little-awkward.jpg",
+      "collection": "selected-originals",
+      "tags": [
+        "Selected Originals"
+      ],
+      "printsAvailable": true,
+      "featured": true,
+      "featuredPosition": 3,
+      "source": "https://www.instagram.com/p/DfCu32WBWL4/",
+      "printPrices": {
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
+      },
+      "printOptions": [
+        {
+          "size": "Small",
+          "amount": 3000,
+          "productId": "prod_VX2JlQUXahXyMI",
+          "priceId": "price_1UaWFSJfRoNnQ3sFkk4xIody",
+          "paymentLinkId": "plink_1UaWFTJfRoNnQ3sF91IfHJJC",
+          "paymentLink": "https://buy.stripe.com/00w4gA6ygeE6g8k3H42ZO41"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VX2JlQUXahXyMI",
+          "priceId": "price_1UaWFTJfRoNnQ3sFTAIg3Bh1",
+          "paymentLinkId": "plink_1UaWFTJfRoNnQ3sFf6l05N0L",
+          "paymentLink": "https://buy.stripe.com/3cIfZig8QbrUbS4a5s2ZO42"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VX2JlQUXahXyMI",
+          "priceId": "price_1UaWFTJfRoNnQ3sFdMFSl7cx",
+          "paymentLinkId": "plink_1UaWFTJfRoNnQ3sFfY036On2",
+          "paymentLink": "https://buy.stripe.com/3cI8wQ2i03Zs1dqelI2ZO43"
+        }
+      ],
+      "printPaymentLink": "https://buy.stripe.com/00w4gA6ygeE6g8k3H42ZO41",
+      "purchasePaymentLink": "https://buy.stripe.com/5kQ8wQ7Ck1Rk3ly3H42ZO44",
+      "purchasePaymentLinkId": "plink_1UaWFUJfRoNnQ3sFbm3oSQkE",
+      "stripeProductId": "prod_VbjiGMkfo8zo9q"
+    },
+    {
       "slug": "covenant",
       "title": "Covenant",
       "size": "12 × 9 in",
@@ -15,8 +176,7 @@
         "Abstract"
       ],
       "printsAvailable": true,
-      "featured": true,
-      "featuredPosition": 1,
+      "featured": false,
       "thumbnail": "/paintings/imported/covenant.jpg",
       "file": "imported/covenant.jpg",
       "printPrices": {
@@ -50,15 +210,16 @@
           "paymentLink": "https://buy.stripe.com/9B65kEe0I3ZscW8fpM2ZO3N"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/7sYeVeaOw0Nge0ccdA2ZO3L"
+      "printPaymentLink": "https://buy.stripe.com/7sYeVeaOw0Nge0ccdA2ZO3L",
+      "listed": false
     },
     {
       "slug": "snake",
       "title": "Snake",
       "size": "53 × 41 in",
       "medium": "Oil on canvas",
-      "status": "available",
-      "price": "Inquire",
+      "status": "reserved",
+      "price": 47500,
       "image": "/paintings/imported/snake.jpg",
       "collection": "selected-originals",
       "tags": [
@@ -66,42 +227,44 @@
         "Large Format"
       ],
       "printsAvailable": true,
-      "featured": true,
-      "featuredPosition": 2,
+      "featured": false,
       "thumbnail": "/paintings/imported/thumbs/snake.jpg",
       "file": "imported/snake.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT33CBEDkzATJ",
-          "priceId": "price_1USW7eJfRoNnQ3sFGpx0CiXn",
-          "paymentLinkId": "plink_1USW7eJfRoNnQ3sFzuB1XEZl",
-          "paymentLink": "https://buy.stripe.com/3cI3cw4q8eE68FS3H42ZO00"
+          "priceId": "price_1UaWFUJfRoNnQ3sF3CsKG4WP",
+          "paymentLinkId": "plink_1UaWFUJfRoNnQ3sFaNBU1Am7",
+          "paymentLink": "https://buy.stripe.com/bJe5kEg8Q9jM6xKfpM2ZO45"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT33CBEDkzATJ",
-          "priceId": "price_1USW7eJfRoNnQ3sFKxhMa2i2",
-          "paymentLinkId": "plink_1USW7eJfRoNnQ3sFdAugwS9H",
-          "paymentLink": "https://buy.stripe.com/eVq5kE3m4eE6aO04L82ZO01"
+          "priceId": "price_1UaWFVJfRoNnQ3sFOunHPL5q",
+          "paymentLinkId": "plink_1UaWFVJfRoNnQ3sFFGDsjL78",
+          "paymentLink": "https://buy.stripe.com/5kQdRag8Q67A2hu0uS2ZO46"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT33CBEDkzATJ",
-          "priceId": "price_1USW7eJfRoNnQ3sFSVqtiXHv",
-          "paymentLinkId": "plink_1USW7fJfRoNnQ3sFAo7VzIZu",
-          "paymentLink": "https://buy.stripe.com/dRm8wQ2i053w9JWfpM2ZO02"
+          "priceId": "price_1UaWFVJfRoNnQ3sFhLJYrqAD",
+          "paymentLinkId": "plink_1UaWFVJfRoNnQ3sFxOSEiBml",
+          "paymentLink": "https://buy.stripe.com/14A7sM2i053w2hu91o2ZO47"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/3cI3cw4q8eE68FS3H42ZO00"
+      "printPaymentLink": "https://buy.stripe.com/bJe5kEg8Q9jM6xKfpM2ZO45",
+      "purchasePaymentLink": "https://buy.stripe.com/6oU8wQ5uc2Vo5tG0uS2ZP00",
+      "purchasePaymentLinkId": "plink_1UaWFWJfRoNnQ3sFRBmkja8a",
+      "stripeProductId": "prod_Vbjij8tz9LeLXu"
     },
     {
       "slug": "adam-enjoying-his-apple",
@@ -109,8 +272,8 @@
       "year": 2026,
       "size": "48 × 36 in",
       "medium": "Oil on linen",
-      "status": "available",
-      "price": "Inquire",
+      "status": "sold",
+      "price": 47500,
       "image": "/paintings/imported/adam-enjoying-his-apple-v2.jpg",
       "collection": "selected-originals",
       "tags": [
@@ -120,41 +283,44 @@
       ],
       "printsAvailable": true,
       "featured": true,
-      "featuredPosition": 3,
+      "featuredPosition": 5,
       "thumbnail": "/paintings/imported/thumbs/adam-enjoying-his-apple-v2.jpg",
       "file": "imported/adam-enjoying-his-apple.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT3Frztfy1B1L",
-          "priceId": "price_1USW7fJfRoNnQ3sFJdgMoFEd",
-          "paymentLinkId": "plink_1USW7fJfRoNnQ3sFWlOnBBjN",
-          "paymentLink": "https://buy.stripe.com/28EdRag8Q53w8FSa5s2ZO03"
+          "priceId": "price_1UaWFWJfRoNnQ3sF14COKFY5",
+          "paymentLinkId": "plink_1UaWFWJfRoNnQ3sFfodDmBuJ",
+          "paymentLink": "https://buy.stripe.com/bJe6oI6yg9jMaO0b9w2ZP01"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT3Frztfy1B1L",
-          "priceId": "price_1USW7fJfRoNnQ3sFlJuErwS3",
-          "paymentLinkId": "plink_1USW7gJfRoNnQ3sFzZyzeIsN",
-          "paymentLink": "https://buy.stripe.com/9B63cwaOwdA25tG0uS2ZO04"
+          "priceId": "price_1UaWFWJfRoNnQ3sFqAXlSpC5",
+          "paymentLinkId": "plink_1UaWFWJfRoNnQ3sF7f5DliWg",
+          "paymentLink": "https://buy.stripe.com/28E28s8GoanQcW8gtQ2ZP02"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT3Frztfy1B1L",
-          "priceId": "price_1USW7gJfRoNnQ3sFmMfrvlrO",
-          "paymentLinkId": "plink_1USW7gJfRoNnQ3sFwaWI9oew",
-          "paymentLink": "https://buy.stripe.com/7sYdRae0IcvY3ly1yW2ZO05"
+          "priceId": "price_1UaWFXJfRoNnQ3sF9SnVGiBo",
+          "paymentLinkId": "plink_1UaWFXJfRoNnQ3sFib3TPUyJ",
+          "paymentLink": "https://buy.stripe.com/6oUbJ2f4M7bE4pC2D02ZP03"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/28EdRag8Q53w8FSa5s2ZO03"
+      "printPaymentLink": "https://buy.stripe.com/bJe6oI6yg9jMaO0b9w2ZP01",
+      "purchasePaymentLink": "https://buy.stripe.com/14A3cw3m4cvY1dq0uS2ZP04",
+      "purchasePaymentLinkId": "plink_1UaWFXJfRoNnQ3sFNwcROPM2",
+      "stripeProductId": "prod_VbjiuaHeuNZzlf"
     },
     {
       "slug": "untitled-46x40-oil",
@@ -163,7 +329,7 @@
       "size": "46 × 40 in",
       "medium": "Oil on canvas",
       "status": "available",
-      "price": "Inquire",
+      "price": 47500,
       "image": "/paintings/imported/insanity-color-graded-v3.jpg",
       "collection": "selected-originals",
       "tags": [
@@ -177,39 +343,42 @@
       "thumbnail": "/paintings/imported/thumbs/insanity-color-graded-v3.jpg",
       "file": "imported/untitled-46x40-oil-framed.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "source": "mu22.us",
       "frame": "white",
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT31s4bnTkpo7",
-          "priceId": "price_1USW7gJfRoNnQ3sFzbBxB2pl",
-          "paymentLinkId": "plink_1USW7gJfRoNnQ3sF7mUTK6iY",
-          "paymentLink": "https://buy.stripe.com/4gMdRa09S9jM09ma5s2ZO06"
+          "priceId": "price_1UaWFYJfRoNnQ3sFX9rBjI3K",
+          "paymentLinkId": "plink_1UaWFYJfRoNnQ3sFijO46lpe",
+          "paymentLink": "https://buy.stripe.com/dRmfZiaOw0Ng2hu4L82ZP05"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT31s4bnTkpo7",
-          "priceId": "price_1USW7hJfRoNnQ3sFxwz0AyzT",
-          "paymentLinkId": "plink_1USW7hJfRoNnQ3sF1WkORim6",
-          "paymentLink": "https://buy.stripe.com/4gM3cw4q853w9JWelI2ZO07"
+          "priceId": "price_1UaWFYJfRoNnQ3sFlFirlqm5",
+          "paymentLinkId": "plink_1UaWFYJfRoNnQ3sFRXpCLAj8",
+          "paymentLink": "https://buy.stripe.com/14A9AU4q81RkaO00uS2ZP06"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT31s4bnTkpo7",
-          "priceId": "price_1USW7hJfRoNnQ3sFvco8Jpb3",
-          "paymentLinkId": "plink_1USW7hJfRoNnQ3sFapafx3uA",
-          "paymentLink": "https://buy.stripe.com/aFafZi2i053w7BO2D02ZO08"
+          "priceId": "price_1UaWFYJfRoNnQ3sFTNHzaUXG",
+          "paymentLinkId": "plink_1UaWFZJfRoNnQ3sFr86Hkj09",
+          "paymentLink": "https://buy.stripe.com/14A6oI8Go9jM2hu1yW2ZP07"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/4gMdRa09S9jM09ma5s2ZO06"
+      "printPaymentLink": "https://buy.stripe.com/dRmfZiaOw0Ng2hu4L82ZP05",
+      "purchasePaymentLink": "https://buy.stripe.com/cNifZif4M1Rk4pC6Tg2ZP08",
+      "purchasePaymentLinkId": "plink_1UaWFZJfRoNnQ3sFDOQdDT87",
+      "stripeProductId": "prod_VbjjmnWi79yNmc"
     },
     {
       "slug": "infinite-jester",
@@ -232,38 +401,91 @@
       "thumbnail": "/paintings/imported/thumbs/infinite-jester.jpg",
       "file": "imported/infinite-jester-2026-oil-on-linen.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "source": "mu22.us",
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT3kiEKrt13Fj",
-          "priceId": "price_1USW7iJfRoNnQ3sFyPqa5Ptk",
-          "paymentLinkId": "plink_1USW7iJfRoNnQ3sFV6r4sMNY",
-          "paymentLink": "https://buy.stripe.com/7sYdRae0IeE65tGa5s2ZO09"
+          "priceId": "price_1UaWFZJfRoNnQ3sFn9Qa3OTT",
+          "paymentLinkId": "plink_1UaWFZJfRoNnQ3sFSKqMvCvm",
+          "paymentLink": "https://buy.stripe.com/14A4gA5uceE61dqfpM2ZP09"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT3kiEKrt13Fj",
-          "priceId": "price_1USW7iJfRoNnQ3sFZLAwZi0u",
-          "paymentLinkId": "plink_1USW7iJfRoNnQ3sFGN9R54Q0",
-          "paymentLink": "https://buy.stripe.com/eVq8wQ8Go2Vo1dqgtQ2ZO0a"
+          "priceId": "price_1UaWFZJfRoNnQ3sFAv4rZSHM",
+          "paymentLinkId": "plink_1UaWFaJfRoNnQ3sFpygAZhqt",
+          "paymentLink": "https://buy.stripe.com/6oUaEY4q83Zs3lydhE2ZP0a"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT3kiEKrt13Fj",
-          "priceId": "price_1USW7iJfRoNnQ3sFo39EK1ss",
-          "paymentLinkId": "plink_1USW7jJfRoNnQ3sFRDDGMKVI",
-          "paymentLink": "https://buy.stripe.com/00w5kEe0I67Ag8k0uS2ZO0b"
+          "priceId": "price_1UaWFaJfRoNnQ3sFnKJdgQsF",
+          "paymentLinkId": "plink_1UaWFaJfRoNnQ3sFtLbDJLyR",
+          "paymentLink": "https://buy.stripe.com/5kQaEY5uc8fI9JWdhE2ZP0b"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/7sYdRae0IeE65tGa5s2ZO09"
+      "printPaymentLink": "https://buy.stripe.com/14A4gA5uceE61dqfpM2ZP09"
+    },
+    {
+      "slug": "old-lady-liberty",
+      "title": "Old Lady Liberty",
+      "medium": "Oil and joint compound on wood",
+      "image": "/paintings/imported/old-lady-liberty-gallery.jpg",
+      "thumbnail": "/paintings/imported/thumbs/old-lady-liberty-gallery.webp",
+      "file": "imported/old-lady-liberty.jpg",
+      "source": "https://www.instagram.com/p/DaV9NUsBdXF/",
+      "uploadedAt": "2026-07-03T19:49:50.769000+00:00",
+      "price": 25000,
+      "printsAvailable": true,
+      "printPrices": {
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
+      },
+      "status": "available",
+      "collection": "selected-originals",
+      "tags": [
+        "Selected Originals"
+      ],
+      "featured": false,
+      "printOptions": [
+        {
+          "size": "Small",
+          "amount": 3000,
+          "productId": "prod_Vbwk9uZ2WqCEOQ",
+          "priceId": "price_1UairAJfRoNnQ3sFr5lVrGnm",
+          "paymentLinkId": "plink_1UairAJfRoNnQ3sFGr3Box2G",
+          "paymentLink": "https://buy.stripe.com/dRmeVe3m4gMe5tG0uS2ZP3O"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_Vbwk9uZ2WqCEOQ",
+          "priceId": "price_1UairAJfRoNnQ3sFL87FBILQ",
+          "paymentLinkId": "plink_1UairBJfRoNnQ3sFdJUpyUiM",
+          "paymentLink": "https://buy.stripe.com/7sYfZi9KsdA22hu4L82ZP3P"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_Vbwk9uZ2WqCEOQ",
+          "priceId": "price_1UairBJfRoNnQ3sFHvDtM5TA",
+          "paymentLinkId": "plink_1UairBJfRoNnQ3sFwxuRKSX3",
+          "paymentLink": "https://buy.stripe.com/5kQdRag8Q2Vo9JWelI2ZP3Q"
+        }
+      ],
+      "printPaymentLink": "https://buy.stripe.com/dRmeVe3m4gMe5tG0uS2ZP3O",
+      "purchasePaymentLink": "https://buy.stripe.com/3cIaEY5uceE6g8k7Xk2ZP3Y",
+      "purchasePaymentLinkId": "plink_1UajJ7JfRoNnQ3sFgSMrj2dn",
+      "stripeProductId": "prod_VbwkJQ6SeK2za2"
     },
     {
       "slug": "bedouin",
@@ -272,7 +494,7 @@
       "size": "28 × 18 in",
       "medium": "Oil, acrylic, and paper on black plexiglass",
       "status": "available",
-      "price": "Inquire",
+      "price": 47500,
       "image": "/paintings/imported/bedouin-2026-black-plexiglass.jpg",
       "collection": "selected-originals",
       "tags": [
@@ -285,38 +507,41 @@
       "thumbnail": "/paintings/imported/thumbs/bedouin.jpg",
       "file": "imported/bedouin-2026-black-plexiglass.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "source": "mu22.us",
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT3zUKxCuoGyW",
-          "priceId": "price_1USW7jJfRoNnQ3sF60CLcARu",
-          "paymentLinkId": "plink_1USW7jJfRoNnQ3sFsj0Cz79h",
-          "paymentLink": "https://buy.stripe.com/bJedRacWEeE68FS4L82ZO0c"
+          "priceId": "price_1UaWFaJfRoNnQ3sFY5q0FLV0",
+          "paymentLinkId": "plink_1UaWFbJfRoNnQ3sFQfHv3e12",
+          "paymentLink": "https://buy.stripe.com/bJefZi9Ks1Rkf4g2D02ZP0c"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT3zUKxCuoGyW",
-          "priceId": "price_1USW7jJfRoNnQ3sF8u3qdWnR",
-          "paymentLinkId": "plink_1USW7kJfRoNnQ3sFxkka1HK8",
-          "paymentLink": "https://buy.stripe.com/fZudRa09SdA23lydhE2ZO0d"
+          "priceId": "price_1UaWFbJfRoNnQ3sFj4oSOnLO",
+          "paymentLinkId": "plink_1UaWFbJfRoNnQ3sF8gpbhz8c",
+          "paymentLink": "https://buy.stripe.com/28E9AUaOwbrU7BO7Xk2ZP0d"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT3zUKxCuoGyW",
-          "priceId": "price_1USW7kJfRoNnQ3sF3LxaFOGy",
-          "paymentLinkId": "plink_1USW7kJfRoNnQ3sF6ljYR7Li",
-          "paymentLink": "https://buy.stripe.com/aFaaEY5uc53w4pCcdA2ZO0e"
+          "priceId": "price_1UaWFbJfRoNnQ3sFlb5738WT",
+          "paymentLinkId": "plink_1UaWFbJfRoNnQ3sF5BT84XZ8",
+          "paymentLink": "https://buy.stripe.com/eVq14o4q8eE67BO91o2ZP0e"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/bJedRacWEeE68FS4L82ZO0c"
+      "printPaymentLink": "https://buy.stripe.com/bJefZi9Ks1Rkf4g2D02ZP0c",
+      "purchasePaymentLink": "https://buy.stripe.com/aFafZie0IfIa2hu6Tg2ZP0f",
+      "purchasePaymentLinkId": "plink_1UaWFcJfRoNnQ3sF2FPrMUlX",
+      "stripeProductId": "prod_VbjjPgdhTlAJ2Y"
     },
     {
       "slug": "brooklyn-bridge-study",
@@ -325,7 +550,7 @@
       "size": "5 × 8 in",
       "medium": "Acrylic on paper",
       "status": "available",
-      "price": 40000,
+      "price": 27500,
       "image": "/paintings/imported/nyc-study-brooklyn-bridge.jpg",
       "collection": "nyc-studies",
       "tags": [
@@ -339,41 +564,41 @@
       "thumbnail": "/paintings/imported/thumbs/brooklyn-bridge-study.jpg",
       "file": "imported/nyc-study-brooklyn-bridge.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "source": "mu22.us",
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT3bO6olTuZOX",
-          "priceId": "price_1USW7lJfRoNnQ3sFwSM5adJM",
-          "paymentLinkId": "plink_1USW7lJfRoNnQ3sFRfrTIKVO",
-          "paymentLink": "https://buy.stripe.com/dRmfZif4M7bE3lyb9w2ZO0f"
+          "priceId": "price_1UaWFcJfRoNnQ3sFavJC4O39",
+          "paymentLinkId": "plink_1UaWFcJfRoNnQ3sFCApwjzRT",
+          "paymentLink": "https://buy.stripe.com/4gMfZi4q8eE64pCgtQ2ZP0g"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT3bO6olTuZOX",
-          "priceId": "price_1USW7lJfRoNnQ3sFZ8EtAQFx",
-          "paymentLinkId": "plink_1USW7lJfRoNnQ3sF2LQfyQJB",
-          "paymentLink": "https://buy.stripe.com/9B6bJ29KseE6f4gelI2ZO0g"
+          "priceId": "price_1UaWFcJfRoNnQ3sFtwV1dW2L",
+          "paymentLinkId": "plink_1UaWFdJfRoNnQ3sFXEEV8LNg",
+          "paymentLink": "https://buy.stripe.com/28E28s09SanQ5tGdhE2ZP0h"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT3bO6olTuZOX",
-          "priceId": "price_1USW7lJfRoNnQ3sFbi6RbD6X",
-          "paymentLinkId": "plink_1USW7mJfRoNnQ3sFi7apMREj",
-          "paymentLink": "https://buy.stripe.com/cNiaEY8Go3Zs6xK1yW2ZO0h"
+          "priceId": "price_1UaWFdJfRoNnQ3sFdCACfQPS",
+          "paymentLinkId": "plink_1UaWFdJfRoNnQ3sFwnHdUKAH",
+          "paymentLink": "https://buy.stripe.com/aFaeVeaOw67A2hu5Pc2ZP0i"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/dRmfZif4M7bE3lyb9w2ZO0f",
-      "purchasePaymentLink": "https://buy.stripe.com/4gM5kE09S9jM8FS91o2ZO0i",
+      "printPaymentLink": "https://buy.stripe.com/4gMfZi4q8eE64pCgtQ2ZP0g",
+      "purchasePaymentLink": "https://buy.stripe.com/5kQaEY6yg67Ag8k6Tg2ZP3S",
       "stripeProductId": "prod_VTT3ON5t2pzuvg",
-      "purchasePaymentLinkId": "plink_1USW7mJfRoNnQ3sFTqiLAgvA"
+      "purchasePaymentLinkId": "plink_1Uaj33JfRoNnQ3sFWIaRrWuA"
     },
     {
       "slug": "blue-tower-study",
@@ -382,7 +607,7 @@
       "size": "8 × 5 in",
       "medium": "Acrylic on paper",
       "status": "available",
-      "price": 40000,
+      "price": 27500,
       "image": "/paintings/imported/nyc-study-blue-tower.jpg",
       "collection": "nyc-studies",
       "tags": [
@@ -396,41 +621,41 @@
       "thumbnail": "/paintings/imported/thumbs/blue-tower-study.jpg",
       "file": "imported/nyc-study-blue-tower.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "source": "mu22.us",
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT3g5obYE8dnV",
-          "priceId": "price_1USW7nJfRoNnQ3sF9kSqBX45",
-          "paymentLinkId": "plink_1USW7nJfRoNnQ3sF4aTlYwqB",
-          "paymentLink": "https://buy.stripe.com/aFa3cw4q8cvY2hu2D02ZO0j"
+          "priceId": "price_1UaWFdJfRoNnQ3sFFcMllhLi",
+          "paymentLinkId": "plink_1UaWFdJfRoNnQ3sFgWGZvBDw",
+          "paymentLink": "https://buy.stripe.com/9B6aEYaOw1Rke0cgtQ2ZP0j"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT3g5obYE8dnV",
-          "priceId": "price_1USW7nJfRoNnQ3sFRDGLCI3W",
-          "paymentLinkId": "plink_1USW7nJfRoNnQ3sFMLjJkgj5",
-          "paymentLink": "https://buy.stripe.com/aFaeVe09S9jMbS4fpM2ZO0k"
+          "priceId": "price_1UaWFdJfRoNnQ3sFMAGQ5030",
+          "paymentLinkId": "plink_1UaWFeJfRoNnQ3sFj1bi2l5U",
+          "paymentLink": "https://buy.stripe.com/8x2dRa3m4gMe6xKa5s2ZP0k"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT3g5obYE8dnV",
-          "priceId": "price_1USW7oJfRoNnQ3sF0bPFoAfi",
-          "paymentLinkId": "plink_1USW7oJfRoNnQ3sFzL3TH9tY",
-          "paymentLink": "https://buy.stripe.com/4gM6oI6yg3Zs4pC0uS2ZO0l"
+          "priceId": "price_1UaWFeJfRoNnQ3sFFdrVQ70c",
+          "paymentLinkId": "plink_1UaWFeJfRoNnQ3sFj94GwYJ4",
+          "paymentLink": "https://buy.stripe.com/9B600kg8QeE68FS6Tg2ZP0l"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/aFa3cw4q8cvY2hu2D02ZO0j",
-      "purchasePaymentLink": "https://buy.stripe.com/4gMbJ26yg0Nge0ca5s2ZO0m",
+      "printPaymentLink": "https://buy.stripe.com/9B6aEYaOw1Rke0cgtQ2ZP0j",
+      "purchasePaymentLink": "https://buy.stripe.com/6oU3cw9Ks2Vof4g5Pc2ZP3T",
       "stripeProductId": "prod_VTT3U59ZbGjVvr",
-      "purchasePaymentLinkId": "plink_1USW7oJfRoNnQ3sF4E50drQg"
+      "purchasePaymentLinkId": "plink_1Uaj38JfRoNnQ3sFOR5N6cpu"
     },
     {
       "slug": "waterfront-dusk-study",
@@ -439,8 +664,8 @@
       "size": "5 × 8 in",
       "medium": "Acrylic on paper",
       "status": "available",
-      "price": 40000,
-      "image": "/paintings/imported/waterfront-dusk-study-scan.png",
+      "price": 27500,
+      "image": "/paintings/imported/waterfront-dusk-study-gallery.jpg",
       "collection": "nyc-studies",
       "tags": [
         "NYC Studies",
@@ -450,44 +675,44 @@
       "printsAvailable": true,
       "description": "Bright blue water fills the foreground beneath a pink and gray evening sky. Across the water, small yellow lights pick out the buildings along the shore.",
       "featured": false,
-      "thumbnail": "/paintings/imported/thumbs/waterfront-dusk-study-scan.jpg",
+      "thumbnail": "/paintings/imported/thumbs/waterfront-dusk-study-gallery.webp",
       "file": "imported/nyc-study-waterfront-dusk.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "source": "mu22.us",
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT3d8AcjNxoZ3",
-          "priceId": "price_1USW7pJfRoNnQ3sFEL34GL96",
-          "paymentLinkId": "plink_1USW7pJfRoNnQ3sFF3e4PVE6",
-          "paymentLink": "https://buy.stripe.com/dRmcN62i0dA2bS42D02ZO0n"
+          "priceId": "price_1UaWFeJfRoNnQ3sF14PqTLqZ",
+          "paymentLinkId": "plink_1UaWFfJfRoNnQ3sFBgdoSfEY",
+          "paymentLink": "https://buy.stripe.com/3cI3cw09S53w3ly2D02ZP0m"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT3d8AcjNxoZ3",
-          "priceId": "price_1USW7pJfRoNnQ3sFg5eLwEG5",
-          "paymentLinkId": "plink_1USW7pJfRoNnQ3sF1e54bOzF",
-          "paymentLink": "https://buy.stripe.com/3cI28s7CkbrU3ly7Xk2ZO0o"
+          "priceId": "price_1UaWFfJfRoNnQ3sF53Z7Lqq9",
+          "paymentLinkId": "plink_1UaWFfJfRoNnQ3sF54TR3mL0",
+          "paymentLink": "https://buy.stripe.com/eVqfZi09S1Rk8FS3H42ZP0n"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT3d8AcjNxoZ3",
-          "priceId": "price_1USW7pJfRoNnQ3sFEeMTBQY4",
-          "paymentLinkId": "plink_1USW7qJfRoNnQ3sFbXUHCEhJ",
-          "paymentLink": "https://buy.stripe.com/bJe6oI6ygbrU1dqfpM2ZO0p"
+          "priceId": "price_1UaWFfJfRoNnQ3sFBOEd9oYv",
+          "paymentLinkId": "plink_1UaWFfJfRoNnQ3sFsSjdP7bS",
+          "paymentLink": "https://buy.stripe.com/9B69AU8Go8fIe0ccdA2ZP0o"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/dRmcN62i0dA2bS42D02ZO0n",
-      "purchasePaymentLink": "https://buy.stripe.com/9B68wQ9KsbrUf4g4L82ZO0q",
+      "printPaymentLink": "https://buy.stripe.com/3cI3cw09S53w3ly2D02ZP0m",
+      "purchasePaymentLink": "https://buy.stripe.com/9B6aEY1dWanQ7BOcdA2ZP3U",
       "stripeProductId": "prod_VTT33UAEXCJEiT",
-      "purchasePaymentLinkId": "plink_1USW7qJfRoNnQ3sFDM0ej2rX"
+      "purchasePaymentLinkId": "plink_1Uaj3DJfRoNnQ3sFQG5jR4HA"
     },
     {
       "slug": "night-block-study",
@@ -496,7 +721,7 @@
       "size": "8 × 5 in",
       "medium": "Acrylic on paper",
       "status": "available",
-      "price": 40000,
+      "price": 27500,
       "image": "/paintings/imported/nyc-study-night-block.jpg",
       "collection": "nyc-studies",
       "tags": [
@@ -510,41 +735,41 @@
       "thumbnail": "/paintings/imported/thumbs/night-block-study.jpg",
       "file": "imported/nyc-study-night-block.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "source": "mu22.us",
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT3EF2T5Y9Bg1",
-          "priceId": "price_1USW7rJfRoNnQ3sFJjiE2GYM",
-          "paymentLinkId": "plink_1USW7rJfRoNnQ3sF9dJK7soB",
-          "paymentLink": "https://buy.stripe.com/9B6fZie0IanQe0c5Pc2ZO0r"
+          "priceId": "price_1UaWFgJfRoNnQ3sFJ1zLoDiX",
+          "paymentLinkId": "plink_1UaWFgJfRoNnQ3sFbLx9Zs6G",
+          "paymentLink": "https://buy.stripe.com/3cIcN61dWanQ6xKcdA2ZP0p"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT3EF2T5Y9Bg1",
-          "priceId": "price_1USW7rJfRoNnQ3sFk0oySB37",
-          "paymentLinkId": "plink_1USW7rJfRoNnQ3sFUcf8bW5H",
-          "paymentLink": "https://buy.stripe.com/4gMaEYaOwbrU7BO91o2ZO0s"
+          "priceId": "price_1UaWFgJfRoNnQ3sF6dYAg5sZ",
+          "paymentLinkId": "plink_1UaWFgJfRoNnQ3sF8gvvlNLk",
+          "paymentLink": "https://buy.stripe.com/5kQ00k09SbrU5tGcdA2ZP0q"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT3EF2T5Y9Bg1",
-          "priceId": "price_1USW7rJfRoNnQ3sFvIJpD1Px",
-          "paymentLinkId": "plink_1USW7sJfRoNnQ3sFBV8hGJby",
-          "paymentLink": "https://buy.stripe.com/eVqdRaf4M8fI3ly2D02ZO0t"
+          "priceId": "price_1UaWFgJfRoNnQ3sFJIxHYuNU",
+          "paymentLinkId": "plink_1UaWFhJfRoNnQ3sFEFHNEQx5",
+          "paymentLink": "https://buy.stripe.com/4gMbJ2g8QgMeg8k7Xk2ZP0r"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/9B6fZie0IanQe0c5Pc2ZO0r",
-      "purchasePaymentLink": "https://buy.stripe.com/cNi8wQ8Go3Zs09mdhE2ZO0u",
+      "printPaymentLink": "https://buy.stripe.com/3cIcN61dWanQ6xKcdA2ZP0p",
+      "purchasePaymentLink": "https://buy.stripe.com/00waEYe0IeE6f4gfpM2ZP3V",
       "stripeProductId": "prod_VTT4wXOCf8supu",
-      "purchasePaymentLinkId": "plink_1USW7sJfRoNnQ3sFUy2xIzu4"
+      "purchasePaymentLinkId": "plink_1Uaj3IJfRoNnQ3sFdjvW2l57"
     },
     {
       "slug": "river-trees-study",
@@ -553,7 +778,7 @@
       "size": "8 × 5 in",
       "medium": "Acrylic on paper",
       "status": "available",
-      "price": 40000,
+      "price": 27500,
       "image": "/paintings/imported/nyc-study-river-trees.jpg",
       "collection": "nyc-studies",
       "tags": [
@@ -567,41 +792,41 @@
       "thumbnail": "/paintings/imported/thumbs/river-trees-study.jpg",
       "file": "imported/nyc-study-river-trees.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "source": "mu22.us",
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4X5LAuDDGPf",
-          "priceId": "price_1USW7tJfRoNnQ3sFen14pKak",
-          "paymentLinkId": "plink_1USW7tJfRoNnQ3sFkJWWjv7S",
-          "paymentLink": "https://buy.stripe.com/28E6oI7Ck0Ngg8kgtQ2ZO0v"
+          "priceId": "price_1UaWFhJfRoNnQ3sFP8y5bVKC",
+          "paymentLinkId": "plink_1UaWFhJfRoNnQ3sFgYfXyfrP",
+          "paymentLink": "https://buy.stripe.com/dRmeVe3m467Af4gelI2ZP0s"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4X5LAuDDGPf",
-          "priceId": "price_1USW7tJfRoNnQ3sF3Day0Jag",
-          "paymentLinkId": "plink_1USW7tJfRoNnQ3sFXGIeqL2D",
-          "paymentLink": "https://buy.stripe.com/3cIdRa5uccvYg8k0uS2ZO0w"
+          "priceId": "price_1UaWFhJfRoNnQ3sFnUcxYjjl",
+          "paymentLinkId": "plink_1UaWFhJfRoNnQ3sFYbuUBShy",
+          "paymentLink": "https://buy.stripe.com/9B600ke0I53wf4g0uS2ZP0t"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4X5LAuDDGPf",
-          "priceId": "price_1USW7tJfRoNnQ3sFfYgFj4D0",
-          "paymentLinkId": "plink_1USW7uJfRoNnQ3sF0O6iLLla",
-          "paymentLink": "https://buy.stripe.com/6oU5kE2i01Rk1dqcdA2ZO0x"
+          "priceId": "price_1UaWFiJfRoNnQ3sFtkw7u6sw",
+          "paymentLinkId": "plink_1UaWFiJfRoNnQ3sFkcOPfvFC",
+          "paymentLink": "https://buy.stripe.com/4gM5kE7Ck53w09m5Pc2ZP0u"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/28E6oI7Ck0Ngg8kgtQ2ZO0v",
-      "purchasePaymentLink": "https://buy.stripe.com/fZu4gAf4MbrUg8kdhE2ZO0y",
+      "printPaymentLink": "https://buy.stripe.com/dRmeVe3m467Af4gelI2ZP0s",
+      "purchasePaymentLink": "https://buy.stripe.com/14A14og8QanQ6xK2D02ZP3W",
       "stripeProductId": "prod_VTT40B5xhrswwS",
-      "purchasePaymentLinkId": "plink_1USW7uJfRoNnQ3sFN8UbypUl"
+      "purchasePaymentLinkId": "plink_1Uaj3OJfRoNnQ3sF1uwKxTbo"
     },
     {
       "slug": "green-field-study",
@@ -610,7 +835,7 @@
       "size": "8 × 5 in",
       "medium": "Acrylic on paper",
       "status": "available",
-      "price": 40000,
+      "price": 27500,
       "image": "/paintings/imported/green-field-study.jpg",
       "collection": "nyc-studies",
       "tags": [
@@ -623,41 +848,41 @@
       "thumbnail": "/paintings/imported/thumbs/green-field-study.jpg",
       "file": "imported/green-field-study.jpg",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "source": "mu22.us",
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4D0LXh2AbuZ",
-          "priceId": "price_1USW7uJfRoNnQ3sFPQTBo8do",
-          "paymentLinkId": "plink_1USW7vJfRoNnQ3sFPOzQPzwe",
-          "paymentLink": "https://buy.stripe.com/bJeaEY09ScvY4pC3H42ZO0z"
+          "priceId": "price_1UaWFiJfRoNnQ3sFDX4m4Zr7",
+          "paymentLinkId": "plink_1UaWFjJfRoNnQ3sFY54At7pj",
+          "paymentLink": "https://buy.stripe.com/8x28wQ5ucanQ9JW5Pc2ZP0v"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4D0LXh2AbuZ",
-          "priceId": "price_1USW7vJfRoNnQ3sFCjZSZduR",
-          "paymentLinkId": "plink_1USW7vJfRoNnQ3sFIOTOtelY",
-          "paymentLink": "https://buy.stripe.com/fZucN6g8Q8fI6xK3H42ZO0A"
+          "priceId": "price_1UaWFjJfRoNnQ3sFKp1bQWUf",
+          "paymentLinkId": "plink_1UaWFjJfRoNnQ3sFDoLF54mf",
+          "paymentLink": "https://buy.stripe.com/28E28se0IdA2g8ka5s2ZP0w"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4D0LXh2AbuZ",
-          "priceId": "price_1USW7vJfRoNnQ3sF6Ec67LoB",
-          "paymentLinkId": "plink_1USW7vJfRoNnQ3sFeAYPqOKk",
-          "paymentLink": "https://buy.stripe.com/7sYdRaaOw2Vo6xKb9w2ZO0B"
+          "priceId": "price_1UaWFjJfRoNnQ3sFGPFDUQys",
+          "paymentLinkId": "plink_1UaWFjJfRoNnQ3sFQ48ljntv",
+          "paymentLink": "https://buy.stripe.com/dRmfZi5uccvY3ly3H42ZP0x"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/bJeaEY09ScvY4pC3H42ZO0z",
-      "purchasePaymentLink": "https://buy.stripe.com/6oUcN68Go1Rk8FS0uS2ZO0C",
+      "printPaymentLink": "https://buy.stripe.com/8x28wQ5ucanQ9JW5Pc2ZP0v",
+      "purchasePaymentLink": "https://buy.stripe.com/dRmeVe7CkbrU7BOfpM2ZP3X",
       "stripeProductId": "prod_VTT4KUImTeEFUT",
-      "purchasePaymentLinkId": "plink_1USW7wJfRoNnQ3sFe7oyRnCp"
+      "purchasePaymentLinkId": "plink_1Uaj3UJfRoNnQ3sFmUAVZ2MD"
     },
     {
       "slug": "city-street",
@@ -666,7 +891,7 @@
       "size": "36 × 46 in",
       "medium": "Mixed media",
       "status": "available",
-      "price": 752000,
+      "price": 47500,
       "image": "/paintings/imported/03_City Street_2026_36 x 46in_Mixed media.jpg",
       "tags": [
         "Selected Originals",
@@ -675,9 +900,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "Fragments of newspaper show through pale layers of paint, alongside faint pink and blue lines. In this mixed-media cityscape, the street almost disappears into the surface.",
       "featured": true,
@@ -688,33 +913,33 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4n63B9zojPQ",
-          "priceId": "price_1USW7wJfRoNnQ3sFcODCOe9U",
-          "paymentLinkId": "plink_1USW7xJfRoNnQ3sFouVb2vmo",
-          "paymentLink": "https://buy.stripe.com/cNi9AU8GobrU8FScdA2ZO0D"
+          "priceId": "price_1UaWFkJfRoNnQ3sFZ3GOwSnv",
+          "paymentLinkId": "plink_1UaWFkJfRoNnQ3sFQcIIMLt7",
+          "paymentLink": "https://buy.stripe.com/fZubJ22i00Ng8FSdhE2ZP0y"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4n63B9zojPQ",
-          "priceId": "price_1USW7xJfRoNnQ3sFkhbXoG5O",
-          "paymentLinkId": "plink_1USW7xJfRoNnQ3sFpnKLqFkt",
-          "paymentLink": "https://buy.stripe.com/8x2aEY8Go67A5tGfpM2ZO0E"
+          "priceId": "price_1UaWFkJfRoNnQ3sFkdPo4T5f",
+          "paymentLinkId": "plink_1UaWFkJfRoNnQ3sF8VkiEftn",
+          "paymentLink": "https://buy.stripe.com/5kQ4gA1dWcvYf4gelI2ZP0z"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4n63B9zojPQ",
-          "priceId": "price_1USW7xJfRoNnQ3sF41FX4Pqp",
-          "paymentLinkId": "plink_1USW7xJfRoNnQ3sFSmJgXltR",
-          "paymentLink": "https://buy.stripe.com/8x24gAaOwdA28FSelI2ZO0F"
+          "priceId": "price_1UaWFlJfRoNnQ3sFMcc4O3AW",
+          "paymentLinkId": "plink_1UaWFlJfRoNnQ3sFyo3PDIhM",
+          "paymentLink": "https://buy.stripe.com/4gM28saOweE63ly1yW2ZP0A"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/cNi9AU8GobrU8FScdA2ZO0D",
-      "purchasePaymentLink": "https://buy.stripe.com/cNi4gA8Go53w3ly7Xk2ZO0G",
+      "printPaymentLink": "https://buy.stripe.com/fZubJ22i00Ng8FSdhE2ZP0y",
+      "purchasePaymentLink": "https://buy.stripe.com/fZu14o09S3Zs7BO6Tg2ZP0B",
       "stripeProductId": "prod_VTT4YXyuYShSSP",
-      "purchasePaymentLinkId": "plink_1USW7yJfRoNnQ3sFeJ4rliHT"
+      "purchasePaymentLinkId": "plink_1UaWFlJfRoNnQ3sFLOrTBNHY"
     },
     {
       "slug": "candle",
@@ -722,8 +947,8 @@
       "year": 2025,
       "size": "12 × 12 in",
       "medium": "Mixed media",
-      "status": "available",
-      "price": 370000,
+      "status": "reserved",
+      "price": 0,
       "image": "/paintings/imported/Candle_2025_12 x 12in_Mixed Media-EDIT.jpg",
       "tags": [
         "Selected Originals",
@@ -732,9 +957,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A yellow candle sits in a haze of gray and pink, its narrow flame reaching upward. Look closely and you can see ridges, streaks, and small breaks in the painted surface.",
       "featured": false,
@@ -745,33 +970,31 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4dKaGgVyj0H",
-          "priceId": "price_1USW7yJfRoNnQ3sFeEF2JgZb",
-          "paymentLinkId": "plink_1USW7yJfRoNnQ3sFqqKCEjCM",
-          "paymentLink": "https://buy.stripe.com/aFa00kcWE1Rk5tG6Tg2ZO0H"
+          "priceId": "price_1UaWFlJfRoNnQ3sFBz0V5Bon",
+          "paymentLinkId": "plink_1UaWFmJfRoNnQ3sFUwTnoQQh",
+          "paymentLink": "https://buy.stripe.com/9B6eVe4q867A5tG5Pc2ZP0C"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4dKaGgVyj0H",
-          "priceId": "price_1USW7yJfRoNnQ3sFyf4WNc21",
-          "paymentLinkId": "plink_1USW7zJfRoNnQ3sFFgf5O9yr",
-          "paymentLink": "https://buy.stripe.com/8x27sMf4M0Ng3ly3H42ZO0I"
+          "priceId": "price_1UaWFmJfRoNnQ3sFhHyV9La5",
+          "paymentLinkId": "plink_1UaWFmJfRoNnQ3sFZiv2Lakf",
+          "paymentLink": "https://buy.stripe.com/eVq28sbSAbrU8FSb9w2ZP0D"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4dKaGgVyj0H",
-          "priceId": "price_1USW7zJfRoNnQ3sF0daAXup0",
-          "paymentLinkId": "plink_1USW7zJfRoNnQ3sFGBe1rJiR",
-          "paymentLink": "https://buy.stripe.com/8x2eVe9Ks7bEe0c91o2ZO0J"
+          "priceId": "price_1UaWFmJfRoNnQ3sFWHbkCRxy",
+          "paymentLinkId": "plink_1UaWFnJfRoNnQ3sF7S8jisdm",
+          "paymentLink": "https://buy.stripe.com/aFa14o5ucdA209mdhE2ZP0E"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/aFa00kcWE1Rk5tG6Tg2ZO0H",
-      "purchasePaymentLink": "https://buy.stripe.com/14A9AU9KsdA2cW8elI2ZO0K",
-      "stripeProductId": "prod_VTT4sdxrdxpxkP",
-      "purchasePaymentLinkId": "plink_1USW80JfRoNnQ3sFY4JNFtr2"
+      "printPaymentLink": "https://buy.stripe.com/9B6eVe4q867A5tG5Pc2ZP0C",
+      "stripeProductId": "prod_VTT4sdxrdxpxkP"
     },
     {
       "slug": "cat-and-machine",
@@ -789,9 +1012,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A cat with its tail raised faces a dark, boxy machine across a quiet room. I painted the pair in oil on wood panel, using muted pinks, browns, and gray.",
       "featured": false,
@@ -802,30 +1025,30 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4HMzAc8MKgb",
-          "priceId": "price_1USW80JfRoNnQ3sFf43dEeX5",
-          "paymentLinkId": "plink_1USW80JfRoNnQ3sFiItE7o9d",
-          "paymentLink": "https://buy.stripe.com/6oU5kE6yg1RkbS491o2ZO0L"
+          "priceId": "price_1UaWFnJfRoNnQ3sFuYIlmT1X",
+          "paymentLinkId": "plink_1UaWFnJfRoNnQ3sFR3EKtOeM",
+          "paymentLink": "https://buy.stripe.com/14A4gA6yg67AbS4gtQ2ZP0F"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4HMzAc8MKgb",
-          "priceId": "price_1USW80JfRoNnQ3sFCP8A4E3F",
-          "paymentLinkId": "plink_1USW81JfRoNnQ3sFnOO3sUYp",
-          "paymentLink": "https://buy.stripe.com/3cIaEY3m4eE6e0ca5s2ZO0M"
+          "priceId": "price_1UaWFnJfRoNnQ3sFfldd27fL",
+          "paymentLinkId": "plink_1UaWFnJfRoNnQ3sFQOt2AEQ6",
+          "paymentLink": "https://buy.stripe.com/3cIeVe2i0gMe6xK7Xk2ZP0G"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4HMzAc8MKgb",
-          "priceId": "price_1USW81JfRoNnQ3sFhYvvB29I",
-          "paymentLinkId": "plink_1USW81JfRoNnQ3sFBd6WVhmm",
-          "paymentLink": "https://buy.stripe.com/bJe6oIcWEdA29JW2D02ZO0N"
+          "priceId": "price_1UaWFnJfRoNnQ3sFOPwCfpoQ",
+          "paymentLinkId": "plink_1UaWFoJfRoNnQ3sFxyivdJz9",
+          "paymentLink": "https://buy.stripe.com/eVqdRa3m453waO01yW2ZP0H"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/6oU5kE6yg1RkbS491o2ZO0L"
+      "printPaymentLink": "https://buy.stripe.com/14A4gA6yg67AbS4gtQ2ZP0F"
     },
     {
       "slug": "vacuuming",
@@ -833,8 +1056,8 @@
       "year": 2025,
       "size": "36 × 24 in",
       "medium": "Oil on linen",
-      "status": "available",
-      "price": 875600,
+      "status": "reserved",
+      "price": 0,
       "image": "/paintings/imported/vacuuming-framed-light.jpg",
       "tags": [
         "Selected Originals",
@@ -843,9 +1066,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "An elongated figure bends over a vacuum cleaner in a pink room. Broad curves run through the body and clothing, giving an everyday chore an unfamiliar shape.",
       "featured": true,
@@ -856,33 +1079,31 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4EjgvZRYTR1",
-          "priceId": "price_1USW81JfRoNnQ3sFzMhUQ3iX",
-          "paymentLinkId": "plink_1USW81JfRoNnQ3sFB7IIRQ4e",
-          "paymentLink": "https://buy.stripe.com/00w14o8Go2Vo09mcdA2ZO0O"
+          "priceId": "price_1UaWFoJfRoNnQ3sFFsoauJXI",
+          "paymentLinkId": "plink_1UaWFoJfRoNnQ3sFH9TKwTaP",
+          "paymentLink": "https://buy.stripe.com/6oU14o3m43Zs4pCa5s2ZP0I"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4EjgvZRYTR1",
-          "priceId": "price_1USW81JfRoNnQ3sFuimpXxSs",
-          "paymentLinkId": "plink_1USW82JfRoNnQ3sFbQEJF3Tg",
-          "paymentLink": "https://buy.stripe.com/eVq8wQf4M67A7BO5Pc2ZO0P"
+          "priceId": "price_1UaWFoJfRoNnQ3sFeQ6KquCA",
+          "paymentLinkId": "plink_1UaWFpJfRoNnQ3sFwUsGl1aO",
+          "paymentLink": "https://buy.stripe.com/9B6dRa2i08fIaO0elI2ZP0J"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4EjgvZRYTR1",
-          "priceId": "price_1USW82JfRoNnQ3sFLwgwdbDN",
-          "paymentLinkId": "plink_1USW82JfRoNnQ3sFvXVPrUdI",
-          "paymentLink": "https://buy.stripe.com/4gMbJ27Ck67AaO01yW2ZO0Q"
+          "priceId": "price_1UaWFpJfRoNnQ3sFnudli1KF",
+          "paymentLinkId": "plink_1UaWFpJfRoNnQ3sFSIEv5AN2",
+          "paymentLink": "https://buy.stripe.com/bJe3cwf4M8fIe0c91o2ZP0K"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/00w14o8Go2Vo09mcdA2ZO0O",
-      "purchasePaymentLink": "https://buy.stripe.com/bJe28s7Ck0Ng3lyb9w2ZO0R",
-      "stripeProductId": "prod_VTT4RDTIBRDQBG",
-      "purchasePaymentLinkId": "plink_1USW83JfRoNnQ3sFxy91m58b"
+      "printPaymentLink": "https://buy.stripe.com/6oU14o3m43Zs4pCa5s2ZP0I",
+      "stripeProductId": "prod_VTT4RDTIBRDQBG"
     },
     {
       "slug": "its-getting-cold",
@@ -890,8 +1111,8 @@
       "year": 2025,
       "size": "24 × 36 in",
       "medium": "Oil on linen",
-      "status": "available",
-      "price": 570000,
+      "status": "reserved",
+      "price": 0,
       "image": "/paintings/imported/on-the-subway-train.jpg",
       "tags": [
         "Selected Originals",
@@ -899,9 +1120,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "Deep blues and grays surround a curled figure. The curved brush marks follow the body and spread into the space around it, making the figure partly disappear into the room.",
       "featured": false,
@@ -912,33 +1133,31 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT42XgCjhBujm",
-          "priceId": "price_1USW83JfRoNnQ3sFCy3bz8PY",
-          "paymentLinkId": "plink_1USW83JfRoNnQ3sFpSD9cP4E",
-          "paymentLink": "https://buy.stripe.com/cNicN67Ck7bE5tG91o2ZO0S"
+          "priceId": "price_1UaWFpJfRoNnQ3sFlPZHgyey",
+          "paymentLinkId": "plink_1UaWFpJfRoNnQ3sF3p0nOucj",
+          "paymentLink": "https://buy.stripe.com/7sY5kE9Ks1RkbS44L82ZP0L"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT42XgCjhBujm",
-          "priceId": "price_1USW83JfRoNnQ3sFB1lraiFe",
-          "paymentLinkId": "plink_1USW84JfRoNnQ3sFmuWT6u4a",
-          "paymentLink": "https://buy.stripe.com/aFacN67CkgMebS45Pc2ZO0T"
+          "priceId": "price_1UaWFpJfRoNnQ3sF6D80jooT",
+          "paymentLinkId": "plink_1UaWFqJfRoNnQ3sFBUd0FU9Q",
+          "paymentLink": "https://buy.stripe.com/4gM00k9KsdA2aO0dhE2ZP0M"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT42XgCjhBujm",
-          "priceId": "price_1USW84JfRoNnQ3sF5UTCRPdT",
-          "paymentLinkId": "plink_1USW84JfRoNnQ3sFzfZmoPpf",
-          "paymentLink": "https://buy.stripe.com/8x2dRa8Go9jM4pCelI2ZO0U"
+          "priceId": "price_1UaWFqJfRoNnQ3sFwQ99U22Q",
+          "paymentLinkId": "plink_1UaWFqJfRoNnQ3sFWCf5QLF0",
+          "paymentLink": "https://buy.stripe.com/aFa4gAf4M3Zs7BOdhE2ZP0N"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/cNicN67Ck7bE5tG91o2ZO0S",
-      "purchasePaymentLink": "https://buy.stripe.com/9B6aEY7Ck7bE8FS6Tg2ZO0V",
-      "stripeProductId": "prod_VTT4CsB0zNYpE2",
-      "purchasePaymentLinkId": "plink_1USW85JfRoNnQ3sFKlfprNKI"
+      "printPaymentLink": "https://buy.stripe.com/7sY5kE9Ks1RkbS44L82ZP0L",
+      "stripeProductId": "prod_VTT4CsB0zNYpE2"
     },
     {
       "slug": "heaven",
@@ -947,7 +1166,7 @@
       "size": "18 × 24 in",
       "medium": "Oil on linen",
       "status": "available",
-      "price": 250000,
+      "price": 47500,
       "image": "/paintings/imported/heaven.jpg",
       "tags": [
         "Archive",
@@ -957,9 +1176,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A cat looks out from a landscape of orange, blue, and white. Broad bands of color sweep behind it, with a pale branching shape near the center.",
       "featured": false,
@@ -970,33 +1189,33 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4TJGEK6yWf5",
-          "priceId": "price_1USW85JfRoNnQ3sFbQwvSaih",
-          "paymentLinkId": "plink_1USW85JfRoNnQ3sFOZTLxM1S",
-          "paymentLink": "https://buy.stripe.com/cNi14oe0IeE6cW87Xk2ZO0W"
+          "priceId": "price_1UaWFqJfRoNnQ3sFWmmE5EUZ",
+          "paymentLinkId": "plink_1UaWFrJfRoNnQ3sF7V773dvF",
+          "paymentLink": "https://buy.stripe.com/4gM4gA09SdA29JW91o2ZP0O"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4TJGEK6yWf5",
-          "priceId": "price_1USW85JfRoNnQ3sFbYSsG2CX",
-          "paymentLinkId": "plink_1USW86JfRoNnQ3sFOYeOaGIM",
-          "paymentLink": "https://buy.stripe.com/6oUdRacWEfIag8k3H42ZO0X"
+          "priceId": "price_1UaWFrJfRoNnQ3sF3RQvzF0O",
+          "paymentLinkId": "plink_1UaWFrJfRoNnQ3sFHEfoI1Kn",
+          "paymentLink": "https://buy.stripe.com/5kQ7sM09S9jM09m4L82ZP0P"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4TJGEK6yWf5",
-          "priceId": "price_1USW86JfRoNnQ3sFaL23Vxrl",
-          "paymentLinkId": "plink_1USW86JfRoNnQ3sFZOHnTMFA",
-          "paymentLink": "https://buy.stripe.com/bJeaEY2i0dA29JWelI2ZO0Y"
+          "priceId": "price_1UaWFrJfRoNnQ3sFztSqui5h",
+          "paymentLinkId": "plink_1UaWFrJfRoNnQ3sFiDyfjxM2",
+          "paymentLink": "https://buy.stripe.com/fZucN6g8QbrU1dqelI2ZP0Q"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/cNi14oe0IeE6cW87Xk2ZO0W",
-      "purchasePaymentLink": "https://buy.stripe.com/aFa9AU3m49jM2hudhE2ZO0Z",
+      "printPaymentLink": "https://buy.stripe.com/4gM4gA09SdA29JW91o2ZP0O",
+      "purchasePaymentLink": "https://buy.stripe.com/00wfZiaOw0NgaO0cdA2ZP0R",
       "stripeProductId": "prod_VTT4Lk5x7jQlB1",
-      "purchasePaymentLinkId": "plink_1USW87JfRoNnQ3sFORwRWoHl"
+      "purchasePaymentLinkId": "plink_1UaWFsJfRoNnQ3sFIzP0fRvl"
     },
     {
       "slug": "tree",
@@ -1004,8 +1223,8 @@
       "year": 2025,
       "size": "9 × 12 in",
       "medium": "gouache on yupo paper",
-      "status": "available",
-      "price": "Inquire",
+      "status": "sold",
+      "price": 0,
       "image": "/paintings/imported/tree.jpg",
       "tags": [
         "Selected Originals",
@@ -1013,13 +1232,12 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "Two dark, branching forms emerge from a pale green surface. I painted this piece in gouache on Yupo paper; small streaks and patches of color fill the space around the trees.",
-      "featured": true,
-      "featuredPosition": 4,
+      "featured": false,
       "thumbnail": "/paintings/imported/thumbs/tree.jpg",
       "collection": "selected-originals",
       "file": "imported/tree.jpg",
@@ -1027,30 +1245,30 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4RckMnzeQWj",
-          "priceId": "price_1USW87JfRoNnQ3sFbeGjpfRk",
-          "paymentLinkId": "plink_1USW87JfRoNnQ3sFEU42K18e",
-          "paymentLink": "https://buy.stripe.com/dRm28s09S53we0cfpM2ZO10"
+          "priceId": "price_1UaWFsJfRoNnQ3sFIAOMK3F1",
+          "paymentLinkId": "plink_1UaWFsJfRoNnQ3sF0j6UoK1Q",
+          "paymentLink": "https://buy.stripe.com/bJeeVef4ManQg8k4L82ZP0S"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4RckMnzeQWj",
-          "priceId": "price_1USW87JfRoNnQ3sF00YGu2O9",
-          "paymentLinkId": "plink_1USW87JfRoNnQ3sFPMFQjeUT",
-          "paymentLink": "https://buy.stripe.com/28E00kg8Q3Zs2huelI2ZO11"
+          "priceId": "price_1UaWFsJfRoNnQ3sF7Re7uQi8",
+          "paymentLinkId": "plink_1UaWFtJfRoNnQ3sFpkv4QxJz",
+          "paymentLink": "https://buy.stripe.com/8x214o7Ck2Vo2hu7Xk2ZP0T"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4RckMnzeQWj",
-          "priceId": "price_1USW88JfRoNnQ3sF3JK77ZFo",
-          "paymentLinkId": "plink_1USW88JfRoNnQ3sFwEv23Mmh",
-          "paymentLink": "https://buy.stripe.com/7sY8wQf4ManQ6xKb9w2ZO12"
+          "priceId": "price_1UaWFtJfRoNnQ3sFtfT0jH11",
+          "paymentLinkId": "plink_1UaWFtJfRoNnQ3sFHOlbEUht",
+          "paymentLink": "https://buy.stripe.com/eVqdRa09S1Rk5tGa5s2ZP0U"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/dRm28s09S53we0cfpM2ZO10"
+      "printPaymentLink": "https://buy.stripe.com/bJeeVef4ManQg8k4L82ZP0S"
     },
     {
       "slug": "runnin",
@@ -1059,7 +1277,7 @@
       "size": "8 × 6 in",
       "medium": "Oil on canvas board",
       "status": "available",
-      "price": 240000,
+      "price": 47500,
       "image": "/paintings/imported/Runnin_2025_8 x 6in_Oil on canvas board-EDIT.jpg",
       "tags": [
         "Selected Originals",
@@ -1068,9 +1286,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A figure twists through green, blue, and orange, with one arm curving up across the painting. This is a small oil on canvas board, just eight by six inches.",
       "featured": true,
@@ -1081,33 +1299,33 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4c1dAHC3qYX",
-          "priceId": "price_1USW88JfRoNnQ3sFH6vdPp4u",
-          "paymentLinkId": "plink_1USW88JfRoNnQ3sFLX6q2AGA",
-          "paymentLink": "https://buy.stripe.com/8x26oI6yg1Rk4pC3H42ZO13"
+          "priceId": "price_1UaWFtJfRoNnQ3sF96rcHYeA",
+          "paymentLinkId": "plink_1UaWFtJfRoNnQ3sFPqGzo0zs",
+          "paymentLink": "https://buy.stripe.com/bJe3cwf4ManQbS4cdA2ZP0V"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4c1dAHC3qYX",
-          "priceId": "price_1USW88JfRoNnQ3sFmpvXizkc",
-          "paymentLinkId": "plink_1USW89JfRoNnQ3sFoPqHWUAS",
-          "paymentLink": "https://buy.stripe.com/4gM6oIf4M8fIcW8gtQ2ZO14"
+          "priceId": "price_1UaWFtJfRoNnQ3sFVdbPQOrk",
+          "paymentLinkId": "plink_1UaWFuJfRoNnQ3sFSkl2dzTS",
+          "paymentLink": "https://buy.stripe.com/28E5kE1dW3Zs1dqelI2ZP0W"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4c1dAHC3qYX",
-          "priceId": "price_1USW89JfRoNnQ3sFqHNozBDn",
-          "paymentLinkId": "plink_1USW89JfRoNnQ3sFobodXdzA",
-          "paymentLink": "https://buy.stripe.com/aFa4gAbSA0Ng2hua5s2ZO15"
+          "priceId": "price_1UaWFuJfRoNnQ3sFPRTXCQ4X",
+          "paymentLinkId": "plink_1UaWFuJfRoNnQ3sFd3rMDNdo",
+          "paymentLink": "https://buy.stripe.com/4gM28s5ucgMee0c5Pc2ZP0X"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/8x26oI6yg1Rk4pC3H42ZO13",
-      "purchasePaymentLink": "https://buy.stripe.com/7sY00k3m40Ng3lyelI2ZO16",
+      "printPaymentLink": "https://buy.stripe.com/bJe3cwf4ManQbS4cdA2ZP0V",
+      "purchasePaymentLink": "https://buy.stripe.com/fZufZi6ygcvYaO07Xk2ZP0Y",
       "stripeProductId": "prod_VTT4RvvvVh1dCO",
-      "purchasePaymentLinkId": "plink_1USW8AJfRoNnQ3sFwGhnBasV"
+      "purchasePaymentLinkId": "plink_1UaWFvJfRoNnQ3sFhXtGEfjj"
     },
     {
       "slug": "head-i",
@@ -1116,7 +1334,7 @@
       "size": "36 × 36 in",
       "medium": "Oil on canvas",
       "status": "available",
-      "price": 270000,
+      "price": 47500,
       "image": "/paintings/imported/head 1.jpg",
       "tags": [
         "Archive",
@@ -1125,9 +1343,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A pale blue-green head nearly blends into its background. A broad band crosses the eyes, while curved brush marks describe the jaw and neck.",
       "featured": false,
@@ -1138,33 +1356,33 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4XMyx5ZqyOp",
-          "priceId": "price_1USW8AJfRoNnQ3sFzXDUMJw8",
-          "paymentLinkId": "plink_1USW8AJfRoNnQ3sFbAWjlDS1",
-          "paymentLink": "https://buy.stripe.com/9B63cwaOw7bEf4g0uS2ZO17"
+          "priceId": "price_1UaWFvJfRoNnQ3sFdjLdvMgd",
+          "paymentLinkId": "plink_1UaWFvJfRoNnQ3sFBSzCMOv1",
+          "paymentLink": "https://buy.stripe.com/aFadRa7Ck1RkaO0gtQ2ZP0Z"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4XMyx5ZqyOp",
-          "priceId": "price_1USW8AJfRoNnQ3sFMQRUlCgv",
-          "paymentLinkId": "plink_1USW8BJfRoNnQ3sFJwXsni14",
-          "paymentLink": "https://buy.stripe.com/aFadRa9Ks8fI9JWfpM2ZO18"
+          "priceId": "price_1UaWFvJfRoNnQ3sF4XXTSqu5",
+          "paymentLinkId": "plink_1UaWFvJfRoNnQ3sFdx3F9Psj",
+          "paymentLink": "https://buy.stripe.com/5kQ3cwcWEeE6f4g0uS2ZP10"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4XMyx5ZqyOp",
-          "priceId": "price_1USW8BJfRoNnQ3sF0rTQEivX",
-          "paymentLinkId": "plink_1USW8BJfRoNnQ3sFMDijIDwD",
-          "paymentLink": "https://buy.stripe.com/bJeaEY8Go67A6xK1yW2ZO19"
+          "priceId": "price_1UaWFwJfRoNnQ3sFnI5xgbFw",
+          "paymentLinkId": "plink_1UaWFwJfRoNnQ3sFjOTvWn4t",
+          "paymentLink": "https://buy.stripe.com/28EeVeaOwbrU4pC4L82ZP11"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/9B63cwaOw7bEf4g0uS2ZO17",
-      "purchasePaymentLink": "https://buy.stripe.com/dRm9AU8Go2VobS4cdA2ZO1a",
+      "printPaymentLink": "https://buy.stripe.com/aFadRa7Ck1RkaO0gtQ2ZP0Z",
+      "purchasePaymentLink": "https://buy.stripe.com/4gMcN67Ck7bEbS4elI2ZP12",
       "stripeProductId": "prod_VTT4HoVNGXlttN",
-      "purchasePaymentLinkId": "plink_1USW8BJfRoNnQ3sFbHUtNW9r"
+      "purchasePaymentLinkId": "plink_1UaWFwJfRoNnQ3sFZCnk3X4n"
     },
     {
       "slug": "head-iii",
@@ -1173,7 +1391,7 @@
       "size": "36 × 36 in",
       "medium": "Oil on canvas",
       "status": "available",
-      "price": 270000,
+      "price": 47500,
       "image": "/paintings/imported/heaad 4.jpg",
       "tags": [
         "Archive",
@@ -1182,9 +1400,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "Purple strokes loop around a head and spill out toward the edges. A yellow bowl sits below, and a long curved shape hangs above the figure.",
       "featured": false,
@@ -1195,33 +1413,33 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4rjAzGZQpoo",
-          "priceId": "price_1USW8CJfRoNnQ3sFx18Yoafq",
-          "paymentLinkId": "plink_1USW8CJfRoNnQ3sFYKh9xIuR",
-          "paymentLink": "https://buy.stripe.com/4gM8wQ09SgMef4gdhE2ZO1b"
+          "priceId": "price_1UaWFxJfRoNnQ3sFAuaPOakd",
+          "paymentLinkId": "plink_1UaWFxJfRoNnQ3sFjNdZe1wk",
+          "paymentLink": "https://buy.stripe.com/8x23cwcWE7bE09mgtQ2ZP13"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4rjAzGZQpoo",
-          "priceId": "price_1USW8CJfRoNnQ3sFsMZglQGT",
-          "paymentLinkId": "plink_1USW8CJfRoNnQ3sF7rWIx98F",
-          "paymentLink": "https://buy.stripe.com/eVq7sM5uc9jMe0c5Pc2ZO1c"
+          "priceId": "price_1UaWFxJfRoNnQ3sF2hDSELxP",
+          "paymentLinkId": "plink_1UaWFxJfRoNnQ3sFpyJ7vKV8",
+          "paymentLink": "https://buy.stripe.com/5kQaEY09S2Vo4pC1yW2ZP14"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4rjAzGZQpoo",
-          "priceId": "price_1USW8DJfRoNnQ3sFdlYkx5vs",
-          "paymentLinkId": "plink_1USW8DJfRoNnQ3sFQZqscBZK",
-          "paymentLink": "https://buy.stripe.com/eVq9AUe0I53w09m91o2ZO1d"
+          "priceId": "price_1UaWFxJfRoNnQ3sFSNWBfNFw",
+          "paymentLinkId": "plink_1UaWFyJfRoNnQ3sFLuCtyQBp",
+          "paymentLink": "https://buy.stripe.com/fZu3cw09S2Vo5tGgtQ2ZP15"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/4gM8wQ09SgMef4gdhE2ZO1b",
-      "purchasePaymentLink": "https://buy.stripe.com/7sY9AU4q83Zs5tG6Tg2ZO1e",
+      "printPaymentLink": "https://buy.stripe.com/8x23cwcWE7bE09mgtQ2ZP13",
+      "purchasePaymentLink": "https://buy.stripe.com/fZu6oI8Go0Ng9JW91o2ZP16",
       "stripeProductId": "prod_VTT4gBxpe60DS5",
-      "purchasePaymentLinkId": "plink_1USW8EJfRoNnQ3sFeWWKwj6q"
+      "purchasePaymentLinkId": "plink_1UaWFyJfRoNnQ3sFWvAK4hVv"
     },
     {
       "slug": "head-iv",
@@ -1230,7 +1448,7 @@
       "size": "36 × 36 in",
       "medium": "Oil on canvas",
       "status": "available",
-      "price": 270000,
+      "price": 47500,
       "image": "/paintings/imported/head 3.jpg",
       "tags": [
         "Archive",
@@ -1239,9 +1457,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A green head emerges among loose blue, yellow, and pink marks. A small round object in the foreground brings those colors together beneath the face.",
       "featured": false,
@@ -1252,33 +1470,140 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4DSa6NQagZf",
-          "priceId": "price_1USW8EJfRoNnQ3sFRXH0D2XH",
-          "paymentLinkId": "plink_1USW8EJfRoNnQ3sFhhDeh0LB",
-          "paymentLink": "https://buy.stripe.com/5kQfZi1dW0Ng6xKa5s2ZO1f"
+          "priceId": "price_1UaWFyJfRoNnQ3sF6rGs4tC5",
+          "paymentLinkId": "plink_1UaWFyJfRoNnQ3sFMV9BNczO",
+          "paymentLink": "https://buy.stripe.com/5kQaEY1dW3Zs5tGa5s2ZP17"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4DSa6NQagZf",
-          "priceId": "price_1USW8EJfRoNnQ3sFdaJ9tC3v",
-          "paymentLinkId": "plink_1USW8EJfRoNnQ3sFLpCJ1nYq",
-          "paymentLink": "https://buy.stripe.com/6oUaEYg8Q3Zs3lya5s2ZO1g"
+          "priceId": "price_1UaWFzJfRoNnQ3sFsG5fYsym",
+          "paymentLinkId": "plink_1UaWFzJfRoNnQ3sFWxfsvQPu",
+          "paymentLink": "https://buy.stripe.com/9B67sM7Ck53wg8kdhE2ZP18"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4DSa6NQagZf",
-          "priceId": "price_1USW8FJfRoNnQ3sFqruEcw5H",
-          "paymentLinkId": "plink_1USW8FJfRoNnQ3sFo7gVhshr",
-          "paymentLink": "https://buy.stripe.com/5kQaEY09S1Rk09melI2ZO1h"
+          "priceId": "price_1UaWFzJfRoNnQ3sFFrUFd25z",
+          "paymentLinkId": "plink_1UaWFzJfRoNnQ3sFKkpG8xdE",
+          "paymentLink": "https://buy.stripe.com/aFacN6cWEeE63lyfpM2ZP19"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/5kQfZi1dW0Ng6xKa5s2ZO1f",
-      "purchasePaymentLink": "https://buy.stripe.com/eVq4gA8GocvYcW8b9w2ZO1i",
+      "printPaymentLink": "https://buy.stripe.com/5kQaEY1dW3Zs5tGa5s2ZP17",
+      "purchasePaymentLink": "https://buy.stripe.com/5kQfZi7CkdA2aO0cdA2ZP1a",
       "stripeProductId": "prod_VTT4WRFZGSspzm",
-      "purchasePaymentLinkId": "plink_1USW8FJfRoNnQ3sFwUkH6ITd"
+      "purchasePaymentLinkId": "plink_1UaWG0JfRoNnQ3sFfYFU6gbk"
+    },
+    {
+      "slug": "wrong-way",
+      "title": "Wrong way",
+      "size": "12 × 12 in",
+      "medium": "Mixed media",
+      "image": "/paintings/imported/wrong-way-gallery.jpg",
+      "thumbnail": "/paintings/imported/thumbs/wrong-way-gallery.webp",
+      "file": "imported/wrong-way.jpg",
+      "source": "https://www.instagram.com/p/DDV5tquuJB4/",
+      "uploadedAt": "2024-12-09T03:17:14.678000+00:00",
+      "price": 47500,
+      "printsAvailable": true,
+      "printPrices": {
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
+      },
+      "status": "available",
+      "collection": "selected-originals",
+      "tags": [
+        "Selected Originals"
+      ],
+      "featured": false,
+      "printOptions": [
+        {
+          "size": "Small",
+          "amount": 3000,
+          "productId": "prod_Vbwk7dJbDqIErR",
+          "priceId": "price_1UaiqbJfRoNnQ3sF1QOhrO3b",
+          "paymentLinkId": "plink_1UaiqcJfRoNnQ3sFUSYWJurN",
+          "paymentLink": "https://buy.stripe.com/9B614o4q8gMeg8k91o2ZP3G"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_Vbwk7dJbDqIErR",
+          "priceId": "price_1UaiqcJfRoNnQ3sFnjqyDAKH",
+          "paymentLinkId": "plink_1UaiqcJfRoNnQ3sFGJfKBXlQ",
+          "paymentLink": "https://buy.stripe.com/fZu6oIf4MeE69JWa5s2ZP3H"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_Vbwk7dJbDqIErR",
+          "priceId": "price_1UaiqcJfRoNnQ3sFVEYdqcIq",
+          "paymentLinkId": "plink_1UaiqdJfRoNnQ3sFLkZbT47Y",
+          "paymentLink": "https://buy.stripe.com/7sY28s8GoanQaO02D02ZP3I"
+        }
+      ],
+      "printPaymentLink": "https://buy.stripe.com/9B614o4q8gMeg8k91o2ZP3G",
+      "purchasePaymentLink": "https://buy.stripe.com/14AfZi4q853we0c0uS2ZP3J",
+      "purchasePaymentLinkId": "plink_1UaiqdJfRoNnQ3sFdm0OpK41",
+      "stripeProductId": "prod_VbwkivSwKjV0mp"
+    },
+    {
+      "slug": "untitled-ddn3pdijo7j",
+      "title": "Untitled",
+      "medium": "Mixed media",
+      "image": "/paintings/imported/untitled-ddn3pdijo7j-gallery.jpg",
+      "thumbnail": "/paintings/imported/thumbs/untitled-ddn3pdijo7j-gallery.webp",
+      "file": "imported/untitled-ddn3pdijo7j.jpg",
+      "source": "https://www.instagram.com/p/DDn3pdIJo7J/",
+      "uploadedAt": "2024-12-16T02:45:31.369000+00:00",
+      "price": 27500,
+      "printsAvailable": true,
+      "printPrices": {
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
+      },
+      "status": "available",
+      "collection": "selected-originals",
+      "tags": [
+        "Selected Originals"
+      ],
+      "featured": false,
+      "printOptions": [
+        {
+          "size": "Small",
+          "amount": 3000,
+          "productId": "prod_VbwkXtlAaJ8dUV",
+          "priceId": "price_1UaiqsJfRoNnQ3sF8kfDC4Ij",
+          "paymentLinkId": "plink_1UaiqsJfRoNnQ3sF2qGUNpio",
+          "paymentLink": "https://buy.stripe.com/bJe9AU09SgMe3lydhE2ZP3K"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VbwkXtlAaJ8dUV",
+          "priceId": "price_1UaiqsJfRoNnQ3sFB4JRKMFK",
+          "paymentLinkId": "plink_1UaiqtJfRoNnQ3sFERFnx111",
+          "paymentLink": "https://buy.stripe.com/3cIdRae0IanQaO04L82ZP3L"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VbwkXtlAaJ8dUV",
+          "priceId": "price_1UaiqtJfRoNnQ3sFjllZKmq5",
+          "paymentLinkId": "plink_1UaiqtJfRoNnQ3sFxJjHpj9T",
+          "paymentLink": "https://buy.stripe.com/cNi4gAe0IcvY2hucdA2ZP3M"
+        }
+      ],
+      "printPaymentLink": "https://buy.stripe.com/bJe9AU09SgMe3lydhE2ZP3K",
+      "purchasePaymentLink": "https://buy.stripe.com/eVq14o4q82Vog8k5Pc2ZP3Z",
+      "purchasePaymentLinkId": "plink_1UajJCJfRoNnQ3sFo0mUDhkl",
+      "stripeProductId": "prod_VbwkMT3sV73tnC"
     },
     {
       "slug": "Jacket",
@@ -1287,7 +1612,7 @@
       "size": "18 × 24 in",
       "medium": "Oil on canvas",
       "status": "available",
-      "price": 150000,
+      "price": 47500,
       "image": "/paintings/imported/09-30-2024 13.34.jpg",
       "tags": [
         "Archive",
@@ -1297,9 +1622,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A jacket hangs over a chair in a room of ochre, brown, and white. Dark lines pick out its folds, while parts of the room remain loosely brushed in.",
       "featured": false,
@@ -1310,33 +1635,33 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4A2o2LeQMJV",
-          "priceId": "price_1USW8GJfRoNnQ3sFNuZB5ru3",
-          "paymentLinkId": "plink_1USW8GJfRoNnQ3sF0zBiLgQc",
-          "paymentLink": "https://buy.stripe.com/28E4gAe0I9jMe0ca5s2ZO1j"
+          "priceId": "price_1UaWG0JfRoNnQ3sF688jFMG1",
+          "paymentLinkId": "plink_1UaWG0JfRoNnQ3sFdh2V75Fc",
+          "paymentLink": "https://buy.stripe.com/cNibJ23m48fI7BOa5s2ZP1b"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4A2o2LeQMJV",
-          "priceId": "price_1USW8GJfRoNnQ3sFQq1d4zDt",
-          "paymentLinkId": "plink_1USW8GJfRoNnQ3sFCR5iaHTu",
-          "paymentLink": "https://buy.stripe.com/14A3cwg8QgMe2hu0uS2ZO1k"
+          "priceId": "price_1UaWG0JfRoNnQ3sFGrlkf2AK",
+          "paymentLinkId": "plink_1UaWG0JfRoNnQ3sFk9vFbb1x",
+          "paymentLink": "https://buy.stripe.com/cNi6oIaOw7bE6xKgtQ2ZP1c"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4A2o2LeQMJV",
-          "priceId": "price_1USW8HJfRoNnQ3sFV9Ud9flR",
-          "paymentLinkId": "plink_1USW8HJfRoNnQ3sFsVvEYm4q",
-          "paymentLink": "https://buy.stripe.com/bJe00k7CkeE6cW8cdA2ZO1l"
+          "priceId": "price_1UaWG1JfRoNnQ3sFoNJS70GK",
+          "paymentLinkId": "plink_1UaWG1JfRoNnQ3sFrwcnnc94",
+          "paymentLink": "https://buy.stripe.com/eVq8wQ6ygfIae0cfpM2ZP1d"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/28E4gAe0I9jMe0ca5s2ZO1j",
-      "purchasePaymentLink": "https://buy.stripe.com/cNi5kE9Ks3Zsg8k6Tg2ZO1m",
+      "printPaymentLink": "https://buy.stripe.com/cNibJ23m48fI7BOa5s2ZP1b",
+      "purchasePaymentLink": "https://buy.stripe.com/7sY9AUg8Q7bE1dqgtQ2ZP1e",
       "stripeProductId": "prod_VTT48CTgeHPlYh",
-      "purchasePaymentLinkId": "plink_1USW8HJfRoNnQ3sFnvnncGUM"
+      "purchasePaymentLinkId": "plink_1UaWG1JfRoNnQ3sFKNRsiYf5"
     },
     {
       "slug": "cow",
@@ -1353,9 +1678,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "I used blue and white throughout this small oil painting. Broad, curved strokes carry the form into the surrounding shadows, with the canvas texture still visible.",
       "thumbnail": "/paintings/imported/thumbs/cow.jpg",
@@ -1365,30 +1690,30 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4wwtNfl5EvH",
-          "priceId": "price_1USW8IJfRoNnQ3sF5ep6hy7I",
-          "paymentLinkId": "plink_1USW8IJfRoNnQ3sF35RqXtyT",
-          "paymentLink": "https://buy.stripe.com/eVqeVebSA0Ngg8kelI2ZO1n"
+          "priceId": "price_1UaWG2JfRoNnQ3sFUhFk1aE0",
+          "paymentLinkId": "plink_1UaWG2JfRoNnQ3sFkgwPmZ4S",
+          "paymentLink": "https://buy.stripe.com/6oU9AUg8Q7bEf4gb9w2ZP1f"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4wwtNfl5EvH",
-          "priceId": "price_1USW8IJfRoNnQ3sF7IfDbDz5",
-          "paymentLinkId": "plink_1USW8IJfRoNnQ3sFf5AwHu0v",
-          "paymentLink": "https://buy.stripe.com/9B67sM6yganQ2hub9w2ZO1o"
+          "priceId": "price_1UaWG2JfRoNnQ3sFYch6zH0R",
+          "paymentLinkId": "plink_1UaWG2JfRoNnQ3sFBq22iS4b",
+          "paymentLink": "https://buy.stripe.com/8x24gAf4ManQ09mb9w2ZP1g"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4wwtNfl5EvH",
-          "priceId": "price_1USW8IJfRoNnQ3sFJHC77Ycg",
-          "paymentLinkId": "plink_1USW8JJfRoNnQ3sFo9dnIl0c",
-          "paymentLink": "https://buy.stripe.com/00wfZi5uccvYaO05Pc2ZO1p"
+          "priceId": "price_1UaWG2JfRoNnQ3sFxpW8LYlH",
+          "paymentLinkId": "plink_1UaWG3JfRoNnQ3sF8MZWfnHm",
+          "paymentLink": "https://buy.stripe.com/fZu4gA4q88fI7BO6Tg2ZP1h"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/eVqeVebSA0Ngg8kelI2ZO1n"
+      "printPaymentLink": "https://buy.stripe.com/6oU9AUg8Q7bEf4gb9w2ZP1f"
     },
     {
       "slug": "untitled-blue-painting",
@@ -1401,37 +1726,37 @@
       "featured": false,
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4GDRmQVpQlN",
-          "priceId": "price_1USW8JJfRoNnQ3sFHbZAiMTY",
-          "paymentLinkId": "plink_1USW8JJfRoNnQ3sFIcTpo1KG",
-          "paymentLink": "https://buy.stripe.com/7sY5kEbSAeE68FS7Xk2ZO1q"
+          "priceId": "price_1UaWG3JfRoNnQ3sFOpnGvUvq",
+          "paymentLinkId": "plink_1UaWG3JfRoNnQ3sFeP2IGH1n",
+          "paymentLink": "https://buy.stripe.com/28E9AU2i0cvY6xK0uS2ZP1i"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4GDRmQVpQlN",
-          "priceId": "price_1USW8JJfRoNnQ3sFyKwsKX8X",
-          "paymentLinkId": "plink_1USW8KJfRoNnQ3sFoW2D8aFD",
-          "paymentLink": "https://buy.stripe.com/00w8wQ5uc67A8FSa5s2ZO1r"
+          "priceId": "price_1UaWG3JfRoNnQ3sFDxDOTrRi",
+          "paymentLinkId": "plink_1UaWG4JfRoNnQ3sFfUPoR7BT",
+          "paymentLink": "https://buy.stripe.com/3cI14of4MbrU6xK3H42ZP1j"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4GDRmQVpQlN",
-          "priceId": "price_1USW8KJfRoNnQ3sF60lE2l1n",
-          "paymentLinkId": "plink_1USW8KJfRoNnQ3sFh18JEwpA",
-          "paymentLink": "https://buy.stripe.com/9B6aEYaOwfIabS42D02ZO1s"
+          "priceId": "price_1UaWG4JfRoNnQ3sF650iCNJH",
+          "paymentLinkId": "plink_1UaWG4JfRoNnQ3sFR19K4fYg",
+          "paymentLink": "https://buy.stripe.com/7sY5kEcWE2Vo4pC6Tg2ZP1k"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/7sY5kEbSAeE68FS7Xk2ZO1q"
+      "printPaymentLink": "https://buy.stripe.com/28E9AU2i0cvY6xK0uS2ZP1i"
     },
     {
       "slug": "pain",
@@ -1440,7 +1765,7 @@
       "size": "16 × 12 in",
       "medium": "Oil on canvas",
       "status": "available",
-      "price": 150000,
+      "price": 47500,
       "image": "/paintings/imported/pain.jpg",
       "tags": [
         "Archive",
@@ -1450,9 +1775,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A seated figure folds forward, turning its face away. Thick strokes of ochre, pink, and dark gray follow the back, shoulders, and bent legs.",
       "featured": false,
@@ -1463,33 +1788,33 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4ARWnTw7Y1r",
-          "priceId": "price_1USW8KJfRoNnQ3sFsn9U6o5g",
-          "paymentLinkId": "plink_1USW8KJfRoNnQ3sFUmDvdRdv",
-          "paymentLink": "https://buy.stripe.com/6oUfZi8Go7bEcW84L82ZO1t"
+          "priceId": "price_1UaWG4JfRoNnQ3sFQYd7vzWC",
+          "paymentLinkId": "plink_1UaWG4JfRoNnQ3sFlGmhFupL",
+          "paymentLink": "https://buy.stripe.com/3cI5kEbSAfIa2hu4L82ZP1l"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4ARWnTw7Y1r",
-          "priceId": "price_1USW8LJfRoNnQ3sFHevuR8WR",
-          "paymentLinkId": "plink_1USW8LJfRoNnQ3sFTlyzJ32R",
-          "paymentLink": "https://buy.stripe.com/aFa3cw9KsbrUf4g91o2ZO1u"
+          "priceId": "price_1UaWG5JfRoNnQ3sFwW3vvGNS",
+          "paymentLinkId": "plink_1UaWG5JfRoNnQ3sFpq5AAeR5",
+          "paymentLink": "https://buy.stripe.com/14A3cw8Go1Rk09melI2ZP1m"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4ARWnTw7Y1r",
-          "priceId": "price_1USW8LJfRoNnQ3sFNI37wwgd",
-          "paymentLinkId": "plink_1USW8LJfRoNnQ3sFHxDWLKa3",
-          "paymentLink": "https://buy.stripe.com/fZubJ2e0I0Ng4pC91o2ZO1v"
+          "priceId": "price_1UaWG5JfRoNnQ3sFx2bNL7Tg",
+          "paymentLinkId": "plink_1UaWG5JfRoNnQ3sFasoUJXdF",
+          "paymentLink": "https://buy.stripe.com/4gM9AU9Ks0Ng6xK91o2ZP1n"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/6oUfZi8Go7bEcW84L82ZO1t",
-      "purchasePaymentLink": "https://buy.stripe.com/3cI9AU7Ck1RkaO0cdA2ZO1w",
+      "printPaymentLink": "https://buy.stripe.com/3cI5kEbSAfIa2hu4L82ZP1l",
+      "purchasePaymentLink": "https://buy.stripe.com/9B63cw8Go1Rk7BO1yW2ZP1o",
       "stripeProductId": "prod_VTT44dA21g6fCL",
-      "purchasePaymentLinkId": "plink_1USW8MJfRoNnQ3sFBJxAd59V"
+      "purchasePaymentLinkId": "plink_1UaWG5JfRoNnQ3sFd2jtTWlE"
     },
     {
       "slug": "sitting-figure",
@@ -1498,7 +1823,7 @@
       "size": "18 × 24 in",
       "medium": "Oil on canvas",
       "status": "available",
-      "price": 250000,
+      "price": 47500,
       "image": "/paintings/imported/sitting-figure.jpg",
       "tags": [
         "Archive",
@@ -1508,9 +1833,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A seated figure rests beside a green plant in a loosely painted interior. Short, thick marks describe the body, with patches of canvas showing between them.",
       "featured": false,
@@ -1521,33 +1846,33 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4FHWoEmTDJq",
-          "priceId": "price_1USW8MJfRoNnQ3sFOmPss14o",
-          "paymentLinkId": "plink_1USW8MJfRoNnQ3sFcW9s24vb",
-          "paymentLink": "https://buy.stripe.com/8x228s8Go53wf4gelI2ZO1x"
+          "priceId": "price_1UaWG6JfRoNnQ3sFRsmSWO0G",
+          "paymentLinkId": "plink_1UaWG6JfRoNnQ3sF0tr67CPQ",
+          "paymentLink": "https://buy.stripe.com/bJeaEY6yggMe7BOb9w2ZP1p"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4FHWoEmTDJq",
-          "priceId": "price_1USW8MJfRoNnQ3sFaA8PE66L",
-          "paymentLinkId": "plink_1USW8NJfRoNnQ3sFV3yhSP4z",
-          "paymentLink": "https://buy.stripe.com/3cI4gA4q8dA24pC3H42ZO1y"
+          "priceId": "price_1UaWG6JfRoNnQ3sFFEzCpvse",
+          "paymentLinkId": "plink_1UaWG6JfRoNnQ3sFggBBQ6bh",
+          "paymentLink": "https://buy.stripe.com/5kQcN6aOw9jM2hu0uS2ZP1q"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4FHWoEmTDJq",
-          "priceId": "price_1USW8NJfRoNnQ3sFwQAPaVa0",
-          "paymentLinkId": "plink_1USW8NJfRoNnQ3sFTCj5XzZV",
-          "paymentLink": "https://buy.stripe.com/28E8wQ1dWanQaO00uS2ZO1z"
+          "priceId": "price_1UaWG7JfRoNnQ3sFQxvyX7Uq",
+          "paymentLinkId": "plink_1UaWG7JfRoNnQ3sFWYWQTSVW",
+          "paymentLink": "https://buy.stripe.com/eVq00k09SfIa2hucdA2ZP1r"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/8x228s8Go53wf4gelI2ZO1x",
-      "purchasePaymentLink": "https://buy.stripe.com/14A3cwcWE3Zs09m2D02ZO1A",
+      "printPaymentLink": "https://buy.stripe.com/bJeaEY6yggMe7BOb9w2ZP1p",
+      "purchasePaymentLink": "https://buy.stripe.com/eVqeVe7CkgMe4pCgtQ2ZP1s",
       "stripeProductId": "prod_VTT4OfXl3wcs6o",
-      "purchasePaymentLinkId": "plink_1USW8OJfRoNnQ3sFbOY7owI9"
+      "purchasePaymentLinkId": "plink_1UaWG7JfRoNnQ3sFJ2lqcYY7"
     },
     {
       "slug": "mask-off",
@@ -1566,9 +1891,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A floating face in pink and purple sits against a flat yellow background. Dark eyebrows, hair, and a beard give the head its shape, while yellow shows through the eyes.",
       "thumbnail": "/paintings/imported/thumbs/mask-off.jpg",
@@ -1578,30 +1903,30 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4mi7bQQqmI4",
-          "priceId": "price_1USW8OJfRoNnQ3sFlzXSYczB",
-          "paymentLinkId": "plink_1USW8OJfRoNnQ3sFFPTuoLet",
-          "paymentLink": "https://buy.stripe.com/6oU4gA2i0dA21dqelI2ZO1B"
+          "priceId": "price_1UaWG7JfRoNnQ3sFRTN2ECmI",
+          "paymentLinkId": "plink_1UaWG8JfRoNnQ3sFihn0cvoi",
+          "paymentLink": "https://buy.stripe.com/28EcN6bSAdA25tG6Tg2ZP1t"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4mi7bQQqmI4",
-          "priceId": "price_1USW8OJfRoNnQ3sFlK9z0WJc",
-          "paymentLinkId": "plink_1USW8PJfRoNnQ3sFnzzUrB9R",
-          "paymentLink": "https://buy.stripe.com/6oU4gAf4ManQ5tG3H42ZO1C"
+          "priceId": "price_1UaWG8JfRoNnQ3sFLwCJ5RFc",
+          "paymentLinkId": "plink_1UaWG8JfRoNnQ3sFk3QvQtRG",
+          "paymentLink": "https://buy.stripe.com/4gMcN6e0IcvY8FSdhE2ZP1u"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4mi7bQQqmI4",
-          "priceId": "price_1USW8PJfRoNnQ3sFkq5qjvHD",
-          "paymentLinkId": "plink_1USW8PJfRoNnQ3sFtFqaiIbY",
-          "paymentLink": "https://buy.stripe.com/eVqfZi1dW2Vo4pC3H42ZO1D"
+          "priceId": "price_1UaWG8JfRoNnQ3sFLUXmPZkE",
+          "paymentLinkId": "plink_1UaWG8JfRoNnQ3sFqDZqDOr6",
+          "paymentLink": "https://buy.stripe.com/eVq8wQg8QcvYg8kfpM2ZP1v"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/6oU4gA2i0dA21dqelI2ZO1B"
+      "printPaymentLink": "https://buy.stripe.com/28EcN6bSAdA25tG6Tg2ZP1t"
     },
     {
       "slug": "our-deal-leader",
@@ -1610,7 +1935,7 @@
       "size": "11 × 8½ in",
       "medium": "pencil on thick paper",
       "status": "available",
-      "price": 270000,
+      "price": 47500,
       "image": "/paintings/imported/doc02433320251113181942_0006.jpg",
       "tags": [
         "Archive",
@@ -1620,9 +1945,9 @@
       ],
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "description": "A pencil portrait built from overlapping, angular lines. Dense shading surrounds the face and jacket, while much of the paper below stays open.",
       "thumbnail": "/paintings/imported/thumbs/our-deal-leader.jpg",
@@ -1632,75 +1957,76 @@
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4lnVcjfBRPJ",
-          "priceId": "price_1USW8PJfRoNnQ3sFmQjMwjoA",
-          "paymentLinkId": "plink_1USW8QJfRoNnQ3sFrOvZJxj4",
-          "paymentLink": "https://buy.stripe.com/6oU4gA4q83ZsbS46Tg2ZO1E"
+          "priceId": "price_1UaWG9JfRoNnQ3sF3WAWRPO5",
+          "paymentLinkId": "plink_1UaWG9JfRoNnQ3sFGIcQpm5G",
+          "paymentLink": "https://buy.stripe.com/eVqeVebSA7bE1dqfpM2ZP1w"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4lnVcjfBRPJ",
-          "priceId": "price_1USW8QJfRoNnQ3sFJ1QqleBj",
-          "paymentLinkId": "plink_1USW8QJfRoNnQ3sFqzPgNldq",
-          "paymentLink": "https://buy.stripe.com/3cIbJ2cWEfIae0cdhE2ZO1F"
+          "priceId": "price_1UaWG9JfRoNnQ3sFszxHk5vM",
+          "paymentLinkId": "plink_1UaWG9JfRoNnQ3sFM3wl1pXX",
+          "paymentLink": "https://buy.stripe.com/7sY00k9Ks0Ng3ly6Tg2ZP1x"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4lnVcjfBRPJ",
-          "priceId": "price_1USW8QJfRoNnQ3sFyO2rOkI3",
-          "paymentLinkId": "plink_1USW8QJfRoNnQ3sFbwwGVSzU",
-          "paymentLink": "https://buy.stripe.com/14A4gAf4M2Vo2hu5Pc2ZO1G"
+          "priceId": "price_1UaWGAJfRoNnQ3sF1paKjBfo",
+          "paymentLinkId": "plink_1UaWGAJfRoNnQ3sFW4AU2GXC",
+          "paymentLink": "https://buy.stripe.com/cNifZi4q8gMe8FS6Tg2ZP1y"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/6oU4gA4q83ZsbS46Tg2ZO1E",
-      "purchasePaymentLink": "https://buy.stripe.com/bJe6oI3m467AbS44L82ZO1H",
+      "printPaymentLink": "https://buy.stripe.com/eVqeVebSA7bE1dqfpM2ZP1w",
+      "purchasePaymentLink": "https://buy.stripe.com/7sY8wQ1dW0Ng9JW6Tg2ZP1z",
       "stripeProductId": "prod_VTT4POnEvl4n3V",
-      "purchasePaymentLinkId": "plink_1USW8RJfRoNnQ3sFiqzELYnp"
+      "purchasePaymentLinkId": "plink_1UaWGAJfRoNnQ3sFdWsn0qB0"
     },
     {
       "file": "09-30-2024 13.34_2.jpg",
       "title": "The Mountain",
-      "price": 100000,
+      "price": 47500,
       "featured": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4VSqMpS30Cv",
-          "priceId": "price_1USW8RJfRoNnQ3sFWpUg0jz8",
-          "paymentLinkId": "plink_1USW8SJfRoNnQ3sFaXLd814w",
-          "paymentLink": "https://buy.stripe.com/28E28s5uc53w09mgtQ2ZO1I"
+          "priceId": "price_1UaWGAJfRoNnQ3sFCndKIBDO",
+          "paymentLinkId": "plink_1UaWGBJfRoNnQ3sFeIqkvMep",
+          "paymentLink": "https://buy.stripe.com/14AcN67Ck8fI6xKcdA2ZP1A"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4VSqMpS30Cv",
-          "priceId": "price_1USW8SJfRoNnQ3sFPP6hvDMr",
-          "paymentLinkId": "plink_1USW8SJfRoNnQ3sFXP3hidvN",
-          "paymentLink": "https://buy.stripe.com/14A6oI3m43Zs09m1yW2ZO1J"
+          "priceId": "price_1UaWGBJfRoNnQ3sFrnH0bHbn",
+          "paymentLinkId": "plink_1UaWGBJfRoNnQ3sFAOsqeNcI",
+          "paymentLink": "https://buy.stripe.com/eVqeVef4M2Vo4pC1yW2ZP1B"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4VSqMpS30Cv",
-          "priceId": "price_1USW8SJfRoNnQ3sFHhZxx0sg",
-          "paymentLinkId": "plink_1USW8SJfRoNnQ3sFgZ40Rtkj",
-          "paymentLink": "https://buy.stripe.com/4gMcN6g8Q3Zs1dqelI2ZO1K"
+          "priceId": "price_1UaWGBJfRoNnQ3sFiRuyTVYj",
+          "paymentLinkId": "plink_1UaWGBJfRoNnQ3sFgyhN6pn4",
+          "paymentLink": "https://buy.stripe.com/9B600k5ucfIabS42D02ZP1C"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/28E28s5uc53w09mgtQ2ZO1I",
-      "purchasePaymentLink": "https://buy.stripe.com/3cI9AU9Ks8fI8FSa5s2ZO1L",
+      "printPaymentLink": "https://buy.stripe.com/14AcN67Ck8fI6xKcdA2ZP1A",
+      "purchasePaymentLink": "https://buy.stripe.com/eVq00k2i053w6xKa5s2ZP1D",
       "stripeProductId": "prod_VTT4xlupQZxAh1",
-      "purchasePaymentLinkId": "plink_1USW8TJfRoNnQ3sFGM6R3nxa"
+      "purchasePaymentLinkId": "plink_1UaWGCJfRoNnQ3sFLS5PXo5n",
+      "status": "available"
     },
     {
       "file": "IMG_20240722_122937_264.png",
@@ -1708,41 +2034,42 @@
       "price": 15000,
       "featured": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4JPdbeBQg5T",
-          "priceId": "price_1USW8TJfRoNnQ3sFfKTe3Wp6",
-          "paymentLinkId": "plink_1USW8TJfRoNnQ3sFmvlA8Ih8",
-          "paymentLink": "https://buy.stripe.com/aFa4gAe0IgMe1dqb9w2ZO1M"
+          "priceId": "price_1UaWGCJfRoNnQ3sFuBLG2jdY",
+          "paymentLinkId": "plink_1UaWGCJfRoNnQ3sFDn43DeqQ",
+          "paymentLink": "https://buy.stripe.com/28E3cw7CkcvYaO06Tg2ZP1E"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4JPdbeBQg5T",
-          "priceId": "price_1USW8UJfRoNnQ3sFhb5LKR82",
-          "paymentLinkId": "plink_1USW8UJfRoNnQ3sFI9X3tuRv",
-          "paymentLink": "https://buy.stripe.com/14AfZi4q89jM9JWa5s2ZO1N"
+          "priceId": "price_1UaWGCJfRoNnQ3sFdElbRHLi",
+          "paymentLinkId": "plink_1UaWGDJfRoNnQ3sF0kjrlxZN",
+          "paymentLink": "https://buy.stripe.com/8x25kE9Ks7bE6xKcdA2ZP1F"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4JPdbeBQg5T",
-          "priceId": "price_1USW8UJfRoNnQ3sF32o96aOr",
-          "paymentLinkId": "plink_1USW8UJfRoNnQ3sF9Vz6K6rW",
-          "paymentLink": "https://buy.stripe.com/14A6oIg8Q0NgcW8cdA2ZO1O"
+          "priceId": "price_1UaWGDJfRoNnQ3sF0YgC63AE",
+          "paymentLinkId": "plink_1UaWGDJfRoNnQ3sF1lo0qcfc",
+          "paymentLink": "https://buy.stripe.com/8x25kE6ygcvY2hu2D02ZP1G"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/aFa4gAe0IgMe1dqb9w2ZO1M",
+      "printPaymentLink": "https://buy.stripe.com/28E3cw7CkcvYaO06Tg2ZP1E",
       "purchasePaymentLink": "https://buy.stripe.com/00w5kEbSA9jM7BOb9w2ZO1P",
       "stripeProductId": "prod_VTT4eXRFu8oPLX",
-      "purchasePaymentLinkId": "plink_1USW8VJfRoNnQ3sF9jNhH4fB"
+      "purchasePaymentLinkId": "plink_1USW8VJfRoNnQ3sF9jNhH4fB",
+      "status": "available"
     },
     {
       "file": "IMG_20240722_122937_238.png",
@@ -1750,41 +2077,42 @@
       "price": 15000,
       "featured": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4jT6BWRUysp",
-          "priceId": "price_1USW8VJfRoNnQ3sFgFQaUnLZ",
-          "paymentLinkId": "plink_1USW8VJfRoNnQ3sFVr1cuB01",
-          "paymentLink": "https://buy.stripe.com/aFa5kEaOw7bE3lygtQ2ZO1Q"
+          "priceId": "price_1UaWGDJfRoNnQ3sFPtkk69Il",
+          "paymentLinkId": "plink_1UaWGDJfRoNnQ3sFtRaVheDc",
+          "paymentLink": "https://buy.stripe.com/eVq5kE6yg1Rk8FSdhE2ZP1H"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4jT6BWRUysp",
-          "priceId": "price_1USW8VJfRoNnQ3sFL14NYLnq",
-          "paymentLinkId": "plink_1USW8WJfRoNnQ3sFOfX41pjN",
-          "paymentLink": "https://buy.stripe.com/eVq14o3m453waO02D02ZO1R"
+          "priceId": "price_1UaWGEJfRoNnQ3sFPeCtCJ6d",
+          "paymentLinkId": "plink_1UaWGEJfRoNnQ3sFTWT8VfPe",
+          "paymentLink": "https://buy.stripe.com/fZu28s1dW8fI6xKdhE2ZP1I"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4jT6BWRUysp",
-          "priceId": "price_1USW8WJfRoNnQ3sF4o14Ex5t",
-          "paymentLinkId": "plink_1USW8WJfRoNnQ3sFOx5DFK7c",
-          "paymentLink": "https://buy.stripe.com/14AaEY4q81Rk4pCa5s2ZO1S"
+          "priceId": "price_1UaWGEJfRoNnQ3sFto6LDiC3",
+          "paymentLinkId": "plink_1UaWGEJfRoNnQ3sFJXsNybRP",
+          "paymentLink": "https://buy.stripe.com/7sY14o4q853wg8k0uS2ZP1J"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/aFa5kEaOw7bE3lygtQ2ZO1Q",
+      "printPaymentLink": "https://buy.stripe.com/eVq5kE6yg1Rk8FSdhE2ZP1H",
       "purchasePaymentLink": "https://buy.stripe.com/5kQeVe8Go53w1dq6Tg2ZO1T",
       "stripeProductId": "prod_VTT4ssZL6Kc8zy",
-      "purchasePaymentLinkId": "plink_1USW8WJfRoNnQ3sFPNgbhliM"
+      "purchasePaymentLinkId": "plink_1USW8WJfRoNnQ3sFPNgbhliM",
+      "status": "available"
     },
     {
       "file": "IMG_20240422_175529_875.png",
@@ -1792,206 +2120,248 @@
       "price": 25000,
       "featured": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4O07H7Ona9y",
-          "priceId": "price_1USW8XJfRoNnQ3sFtmT3TJr6",
-          "paymentLinkId": "plink_1USW8XJfRoNnQ3sFeAF2ervO",
-          "paymentLink": "https://buy.stripe.com/9B63cwaOweE68FSgtQ2ZO1U"
+          "priceId": "price_1UaWGEJfRoNnQ3sFoD7DTdNT",
+          "paymentLinkId": "plink_1UaWGFJfRoNnQ3sFFMe3H4dW",
+          "paymentLink": "https://buy.stripe.com/00w5kEaOw0Ng8FS3H42ZP1K"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4O07H7Ona9y",
-          "priceId": "price_1USW8XJfRoNnQ3sFfIYjeehN",
-          "paymentLinkId": "plink_1USW8XJfRoNnQ3sFzmeJTUvZ",
-          "paymentLink": "https://buy.stripe.com/aFabJ29Ks7bE9JWa5s2ZO1V"
+          "priceId": "price_1UaWGFJfRoNnQ3sFpntYEPWa",
+          "paymentLinkId": "plink_1UaWGFJfRoNnQ3sFXzb5iR5H",
+          "paymentLink": "https://buy.stripe.com/bJecN67CkcvYe0celI2ZP1L"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4O07H7Ona9y",
-          "priceId": "price_1USW8XJfRoNnQ3sF66EH7zSn",
-          "paymentLinkId": "plink_1USW8YJfRoNnQ3sFND0dAlwK",
-          "paymentLink": "https://buy.stripe.com/5kQfZi1dW67A1dq7Xk2ZO1W"
+          "priceId": "price_1UaWGFJfRoNnQ3sFEENMZiLR",
+          "paymentLinkId": "plink_1UaWGGJfRoNnQ3sFe5h28AYj",
+          "paymentLink": "https://buy.stripe.com/00w00k1dW2Vog8k1yW2ZP1M"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/9B63cwaOweE68FSgtQ2ZO1U",
+      "printPaymentLink": "https://buy.stripe.com/00w5kEaOw0Ng8FS3H42ZP1K",
       "purchasePaymentLink": "https://buy.stripe.com/eVq5kE4q8eE69JW5Pc2ZO1X",
       "stripeProductId": "prod_VTT4FIR4R4P2Mi",
-      "purchasePaymentLinkId": "plink_1USW8YJfRoNnQ3sFVyLBIdtu"
+      "purchasePaymentLinkId": "plink_1USW8YJfRoNnQ3sFVyLBIdtu",
+      "status": "available"
     },
     {
       "file": "IMG_20240408_165850_607.png",
-      "title": "Figure (print)",
-      "price": 10000,
+      "title": "Figure",
+      "price": 0,
       "printPrices": {
-        "Print": 10000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
-          "amount": 10000,
+          "size": "Small",
+          "amount": 3000,
           "productId": "prod_VTT4R7E83JMWKm",
-          "priceId": "price_1USW8ZJfRoNnQ3sF1Wadq5o7",
-          "paymentLinkId": "plink_1USW8ZJfRoNnQ3sF2Q1vQLr3",
-          "paymentLink": "https://buy.stripe.com/3cI14o4q8brU1dq7Xk2ZO1Y"
+          "priceId": "price_1UaWGGJfRoNnQ3sFbjf2KVH8",
+          "paymentLinkId": "plink_1UaWGGJfRoNnQ3sFNbVduGpC",
+          "paymentLink": "https://buy.stripe.com/bJe28s5uc2Vo8FS3H42ZP1N"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VTT4R7E83JMWKm",
+          "priceId": "price_1UaWGGJfRoNnQ3sFQu0IhLPM",
+          "paymentLinkId": "plink_1UaWGHJfRoNnQ3sFGZVDhshL",
+          "paymentLink": "https://buy.stripe.com/5kQ5kE8GobrUaO0cdA2ZP1O"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT4R7E83JMWKm",
+          "priceId": "price_1UaWGHJfRoNnQ3sFpKfHFaYT",
+          "paymentLinkId": "plink_1UaWGHJfRoNnQ3sFFO7giKHc",
+          "paymentLink": "https://buy.stripe.com/5kQ8wQaOw53wbS491o2ZP1P"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/3cI14o4q8brU1dq7Xk2ZO1Y",
-      "purchasePaymentLink": "https://buy.stripe.com/3cI14o4q8brU1dq7Xk2ZO1Y"
+      "printPaymentLink": "https://buy.stripe.com/bJe28s5uc2Vo8FS3H42ZP1N",
+      "slug": "figure-print-gq3vz4",
+      "status": "unavailable"
     },
     {
       "file": "IMG_20240408_165850_641.png",
-      "title": "Figure (print)",
-      "price": 10000,
+      "title": "Figure",
+      "price": 0,
       "printPrices": {
-        "Print": 10000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
-          "amount": 10000,
+          "size": "Small",
+          "amount": 3000,
           "productId": "prod_VTT4BB61hveCcr",
-          "priceId": "price_1USW8ZJfRoNnQ3sFXZa7mjCk",
-          "paymentLinkId": "plink_1USW8ZJfRoNnQ3sFKEgIq3zU",
-          "paymentLink": "https://buy.stripe.com/aFa00k6yg9jM8FSgtQ2ZO1Z"
+          "priceId": "price_1UaWGHJfRoNnQ3sFGl581Hv1",
+          "paymentLinkId": "plink_1UaWGHJfRoNnQ3sFcyXioTi8",
+          "paymentLink": "https://buy.stripe.com/28E28s6yg9jM8FS91o2ZP1Q"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VTT4BB61hveCcr",
+          "priceId": "price_1UaWGHJfRoNnQ3sF1MGrunT7",
+          "paymentLinkId": "plink_1UaWGIJfRoNnQ3sFSIBnckhL",
+          "paymentLink": "https://buy.stripe.com/7sY28sbSAcvYbS40uS2ZP1R"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT4BB61hveCcr",
+          "priceId": "price_1UaWGIJfRoNnQ3sFrksaiqYB",
+          "paymentLinkId": "plink_1UaWGIJfRoNnQ3sFjo64johD",
+          "paymentLink": "https://buy.stripe.com/4gM4gAcWE2VoaO02D02ZP1S"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/aFa00k6yg9jM8FSgtQ2ZO1Z",
-      "purchasePaymentLink": "https://buy.stripe.com/aFa00k6yg9jM8FSgtQ2ZO1Z"
+      "printPaymentLink": "https://buy.stripe.com/28E28s6yg9jM8FS91o2ZP1Q",
+      "slug": "figure-print-17jjpi6",
+      "status": "unavailable"
     },
     {
       "file": "IMG_20240408_164102_836.png",
       "title": "Figure",
       "price": 30000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4uM96dajIVJ",
-          "priceId": "price_1USW8aJfRoNnQ3sFwYVlj6FR",
-          "paymentLinkId": "plink_1USW8aJfRoNnQ3sFOk3Uoc5b",
-          "paymentLink": "https://buy.stripe.com/eVqeVecWEfIa5tG4L82ZO20"
+          "priceId": "price_1UaWGIJfRoNnQ3sFcd8vuMbx",
+          "paymentLinkId": "plink_1UaWGIJfRoNnQ3sF0gNxTp2P",
+          "paymentLink": "https://buy.stripe.com/6oU14oaOwbrU3lyelI2ZP1T"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4uM96dajIVJ",
-          "priceId": "price_1USW8aJfRoNnQ3sFOEV75sSS",
-          "paymentLinkId": "plink_1USW8aJfRoNnQ3sFprwsrIex",
-          "paymentLink": "https://buy.stripe.com/4gMfZi6yg3Zs5tGfpM2ZO21"
+          "priceId": "price_1UaWGJJfRoNnQ3sFCtCU9RNr",
+          "paymentLinkId": "plink_1UaWGJJfRoNnQ3sFHlf2eGPJ",
+          "paymentLink": "https://buy.stripe.com/fZu6oI3m4eE67BO3H42ZP1U"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4uM96dajIVJ",
-          "priceId": "price_1USW8aJfRoNnQ3sFjDYLvMJk",
-          "paymentLinkId": "plink_1USW8bJfRoNnQ3sFCM4jRBDF",
-          "paymentLink": "https://buy.stripe.com/9B6cN68GoanQ3ly91o2ZO22"
+          "priceId": "price_1UaWGJJfRoNnQ3sFiGZzK1F3",
+          "paymentLinkId": "plink_1UaWGJJfRoNnQ3sFDeiT4QaM",
+          "paymentLink": "https://buy.stripe.com/8x2eVe3m4anQ1dq3H42ZP1V"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/eVqeVecWEfIa5tG4L82ZO20",
+      "printPaymentLink": "https://buy.stripe.com/6oU14oaOwbrU3lyelI2ZP1T",
       "purchasePaymentLink": "https://buy.stripe.com/6oU7sMaOweE6e0cdhE2ZO23",
       "stripeProductId": "prod_VTT48uTIgm7Dwn",
-      "purchasePaymentLinkId": "plink_1USW8bJfRoNnQ3sFF4cuU8ik"
+      "purchasePaymentLinkId": "plink_1USW8bJfRoNnQ3sFF4cuU8ik",
+      "status": "available"
     },
     {
       "file": "IMG_20240325_072057_320-EDIT.jpg",
       "title": "A subway scene",
-      "price": 50000,
+      "price": 47500,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4pBV9scVvEV",
-          "priceId": "price_1USW8cJfRoNnQ3sFVOuKRp6l",
-          "paymentLinkId": "plink_1USW8cJfRoNnQ3sFYQ8Bv9Q1",
-          "paymentLink": "https://buy.stripe.com/aFa9AU5uc67Ag8k91o2ZO24"
+          "priceId": "price_1UaWGJJfRoNnQ3sFVFtR9lFo",
+          "paymentLinkId": "plink_1UaWGKJfRoNnQ3sFy3xV4Dx4",
+          "paymentLink": "https://buy.stripe.com/3cIeVe5uc9jM7BO0uS2ZP1W"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4pBV9scVvEV",
-          "priceId": "price_1USW8cJfRoNnQ3sF36Mr81yH",
-          "paymentLinkId": "plink_1USW8cJfRoNnQ3sFhBzywedu",
-          "paymentLink": "https://buy.stripe.com/4gM4gA5uc2Vog8k5Pc2ZO25"
+          "priceId": "price_1UaWGKJfRoNnQ3sF6QvCkM6H",
+          "paymentLinkId": "plink_1UaWGKJfRoNnQ3sF3HFfXkyg",
+          "paymentLink": "https://buy.stripe.com/bJe7sMbSAfIabS44L82ZP1X"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4pBV9scVvEV",
-          "priceId": "price_1USW8cJfRoNnQ3sFwrkcgtlw",
-          "paymentLinkId": "plink_1USW8dJfRoNnQ3sFAyMPGlGB",
-          "paymentLink": "https://buy.stripe.com/4gM9AUcWE53w3ly5Pc2ZO26"
+          "priceId": "price_1UaWGKJfRoNnQ3sFZcRlwPEX",
+          "paymentLinkId": "plink_1UaWGKJfRoNnQ3sFljUmobbp",
+          "paymentLink": "https://buy.stripe.com/cNi4gAe0IeE67BO0uS2ZP1Y"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/aFa9AU5uc67Ag8k91o2ZO24",
-      "purchasePaymentLink": "https://buy.stripe.com/28EbJ209SfIae0celI2ZO27",
+      "printPaymentLink": "https://buy.stripe.com/3cIeVe5uc9jM7BO0uS2ZP1W",
+      "purchasePaymentLink": "https://buy.stripe.com/4gM28sf4M2VocW84L82ZP1Z",
       "stripeProductId": "prod_VTT4F4qBrYHnv8",
-      "purchasePaymentLinkId": "plink_1USW8dJfRoNnQ3sF5r1PRXUd"
+      "purchasePaymentLinkId": "plink_1UaWGLJfRoNnQ3sFKUuZEac6",
+      "status": "available"
     },
     {
       "file": "BadAtChess.jpg",
       "title": "Bad at chess",
       "price": 25000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4cKdY2jKoep",
-          "priceId": "price_1USW8eJfRoNnQ3sF7Qhiobzr",
-          "paymentLinkId": "plink_1USW8eJfRoNnQ3sFSDJaXqKV",
-          "paymentLink": "https://buy.stripe.com/7sY00k7Ck7bEcW8cdA2ZO28"
+          "priceId": "price_1UaWGLJfRoNnQ3sFWBzPOZL9",
+          "paymentLinkId": "plink_1UaWGLJfRoNnQ3sFPeM6RbF6",
+          "paymentLink": "https://buy.stripe.com/00w3cw5uc2Vo4pCdhE2ZP20"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4cKdY2jKoep",
-          "priceId": "price_1USW8eJfRoNnQ3sFbUYCDTNR",
-          "paymentLinkId": "plink_1USW8eJfRoNnQ3sFVayPzJzW",
-          "paymentLink": "https://buy.stripe.com/fZu7sM5ucfIa3ly5Pc2ZO29"
+          "priceId": "price_1UaWGLJfRoNnQ3sFBORSZKm6",
+          "paymentLinkId": "plink_1UaWGMJfRoNnQ3sF2v8mbKM9",
+          "paymentLink": "https://buy.stripe.com/4gM6oI8GogMe3ly1yW2ZP21"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4cKdY2jKoep",
-          "priceId": "price_1USW8eJfRoNnQ3sFC4RynKDw",
-          "paymentLinkId": "plink_1USW8fJfRoNnQ3sFWeaYhexh",
-          "paymentLink": "https://buy.stripe.com/14AaEY5uccvY2hudhE2ZO2a"
+          "priceId": "price_1UaWGMJfRoNnQ3sF1IOq9O70",
+          "paymentLinkId": "plink_1UaWGMJfRoNnQ3sFf7AZKbeA",
+          "paymentLink": "https://buy.stripe.com/bJe7sMaOw3Zs5tGelI2ZP22"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/7sY00k7Ck7bEcW8cdA2ZO28",
+      "printPaymentLink": "https://buy.stripe.com/00w3cw5uc2Vo4pCdhE2ZP20",
       "purchasePaymentLink": "https://buy.stripe.com/00waEY1dWanQg8k1yW2ZO2b",
       "stripeProductId": "prod_VTT4WIAdyuiUvP",
-      "purchasePaymentLinkId": "plink_1USW8fJfRoNnQ3sFrH6zVjNE"
+      "purchasePaymentLinkId": "plink_1USW8fJfRoNnQ3sFrH6zVjNE",
+      "status": "available"
     },
     {
       "file": "file-kKPq8MyTW33xp5wGje2qzIEl.jpg",
@@ -1999,509 +2369,613 @@
       "price": 30000,
       "status": "sold",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT46MIQRsGMhQ",
-          "priceId": "price_1USW8fJfRoNnQ3sFKpKuE8un",
-          "paymentLinkId": "plink_1USW8gJfRoNnQ3sFBM0E9OGu",
-          "paymentLink": "https://buy.stripe.com/28E6oI2i07bEaO00uS2ZO2c"
+          "priceId": "price_1UaWGMJfRoNnQ3sFEqls3Vkc",
+          "paymentLinkId": "plink_1UaWGMJfRoNnQ3sF9C1Wuxlv",
+          "paymentLink": "https://buy.stripe.com/00w9AUbSA2Vo1dq91o2ZP23"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT46MIQRsGMhQ",
-          "priceId": "price_1USW8gJfRoNnQ3sF1wHCo5Ve",
-          "paymentLinkId": "plink_1USW8gJfRoNnQ3sFsccmztuT",
-          "paymentLink": "https://buy.stripe.com/dRm3cwg8QeE6f4g2D02ZO2d"
+          "priceId": "price_1UaWGNJfRoNnQ3sFhSxq5ArE",
+          "paymentLinkId": "plink_1UaWGNJfRoNnQ3sFiLuz6tzM",
+          "paymentLink": "https://buy.stripe.com/aFacN69KsbrU1dq7Xk2ZP24"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT46MIQRsGMhQ",
-          "priceId": "price_1USW8gJfRoNnQ3sFRbLRKDGs",
-          "paymentLinkId": "plink_1USW8hJfRoNnQ3sFRvBPaUNL",
-          "paymentLink": "https://buy.stripe.com/bJe3cw5uc2Vo3lyelI2ZO2e"
+          "priceId": "price_1UaWGNJfRoNnQ3sFvqBK1l4r",
+          "paymentLinkId": "plink_1UaWGNJfRoNnQ3sFlE5Z8V0S",
+          "paymentLink": "https://buy.stripe.com/eVqaEYcWE53w4pC91o2ZP25"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/28E6oI2i07bEaO00uS2ZO2c"
+      "printPaymentLink": "https://buy.stripe.com/00w9AUbSA2Vo1dq91o2ZP23"
     },
     {
       "file": "IMG_20231008_154039_624.jpg",
-      "title": "Archangel waiting in cave (print)",
-      "price": 10000,
+      "title": "Archangel waiting in cave",
+      "price": 0,
       "printPrices": {
-        "Print": 10000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
-          "amount": 10000,
+          "size": "Small",
+          "amount": 3000,
           "productId": "prod_VTT4jpdifXcU1W",
-          "priceId": "price_1USW8hJfRoNnQ3sF1CS5bURW",
-          "paymentLinkId": "plink_1USW8hJfRoNnQ3sFDdX12rQv",
-          "paymentLink": "https://buy.stripe.com/aFaaEY2i03Zs7BOfpM2ZO2f"
+          "priceId": "price_1UaWGNJfRoNnQ3sFAUBvTj6w",
+          "paymentLinkId": "plink_1UaWGOJfRoNnQ3sFru5Br58L",
+          "paymentLink": "https://buy.stripe.com/00wdRa2i02Vo6xKelI2ZP26"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VTT4jpdifXcU1W",
+          "priceId": "price_1UaWGOJfRoNnQ3sFTlfBZ57S",
+          "paymentLinkId": "plink_1UaWGOJfRoNnQ3sFYnc4zoOc",
+          "paymentLink": "https://buy.stripe.com/dRmcN69Ks7bE2hugtQ2ZP27"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT4jpdifXcU1W",
+          "priceId": "price_1UaWGOJfRoNnQ3sFP0032Ru2",
+          "paymentLinkId": "plink_1UaWGPJfRoNnQ3sFCfRDt2Zs",
+          "paymentLink": "https://buy.stripe.com/eVqdRa5ucanQcW8fpM2ZP28"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/aFaaEY2i03Zs7BOfpM2ZO2f",
-      "purchasePaymentLink": "https://buy.stripe.com/aFaaEY2i03Zs7BOfpM2ZO2f"
+      "printPaymentLink": "https://buy.stripe.com/00wdRa2i02Vo6xKelI2ZP26",
+      "slug": "archangel-waiting-in-cave-print-ncodia",
+      "status": "unavailable"
     },
     {
       "file": "20231114_204153.jpg",
-      "title": "He lives amongst the people (print)",
-      "price": 5000,
+      "title": "He lives amongst the people",
+      "price": 0,
       "printPrices": {
-        "Print": 5000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
+          "size": "Small",
+          "amount": 3000,
+          "productId": "prod_VTT4TAU19NZVIm",
+          "priceId": "price_1UaWGPJfRoNnQ3sFEAqUVK6K",
+          "paymentLinkId": "plink_1UaWGPJfRoNnQ3sFHEywsr3z",
+          "paymentLink": "https://buy.stripe.com/00weVeg8Q53w5tGfpM2ZP29"
+        },
+        {
+          "size": "Medium",
           "amount": 5000,
           "productId": "prod_VTT4TAU19NZVIm",
-          "priceId": "price_1USW8hJfRoNnQ3sFXB6uiqDM",
-          "paymentLinkId": "plink_1USW8iJfRoNnQ3sFVGtnZHcU",
-          "paymentLink": "https://buy.stripe.com/9B614o5ucfIa09m5Pc2ZO2g"
+          "priceId": "price_1UaWGPJfRoNnQ3sFXXMDc3p4",
+          "paymentLinkId": "plink_1UaWGQJfRoNnQ3sF0Qre1U2Z",
+          "paymentLink": "https://buy.stripe.com/eVqaEY8Go7bE09mdhE2ZP2a"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT4TAU19NZVIm",
+          "priceId": "price_1UaWGQJfRoNnQ3sFIiDSctmK",
+          "paymentLinkId": "plink_1UaWGQJfRoNnQ3sFv6fmyJjv",
+          "paymentLink": "https://buy.stripe.com/5kQbJ28Go8fIf4g7Xk2ZP2b"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/9B614o5ucfIa09m5Pc2ZO2g",
-      "purchasePaymentLink": "https://buy.stripe.com/9B614o5ucfIa09m5Pc2ZO2g"
+      "printPaymentLink": "https://buy.stripe.com/00weVeg8Q53w5tGfpM2ZP29",
+      "slug": "he-lives-amongst-the-people-print-1ilw7z8",
+      "status": "unavailable",
+      "thumbnailRotation": 90
     },
     {
       "file": "file-SP3jmI3tojDSOwGdcLoyboJN.jpg",
-      "title": "Nature is beautiful (print)",
-      "price": 5000,
+      "title": "Nature is beautiful",
+      "price": 0,
       "printPrices": {
-        "Print": 5000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
+          "size": "Small",
+          "amount": 3000,
+          "productId": "prod_VTT4mx6BamrlzB",
+          "priceId": "price_1UaWGQJfRoNnQ3sF1cS45mqb",
+          "paymentLinkId": "plink_1UaWGQJfRoNnQ3sFryjmXtNC",
+          "paymentLink": "https://buy.stripe.com/7sYaEYcWE8fI1dqdhE2ZP2c"
+        },
+        {
+          "size": "Medium",
           "amount": 5000,
           "productId": "prod_VTT4mx6BamrlzB",
-          "priceId": "price_1USW8iJfRoNnQ3sFsiNvHgHI",
-          "paymentLinkId": "plink_1USW8iJfRoNnQ3sF9ap3M7zC",
-          "paymentLink": "https://buy.stripe.com/7sYdRa2i07bE3lygtQ2ZO2h"
+          "priceId": "price_1UaWGQJfRoNnQ3sFDcdjJK1D",
+          "paymentLinkId": "plink_1UaWGRJfRoNnQ3sFJd0Xbgd1",
+          "paymentLink": "https://buy.stripe.com/9B66oIe0I67AbS45Pc2ZP2d"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT4mx6BamrlzB",
+          "priceId": "price_1UaWGRJfRoNnQ3sFh4VfKkfo",
+          "paymentLinkId": "plink_1UaWGRJfRoNnQ3sFQzp3Aom1",
+          "paymentLink": "https://buy.stripe.com/14AaEYg8Q3Zs4pC7Xk2ZP2e"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/7sYdRa2i07bE3lygtQ2ZO2h",
-      "purchasePaymentLink": "https://buy.stripe.com/7sYdRa2i07bE3lygtQ2ZO2h"
+      "printPaymentLink": "https://buy.stripe.com/7sYaEYcWE8fI1dqdhE2ZP2c",
+      "slug": "nature-is-beautiful-print-1oukjld",
+      "status": "unavailable"
     },
     {
       "file": "20231203_230336-EDIT(1).jpg",
-      "title": "Saint marzano (print)",
-      "price": 1500,
+      "title": "Saint marzano",
+      "price": 0,
       "printPrices": {
-        "Print": 1500
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
-          "amount": 1500,
+          "size": "Small",
+          "amount": 3000,
           "productId": "prod_VTT49MKGbMJmB7",
-          "priceId": "price_1USW8jJfRoNnQ3sFUcMmaSwF",
-          "paymentLinkId": "plink_1USW8jJfRoNnQ3sFKSN3QKhI",
-          "paymentLink": "https://buy.stripe.com/00w5kEg8Q7bE7BOdhE2ZO2i"
+          "priceId": "price_1UaWGRJfRoNnQ3sFZS54LbHB",
+          "paymentLinkId": "plink_1UaWGRJfRoNnQ3sFjShK6zsm",
+          "paymentLink": "https://buy.stripe.com/fZueVee0IfIa4pC2D02ZP2f"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VTT49MKGbMJmB7",
+          "priceId": "price_1UaWGSJfRoNnQ3sFMulHEZfw",
+          "paymentLinkId": "plink_1UaWGSJfRoNnQ3sFuIlbiJug",
+          "paymentLink": "https://buy.stripe.com/dRmdRa7CkdA2f4g7Xk2ZP2g"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT49MKGbMJmB7",
+          "priceId": "price_1UaWGSJfRoNnQ3sFRK9pe60V",
+          "paymentLinkId": "plink_1UaWGSJfRoNnQ3sF0ihv2IWh",
+          "paymentLink": "https://buy.stripe.com/4gM9AUaOwgMe9JW1yW2ZP2h"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/00w5kEg8Q7bE7BOdhE2ZO2i",
-      "purchasePaymentLink": "https://buy.stripe.com/00w5kEg8Q7bE7BOdhE2ZO2i"
+      "printPaymentLink": "https://buy.stripe.com/fZueVee0IfIa4pC2D02ZP2f",
+      "slug": "saint-marzano-print-k1k3f6",
+      "status": "unavailable"
     },
     {
       "file": "071477A9-92EA-4B0D-94C6-13516E581B19.jpg",
       "title": "Figure",
       "price": 10000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT40h7CsgJ593",
-          "priceId": "price_1USW8jJfRoNnQ3sFUqcFKiGD",
-          "paymentLinkId": "plink_1USW8jJfRoNnQ3sFKDqnEhDX",
-          "paymentLink": "https://buy.stripe.com/5kQcN6aOw1Rk8FS3H42ZO2j"
+          "priceId": "price_1UaWGSJfRoNnQ3sFH8uBNdvE",
+          "paymentLinkId": "plink_1UaWGTJfRoNnQ3sFKvd0lqEU",
+          "paymentLink": "https://buy.stripe.com/7sY4gA09S53w1dq3H42ZP2i"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT40h7CsgJ593",
-          "priceId": "price_1USW8jJfRoNnQ3sFNHaHNJy2",
-          "paymentLinkId": "plink_1USW8kJfRoNnQ3sFqnpHFdi8",
-          "paymentLink": "https://buy.stripe.com/aFa7sMg8QanQ1dqb9w2ZO2k"
+          "priceId": "price_1UaWGTJfRoNnQ3sFo9JRIDLu",
+          "paymentLinkId": "plink_1UaWGTJfRoNnQ3sFdgPsBQLH",
+          "paymentLink": "https://buy.stripe.com/9B628s1dW9jM1dq0uS2ZP2j"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT40h7CsgJ593",
-          "priceId": "price_1USW8kJfRoNnQ3sFFkpMEq4k",
-          "paymentLinkId": "plink_1USW8kJfRoNnQ3sF5mGtv1kY",
-          "paymentLink": "https://buy.stripe.com/fZuaEY3m48fIcW87Xk2ZO2l"
+          "priceId": "price_1UaWGTJfRoNnQ3sFjU6b8J9Q",
+          "paymentLinkId": "plink_1UaWGUJfRoNnQ3sFNXP3i1sF",
+          "paymentLink": "https://buy.stripe.com/cNi8wQbSA7bE8FScdA2ZP2k"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/5kQcN6aOw1Rk8FS3H42ZO2j",
+      "printPaymentLink": "https://buy.stripe.com/7sY4gA09S53w1dq3H42ZP2i",
       "purchasePaymentLink": "https://buy.stripe.com/bJeeVe6yg67A4pCgtQ2ZO2m",
       "stripeProductId": "prod_VTT4BFYxZmmdL6",
-      "purchasePaymentLinkId": "plink_1USW8lJfRoNnQ3sFnVvf5P5t"
+      "purchasePaymentLinkId": "plink_1USW8lJfRoNnQ3sFnVvf5P5t",
+      "status": "available"
     },
     {
       "file": "IMG_0094.png",
       "title": "Figure",
       "price": 0,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT46k7z3UiVSx",
-          "priceId": "price_1USW8lJfRoNnQ3sFmzCU8YEN",
-          "paymentLinkId": "plink_1USW8lJfRoNnQ3sFXbUYHRxg",
-          "paymentLink": "https://buy.stripe.com/7sY28scWE2VoaO03H42ZO2n"
+          "priceId": "price_1UaWGUJfRoNnQ3sFPJcLgZzg",
+          "paymentLinkId": "plink_1UaWGUJfRoNnQ3sFYCdoxuEP",
+          "paymentLink": "https://buy.stripe.com/00w9AUbSAfIa1dqdhE2ZP2l"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT46k7z3UiVSx",
-          "priceId": "price_1USW8lJfRoNnQ3sF1XE1WAci",
-          "paymentLinkId": "plink_1USW8mJfRoNnQ3sF3QHmTrKJ",
-          "paymentLink": "https://buy.stripe.com/dRm14o7CkanQ8FS3H42ZO2o"
+          "priceId": "price_1UaWGUJfRoNnQ3sFgoBI49I6",
+          "paymentLinkId": "plink_1UaWGUJfRoNnQ3sFGCB0eD5g",
+          "paymentLink": "https://buy.stripe.com/eVq8wQe0IcvYg8k5Pc2ZP2m"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT46k7z3UiVSx",
-          "priceId": "price_1USW8mJfRoNnQ3sFzkPoGovt",
-          "paymentLinkId": "plink_1USW8mJfRoNnQ3sFxoG5cfkP",
-          "paymentLink": "https://buy.stripe.com/9B600kf4M1Rk8FS1yW2ZO2p"
+          "priceId": "price_1UaWGUJfRoNnQ3sF3ZLb6iWL",
+          "paymentLinkId": "plink_1UaWGVJfRoNnQ3sFtJtOQAmO",
+          "paymentLink": "https://buy.stripe.com/28EcN63m42Vo9JW6Tg2ZP2n"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/7sY28scWE2VoaO03H42ZO2n"
+      "printPaymentLink": "https://buy.stripe.com/00w9AUbSAfIa1dqdhE2ZP2l"
     },
     {
       "file": "IMG_20240226_223909_466.png",
       "title": "Figure",
       "price": 20000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4vW7UfFlsiA",
-          "priceId": "price_1USW8mJfRoNnQ3sF9YV8BoEq",
-          "paymentLinkId": "plink_1USW8mJfRoNnQ3sF5srDyQsO",
-          "paymentLink": "https://buy.stripe.com/28E5kE4q8brU8FS3H42ZO2q"
+          "priceId": "price_1UaWGVJfRoNnQ3sFqYOrp2ll",
+          "paymentLinkId": "plink_1UaWGVJfRoNnQ3sFLvuVR4Qi",
+          "paymentLink": "https://buy.stripe.com/7sY3cwe0IcvY4pC6Tg2ZP2o"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4vW7UfFlsiA",
-          "priceId": "price_1USW8nJfRoNnQ3sFVZ6NDJcP",
-          "paymentLinkId": "plink_1USW8nJfRoNnQ3sFdcUwmb7v",
-          "paymentLink": "https://buy.stripe.com/8x2dRa6ygcvY09mgtQ2ZO2r"
+          "priceId": "price_1UaWGVJfRoNnQ3sFvYreiWpj",
+          "paymentLinkId": "plink_1UaWGWJfRoNnQ3sFdNfk7CCT",
+          "paymentLink": "https://buy.stripe.com/28EaEY7Ck53wg8kb9w2ZP2p"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4vW7UfFlsiA",
-          "priceId": "price_1USW8nJfRoNnQ3sFVAGv3Dk7",
-          "paymentLinkId": "plink_1USW8nJfRoNnQ3sFSnjcAVZ6",
-          "paymentLink": "https://buy.stripe.com/aFa5kE09S1Rk2hu3H42ZO2s"
+          "priceId": "price_1UaWGWJfRoNnQ3sFgfG9J5iq",
+          "paymentLinkId": "plink_1UaWGWJfRoNnQ3sFoxk6XCTt",
+          "paymentLink": "https://buy.stripe.com/6oU14o3m49jM6xK1yW2ZP2q"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/28E5kE4q8brU8FS3H42ZO2q",
+      "printPaymentLink": "https://buy.stripe.com/7sY3cwe0IcvY4pC6Tg2ZP2o",
       "purchasePaymentLink": "https://buy.stripe.com/8x200k6yg67AcW8b9w2ZO2t",
       "stripeProductId": "prod_VTT4C1gjDkOMRJ",
-      "purchasePaymentLinkId": "plink_1USW8oJfRoNnQ3sFxzZbccpU"
+      "purchasePaymentLinkId": "plink_1USW8oJfRoNnQ3sFxzZbccpU",
+      "status": "available"
     },
     {
       "file": "IMG_0096.png",
-      "title": "Figure (print)",
-      "price": 5000,
+      "title": "Figure",
+      "price": 0,
       "printPrices": {
-        "Print": 5000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
+          "size": "Small",
+          "amount": 3000,
+          "productId": "prod_VTT49nzyobS6rZ",
+          "priceId": "price_1UaWGWJfRoNnQ3sFxSeR8SPu",
+          "paymentLinkId": "plink_1UaWGWJfRoNnQ3sFY1HpFDqG",
+          "paymentLink": "https://buy.stripe.com/28E5kE09S1Rk4pCelI2ZP2r"
+        },
+        {
+          "size": "Medium",
           "amount": 5000,
           "productId": "prod_VTT49nzyobS6rZ",
-          "priceId": "price_1USW8oJfRoNnQ3sFbcBHPGcS",
-          "paymentLinkId": "plink_1USW8oJfRoNnQ3sFzbB0lO6W",
-          "paymentLink": "https://buy.stripe.com/7sYdRa7CkbrU7BOa5s2ZO2u"
+          "priceId": "price_1UaWGXJfRoNnQ3sFztqmobZv",
+          "paymentLinkId": "plink_1UaWGXJfRoNnQ3sFakjCYzTz",
+          "paymentLink": "https://buy.stripe.com/9B63cwaOw2Vo9JW3H42ZP2s"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT49nzyobS6rZ",
+          "priceId": "price_1UaWGXJfRoNnQ3sFj9DDs3AL",
+          "paymentLinkId": "plink_1UaWGXJfRoNnQ3sFTjQJWiyy",
+          "paymentLink": "https://buy.stripe.com/00w5kE7CkbrUaO06Tg2ZP2t"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/7sYdRa7CkbrU7BOa5s2ZO2u",
-      "purchasePaymentLink": "https://buy.stripe.com/7sYdRa7CkbrU7BOa5s2ZO2u"
+      "printPaymentLink": "https://buy.stripe.com/28E5kE09S1Rk4pCelI2ZP2r",
+      "slug": "figure-print-16t1yib",
+      "status": "unavailable"
     },
     {
       "file": "CamScanner 07-25-2021 14.51_2.jpg",
       "title": "All the opps die every summer",
-      "price": 50000,
+      "price": 47500,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT4qxyXB9JNYB",
-          "priceId": "price_1USW8pJfRoNnQ3sFvVBiyCsf",
-          "paymentLinkId": "plink_1USW8pJfRoNnQ3sFvog04k1C",
-          "paymentLink": "https://buy.stripe.com/14A28s2i08fI9JWa5s2ZO2v"
+          "priceId": "price_1UaWGXJfRoNnQ3sF9cMSJDop",
+          "paymentLinkId": "plink_1UaWGXJfRoNnQ3sF8TLd0QRE",
+          "paymentLink": "https://buy.stripe.com/eVq9AU2i0dA2aO0fpM2ZP2u"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT4qxyXB9JNYB",
-          "priceId": "price_1USW8pJfRoNnQ3sFryPU5pDn",
-          "paymentLinkId": "plink_1USW8pJfRoNnQ3sFplRcMlTg",
-          "paymentLink": "https://buy.stripe.com/6oUcN6bSA2Vo6xKfpM2ZO2w"
+          "priceId": "price_1UaWGYJfRoNnQ3sFBvUaOo7w",
+          "paymentLinkId": "plink_1UaWGYJfRoNnQ3sFF5kxvvv9",
+          "paymentLink": "https://buy.stripe.com/dRmbJ25uc9jM9JWb9w2ZP2v"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT4qxyXB9JNYB",
-          "priceId": "price_1USW8pJfRoNnQ3sFlzLhRIAg",
-          "paymentLinkId": "plink_1USW8qJfRoNnQ3sFCcd9lQ2h",
-          "paymentLink": "https://buy.stripe.com/14A5kE4q867A2hu6Tg2ZO2x"
+          "priceId": "price_1UaWGYJfRoNnQ3sFMDtPDSWl",
+          "paymentLinkId": "plink_1UaWGYJfRoNnQ3sFDCMXIYJj",
+          "paymentLink": "https://buy.stripe.com/5kQ00k9Ks3Zs6xKelI2ZP2w"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/14A28s2i08fI9JWa5s2ZO2v",
-      "purchasePaymentLink": "https://buy.stripe.com/14AdRacWE0NgbS4b9w2ZO2y",
+      "printPaymentLink": "https://buy.stripe.com/eVq9AU2i0dA2aO0fpM2ZP2u",
+      "purchasePaymentLink": "https://buy.stripe.com/8x214og8Q3ZsaO04L82ZP2x",
       "stripeProductId": "prod_VTT5v0PZ2fsEWl",
-      "purchasePaymentLinkId": "plink_1USW8qJfRoNnQ3sF25UB2tjC"
+      "purchasePaymentLinkId": "plink_1UaWGZJfRoNnQ3sFjZuSfCtu",
+      "status": "available"
     },
     {
       "file": "PSX_20220116_201947.jpg",
       "title": "Nightmare",
       "price": 25000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT55Y4IakffZ5",
-          "priceId": "price_1USW8qJfRoNnQ3sFXHSxsmB2",
-          "paymentLinkId": "plink_1USW8rJfRoNnQ3sFflUuFVoh",
-          "paymentLink": "https://buy.stripe.com/00w5kE1dW53w8FS2D02ZO2z"
+          "priceId": "price_1UaWGZJfRoNnQ3sFlYKpCq7M",
+          "paymentLinkId": "plink_1UaWGZJfRoNnQ3sFyXkevSv8",
+          "paymentLink": "https://buy.stripe.com/aFafZif4M0Ng5tG5Pc2ZP2y"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT55Y4IakffZ5",
-          "priceId": "price_1USW8rJfRoNnQ3sF5jtNp0Eg",
-          "paymentLinkId": "plink_1USW8rJfRoNnQ3sFuOiWUoJi",
-          "paymentLink": "https://buy.stripe.com/5kQeVe9Ks1Rkg8kelI2ZO2A"
+          "priceId": "price_1UaWGZJfRoNnQ3sFEWYlO6ru",
+          "paymentLinkId": "plink_1UaWGaJfRoNnQ3sFYAG1zlkV",
+          "paymentLink": "https://buy.stripe.com/00wfZi09SanQbS4fpM2ZP2z"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT55Y4IakffZ5",
-          "priceId": "price_1USW8rJfRoNnQ3sFTYACnPLX",
-          "paymentLinkId": "plink_1USW8rJfRoNnQ3sFoRce2HQn",
-          "paymentLink": "https://buy.stripe.com/7sY00kcWEgMe6xKfpM2ZO2B"
+          "priceId": "price_1UaWGaJfRoNnQ3sFJgW5BdO8",
+          "paymentLinkId": "plink_1UaWGaJfRoNnQ3sFQQBi2sEd",
+          "paymentLink": "https://buy.stripe.com/eVqdRa09SbrU3lyelI2ZP2A"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/00w5kE1dW53w8FS2D02ZO2z",
+      "printPaymentLink": "https://buy.stripe.com/aFafZif4M0Ng5tG5Pc2ZP2y",
       "purchasePaymentLink": "https://buy.stripe.com/9B6dRa2i0anQbS40uS2ZO2C",
       "stripeProductId": "prod_VTT5cznIKcR0OF",
-      "purchasePaymentLinkId": "plink_1USW8sJfRoNnQ3sFN408dRJL"
+      "purchasePaymentLinkId": "plink_1USW8sJfRoNnQ3sFN408dRJL",
+      "status": "available"
     },
     {
       "file": "20231006_075327.jpg",
       "title": "Brooklyn Bridge Park",
       "price": 10000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5eiqk2Og3tm",
-          "priceId": "price_1USW8sJfRoNnQ3sFKBYS6B3H",
-          "paymentLinkId": "plink_1USW8tJfRoNnQ3sFJUV9ARwV",
-          "paymentLink": "https://buy.stripe.com/dRmbJ2g8Q2Vo8FS5Pc2ZO2D"
+          "priceId": "price_1UaWGaJfRoNnQ3sF9QtNk5K4",
+          "paymentLinkId": "plink_1UaWGaJfRoNnQ3sFmQ1ZxGYS",
+          "paymentLink": "https://buy.stripe.com/fZu28scWEbrU09m91o2ZP2B"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5eiqk2Og3tm",
-          "priceId": "price_1USW8tJfRoNnQ3sFlGeo3VX4",
-          "paymentLinkId": "plink_1USW8tJfRoNnQ3sFdYfsSKJc",
-          "paymentLink": "https://buy.stripe.com/28EfZibSA8fI2huelI2ZO2E"
+          "priceId": "price_1UaWGbJfRoNnQ3sF2OBkIJlG",
+          "paymentLinkId": "plink_1UaWGbJfRoNnQ3sF5nKa3WT4",
+          "paymentLink": "https://buy.stripe.com/eVqeVef4M1RkaO01yW2ZP2C"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5eiqk2Og3tm",
-          "priceId": "price_1USW8tJfRoNnQ3sFcxL4Skbh",
-          "paymentLinkId": "plink_1USW8tJfRoNnQ3sFVd3CFaiU",
-          "paymentLink": "https://buy.stripe.com/eVqeVe1dW0Ngg8k7Xk2ZO2F"
+          "priceId": "price_1UaWGbJfRoNnQ3sFshx0TbdA",
+          "paymentLinkId": "plink_1UaWGbJfRoNnQ3sFPGm9F8ei",
+          "paymentLink": "https://buy.stripe.com/eVq5kE2i0fIa9JWelI2ZP2D"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/dRmbJ2g8Q2Vo8FS5Pc2ZO2D",
+      "printPaymentLink": "https://buy.stripe.com/fZu28scWEbrU09m91o2ZP2B",
       "purchasePaymentLink": "https://buy.stripe.com/fZu00kaOwbrUg8k1yW2ZO2G",
       "stripeProductId": "prod_VTT5U6xVG1UrLA",
-      "purchasePaymentLinkId": "plink_1USW8uJfRoNnQ3sFfAXyKlKJ"
+      "purchasePaymentLinkId": "plink_1USW8uJfRoNnQ3sFfAXyKlKJ",
+      "status": "available"
     },
     {
       "file": "CamScanner 05-06-2024 23.18_4 (1).jpg",
       "title": "Figure drawing",
       "price": 10000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5vaXnLvsMkp",
-          "priceId": "price_1USW8uJfRoNnQ3sF1nKZpbn5",
-          "paymentLinkId": "plink_1USW8uJfRoNnQ3sFcWeO2rit",
-          "paymentLink": "https://buy.stripe.com/00w7sMcWE7bEcW84L82ZO2H"
+          "priceId": "price_1UaWGcJfRoNnQ3sFRcgYLDB5",
+          "paymentLinkId": "plink_1UaWGcJfRoNnQ3sFD0jHMP2D",
+          "paymentLink": "https://buy.stripe.com/14A28sbSAeE64pCcdA2ZP2E"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5vaXnLvsMkp",
-          "priceId": "price_1USW8vJfRoNnQ3sFxWA3cAB5",
-          "paymentLinkId": "plink_1USW8vJfRoNnQ3sFNzVzICmI",
-          "paymentLink": "https://buy.stripe.com/3cI28s5ucanQf4ga5s2ZO2I"
+          "priceId": "price_1UaWGcJfRoNnQ3sFQ2DyKzp9",
+          "paymentLinkId": "plink_1UaWGcJfRoNnQ3sFDOmFw9Sg",
+          "paymentLink": "https://buy.stripe.com/dRmeVe1dW1Rk9JW5Pc2ZP2F"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5vaXnLvsMkp",
-          "priceId": "price_1USW8vJfRoNnQ3sFMC0uCjDY",
-          "paymentLinkId": "plink_1USW8vJfRoNnQ3sFaAIxgpsL",
-          "paymentLink": "https://buy.stripe.com/00w4gA4q83Zs7BO7Xk2ZO2J"
+          "priceId": "price_1UaWGcJfRoNnQ3sFSSOyYL27",
+          "paymentLinkId": "plink_1UaWGdJfRoNnQ3sFytTeyLL8",
+          "paymentLink": "https://buy.stripe.com/eVq28scWEanQe0c1yW2ZP2G"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/00w7sMcWE7bEcW84L82ZO2H",
+      "printPaymentLink": "https://buy.stripe.com/14A28sbSAeE64pCcdA2ZP2E",
       "purchasePaymentLink": "https://buy.stripe.com/eVq6oI7Ck53wbS45Pc2ZO2K",
       "stripeProductId": "prod_VTT5JpN9Svcj86",
-      "purchasePaymentLinkId": "plink_1USW8wJfRoNnQ3sFZuYpVmV6"
+      "purchasePaymentLinkId": "plink_1USW8wJfRoNnQ3sFZuYpVmV6",
+      "status": "available"
     },
     {
       "file": "IMG_20230603_124706_633.jpg",
       "title": "Figure drawing",
       "price": 10000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5fqa1VWjnR1",
-          "priceId": "price_1USW8wJfRoNnQ3sF401P0g3x",
-          "paymentLinkId": "plink_1USW8wJfRoNnQ3sFwvGbTD3Z",
-          "paymentLink": "https://buy.stripe.com/9B614o9KsanQ4pCelI2ZO2L"
+          "priceId": "price_1UaWGdJfRoNnQ3sFyIEWTkSa",
+          "paymentLinkId": "plink_1UaWGdJfRoNnQ3sF4tdB1H0x",
+          "paymentLink": "https://buy.stripe.com/7sYaEY9KscvY4pCb9w2ZP2H"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5fqa1VWjnR1",
-          "priceId": "price_1USW8wJfRoNnQ3sFYgoSnRlP",
-          "paymentLinkId": "plink_1USW8wJfRoNnQ3sFe7Ql04Lz",
-          "paymentLink": "https://buy.stripe.com/5kQcN62i0anQ09m6Tg2ZO2M"
+          "priceId": "price_1UaWGdJfRoNnQ3sFzyIOidLb",
+          "paymentLinkId": "plink_1UaWGdJfRoNnQ3sFKpMqJ8Xn",
+          "paymentLink": "https://buy.stripe.com/bJe8wQ6ygdA27BO4L82ZP2I"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5fqa1VWjnR1",
-          "priceId": "price_1USW8xJfRoNnQ3sFREAWr19L",
-          "paymentLinkId": "plink_1USW8xJfRoNnQ3sFbY1jfsel",
-          "paymentLink": "https://buy.stripe.com/8x29AUcWEbrUcW81yW2ZO2N"
+          "priceId": "price_1UaWGeJfRoNnQ3sFqMf4p9Hx",
+          "paymentLinkId": "plink_1UaWGeJfRoNnQ3sFGjUJ3geI",
+          "paymentLink": "https://buy.stripe.com/eVq00k1dW0NgcW86Tg2ZP2J"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/9B614o9KsanQ4pCelI2ZO2L",
+      "printPaymentLink": "https://buy.stripe.com/7sYaEY9KscvY4pCb9w2ZP2H",
       "purchasePaymentLink": "https://buy.stripe.com/9B614o9KsdA2cW81yW2ZO2O",
       "stripeProductId": "prod_VTT5nMy24DOhky",
-      "purchasePaymentLinkId": "plink_1USW8xJfRoNnQ3sF5qAQozn2"
+      "purchasePaymentLinkId": "plink_1USW8xJfRoNnQ3sF5qAQozn2",
+      "status": "available"
     },
     {
       "file": "PSX_20221105_143540.jpg",
       "title": "Ferns with bust of Mao Zedong",
-      "price": 50000,
+      "price": 47500,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5yqQNGKUyuC",
-          "priceId": "price_1USW8yJfRoNnQ3sF2FFvdrgC",
-          "paymentLinkId": "plink_1USW8yJfRoNnQ3sFxLxmEYGA",
-          "paymentLink": "https://buy.stripe.com/fZubJ22i09jM3ly1yW2ZO2P"
+          "priceId": "price_1UaWGeJfRoNnQ3sFWFONTJW6",
+          "paymentLinkId": "plink_1UaWGeJfRoNnQ3sFsL5U9qMC",
+          "paymentLink": "https://buy.stripe.com/aFabJ25ucfIa2hu5Pc2ZP2K"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5yqQNGKUyuC",
-          "priceId": "price_1USW8yJfRoNnQ3sFN57E2PsH",
-          "paymentLinkId": "plink_1USW8yJfRoNnQ3sFo9vdssjc",
-          "paymentLink": "https://buy.stripe.com/4gM28s3m41RkbS46Tg2ZO2Q"
+          "priceId": "price_1UaWGeJfRoNnQ3sFw12WBJpG",
+          "paymentLinkId": "plink_1UaWGfJfRoNnQ3sFk4fuIQQ0",
+          "paymentLink": "https://buy.stripe.com/7sY00k6ygcvYbS491o2ZP2L"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5yqQNGKUyuC",
-          "priceId": "price_1USW8yJfRoNnQ3sFNPZFVYwm",
-          "paymentLinkId": "plink_1USW8zJfRoNnQ3sF0QeglB6G",
-          "paymentLink": "https://buy.stripe.com/4gMaEY6yg0Ngg8k3H42ZO2R"
+          "priceId": "price_1UaWGfJfRoNnQ3sFoHnynBuU",
+          "paymentLinkId": "plink_1UaWGfJfRoNnQ3sFjuMfT6IC",
+          "paymentLink": "https://buy.stripe.com/aFabJ24q8cvYaO0b9w2ZP2M"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/fZubJ22i09jM3ly1yW2ZO2P",
-      "purchasePaymentLink": "https://buy.stripe.com/7sY00k8GodA28FSgtQ2ZO2S",
+      "printPaymentLink": "https://buy.stripe.com/aFabJ25ucfIa2hu5Pc2ZP2K",
+      "purchasePaymentLink": "https://buy.stripe.com/14A28s5uc2Vo1dqgtQ2ZP2N",
       "stripeProductId": "prod_VTT5LLVs2nbyJ6",
-      "purchasePaymentLinkId": "plink_1USW8zJfRoNnQ3sFPPNlorSe"
+      "purchasePaymentLinkId": "plink_1UaWGfJfRoNnQ3sFRt66PsOh",
+      "status": "available"
     },
     {
       "file": "IMG_20190703_001616_015.jpg",
@@ -2509,79 +2983,80 @@
       "price": 15000,
       "status": "sold",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT58vnV7eIm0E",
-          "priceId": "price_1USW8zJfRoNnQ3sFhDLmkweo",
-          "paymentLinkId": "plink_1USW90JfRoNnQ3sFVYBOrJPn",
-          "paymentLink": "https://buy.stripe.com/eVq9AU1dW0NgaO05Pc2ZO2T"
+          "priceId": "price_1UaWGgJfRoNnQ3sFjlPiVnsI",
+          "paymentLinkId": "plink_1UaWGgJfRoNnQ3sFctqcfl70",
+          "paymentLink": "https://buy.stripe.com/bJe7sMe0IdA2f4gdhE2ZP2O"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT58vnV7eIm0E",
-          "priceId": "price_1USW90JfRoNnQ3sFeEISCGCe",
-          "paymentLinkId": "plink_1USW90JfRoNnQ3sFz1iQPsWb",
-          "paymentLink": "https://buy.stripe.com/14AeVe9KsdA23lydhE2ZO2U"
+          "priceId": "price_1UaWGgJfRoNnQ3sFlMVfEKKJ",
+          "paymentLinkId": "plink_1UaWGgJfRoNnQ3sFstiGyCGF",
+          "paymentLink": "https://buy.stripe.com/bJe9AUbSAfIabS40uS2ZP2P"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT58vnV7eIm0E",
-          "priceId": "price_1USW90JfRoNnQ3sFvx71BKhJ",
-          "paymentLinkId": "plink_1USW91JfRoNnQ3sFHUYPvafW",
-          "paymentLink": "https://buy.stripe.com/00weVee0IbrU9JWb9w2ZO2V"
+          "priceId": "price_1UaWGgJfRoNnQ3sFGGhMVNzX",
+          "paymentLinkId": "plink_1UaWGhJfRoNnQ3sFHQICcBOJ",
+          "paymentLink": "https://buy.stripe.com/aFaaEY8Go9jMe0c4L82ZP2Q"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/eVq9AU1dW0NgaO05Pc2ZO2T"
+      "printPaymentLink": "https://buy.stripe.com/bJe7sMe0IdA2f4gdhE2ZP2O"
     },
     {
       "file": "IMG_20190716_074334_279.jpg",
       "title": "Face (acrylic on paper)",
       "price": 10000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5CRMwyUjeyO",
-          "priceId": "price_1USW91JfRoNnQ3sFu0KWhxUo",
-          "paymentLinkId": "plink_1USW91JfRoNnQ3sFl1Ioxzue",
-          "paymentLink": "https://buy.stripe.com/8x2bJ2f4M67AbS4a5s2ZO2W"
+          "priceId": "price_1UaWGhJfRoNnQ3sFwCvjCdcS",
+          "paymentLinkId": "plink_1UaWGhJfRoNnQ3sFZuhb05KE",
+          "paymentLink": "https://buy.stripe.com/9B6dRa1dW7bEcW84L82ZP2R"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5CRMwyUjeyO",
-          "priceId": "price_1USW91JfRoNnQ3sFaeRNEIAp",
-          "paymentLinkId": "plink_1USW92JfRoNnQ3sF91rxUI9x",
-          "paymentLink": "https://buy.stripe.com/9B6cN65uc0NgcW8cdA2ZO2X"
+          "priceId": "price_1UaWGhJfRoNnQ3sFrp7GR0TG",
+          "paymentLinkId": "plink_1UaWGiJfRoNnQ3sFw2wGfrfC",
+          "paymentLink": "https://buy.stripe.com/9B67sMcWEcvYaO03H42ZP2S"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5CRMwyUjeyO",
-          "priceId": "price_1USW92JfRoNnQ3sF8enC7yVJ",
-          "paymentLinkId": "plink_1USW92JfRoNnQ3sFtiUNR5fU",
-          "paymentLink": "https://buy.stripe.com/28E28s4q83Zs3ly2D02ZO2Y"
+          "priceId": "price_1UaWGiJfRoNnQ3sFyIPCsvT4",
+          "paymentLinkId": "plink_1UaWGiJfRoNnQ3sFP74hJ3fr",
+          "paymentLink": "https://buy.stripe.com/14A28s7CkgMee0c4L82ZP2T"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/8x2bJ2f4M67AbS4a5s2ZO2W",
+      "printPaymentLink": "https://buy.stripe.com/9B6dRa1dW7bEcW84L82ZP2R",
       "purchasePaymentLink": "https://buy.stripe.com/cNi14o4q8dA27BOfpM2ZO2Z",
       "stripeProductId": "prod_VTT5cV4BgoK6IX",
-      "purchasePaymentLinkId": "plink_1USW93JfRoNnQ3sFffjdcv9c"
+      "purchasePaymentLinkId": "plink_1USW93JfRoNnQ3sFffjdcv9c",
+      "status": "available"
     },
     {
       "file": "IMG_20200409_163824_231.jpg",
@@ -2589,38 +3064,38 @@
       "price": 10000,
       "status": "sold",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5u8KrF0TmqH",
-          "priceId": "price_1USW93JfRoNnQ3sFJQFE6hAi",
-          "paymentLinkId": "plink_1USW93JfRoNnQ3sFvOpZg9nf",
-          "paymentLink": "https://buy.stripe.com/5kQ00k09S1Rk6xKdhE2ZO30"
+          "priceId": "price_1UaWGiJfRoNnQ3sFU1IIb7cZ",
+          "paymentLinkId": "plink_1UaWGjJfRoNnQ3sFCb8f4SV1",
+          "paymentLink": "https://buy.stripe.com/3cIfZi1dW9jM9JW3H42ZP2U"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5u8KrF0TmqH",
-          "priceId": "price_1USW93JfRoNnQ3sFRIhdaQP0",
-          "paymentLinkId": "plink_1USW94JfRoNnQ3sFoXgIRXcF",
-          "paymentLink": "https://buy.stripe.com/eVq8wQg8Q2Vo9JWelI2ZO31"
+          "priceId": "price_1UaWGjJfRoNnQ3sF1PLXqWAA",
+          "paymentLinkId": "plink_1UaWGjJfRoNnQ3sFR0AtvLLn",
+          "paymentLink": "https://buy.stripe.com/4gM7sMaOwfIacW82D02ZP2V"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5u8KrF0TmqH",
-          "priceId": "price_1USW94JfRoNnQ3sFJr6clyZE",
-          "paymentLinkId": "plink_1USW94JfRoNnQ3sFfiCxyK1w",
-          "paymentLink": "https://buy.stripe.com/14A3cw5uc2Vo2hu1yW2ZO32"
+          "priceId": "price_1UaWGjJfRoNnQ3sFLki7aOhW",
+          "paymentLinkId": "plink_1UaWGjJfRoNnQ3sFb6v82UOU",
+          "paymentLink": "https://buy.stripe.com/cNifZi7CkcvY3ly2D02ZP2W"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/5kQ00k09S1Rk6xKdhE2ZO30"
+      "printPaymentLink": "https://buy.stripe.com/3cIfZi1dW9jM9JW3H42ZP2U"
     },
     {
       "file": "IMG_20200424_083904_030.jpg",
@@ -2628,38 +3103,38 @@
       "price": 10000,
       "status": "sold",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT57lR1hqgh5F",
-          "priceId": "price_1USW94JfRoNnQ3sFSb8nHb4V",
-          "paymentLinkId": "plink_1USW95JfRoNnQ3sFaPoDkTtq",
-          "paymentLink": "https://buy.stripe.com/eVq6oI09SfIacW8b9w2ZO33"
+          "priceId": "price_1UaWGjJfRoNnQ3sFcIp8PDkL",
+          "paymentLinkId": "plink_1UaWGkJfRoNnQ3sFObxPwAZr",
+          "paymentLink": "https://buy.stripe.com/7sY28sg8Q53w7BO91o2ZP2X"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT57lR1hqgh5F",
-          "priceId": "price_1USW95JfRoNnQ3sFx1U50zhG",
-          "paymentLinkId": "plink_1USW95JfRoNnQ3sFX87mzGMW",
-          "paymentLink": "https://buy.stripe.com/eVq6oIaOwdA27BO0uS2ZO34"
+          "priceId": "price_1UaWGkJfRoNnQ3sFs39V5PcP",
+          "paymentLinkId": "plink_1UaWGkJfRoNnQ3sF35Rsq1VD",
+          "paymentLink": "https://buy.stripe.com/00w4gA6ygfIacW891o2ZP2Y"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT57lR1hqgh5F",
-          "priceId": "price_1USW95JfRoNnQ3sFR28TxM0w",
-          "paymentLinkId": "plink_1USW95JfRoNnQ3sFMF11D1rZ",
-          "paymentLink": "https://buy.stripe.com/3cIeVe1dWanQ1dq5Pc2ZO35"
+          "priceId": "price_1UaWGkJfRoNnQ3sFkOxHYJVX",
+          "paymentLinkId": "plink_1UaWGkJfRoNnQ3sFv3SvqswI",
+          "paymentLink": "https://buy.stripe.com/28EdRaaOw2Vo1dq7Xk2ZP2Z"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/eVq6oI09SfIacW8b9w2ZO33"
+      "printPaymentLink": "https://buy.stripe.com/7sY28sg8Q53w7BO91o2ZP2X"
     },
     {
       "file": "IMG_20200906_164258_023.jpg",
@@ -2667,79 +3142,78 @@
       "price": 10000,
       "status": "sold",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5DjUHOddS0x",
-          "priceId": "price_1USW96JfRoNnQ3sFi82AAjIO",
-          "paymentLinkId": "plink_1USW96JfRoNnQ3sFvztKGshX",
-          "paymentLink": "https://buy.stripe.com/7sY9AU2i0anQ2hub9w2ZO36"
+          "priceId": "price_1UaWGlJfRoNnQ3sFSJfI0yNa",
+          "paymentLinkId": "plink_1UaWGlJfRoNnQ3sFvMpV4zc1",
+          "paymentLink": "https://buy.stripe.com/7sY28s5uc3Zsf4gelI2ZP30"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5DjUHOddS0x",
-          "priceId": "price_1USW96JfRoNnQ3sF6lZHRHe2",
-          "paymentLinkId": "plink_1USW96JfRoNnQ3sFXQt700Ua",
-          "paymentLink": "https://buy.stripe.com/6oU00kf4M53wcW83H42ZO37"
+          "priceId": "price_1UaWGlJfRoNnQ3sFMG0iX8It",
+          "paymentLinkId": "plink_1UaWGlJfRoNnQ3sFcjuWiJDG",
+          "paymentLink": "https://buy.stripe.com/4gMfZie0I53w6xKa5s2ZP31"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5DjUHOddS0x",
-          "priceId": "price_1USW96JfRoNnQ3sFCnIuHjFg",
-          "paymentLinkId": "plink_1USW97JfRoNnQ3sFXZJQaAqK",
-          "paymentLink": "https://buy.stripe.com/dRm4gA5uc67AcW8fpM2ZO38"
+          "priceId": "price_1UaWGlJfRoNnQ3sFghpBJTqC",
+          "paymentLinkId": "plink_1UaWGmJfRoNnQ3sF3htKY5yY",
+          "paymentLink": "https://buy.stripe.com/aFa6oI09SanQaO02D02ZP32"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/7sY9AU2i0anQ2hub9w2ZO36"
+      "printPaymentLink": "https://buy.stripe.com/7sY28s5uc3Zsf4gelI2ZP30"
     },
     {
       "file": "IMG_20201026_122134_504.jpg",
       "title": "A strange invention",
-      "price": 10000,
+      "price": 0,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5dL9cJc1Mvn",
-          "priceId": "price_1USW97JfRoNnQ3sFhKyq5HnX",
-          "paymentLinkId": "plink_1USW97JfRoNnQ3sFk3paznmi",
-          "paymentLink": "https://buy.stripe.com/eVqcN609ScvYg8k1yW2ZO39"
+          "priceId": "price_1UaWGmJfRoNnQ3sFoLWaHjhg",
+          "paymentLinkId": "plink_1UaWGmJfRoNnQ3sFa5gmwugN",
+          "paymentLink": "https://buy.stripe.com/6oUeVeg8Q0Ng2hua5s2ZP33"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5dL9cJc1Mvn",
-          "priceId": "price_1USW98JfRoNnQ3sFNzrLZE2q",
-          "paymentLinkId": "plink_1USW98JfRoNnQ3sFkM8Bwdeg",
-          "paymentLink": "https://buy.stripe.com/3cI14obSA3Zs09m0uS2ZO3a"
+          "priceId": "price_1UaWGmJfRoNnQ3sF8t8iazws",
+          "paymentLinkId": "plink_1UaWGnJfRoNnQ3sFEEmlsfwA",
+          "paymentLink": "https://buy.stripe.com/7sY00k7CkfIa4pC0uS2ZP34"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5dL9cJc1Mvn",
-          "priceId": "price_1USW98JfRoNnQ3sF1ybo0dBB",
-          "paymentLinkId": "plink_1USW98JfRoNnQ3sFup6WOmlW",
-          "paymentLink": "https://buy.stripe.com/8x27sMf4MgMe5tGdhE2ZO3b"
+          "priceId": "price_1UaWGnJfRoNnQ3sFu2CFdUSQ",
+          "paymentLinkId": "plink_1UaWGnJfRoNnQ3sFVSvDk655",
+          "paymentLink": "https://buy.stripe.com/8x2aEY09ScvYf4g5Pc2ZP35"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/eVqcN609ScvYg8k1yW2ZO39",
-      "purchasePaymentLink": "https://buy.stripe.com/dRm7sM5uc67Ag8k4L82ZO3c",
+      "printPaymentLink": "https://buy.stripe.com/6oUeVeg8Q0Ng2hua5s2ZP33",
       "stripeProductId": "prod_VTT5CTfZKSy12V",
-      "purchasePaymentLinkId": "plink_1USW99JfRoNnQ3sFCbLjaJBG"
+      "status": "unavailable"
     },
     {
       "file": "IMG_20201122_162742_417.jpg",
@@ -2747,224 +3221,280 @@
       "price": 10000,
       "status": "sold",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5XfZveQ4FLt",
-          "priceId": "price_1USW99JfRoNnQ3sFaIGSIIk4",
-          "paymentLinkId": "plink_1USW99JfRoNnQ3sFjf5aLVyU",
-          "paymentLink": "https://buy.stripe.com/cNidRaaOwfIa7BO2D02ZO3d"
+          "priceId": "price_1UaWGnJfRoNnQ3sFjHpWA6hc",
+          "paymentLinkId": "plink_1UaWGnJfRoNnQ3sFFbzxT0QV",
+          "paymentLink": "https://buy.stripe.com/eVq28s8Go2Vog8ka5s2ZP36"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5XfZveQ4FLt",
-          "priceId": "price_1USW99JfRoNnQ3sF6Htw0TXl",
-          "paymentLinkId": "plink_1USW9AJfRoNnQ3sFdds2f52n",
-          "paymentLink": "https://buy.stripe.com/3cI7sM09ScvY09m4L82ZO3e"
+          "priceId": "price_1UaWGoJfRoNnQ3sFRIT64ywT",
+          "paymentLinkId": "plink_1UaWGoJfRoNnQ3sFeaBd2LJn",
+          "paymentLink": "https://buy.stripe.com/6oU3cwcWE3ZscW8gtQ2ZP37"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5XfZveQ4FLt",
-          "priceId": "price_1USW9AJfRoNnQ3sF0dFGrzvM",
-          "paymentLinkId": "plink_1USW9AJfRoNnQ3sFLzv4dXxa",
-          "paymentLink": "https://buy.stripe.com/eVqdRa2i0gMe5tG3H42ZO3f"
+          "priceId": "price_1UaWGoJfRoNnQ3sFd7p7vNLI",
+          "paymentLinkId": "plink_1UaWGoJfRoNnQ3sFfHqpAcTR",
+          "paymentLink": "https://buy.stripe.com/28E7sM6ygcvYbS4b9w2ZP38"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/cNidRaaOwfIa7BO2D02ZO3d"
+      "printPaymentLink": "https://buy.stripe.com/eVq28s8Go2Vog8ka5s2ZP36"
     },
     {
       "file": "CamScanner 11-22-2020 22.38_1.jpg",
       "title": "Study of a GoFundMe campaign",
-      "price": 10000,
+      "price": 0,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT54Y4owlGskF",
-          "priceId": "price_1USW9AJfRoNnQ3sFMaZbXCYs",
-          "paymentLinkId": "plink_1USW9BJfRoNnQ3sF48pty0gd",
-          "paymentLink": "https://buy.stripe.com/eVq7sM3m453wcW83H42ZO3g"
+          "priceId": "price_1UaWGoJfRoNnQ3sFucRbFaEc",
+          "paymentLinkId": "plink_1UaWGpJfRoNnQ3sFUDzWF7Sp",
+          "paymentLink": "https://buy.stripe.com/6oU7sM6ygbrU1dq5Pc2ZP39"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT54Y4owlGskF",
-          "priceId": "price_1USW9BJfRoNnQ3sFrvI2OEK0",
-          "paymentLinkId": "plink_1USW9BJfRoNnQ3sFSOi4puOO",
-          "paymentLink": "https://buy.stripe.com/5kQbJ2f4M2VobS42D02ZO3h"
+          "priceId": "price_1UaWGpJfRoNnQ3sFD6bFK6iG",
+          "paymentLinkId": "plink_1UaWGpJfRoNnQ3sFG3xUnNjI",
+          "paymentLink": "https://buy.stripe.com/00waEY2i03Zs09melI2ZP3a"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT54Y4owlGskF",
-          "priceId": "price_1USW9BJfRoNnQ3sFVVVhFFdn",
-          "paymentLinkId": "plink_1USW9BJfRoNnQ3sFa8fWj31j",
-          "paymentLink": "https://buy.stripe.com/6oU6oI7CkfIa3lygtQ2ZO3i"
+          "priceId": "price_1UaWGpJfRoNnQ3sFGKGHM1F7",
+          "paymentLinkId": "plink_1UaWGpJfRoNnQ3sFfxORgDGF",
+          "paymentLink": "https://buy.stripe.com/dRm9AUg8QgMe3lyfpM2ZP3b"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/eVq7sM3m453wcW83H42ZO3g",
-      "purchasePaymentLink": "https://buy.stripe.com/8x29AU09S53w1dqgtQ2ZO3j",
+      "printPaymentLink": "https://buy.stripe.com/6oU7sM6ygbrU1dq5Pc2ZP39",
       "stripeProductId": "prod_VTT5uJCkyGUceO",
-      "purchasePaymentLinkId": "plink_1USW9CJfRoNnQ3sF14otY1Vj"
+      "status": "unavailable"
     },
     {
       "file": "IMG_20201231_144606_532.jpg",
-      "title": "Burnt umber (print)",
-      "price": 3000,
+      "title": "Burnt umber",
+      "price": 0,
       "printPrices": {
-        "Print": 3000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
+          "size": "Small",
           "amount": 3000,
           "productId": "prod_VTT5UFG8OWR1Hk",
-          "priceId": "price_1USW9CJfRoNnQ3sFRSo5EkSV",
-          "paymentLinkId": "plink_1USW9CJfRoNnQ3sFuZE7Pddy",
-          "paymentLink": "https://buy.stripe.com/6oU9AU7Ck2Voe0ccdA2ZO3k"
+          "priceId": "price_1UaWGqJfRoNnQ3sFann0r2gk",
+          "paymentLinkId": "plink_1UaWGqJfRoNnQ3sFB6z1WNqJ",
+          "paymentLink": "https://buy.stripe.com/7sY8wQcWEfIa9JWcdA2ZP3c"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VTT5UFG8OWR1Hk",
+          "priceId": "price_1UaWGqJfRoNnQ3sFMVyc1UyD",
+          "paymentLinkId": "plink_1UaWGqJfRoNnQ3sFs424aFft",
+          "paymentLink": "https://buy.stripe.com/dRm00kg8Q53w6xK7Xk2ZP3d"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT5UFG8OWR1Hk",
+          "priceId": "price_1UaWGqJfRoNnQ3sFhZWiXyqZ",
+          "paymentLinkId": "plink_1UaWGrJfRoNnQ3sFJkGdhiTq",
+          "paymentLink": "https://buy.stripe.com/8x28wQ1dW53w2hufpM2ZP3e"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/6oU9AU7Ck2Voe0ccdA2ZO3k",
-      "purchasePaymentLink": "https://buy.stripe.com/6oU9AU7Ck2Voe0ccdA2ZO3k"
+      "printPaymentLink": "https://buy.stripe.com/7sY8wQcWEfIa9JWcdA2ZP3c",
+      "slug": "burnt-umber-print-1cqdo3a",
+      "status": "unavailable"
     },
     {
       "file": "IMG_20210105_192944_337.jpg",
-      "title": "View from my window (print)",
-      "price": 3000,
+      "title": "View from my window",
+      "price": 0,
       "printPrices": {
-        "Print": 3000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
+          "size": "Small",
           "amount": 3000,
           "productId": "prod_VTT5KYK2skTAB0",
-          "priceId": "price_1USW9DJfRoNnQ3sFN9C0p16X",
-          "paymentLinkId": "plink_1USW9DJfRoNnQ3sFJN7VvajT",
-          "paymentLink": "https://buy.stripe.com/bJe9AU2i09jM7BOgtQ2ZO3l"
+          "priceId": "price_1UaWGrJfRoNnQ3sFwg7lMQq6",
+          "paymentLinkId": "plink_1UaWGrJfRoNnQ3sF7KRONBnh",
+          "paymentLink": "https://buy.stripe.com/7sY28sbSAanQaO01yW2ZP3f"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VTT5KYK2skTAB0",
+          "priceId": "price_1UaWGrJfRoNnQ3sFgcHAMXEm",
+          "paymentLinkId": "plink_1UaWGrJfRoNnQ3sFaeVMPDEH",
+          "paymentLink": "https://buy.stripe.com/bJe3cwe0IeE69JWa5s2ZP3g"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT5KYK2skTAB0",
+          "priceId": "price_1UaWGsJfRoNnQ3sFnLmQQNd1",
+          "paymentLinkId": "plink_1UaWGsJfRoNnQ3sF7jlfEqQe",
+          "paymentLink": "https://buy.stripe.com/8x28wQg8Q2Vof4gdhE2ZP3h"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/bJe9AU2i09jM7BOgtQ2ZO3l",
-      "purchasePaymentLink": "https://buy.stripe.com/bJe9AU2i09jM7BOgtQ2ZO3l"
+      "printPaymentLink": "https://buy.stripe.com/7sY28sbSAanQaO01yW2ZP3f",
+      "slug": "view-from-my-window-print-1gymunl",
+      "status": "unavailable"
     },
     {
       "file": "IMG_20210114_114200_455.jpg",
-      "title": "Man on the verge of caring (print)",
-      "price": 2000,
+      "title": "Man on the verge of caring",
+      "price": 0,
       "printPrices": {
-        "Print": 2000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
-          "size": "Print",
-          "amount": 2000,
+          "size": "Small",
+          "amount": 3000,
           "productId": "prod_VTT5ngIOuvk2qT",
-          "priceId": "price_1USW9DJfRoNnQ3sFp9ZY50Xw",
-          "paymentLinkId": "plink_1USW9EJfRoNnQ3sFSQgEfVXT",
-          "paymentLink": "https://buy.stripe.com/5kQfZi5uc1Rk8FS5Pc2ZO3m"
+          "priceId": "price_1UaWGsJfRoNnQ3sFISHWQIj1",
+          "paymentLinkId": "plink_1UaWGsJfRoNnQ3sF0OszbOaY",
+          "paymentLink": "https://buy.stripe.com/14AaEY6yganQ1dqelI2ZP3i"
+        },
+        {
+          "size": "Medium",
+          "amount": 5000,
+          "productId": "prod_VTT5ngIOuvk2qT",
+          "priceId": "price_1UaWGsJfRoNnQ3sFCk7hVocw",
+          "paymentLinkId": "plink_1UaWGtJfRoNnQ3sFA0nuOkdw",
+          "paymentLink": "https://buy.stripe.com/14A6oIf4M53w9JW5Pc2ZP3j"
+        },
+        {
+          "size": "Large",
+          "amount": 7500,
+          "productId": "prod_VTT5ngIOuvk2qT",
+          "priceId": "price_1UaWGtJfRoNnQ3sFtIbeH3Fd",
+          "paymentLinkId": "plink_1UaWGtJfRoNnQ3sFhAFttNed",
+          "paymentLink": "https://buy.stripe.com/9B6bJ2f4MgMe3ly7Xk2ZP3k"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/5kQfZi5uc1Rk8FS5Pc2ZO3m",
-      "purchasePaymentLink": "https://buy.stripe.com/5kQfZi5uc1Rk8FS5Pc2ZO3m"
+      "printPaymentLink": "https://buy.stripe.com/14AaEY6yganQ1dqelI2ZP3i",
+      "slug": "man-on-the-verge-of-caring-print-5xdc1t",
+      "status": "unavailable"
     },
     {
       "file": "IMG_20210417_175028_411.jpg",
       "title": "Extinction button",
-      "price": 5000,
+      "price": 0,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5A052A7OB46",
-          "priceId": "price_1USW9EJfRoNnQ3sFNpNMbhGm",
-          "paymentLinkId": "plink_1USW9EJfRoNnQ3sF9sGcivur",
-          "paymentLink": "https://buy.stripe.com/dRm3cw1dW67AcW82D02ZO3n"
+          "priceId": "price_1UaWGtJfRoNnQ3sFaeYfF2fY",
+          "paymentLinkId": "plink_1UaWGuJfRoNnQ3sFF8x3bYjD",
+          "paymentLink": "https://buy.stripe.com/14AfZi4q8brU09mcdA2ZP3l"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5A052A7OB46",
-          "priceId": "price_1USW9EJfRoNnQ3sFDXE8zgyc",
-          "paymentLinkId": "plink_1USW9FJfRoNnQ3sFCUM8JnW7",
-          "paymentLink": "https://buy.stripe.com/aFa7sMbSA2Vo5tG2D02ZO3o"
+          "priceId": "price_1UaWGuJfRoNnQ3sFoLQier7o",
+          "paymentLinkId": "plink_1UaWGuJfRoNnQ3sFy7uZY3mp",
+          "paymentLink": "https://buy.stripe.com/00w28sg8QdA29JWb9w2ZP3m"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5A052A7OB46",
-          "priceId": "price_1USW9FJfRoNnQ3sFsDVL8vqM",
-          "paymentLinkId": "plink_1USW9FJfRoNnQ3sFIpM1KZCv",
-          "paymentLink": "https://buy.stripe.com/eVqcN6e0I1Rk7BOgtQ2ZO3p"
+          "priceId": "price_1UaWGuJfRoNnQ3sFGsPINQ2J",
+          "paymentLinkId": "plink_1UaWGuJfRoNnQ3sFvQXLWmse",
+          "paymentLink": "https://buy.stripe.com/14A14obSAbrU2hufpM2ZP3n"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/dRm3cw1dW67AcW82D02ZO3n",
-      "purchasePaymentLink": "https://buy.stripe.com/bJe7sM09SanQ1dqfpM2ZO3q",
+      "printPaymentLink": "https://buy.stripe.com/14AfZi4q8brU09mcdA2ZP3l",
       "stripeProductId": "prod_VTT5RiWRvJZyHb",
-      "purchasePaymentLinkId": "plink_1USW9FJfRoNnQ3sFOAOXwK9S"
+      "status": "unavailable"
     },
     {
       "file": "IMG_20210426_111243_392.jpg",
       "title": "A door",
       "price": 20000,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5MGU9whedeg",
-          "priceId": "price_1USW9GJfRoNnQ3sFZ4p4zYPG",
-          "paymentLinkId": "plink_1USW9GJfRoNnQ3sFd3hb3AJm",
-          "paymentLink": "https://buy.stripe.com/5kQaEYaOw9jM7BO1yW2ZO3r"
+          "priceId": "price_1UaWGvJfRoNnQ3sFDXZu4i3V",
+          "paymentLinkId": "plink_1UaWGvJfRoNnQ3sFnM0RAwJA",
+          "paymentLink": "https://buy.stripe.com/7sY7sM8Go3Zs9JW1yW2ZP3o"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5MGU9whedeg",
-          "priceId": "price_1USW9GJfRoNnQ3sFEp5ZGUVE",
-          "paymentLinkId": "plink_1USW9GJfRoNnQ3sFh38OxktX",
-          "paymentLink": "https://buy.stripe.com/fZuaEYcWE9jMe0ca5s2ZO3s"
+          "priceId": "price_1UaWGvJfRoNnQ3sFmJFi1gmT",
+          "paymentLinkId": "plink_1UaWGvJfRoNnQ3sFT0QsaUkb",
+          "paymentLink": "https://buy.stripe.com/9B6fZif4M0Ng8FS3H42ZP3p"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5MGU9whedeg",
-          "priceId": "price_1USW9HJfRoNnQ3sFVksol2mH",
-          "paymentLinkId": "plink_1USW9HJfRoNnQ3sFDHeoGIaY",
-          "paymentLink": "https://buy.stripe.com/14A00k3m43Zse0celI2ZO3t"
+          "priceId": "price_1UaWGvJfRoNnQ3sFUtAYT4tT",
+          "paymentLinkId": "plink_1UaWGwJfRoNnQ3sFg095pZSY",
+          "paymentLink": "https://buy.stripe.com/dRm5kEg8QanQe0ccdA2ZP3q"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/5kQaEYaOw9jM7BO1yW2ZO3r",
+      "printPaymentLink": "https://buy.stripe.com/7sY7sM8Go3Zs9JW1yW2ZP3o",
       "purchasePaymentLink": "https://buy.stripe.com/14A7sM7Ck8fIg8kfpM2ZO3u",
       "stripeProductId": "prod_VTT54ElE7MFxub",
-      "purchasePaymentLinkId": "plink_1USW9HJfRoNnQ3sFv0dery3g"
+      "purchasePaymentLinkId": "plink_1USW9HJfRoNnQ3sFv0dery3g",
+      "status": "available"
     },
     {
       "file": "IMG_20210429_105801_166.jpg",
@@ -2973,76 +3503,76 @@
       "status": "sold",
       "slug": "at-bong-blast-a-ap-114fqx6",
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5KsGIgU5cIR",
-          "priceId": "price_1USW9HJfRoNnQ3sF5IYCht29",
-          "paymentLinkId": "plink_1USW9IJfRoNnQ3sFa5E6Sqj5",
-          "paymentLink": "https://buy.stripe.com/14AeVe5uc9jMbS4b9w2ZO3v"
+          "priceId": "price_1UaWGwJfRoNnQ3sF75jZ76xo",
+          "paymentLinkId": "plink_1UaWGwJfRoNnQ3sFgMEXZqce",
+          "paymentLink": "https://buy.stripe.com/5kQ00k5ucbrUe0ccdA2ZP3r"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5KsGIgU5cIR",
-          "priceId": "price_1USW9IJfRoNnQ3sFDQSlArHN",
-          "paymentLinkId": "plink_1USW9IJfRoNnQ3sFOJMqbTB9",
-          "paymentLink": "https://buy.stripe.com/aFa7sM9Ks8fI9JWgtQ2ZO3w"
+          "priceId": "price_1UaWGwJfRoNnQ3sFofVCEBbl",
+          "paymentLinkId": "plink_1UaWGxJfRoNnQ3sFjQiuSVDF",
+          "paymentLink": "https://buy.stripe.com/eVqdRa1dW7bEbS46Tg2ZP3s"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5KsGIgU5cIR",
-          "priceId": "price_1USW9IJfRoNnQ3sFu71aZyjp",
-          "paymentLinkId": "plink_1USW9JJfRoNnQ3sF9AP3edCK",
-          "paymentLink": "https://buy.stripe.com/4gM3cwg8QgMe2hu5Pc2ZO3x"
+          "priceId": "price_1UaWGxJfRoNnQ3sFKHgzvIgy",
+          "paymentLinkId": "plink_1UaWGxJfRoNnQ3sFWdaHDom8",
+          "paymentLink": "https://buy.stripe.com/3cI5kEf4M1Rk8FSdhE2ZP3t"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/14AeVe5uc9jMbS4b9w2ZO3v"
+      "printPaymentLink": "https://buy.stripe.com/5kQ00k5ucbrUe0ccdA2ZP3r"
     },
     {
       "file": "modded3.jpg",
       "title": "Digitally edited",
       "price": 0,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printsAvailable": true,
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5kXNNiMRM84",
-          "priceId": "price_1USW9JJfRoNnQ3sFJxtSFGvR",
-          "paymentLinkId": "plink_1USW9JJfRoNnQ3sFhFi4TOnr",
-          "paymentLink": "https://buy.stripe.com/7sYdRaf4MgMeaO01yW2ZO3y"
+          "priceId": "price_1UaWGxJfRoNnQ3sFHGCsLZVB",
+          "paymentLinkId": "plink_1UaWGxJfRoNnQ3sF6uBd5tHu",
+          "paymentLink": "https://buy.stripe.com/5kQ8wQ3m4cvY5tGfpM2ZP3u"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5kXNNiMRM84",
-          "priceId": "price_1USW9JJfRoNnQ3sFl1JurCKd",
-          "paymentLinkId": "plink_1USW9KJfRoNnQ3sFk6KhvFyM",
-          "paymentLink": "https://buy.stripe.com/00w3cwcWEfIag8kdhE2ZO3z"
+          "priceId": "price_1UaWGyJfRoNnQ3sFtMAIJ6Uh",
+          "paymentLinkId": "plink_1UaWGyJfRoNnQ3sFFNZow4DM",
+          "paymentLink": "https://buy.stripe.com/bJeeVe6yg53w3ly4L82ZP3v"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5kXNNiMRM84",
-          "priceId": "price_1USW9KJfRoNnQ3sFq3Xqoed7",
-          "paymentLinkId": "plink_1USW9KJfRoNnQ3sFg4Q2y4Wg",
-          "paymentLink": "https://buy.stripe.com/fZucN64q82Vo2hub9w2ZO3A"
+          "priceId": "price_1UaWGyJfRoNnQ3sFK0AKVetA",
+          "paymentLinkId": "plink_1UaWGyJfRoNnQ3sFONnLAgiv",
+          "paymentLink": "https://buy.stripe.com/28E4gA7Ck53w7BO5Pc2ZP3w"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/7sYdRaf4MgMeaO01yW2ZO3y"
+      "printPaymentLink": "https://buy.stripe.com/5kQ8wQ3m4cvY5tGfpM2ZP3u"
     },
     {
       "slug": "untitled-green-portrait",
@@ -3055,37 +3585,37 @@
       "featured": false,
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5EjCI3Cr0QG",
-          "priceId": "price_1USW9KJfRoNnQ3sFxatcbelm",
-          "paymentLinkId": "plink_1USW9LJfRoNnQ3sFafQP3kaU",
-          "paymentLink": "https://buy.stripe.com/bJe7sM3m42Vof4g4L82ZO3B"
+          "priceId": "price_1UaWGyJfRoNnQ3sFHyFCijlc",
+          "paymentLinkId": "plink_1UaWGzJfRoNnQ3sFblBiW7ow",
+          "paymentLink": "https://buy.stripe.com/7sY4gA1dW0Ngf4g0uS2ZP3x"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5EjCI3Cr0QG",
-          "priceId": "price_1USW9LJfRoNnQ3sFCn6x0MoG",
-          "paymentLinkId": "plink_1USW9LJfRoNnQ3sFMY3bC5ku",
-          "paymentLink": "https://buy.stripe.com/dRm14og8Q2Vo7BO0uS2ZO3C"
+          "priceId": "price_1UaWGzJfRoNnQ3sFN6VVn7lr",
+          "paymentLinkId": "plink_1UaWGzJfRoNnQ3sFJlUsCFJe",
+          "paymentLink": "https://buy.stripe.com/eVq7sMg8QdA26xK91o2ZP3y"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5EjCI3Cr0QG",
-          "priceId": "price_1USW9LJfRoNnQ3sFNNz8GoLT",
-          "paymentLinkId": "plink_1USW9LJfRoNnQ3sFUDU5xkeZ",
-          "paymentLink": "https://buy.stripe.com/cNi4gAe0IanQ09mcdA2ZO3D"
+          "priceId": "price_1UaWGzJfRoNnQ3sFCFrGyQwo",
+          "paymentLinkId": "plink_1UaWH0JfRoNnQ3sFd0fxE6VU",
+          "paymentLink": "https://buy.stripe.com/5kQ3cwf4M53we0celI2ZP3z"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/bJe7sM3m42Vof4g4L82ZO3B"
+      "printPaymentLink": "https://buy.stripe.com/7sY4gA1dW0Ngf4g0uS2ZP3x"
     },
     {
       "slug": "self-portrait-2018",
@@ -3098,37 +3628,37 @@
       "featured": false,
       "printsAvailable": true,
       "printPrices": {
-        "Small": 4000,
-        "Medium": 7000,
-        "Large": 12000
+        "Small": 3000,
+        "Medium": 5000,
+        "Large": 7500
       },
       "printOptions": [
         {
           "size": "Small",
-          "amount": 4000,
+          "amount": 3000,
           "productId": "prod_VTT5AUhk0ii3Jk",
-          "priceId": "price_1USW9MJfRoNnQ3sF0DpCFxxp",
-          "paymentLinkId": "plink_1USW9MJfRoNnQ3sFnnhFMIJn",
-          "paymentLink": "https://buy.stripe.com/9B6fZi1dW67Ag8k2D02ZO3E"
+          "priceId": "price_1UaWH0JfRoNnQ3sFm7fT2LVJ",
+          "paymentLinkId": "plink_1UaWH0JfRoNnQ3sFrU32zI0e",
+          "paymentLink": "https://buy.stripe.com/6oUbJ209S7bEcW80uS2ZP3A"
         },
         {
           "size": "Medium",
-          "amount": 7000,
+          "amount": 5000,
           "productId": "prod_VTT5AUhk0ii3Jk",
-          "priceId": "price_1USW9MJfRoNnQ3sFZEiuAAGg",
-          "paymentLinkId": "plink_1USW9MJfRoNnQ3sFHFZnFTIF",
-          "paymentLink": "https://buy.stripe.com/9B6bJ25uc0Nge0cdhE2ZO3F"
+          "priceId": "price_1UaWH0JfRoNnQ3sF10Qba8yl",
+          "paymentLinkId": "plink_1UaWH0JfRoNnQ3sFGW1hPRUn",
+          "paymentLink": "https://buy.stripe.com/00w14o7Ck9jM8FS91o2ZP3B"
         },
         {
           "size": "Large",
-          "amount": 12000,
+          "amount": 7500,
           "productId": "prod_VTT5AUhk0ii3Jk",
-          "priceId": "price_1USW9MJfRoNnQ3sFucr33sF2",
-          "paymentLinkId": "plink_1USW9NJfRoNnQ3sFdBx3oU6A",
-          "paymentLink": "https://buy.stripe.com/8x2eVe5uc9jM9JWa5s2ZO3G"
+          "priceId": "price_1UaWH1JfRoNnQ3sF4bxjF31W",
+          "paymentLinkId": "plink_1UaWH1JfRoNnQ3sFxe5tBuNP",
+          "paymentLink": "https://buy.stripe.com/5kQ8wQ9Ks0Ng4pCfpM2ZP3C"
         }
       ],
-      "printPaymentLink": "https://buy.stripe.com/9B6fZi1dW67Ag8k2D02ZO3E",
+      "printPaymentLink": "https://buy.stripe.com/6oUbJ209S7bEcW80uS2ZP3A",
       "purchasePaymentLink": "https://buy.stripe.com/9B614obSA67A9JWb9w2ZO3H",
       "stripeProductId": "prod_VTT5KR0VVieqFI",
       "purchasePaymentLinkId": "plink_1USW9NJfRoNnQ3sFDrxM9bP2"
