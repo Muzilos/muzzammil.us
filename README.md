@@ -8,6 +8,7 @@ The homepage carousel and paintings page both fetch the deployed, same-origin `s
 
 - `file`: the filename shared by `paintings/-/` and `paintings/-compressed/`
 - `title`: the displayed artwork title
+- `description`: optional; displayed in the artwork detail dialog when provided
 - `price`: the price in cents, or `0` for not for sale
 - `featured`: optional; set to `true` to include it in the homepage carousel
 - `listed`: optional; set to `false` to hide it from both the gallery and carousel
