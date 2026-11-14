@@ -129,8 +129,8 @@ html {
 .inquiry-button:hover, .inquiry-button:focus-visible { color: #00150d; }
 .buy-button:disabled, .painting-image-button:disabled, .featured-slide:disabled { cursor: wait; opacity: 0.68; }
 .modal-open { overflow: hidden; }
-.artwork-modal { position: fixed; z-index: 1000; inset: 0; display: grid; padding: 28px; place-items: center; background: rgba(0, 0, 0, 0.82); }
-.artwork-modal-panel { display: grid; position: relative; width: min(94vw, 1120px); max-height: 88vh; grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 12px; background: #0c0c0c; box-shadow: 0 22px 70px rgba(0, 0, 0, 0.7); }
+.artwork-modal { position: fixed; z-index: 1000; inset: 0; display: grid; grid-template-columns: minmax(0, 1fr); padding: 28px; place-items: center; background: rgba(0, 0, 0, 0.82); }
+.artwork-modal-panel { display: grid; position: relative; box-sizing: border-box; min-width: 0; width: min(100%, 1120px); max-height: 88vh; grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); overflow: hidden; border: 1px solid rgb(2, 194, 121); border-radius: 12px; background: #0c0c0c; box-shadow: 0 22px 70px rgba(0, 0, 0, 0.7); }
 .artwork-modal-stage { display: grid; position: relative; min-width: 0; min-height: 420px; padding: 24px; place-items: center; touch-action: pan-y; background: radial-gradient(circle at center, #202020 0, #080808 76%); }
 .artwork-modal-image { display: block; width: 100%; height: 100%; max-height: calc(88vh - 48px); object-fit: contain; object-position: center; }
 .artwork-modal-info { display: flex; min-width: 0; flex-direction: column; justify-content: center; gap: 14px; padding: 34px 24px; border-left: 1px solid rgba(2, 194, 121, 0.45); text-align: left; }
@@ -165,7 +165,7 @@ html {
 }
 @media (max-width: 760px) {
   .artwork-modal { padding: 14px; }
-  .artwork-modal-panel { width: min(96vw, 680px); max-height: 92vh; grid-template-columns: 1fr; grid-template-rows: minmax(280px, 1fr) auto; overflow-y: auto; }
+  .artwork-modal-panel { width: min(100%, 680px); max-height: 92vh; grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(280px, 1fr) auto; overflow-y: auto; }
   .artwork-modal-stage { min-height: 300px; padding: 18px; }
   .artwork-modal-image { max-height: 62vh; }
   .artwork-modal-info { gap: 8px; padding: 16px 20px 20px; border-top: 1px solid rgba(2, 194, 121, 0.45); border-left: 0; }
